@@ -1,0 +1,1 @@
+This is just a comment file to ensure mineralore is packaged in the build correctly.

@@ -1,0 +1,47 @@
+[
+    {
+        file: "detailedanimals:itemtypes/egg-chicken.json",
+        op: "add",
+        path: "/attributes/inPiePropertiesByType",
+        value: {
+            "*-raw": {
+                "texture": "game:block/food/pie/fill-egg",
+                "partType": "Filling"
+            },
+            "*-lime": {
+                "texture": "game:block/food/pie/fill-egg",
+                "partType": "Filling"
+            },
+            "*-boiled": {
+                "texture": "game:block/food/pie/fill-egg",
+                "partType": "Filling"
+            }
+        },
+        dependsOn: [ { modid: "expandedfoods" } ],
+        side: "server"
+    },
+    {
+        file: "detailedanimals:itemtypes/egg-chicken.json",
+        op: "add",
+        path: "/behaviorsByType",
+        value: {
+            "@*-(raw|lime)": [
+                {
+                    name: "EggCrack",
+                    properties: {
+                        fullLiquidCode: "aculinaryartillery:eggyolkfullportion-{source}",
+                        eggYolkCode: "aculinaryartillery:eggyolk-{source}",
+                        containedEggLitresByType: {
+                            "*-jumbo-*": 0.2,
+                            "*-large-*": 0.15,
+                            "*-peewee-*": 0.05,
+                            "*": 0.1,
+                        },
+                    }
+                } 
+            ],
+        },
+        dependsOn: [ { modid: "aculinaryartillery" } ],
+        side: "server"
+    }
+]

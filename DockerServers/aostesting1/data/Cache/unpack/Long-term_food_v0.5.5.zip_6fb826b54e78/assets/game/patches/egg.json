@@ -1,0 +1,19 @@
+[
+  {
+    "file": "game:itemtypes/food/egg.json",
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/combustibleProps",
+    "value": {
+      "meltingPoint": 200,
+      "meltingDuration": 15,
+      "smeltedRatio": 1,
+      "smeltingType": "cook",
+      "smeltedStack": {
+        "type": "item",
+        "code": "pemmican:egg-cooked"
+      },
+      "requiresContainer": false
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-low-olivine-serpentinite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-olivine-serpentinite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-high-olivine-serpentinite", "file": "game:blocktypes/stone/ore-gem.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-low-olivine-komatiite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-olivine-komatiite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-high-olivine-komatiite", "file": "game:blocktypes/stone/ore-gem.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-low-olivine-pyroxenite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-olivine-pyroxenite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-high-olivine-pyroxenite", "file": "game:blocktypes/stone/ore-gem.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-low-olivine-syenite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-olivine-syenite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-high-olivine-syenite", "file": "game:blocktypes/stone/ore-gem.json", },
+
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-low-olivine_peridot-serpentinite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-olivine_peridot-serpentinite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-high-olivine_peridot-serpentinite", "file": "game:blocktypes/stone/ore-gem.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-low-olivine_peridot-komatiite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-olivine_peridot-komatiite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-high-olivine_peridot-komatiite", "file": "game:blocktypes/stone/ore-gem.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-low-olivine_peridot-pyroxenite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-olivine_peridot-pyroxenite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-high-olivine_peridot-pyroxenite", "file": "game:blocktypes/stone/ore-gem.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-low-olivine_peridot-syenite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-olivine_peridot-syenite", "file": "game:blocktypes/stone/ore-gem.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-high-olivine_peridot-syenite", "file": "game:blocktypes/stone/ore-gem.json", },
+]

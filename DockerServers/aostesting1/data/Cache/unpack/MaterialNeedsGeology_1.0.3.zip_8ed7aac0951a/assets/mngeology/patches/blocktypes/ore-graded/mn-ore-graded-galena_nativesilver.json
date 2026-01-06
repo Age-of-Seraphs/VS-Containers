@@ -1,0 +1,19 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-galena_nativesilver-arenite", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-galena_nativesilver-arenite", "file": "game:blocktypes/stone/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-galena_nativesilver-arkose", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-galena_nativesilver-arkose", "file": "game:blocktypes/stone/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-galena_nativesilver-wacke", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-galena_nativesilver-wacke", "file": "game:blocktypes/stone/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-galena_nativesilver-travertine", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-galena_nativesilver-travertine", "file": "game:blocktypes/stone/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-galena_nativesilver-monzonite", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-galena_nativesilver-monzonite", "file": "game:blocktypes/stone/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-galena_nativesilver-syenite", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-galena_nativesilver-syenite", "file": "game:blocktypes/stone/ore-graded.json", },
+]

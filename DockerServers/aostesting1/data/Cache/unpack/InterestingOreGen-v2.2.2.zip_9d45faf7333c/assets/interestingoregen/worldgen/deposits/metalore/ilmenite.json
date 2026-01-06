@@ -1,0 +1,101 @@
+[
+  {
+    "code": "ilmenite",
+    "triesPerChunk": 0.0005,
+    "withOreMap": true,
+    "handbookPageCode": "item-nugget-ilmenite",
+    "generator": "iog-gen",
+    "attributes": {
+      "inblock": {
+        "veintype": "chimney",
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "granite", "basalt", "peridotite", "phyllite", "slate" ]
+      },
+      "placeblock": {
+        "code": "ore-*-ilmenite-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-andesite": [ "poor", "medium" ],
+          "rock-granite": [ "poor", "medium" ],
+          "rock-basalt": [ "poor", "medium", "rich" ],
+          "rock-peridotite": [ "poor", "medium" ],
+          "rock-phyllite": [ "poor", "medium", "rich" ],
+          "rock-slate": [ "poor", "medium", "rich" ]
+        }
+      },
+      "radius": {
+        "dist": "uniform",
+        "avg": 2,
+        "var": 1
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.1,
+        "var": 0.1
+      },
+      "thickness": {
+        "dist": "uniform",
+        "avg": 60,
+        "var": 40
+      },
+      "branchCount": {
+        "dist": "uniform",
+        "avg": 6,
+        "var": 3
+      },
+      "branchLength": {
+        "dist": "uniform",
+        "avg": 48,
+        "var": 32
+      },
+      "OreSpongePercent": 0.3
+    }
+  },
+  {
+    "code": "ilmenite",
+    "triesPerChunk": 0.0005,
+    "withOreMap": true,
+    "oreMapScale": 1.5,
+    "oreMapContrast": 1.5,
+    "oreMapSub": 40,
+
+    "handbookPageCode": "item-nugget-ilmenite",
+    "generator": "disc-followsealevel",
+    "attributes": {
+      "inblock": {
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "granite", "basalt", "peridotite", "phyllite", "slate" ]
+      },
+      "placeblock": {
+        "code": "ore-*-ilmenite-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-andesite": [ "poor", "medium" ],
+          "rock-granite": [ "poor", "medium" ],
+          "rock-basalt": [ "poor", "medium", "rich" ],
+          "rock-peridotite": [ "poor", "medium" ],
+          "rock-phyllite": [ "poor", "medium", "rich" ],
+          "rock-slate": [ "poor", "medium", "rich" ]
+        }
+      },
+      "radius": {
+        "dist": "triangle",
+        "avg": 20,
+        "var": 10
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.45,
+        "var": 0.4
+      },
+      "thickness": {
+        "dist": "uniform",
+        "avg": 1,
+        "var": 0
+      },
+      "OreSpongePercent": 0.3
+    }
+  }
+]

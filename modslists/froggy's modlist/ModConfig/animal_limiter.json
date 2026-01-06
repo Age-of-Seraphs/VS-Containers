@@ -1,0 +1,27 @@
+{
+  "PerCodeLimitPerChunk": 40,
+  "PerCodeOverrides": {},
+  "IncludeCodeStartsWith": [
+    "salmon"
+  ],
+  "ProtectedCodeStartsWith": [
+    "dog-",
+    "pet-",
+    "companion-",
+    "tameddeer-",
+    "billpost",
+    "armorstand",
+    "playercorpse",
+    "player",
+    "boat-",
+    "cart-",
+    "canoe-",
+    "humanoid-"
+  ],
+  "ProtectTamedOrOwned": true,
+  "KeepNearestToPlayers": true,
+  "LogActions": true,
+  "LogToCsv": true,
+  "CsvDirName": "AnimalLimiter",
+  "CsvFilePrefix": "removals"
+}

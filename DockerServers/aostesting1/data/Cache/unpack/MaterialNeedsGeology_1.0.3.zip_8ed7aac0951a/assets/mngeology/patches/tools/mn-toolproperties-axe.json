@@ -1,0 +1,84 @@
+[
+  {
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "op": "remove",
+    "path": "/durabilitybytype/*"
+  },
+
+
+
+  {
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/axe-komatiite",
+    "value": 60
+  },
+  {
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/axe-pyroxenite",
+    "value": 80
+  },
+  {
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/axe-serpentinite",
+    "value": 50
+  },
+  {
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/axe-monzonite",
+    "value": 60
+  },
+  {
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/axe-syenite",
+    "value": 50
+  },
+
+
+
+
+  {
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/axe-bone-komatiite",
+    "value": 70
+  },
+  {
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/axe-bone-pyroxenite",
+    "value": 90
+  },
+  {
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/axe-bone-serpentinite",
+    "value": 60
+  },
+  {
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/axe-bone-monzonite",
+    "value": 70
+  },
+  {
+    "file": "game:itemtypes/tool/axe-stone.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/axe-bone-syenite",
+    "value": 60
+  },
+
+
+
+
+{
+  "file": "game:itemtypes/tool/axe-stone.json",
+  "op": "addmerge",
+  "path": "/durabilitybytype",
+  "value": { "*": 50 }
+},
+]

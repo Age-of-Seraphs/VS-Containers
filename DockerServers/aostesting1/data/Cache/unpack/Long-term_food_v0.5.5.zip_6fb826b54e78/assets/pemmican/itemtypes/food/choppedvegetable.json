@@ -1,0 +1,349 @@
+{
+	"code": "choppedvegetable",
+	"variantgroups": [{
+			"code": "type",
+			"states": [ "potato", "corn", "pickledpotato" ]
+		}],
+	"shapebytype": {
+		"*-potato": {"base": "pemmican:item/bread/slicedpotato"},
+		"*-pickledpotato": {"base": "pemmican:item/bread/slicedpotato"},
+		"*-corn": {"base": "pemmican:item/food/vegetable/chopped/corn"},
+	},
+	"texturesByType": {
+		"*-corn": {
+			"bread": { "base": "pemmican:block/plant/crop/corn/normal1" }
+		},
+		"*-potato": {
+			 "bread":{ "base": "pemmican:block/food/pie/fill-{type}" }
+		},
+		"*-pickledpotato": {
+			 "bread":{ "base": "pemmican:block/food/pie/fill-{type}" }
+		}
+	},
+	"grindingPropsByType": {
+		"*-corn": { "groundStack": { "type": "item", "code": "pemmican:flour-corn" } }
+	},
+	"maxstacksize": 64,
+	"attributesByType": {
+		"*-pickledpotato": {
+			"nutritionPropsWhenInMeal": {
+				"satiety": 350,
+				"foodcategory": "Vegetable"
+			},
+			"inContainerTexture": { "base": "pemmican:fill-pickledpotato" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
+			"displaycaseable": true,
+			"shelvable": true,
+			"hydration": 30,
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "pemmican:cookedchoppedvegetable-{type}-partbaked"
+			},
+			"inPieProperties": {
+				"texture": "pemmican:block/food/pie/fill-{type}",
+				"partType": "Filling"
+			}
+		},
+		"*-corn": {
+			"nutritionPropsWhenInMeal": {
+				"satiety": 450,
+				"foodcategory": "Grain"
+			},
+			"inContainerTexture": { "base": "pemmican:block/food/pie/fill-corn" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
+			"displaycaseable": true,
+			"shelvable": true,
+			"hydration": -20,
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "pemmican:cookedchoppedvegetable-{type}-partbaked"
+			},
+			"inPieProperties": {
+				"texture": "pemmican:block/food/pie/fill-{type}",
+				"partType": "Filling"
+			},
+			"juiceableProperties": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "pemmican:foodoilportion-corn", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "pemmican:pressedmash-corn", "stacksize": 1 }
+			}
+		},
+		"*-potato": {
+			"nutritionPropsWhenInMeal": {
+				"satiety": 280,
+				"foodcategory": "Vegetable"
+			},
+			"inContainerTexture": { "base": "pemmican:block/barrel/raw-potato" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
+			"displaycaseable": true,
+			"shelvable": true,
+			"hydration": 50,
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "pemmican:cookedchoppedvegetable-{type}-partbaked"
+			},
+			"inPieProperties": {
+				"texture": "pemmican:block/food/pie/fill-{type}",
+				"partType": "Filling"
+			}
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ], 
+		"Long-term food": ["*"]
+	},
+	"nutritionPropsByType": {
+		
+		"*-pickledpotato": {
+			"satiety": 150,
+			"foodcategory": "Vegetable"
+		},
+		"*-corn": {
+			"satiety": 200,
+			"foodcategory": "Grain"
+		},
+		"*-potato": {
+			"satiety": 120,
+			"foodcategory": "Vegetable"
+		}
+	},
+	"combustiblePropsByType": {
+		"choppedvegetable-*": {
+			"meltingPoint": 150,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "bake",
+			"smeltedStack": {
+				"type": "item",
+				"code": "pemmican:cookedchoppedvegetable-{type}-charred"
+			},
+			"requiresContainer": false
+		}
+	},
+	"transitionablePropsByType": {
+		"*-pickledpotato": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 900 },
+				"transitionHours": { "avg": 96 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
+				},
+				"transitionRatio": 0.5
+			}
+		],
+		"*-corn": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 252 },
+				"transitionHours": { "avg": 48 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
+				},
+				"transitionRatio": 0.5
+			}
+		],
+		"*-potato": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 252 },
+				"transitionHours": { "avg": 48 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
+				},
+				"transitionRatio": 0.5
+			}
+		],
+	},
+	"materialDensity": 600,
+	"guiTransformByType": {
+		"*-potato": {
+			"translation": {
+				"x": 0,
+				"y": -3,
+				"z": 0
+			},
+			"rotation": {
+				"x": -37,
+				"y": 131,
+				"z": -158
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 4.62
+		},
+		"*-corn": {
+			"translation": {
+				"x": 3,
+				"y": 1,
+				"z": -25
+			},
+			"rotation": {
+				"x": 155,
+				"y": 12,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.45,
+				"y": -0.1,
+				"z": 0.8
+			},
+			"scale": 3.5
+		},
+		"*-pickledpotato": {
+			"translation": {
+				"x": 0,
+				"y": -3,
+				"z": 0
+			},
+			"rotation": {
+				"x": -37,
+				"y": 131,
+				"z": -158
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 4.62
+		},
+	},
+	"tpHandTransformByType": {
+		"*-potato": {
+			"translation": {
+				"x": -0.67,
+				"y": -0.1,
+				"z": -0.6
+			},
+			"rotation": {
+				"x": -23,
+				"y": 180,
+				"z": -85
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 0.8
+		},
+		"*-corn": {
+			"translation": {
+				"x": -0.65,
+				"y": 0.2,
+				"z": -1.25
+			},
+			"rotation": {
+				"x": -11,
+				"y": 15,
+				"z": -93
+			},
+			"origin": {
+				"x": 0.45,
+				"y": -0.1,
+				"z": 0.8
+			},
+			"scale": 0.8
+		},
+		"*-pickledpotato": {
+			"translation": {
+				"x": -0.67,
+				"y": -0.1,
+				"z": -0.6
+			},
+			"rotation": {
+				"x": -23,
+				"y": 180,
+				"z": -85
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 0.8
+		},
+	},
+	"groundTransformByType": {
+		"*-potato": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.47,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 4.3
+		},
+		"*-corn": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 3
+		},
+		"*-pickledpotato": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.47,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 4.3
+		},
+	},
+	"heldRightReadyAnimationByType": {
+		"*-corn": "holdbothhands"
+	},
+	"heldTpIdleAnimationByType": {
+		"*-corn": "holdbothhands"
+    }
+}

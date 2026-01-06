@@ -1,0 +1,58 @@
+{
+	treeWorldPropertyCode: "japaneseoak",
+	sizeMultiplier: 1,
+	trunks: [{
+		widthloss: 0.088,
+		dieAt: {avg: 0.14 },
+		dx: 0.5,
+		dz: 0.5,
+		branchStart: { dist: "gaussian", avg: 0.35, var: 0 },
+		branchSpacing: { avg: 0.3, var: 0.1 },
+		branchVerticalAngle:  { dist: "gaussian", avg: 0.1, var: 0.2 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+
+		branchWidthMultiplier: { dist: "gaussian", avg: 3, var: 0.01 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 1.1 },
+		branchQuantity: { avg: 1.1, var: 0 },
+		branchQuantityEvolve: { transform: "sinus", factor: 1 },
+		angleVert: { avg: 0, var: 0.2 },
+		angleVertEvolve: { transform: "sinus", factor: 6.5 },
+	}, {
+		inherit: { from: 0, skip: ["dx", "dz", "dieAt"] },
+		dieAt: { avg: 0.24, var: 0.1 },
+		dx: 1.5,
+		dz: 0.5
+	}, {
+		inherit: { from: 0, skip: ["dx", "dz", "dieAt"] },
+		dieAt: { avg: 0.24, var: 0.1 },
+		dx: 0.5,
+		dz: 1.5,
+
+	}, {
+		inherit: { from: 0, skip: ["dx", "dz", "dieAt"] },
+		dieAt: { avg: 0.24, var: 0.1 },
+		dx: 1.5,
+		dz: 1.5
+	}],
+	branches: [{
+		widthLoss: 0.1,
+		gravityDrag: 0.02,
+		dieAt: { avg: 0.01 },
+
+		branchStart:  { avg: 0.4, var: 0.1 },
+		branchSpacing: { avg: 0, var: 0.1 },
+		branchVerticalAngle: { avg: 1.57, var: 1 },
+		branchHorizontalAngle: { avg: 0, var: 2.57 },
+
+		branchQuantity: { avg: 3, var: 0 },
+		branchWidthMultiplier: { avg: 0.3, var: 0 }
+	}],
+	treeBlocks: {
+		logBlockCode: "log-grown-oak-ud",
+		leavesBlockCode: "leaves-grown-oak",
+		leavesBranchyBlockCode: "leavesbranchy-grown-oak",
+		vinesBlockCode: "wildvine-section-north",
+		vinesEndBlockCode: "wildvine-end-north",
+		mossDecorCode: "attachingplant-spottymoss"
+	}
+}

@@ -1,0 +1,24 @@
+6.1.2026 00:27:41 [Audit] captanredbeard joined.
+6.1.2026 00:28:16 [Audit] Handling command for captanredbeard /gm 2
+6.1.2026 00:28:16 [Audit] Player captanredbeard put himself into game mode Creative
+6.1.2026 00:34:38 [Audit] captanredbeard creative mode created item stack 1xArkose rock
+6.1.2026 00:34:47 [Audit] captanredbeard creative mode created item stack 1xCracked wacke
+6.1.2026 00:34:53 [Audit] captanredbeard moved 1xgame:crackedrock-wacke from hotbar-JXlpEoRMnaVfb3cPqpk4PYpz to ground-JXlpEoRMnaVfb3cPqpk4PYpz
+6.1.2026 00:34:53 [Audit] captanredbeard moved 1xgame:rock-arkose from hotbar-JXlpEoRMnaVfb3cPqpk4PYpz to ground-JXlpEoRMnaVfb3cPqpk4PYpz
+6.1.2026 00:39:50 [Audit] captanredbeard creative mode created item stack 1xDiorite rock
+6.1.2026 00:39:53 [Audit] captanredbeard creative mode created item stack 1xGranite rock
+6.1.2026 00:40:03 [Audit] captanredbeard left clicked slot 3559 in creative-JXlpEoRMnaVfb3cPqpk4PYpz. Before: (mouse: empty, inv: 1xAndesite rock), after: (mouse: 1xAndesite rock, inv: 1xAndesite rock)
+6.1.2026 00:40:04 [Audit] captanredbeard shift clicked slot 3559 in creative-JXlpEoRMnaVfb3cPqpk4PYpz. Moved 64xAndesite rock to (64x into hotbar-JXlpEoRMnaVfb3cPqpk4PYpz)
+6.1.2026 00:40:04 [Audit] captanredbeard left clicked slot 4002 in creative-JXlpEoRMnaVfb3cPqpk4PYpz. Before: (mouse: 1xAndesite rock, inv: 1xAndesite Quern), after: (mouse: empty, inv: 1xAndesite Quern)
+6.1.2026 00:40:11 [Audit] captanredbeard moved 64xgame:rock-andesite from hotbar-JXlpEoRMnaVfb3cPqpk4PYpz to ground-JXlpEoRMnaVfb3cPqpk4PYpz
+6.1.2026 00:40:12 [Audit] captanredbeard moved 1xgame:rock-granite from hotbar-JXlpEoRMnaVfb3cPqpk4PYpz to ground-JXlpEoRMnaVfb3cPqpk4PYpz
+6.1.2026 00:40:12 [Audit] captanredbeard moved 1xgame:rock-diorite from hotbar-JXlpEoRMnaVfb3cPqpk4PYpz to ground-JXlpEoRMnaVfb3cPqpk4PYpz
+6.1.2026 00:40:14 [Audit] captanredbeard creative mode created item stack 1xAndesite rock
+6.1.2026 00:40:15 [Audit] captanredbeard creative mode created item stack 1xDiorite rock
+6.1.2026 00:40:16 [Audit] captanredbeard creative mode created item stack 1xGranite rock
+6.1.2026 00:40:29 [Audit] captanredbeard creative mode created item stack 1xWacke rock
+6.1.2026 00:41:58 [Audit] captanredbeard moved 1xgame:rock-wacke from hotbar-JXlpEoRMnaVfb3cPqpk4PYpz to ground-JXlpEoRMnaVfb3cPqpk4PYpz
+6.1.2026 00:41:59 [Audit] captanredbeard moved 1xgame:rock-granite from hotbar-JXlpEoRMnaVfb3cPqpk4PYpz to ground-JXlpEoRMnaVfb3cPqpk4PYpz
+6.1.2026 00:41:59 [Audit] captanredbeard moved 1xgame:rock-diorite from hotbar-JXlpEoRMnaVfb3cPqpk4PYpz to ground-JXlpEoRMnaVfb3cPqpk4PYpz
+6.1.2026 00:41:59 [Audit] captanredbeard moved 1xgame:rock-andesite from hotbar-JXlpEoRMnaVfb3cPqpk4PYpz to ground-JXlpEoRMnaVfb3cPqpk4PYpz
+6.1.2026 00:48:57 [Audit] Client captanredbeard disconnected.

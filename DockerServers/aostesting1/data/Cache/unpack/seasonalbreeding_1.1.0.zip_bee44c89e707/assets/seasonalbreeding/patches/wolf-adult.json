@@ -1,0 +1,28 @@
+[
+    {
+        file: "game:entities/animal/mammal/wolf-adult.json",
+        op: "addmerge",
+        path: "/behaviorConfigs",
+        value: { },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/wolf-adult.json",
+        op: "addmerge",
+        path: "/behaviorConfigs/genelib.multiply",
+        value: {
+            enabledByType: { "*-male": false },
+            pregnancyMonths: 2.05,
+            multiplyCooldownMonthsMin: 3.8,
+            multiplyCooldownMonthsMax: 4.2,
+            lactationMonths: 3.0,
+            "_comment": "A six month seasonal estrous is effectively a twelve month estrous",
+            //estrousCycleMonths: 6.0,
+            //daysInHeat: 8.0,
+            breedingPeakMonth: 1.5,
+            breedingMonthsBefore: 1.0,
+            breedingMonthsAfter: 1.0,
+        },
+        side: "server"
+    },
+]

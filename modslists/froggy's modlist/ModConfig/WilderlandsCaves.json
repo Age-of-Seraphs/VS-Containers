@@ -1,0 +1,59 @@
+{
+  "_Instructions": [
+    "WilderlandsCaves Mod Config",
+    "----------------------------------------",
+    "VanillaCaveScaling: Scale vanilla cave density.",
+    "  1.0 = full vanilla caves",
+    "  0.15 = 15% density",
+    "",
+    "FractureLayers:",
+    "  Define one or more fracture cave layers.",
+    "  Each layer has:",
+    "    Name: Descriptive name",
+    "    FloorOffset: Vertical shift from mantle",
+    "    AvgHeight: Average floor-to-ceiling spacing",
+    "    MinHeight: Minimum spacing allowed",
+    "    MaxHeight: Maximum spacing allowed",
+    "    ClusterFrequency: Chance fracture clusters appear (0.0-1.0)",
+    "    SkipClusterFrequency: Chance a solid rock cluster appears (0.0-1.0)",
+    "    MinSkipRadius: Minimum radius of solid rock clusters (columns)",
+    "    MaxSkipRadius: Maximum radius of solid rock clusters (columns)",
+    "",
+    "WARNING:",
+    "  Adding more layers increases chance of overlap.",
+    "  Only add layers for taller worlds."
+  ],
+  "VanillaCaveScaling": 0.15,
+  "FractureLayers": [
+    {
+      "Name": "PrimaryFracture",
+      "FloorOffset": -90,
+      "AvgHeight": 9,
+      "MinHeight": 0,
+      "MaxHeight": 27,
+      "SkipClusterFrequency": 0.7,
+      "MinSkipRadius": 4,
+      "MaxSkipRadius": 16
+    },
+    {
+      "Name": "SecondaryFracture",
+      "FloorOffset": -70,
+      "AvgHeight": 9,
+      "MinHeight": 0,
+      "MaxHeight": 45,
+      "SkipClusterFrequency": 0.6,
+      "MinSkipRadius": 4,
+      "MaxSkipRadius": 16
+    },
+    {
+      "Name": "TerciaryFracture",
+      "FloorOffset": -55,
+      "AvgHeight": 7,
+      "MinHeight": 0,
+      "MaxHeight": 35,
+      "SkipClusterFrequency": 0.6,
+      "MinSkipRadius": 4,
+      "MaxSkipRadius": 16
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+version: 1
+
+
+##########################
+## Bricklayers Settings ##
+##########################
+
+# Disable forming vanilla plain, burned-brownish whole clay vessels from clay.
+vs_vessels: true
+ #  (default: True) 

@@ -1,0 +1,63 @@
+[
+	{
+	"op": "addmerge",
+	"path": "/variantgroups/0/states/-",
+	"value": "komatiite",
+	"file": "game:itemtypes/toolhead/hoehead.json"
+	},
+	{
+	"op": "addmerge",
+	"path": "/variantgroups/0/states/-",
+	"value": "pyroxenite",
+	"file": "game:itemtypes/toolhead/hoehead.json"
+	},
+	{
+	"op": "addmerge",
+	"path": "/variantgroups/0/states/-",
+	"value": "serpentinite",
+	"file": "game:itemtypes/toolhead/hoehead.json"
+	},
+	{
+	"op": "addmerge",
+	"path": "/variantgroups/0/states/-",
+	"value": "monzonite",
+	"file": "game:itemtypes/toolhead/hoehead.json"
+	},
+	{
+	"op": "addmerge",
+	"path": "/variantgroups/0/states/-",
+	"value": "syenite",
+	"file": "game:itemtypes/toolhead/hoehead.json"
+	},
+
+
+  {
+    "op": "remove",
+    "path": "/texturesByType/*",
+    "file": "game:itemtypes/toolhead/hoehead.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+	"@hoehead-(komatiite|pyroxenite|serpentinite|monzonite|syenite)": { 
+		"material": { base: "block/stone/rock/{material}1" },
+		"string": { base: "block/transparent" },
+		"handle": { base: "block/transparent" }
+      }
+    },
+    "file": "game:itemtypes/toolhead/hoehead.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*": {
+		"material": { base: "block/metal/ingot/{material}" },
+		"string": { base: "block/transparent" },
+		"handle": { base: "block/transparent" }
+      }
+    },
+    "file": "game:itemtypes/toolhead/hoehead.json"
+  },
+]

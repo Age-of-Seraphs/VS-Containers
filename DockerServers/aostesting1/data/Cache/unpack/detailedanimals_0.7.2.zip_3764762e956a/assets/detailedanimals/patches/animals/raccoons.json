@@ -1,0 +1,313 @@
+[
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "addmerge",
+        path: "/attributes",
+        value: { adultWeightKg: 8.5, weightDimorphism: 0.05 },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-baby.json",
+        op: "addmerge",
+        path: "/attributes",
+        value: { adultWeightKg: 8.5, weightDimorphism: 0.05 },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "add",
+        path: "/server/behaviors/-",
+        value: {
+            code: "agegradually",
+            monthsToGrow: 6.0,
+            startAgeMonths: 6.0,
+            initialWeight: 0.7,
+            portionsEatenForTaming: 12,
+            maxTameness: 0.6,
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-baby.json",
+        op: "replace",
+        path: "/server/behaviors/9",
+        value: {
+            code: "agegradually",
+            adultEntityCodesByType: {
+                "*-female-*": [ "game:raccoon-common-adult-female" ],
+                "*-male-*": [ "game:raccoon-common-adult-male" ],
+                "*": [ "raccoon-{type}-adult-{gender}" ]
+            },
+            monthsToGrow: 6.0,
+            initialWeight: 0.08,
+            portionsEatenForTaming: 8,
+            maxTameness: 0.9,
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "add",
+        path: "/client/behaviors/-",
+        value: { code: "agegradually" },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-baby.json",
+        op: "add",
+        path: "/client/behaviors/-",
+        value: { code: "agegradually" },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-baby.json",
+        op: "replace",
+        path: "/client/size",
+        value: 1.5,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-baby.json",
+        op: "replace",
+        path: "/client/texture/base",
+        value: "game:entity/animal/mammal/raccoon/common-baby*",
+        side: "server"
+    },
+
+
+    {
+        file: "game:entities/animal/mammal/raccoon-baby.json",
+        op: "addeach",
+        path: "/server/behaviors/7/drops/-",
+        value: [
+            {
+                type: "item", 
+                category: "meat",
+                code: "game:bushmeat-raw", 
+                quantity: { avg: 2.1, var: 0 } 
+            },
+            {
+                type: "item", 
+                category: "pelt",
+                code: "game:hide-raw-small", 
+                quantity: { avg: 1, var: 0 } 
+            },
+            {
+                type: "item", 
+                category: "fat",
+                code: "game:fat", 
+                quantity: { avg: 0.4, var: 0 } 
+            }
+        ],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "replace",
+        path: "/server/behaviors/7/drops/0/quantity",
+        value: { avg: 2.1, var: 0 },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "replace",
+        path: "/server/behaviors/7/drops/1/quantity",
+        value: { avg: 1, var: 0 },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "replace",
+        path: "/server/behaviors/7/drops/2/quantity",
+        value: { avg: 0.4, var: 0 },
+        side: "server"
+    },
+
+
+
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "add",
+        path: "/client/behaviors/-",
+        value: { code: "genelib.multiply", enabledByType: { "*-male": false }, },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "add",
+        path: "/server/behaviors/-",
+        value: {
+            code: "genelib.multiply",
+            enabledByType: { "*-male": false },
+            mateTaskPriority: 1.37,
+            sireCodes: ["game:raccoon-male"],
+            spawnEntityCodes: [{"code": "game:raccoon-common-baby-male"}, {"code": "game:raccoon-common-baby-female"}],
+            litterAddChance: 0.4,
+            litterAddAttempts: 6,
+            pregnancyMonths: 2.2,
+            multiplyCooldownMonthsMin: 3.2,
+            multiplyCooldownMonthsMax: 3.6,
+            lactationMonths: 3.2,
+            estrousCycleMonths: 0.9,
+            daysInHeat: 4.0,
+        },
+        side: "server"
+    },
+
+
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "addeach",
+        path: "/attributes/creatureDiet/foodCategories/-",
+        value: ["Vegetable", "Grain", "Protein", "Dairy"],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "addeach",
+        path: "/attributes/creatureDiet/weightedFoodTags/-",
+        value: [{ weight:0.8, code:"tastyvegetable"}, { weight:0.8, code:"meat"}, { weight:0.8, code:"egg"}, { weight:0.2, code:"acorn"}, { weight:2.0, code:"peanut"}, { weight:1.5, code:"soybean"}, { weight:0.8, code:"fruitmash"}],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "add",
+        path: "/attributes/creatureDiet/skipFoodTags",
+        value: [ "riceCrop", "parsnipCrop", "onion", "cassava" ],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-baby.json",
+        op: "addeach",
+        path: "/attributes/creatureDiet/foodCategories/-",
+        value: ["Vegetable", "Grain", "Protein", "Dairy"],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-baby.json",
+        op: "addeach",
+        path: "/attributes/creatureDiet/weightedFoodTags/-",
+        value: [{ weight:0.8, code:"tastyvegetable"}, { weight:0.8, code:"meat"}, { weight:0.8, code:"egg"}, { weight:0.2, code:"acorn"}, { weight:2.0, code:"peanut"}, { weight:1.5, code:"soybean"}, { weight:0.8, code:"fruitmash"}],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-baby.json",
+        op: "add",
+        path: "/attributes/creatureDiet/skipFoodTags",
+        value: [ "riceCrop", "parsnipCrop", "onion", "cassava" ],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "addmerge",
+        path: "/behaviorConfigs",
+        value: { },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-baby.json",
+        op: "addmerge",
+        path: "/behaviorConfigs",
+        value: { },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "addmerge",
+        path: "/behaviorConfigs/animalhunger",
+        value: { 
+            monthsUntilWeaned: 2.8,
+            fiber: 0.2,
+            sugar: 0.18,
+            fat: 0.15,
+            starch: 0.15,
+            protein: 0.3,
+            water: 1.0,
+            minerals: 0.02,
+            mineralsMax: 0.1,
+            avoidFoodTags: [ "sour" ],
+            fiberDigestion: 0.0,
+            grazeMethods: ["nibblegraze", "root"],
+            daysUntilHungry: 3,
+            eatFromInventoryTask: {
+                useSound: "creature/animal-eat-small",
+                priority: 1.36,
+                animation: "eat",
+            },
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-baby.json",
+        op: "addmerge",
+        path: "/behaviorConfigs/animalhunger",
+        value: { 
+            monthsUntilWeaned: 2.8,
+            fiber: 0.2,
+            sugar: 0.18,
+            fat: 0.15,
+            starch: 0.15,
+            protein: 0.3,
+            water: 1.0,
+            minerals: 0.02,
+            mineralsMax: 0.1,
+            avoidFoodTags: [ "sour" ],
+            fiberDigestion: 0.0,
+            grazeMethods: ["nibblegraze", "root"],
+            daysUntilHungry: 3,
+            eatFromInventoryTask: {
+                useSound: "creature/animal-eat-small",
+                priority: 1.36,
+                animation: "eat",
+            },
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "replace",
+        path: "/server/behaviors/10/aitasks/4",
+        value: {
+            code: "forage",
+            nurseFromEntities: "game:raccoon-female",
+            eatSound: "creature/animal-eat-small",
+            priority: 1.38,
+            movespeed: 0.010,
+            animationSpeed: 1.75,
+            eatTime: 2,
+            animation: "Walk",
+            eatAnimation: "gather",
+            eatAnimationLooseItems: "eat",
+            mincooldownHours: 0.0,
+            maxcooldownHours: 0.05,
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-baby.json",
+        op: "replace",
+        path: "/server/behaviors/10/aitasks/2",
+        value: {
+            code: "forage",
+            nurseFromEntities: "game:raccoon-female",
+            eatSound: "creature/animal-eat-small",
+            priority: 1.38,
+            movespeed: 0.0065,
+            animationSpeed: 1.75,
+            eatTime: 1.5,
+            animation: "Walk",
+            eatAnimation: "gather",
+            eatAnimationLooseItems: "eat",
+            mincooldownHours: 0.0,
+            maxcooldownHours: 0.05,
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-adult.json",
+        op: "add",
+        path: "/server/behaviors/10/aitasks/5/enabled",
+        value: false,
+        side: "server"
+    },
+]

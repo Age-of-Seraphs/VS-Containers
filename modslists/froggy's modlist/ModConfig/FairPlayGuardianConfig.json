@@ -1,0 +1,1037 @@
+{
+  "Mode": "Block",
+  "Block": [],
+  "Allow": [
+    {
+      "ModId": "degrees1499",
+      "Version": "1.0.0",
+      "Hash": "6fd93400ab4588112a6a4c4cc89431a506b81fab9e6a4827e494c4eb84f856b1"
+    },
+    {
+      "ModId": "aculinaryartillery",
+      "Version": "2.0.0-dev.11",
+      "Hash": "1be8a65c37c465812db5bda06138e6cccf2c496301115cdd157ba2ba4504d1b9"
+    },
+    {
+      "ModId": "betterforest",
+      "Version": "0.1.1",
+      "Hash": "58079698fd2ce3835d0f4e30df3fc4d1613ee1e3975c961f21cc17e805fb41b1"
+    },
+    {
+      "ModId": "blackguardadditions",
+      "Version": "1.1.8",
+      "Hash": "267e34ba16ea9d6f0a5a2e30e6e8e13a77512c6ef810c6dab6574d543d1cfd3b"
+    },
+    {
+      "ModId": "blacksmithname",
+      "Version": "1.2.3",
+      "Hash": "d984fa642999a39b9f9955f3e1e228b001da4bf8a54cea609d6c218402c34160"
+    },
+    {
+      "ModId": "bola",
+      "Version": "1.4.0",
+      "Hash": "8f92767d9b5c67de1d7bbac4a176a0d3df387886956d8a8c08ea9113b1305a1b"
+    },
+    {
+      "ModId": "brickmold",
+      "Version": "1.3.1",
+      "Hash": "60552f97ceea4bac0e832b3d2f23f9b38e18027f75c384216bf66fc40e0eb20b"
+    },
+    {
+      "ModId": "canoemod",
+      "Version": "1.0.2",
+      "Hash": "e65f2fc671ebfc00660889f3701dfd8e397f91081ec26985af232621d0503f6c"
+    },
+    {
+      "ModId": "chiseltools",
+      "Version": "1.15.3",
+      "Hash": "6c0e7e745f60caa82f721ff8e9fe3201777a99bf813d70001576e565b18b1920"
+    },
+    {
+      "ModId": "ClaimsRadar",
+      "Version": "1.1.0",
+      "Hash": "7e2a07ac179bc6473b55137611e405e0759037a565f92e32e5bc47ae41261f3e"
+    },
+    {
+      "ModId": "blocklayeroverhaul",
+      "Version": "1.0.2",
+      "Hash": "d5564a93a58e3c1d7a809f84604b3f336ff89a0408f109c032440ac3a200110d"
+    },
+    {
+      "ModId": "landformoverhaul",
+      "Version": "1.0.1",
+      "Hash": "c1cab94544c595eb0a493d11ff35f2708f424b0dbecdec4816af552025b9bdbb"
+    },
+    {
+      "ModId": "expandedmoldsbalanced",
+      "Version": "1.1.0",
+      "Hash": "07107c293deb8cdbd354407a11a5b49d3edc544dbdc99d94c0b61ba595e0ff78"
+    },
+    {
+      "ModId": "fieldsandplateaus",
+      "Version": "1.0.9",
+      "Hash": "e2a6f2bad292c3876dc894f5314e8124d07b7c9b542224d1596ba57a497c9d87"
+    },
+    {
+      "ModId": "floralzonescaperegion",
+      "Version": "1.0.28",
+      "Hash": "86cc3cd939a9ca3e6a2edf5dcaae2647fc8f184c4f12c134184e80b5198c1e82"
+    },
+    {
+      "ModId": "floralzonescaribbeanregion",
+      "Version": "1.0.23",
+      "Hash": "2021672ce41e9f07aac6dc436c9f6d7893ebcfe21c245972ede3c0952db6af8d"
+    },
+    {
+      "ModId": "floralzonescentralaustralianregion",
+      "Version": "1.0.20",
+      "Hash": "292c25e42758f8886ca7095b7c3027dd77361f2798647751077df3373e510f54"
+    },
+    {
+      "ModId": "floralzoneseastasiaticregion",
+      "Version": "1.0.19",
+      "Hash": "c7919354da8da4366c0bce9206fdfcb100f4d6feb1cc91c51a78b3f5401b302e"
+    },
+    {
+      "ModId": "floralzonesmediterraneanregion",
+      "Version": "1.0.19",
+      "Hash": "0265b51a8c3062a47ad4f4bb1066cb6f4a28e4869a18bf8f7d049a9a44946f48"
+    },
+    {
+      "ModId": "floralzonesneozeylandicregion",
+      "Version": "1.0.19",
+      "Hash": "802b1bbfe874dbffd3e74f9e7e30b619e63afc9fba5cb7381bc6bd363696c801"
+    },
+    {
+      "ModId": "forestsymphony",
+      "Version": "1.0.4",
+      "Hash": "6b709256c1aa5995927f3a2e1ac6a5322642584d813e060869e3f99dca752848"
+    },
+    {
+      "ModId": "forlornadditions",
+      "Version": "1.0.3",
+      "Hash": "f531e6c5f01636fb3dae31fd88b7a1523928f9e1a389c0ce895d8446121c19dd"
+    },
+    {
+      "ModId": "bovinae",
+      "Version": "0.3.4",
+      "Hash": "8b98f24e7f0f4ff0a8b85bde9783dcdefc2a913d72ea2505b5296308a7c28500"
+    },
+    {
+      "ModId": "goblinears",
+      "Version": "2.3.3",
+      "Hash": "44c951ccb9b30ad6ac39c7be5a3f251e63280b7e28213c7c5c6be4e908195d57"
+    },
+    {
+      "ModId": "hangingoillamps",
+      "Version": "1.0.5",
+      "Hash": "b46670c5bfa83a160914e3fa9e44abad737e360b6839fd69250a7c1f5b1f4b52"
+    },
+    {
+      "ModId": "hideplayerpins",
+      "Version": "1.0.0",
+      "Hash": "0d1f4800cb4c6bf948e91c95730b14e65dd6af996afe0a4cb53d11c94016a6c4"
+    },
+    {
+      "ModId": "koboldplayermodelport",
+      "Version": "1.2.14",
+      "Hash": "525cd3a2f12035bc93d3e6809991c6bf07a43f777e7afcc8e4b8349439464d56"
+    },
+    {
+      "ModId": "lanternpost",
+      "Version": "1.0.8",
+      "Hash": "6215e55c97404d69bd4a3cc843027bd94463123400d5c3197d8158afac335ac1"
+    },
+    {
+      "ModId": "manualscraping",
+      "Version": "1.3.0",
+      "Hash": "9e9d891822b3064e5e8d5a4ca4a72fb11256fb3e5d65c6ed668dbbb0719e484a"
+    },
+    {
+      "ModId": "millwright",
+      "Version": "1.3.0",
+      "Hash": "b18e30256be68d7624d08dd3d2adcf75bdded15adced9564f9acef642edc76ea"
+    },
+    {
+      "ModId": "pipeleaf",
+      "Version": "2.4.1",
+      "Hash": "ddbe0316b372dbed4b745d6daab0d0c3ec76f680a63a846ae9100e135cee5f43"
+    },
+    {
+      "ModId": "plainsandvalleys",
+      "Version": "1.0.12",
+      "Hash": "ebbfaed8c860b9e6152e88ddb08c950bc5b5ae25f2edffb398c230207ca951cb"
+    },
+    {
+      "ModId": "primitivesurvival",
+      "Version": "4.0.1",
+      "Hash": "762c2b79212199c33b8e7bbd4c74ba4f2a5f5e480154226c39056048e4a54679"
+    },
+    {
+      "ModId": "spyglass",
+      "Version": "0.6.0",
+      "Hash": "e308b3d86411296845faeb8999121495f167bc136b146aa46cc0c2568b026d39"
+    },
+    {
+      "ModId": "stackabletemporalgears",
+      "Version": "1.0.1",
+      "Hash": "e3bb73cc32ffe5cf1ac7b69b4347f5e5ca390eed76280236757de80a3ff69f81"
+    },
+    {
+      "ModId": "tankardsandgoblets",
+      "Version": "1.3.4",
+      "Hash": "8f54f372851ae63fb25d104ee165b52bfde3b7c9442878a0370e105869474b0b"
+    },
+    {
+      "ModId": "tulesedgefix",
+      "Version": "1.0.0",
+      "Hash": "5989547cb6112b8b32b7774f7f44adb4a4b4162bf56271bbba255adcdcf6e082"
+    },
+    {
+      "ModId": "usefulshears",
+      "Version": "1.0.0",
+      "Hash": "3678660cb6e8344b7188b5e67488f5835fe124310e8b219a1c4068468494fd26"
+    },
+    {
+      "ModId": "game",
+      "Version": "1.21.5",
+      "Hash": "15f3a303bda1bb40582158ed2f6c0253b777c06fc16303869a8af1315ab71165"
+    },
+    {
+      "ModId": "vsimgui",
+      "Version": "1.1.16",
+      "Hash": "d2d0b8407bebd837bca8ba36742540e07dd1faf0f2c0dbc27a3bbc743338e9d6"
+    },
+    {
+      "ModId": "zoombuttonreborn",
+      "Version": "2.0.0",
+      "Hash": "4536d92c89ae7b571fa749a534a82c4c8ab5754596f714ec88ce84a3470b2664"
+    },
+    {
+      "ModId": "animalcages",
+      "Version": "4.0.2",
+      "Hash": "b2b5b3dda33ca257bc9fb0706a377546737b8ea9b8346cffc5966266b182b1b6"
+    },
+    {
+      "ModId": "betterruins",
+      "Version": "0.5.4",
+      "Hash": "7223ef5c05375edb3e82f78934c2d8829e3842a0efc85ade3360ab08027585b9"
+    },
+    {
+      "ModId": "billposting",
+      "Version": "1.1.0",
+      "Hash": "f7540b89889f90cee2ca0c00b69f8cf3160df3426801dba5a90266d74e10e45d"
+    },
+    {
+      "ModId": "canmailbox",
+      "Version": "1.1.4",
+      "Hash": "823dacc5b90cdd866d25145288b6d620dfd307285acc4238684021568c97d6dc"
+    },
+    {
+      "ModId": "carryon",
+      "Version": "1.12.1",
+      "Hash": "d9c58f4911f5cdf358bcbc6faa977b5c4d5fa5034368c974e35a687ea1f34fd4"
+    },
+    {
+      "ModId": "cartwrightscaravan",
+      "Version": "1.8.0",
+      "Hash": "0e46f6c0f6b14eeb73eb905397640ba5f63b95f2fb1ffd40d96b338cbb14136e"
+    },
+    {
+      "ModId": "chestorganizer",
+      "Version": "1.2.3",
+      "Hash": "a3f55b07eb8ccf86d73d513a104d770af421988c829d1d2747e9e6dd0a56ca02"
+    },
+    {
+      "ModId": "coinage",
+      "Version": "1.18.1",
+      "Hash": "8e893e8ddc95bd03326121bc389d3c2cc98c9b92738b4a75255788f7e8071bf3"
+    },
+    {
+      "ModId": "commonlib",
+      "Version": "2.8.0",
+      "Hash": "2b92c7210a26e1ced3163ca5c4b2c5bf7da1b9cca80ccc1b109049a7d7ebd4ac"
+    },
+    {
+      "ModId": "configlib",
+      "Version": "1.10.12"
+    },
+    {
+      "ModId": "coopsynergy",
+      "Version": "0.1.0",
+      "Hash": "84c6b94b7ccb58e4160d806e5733c9f680b6381a2c3205733741bd499f0d4dd8"
+    },
+    {
+      "ModId": "danatweaks",
+      "Version": "3.6.0",
+      "Hash": "08ee491e0a4f28416f6c5bbad2016a201d2bc8a8b22e2394a69cf4b798c72193"
+    },
+    {
+      "ModId": "desertificationsurfacevariation",
+      "Version": "1.0.0",
+      "Hash": "b63bdfab7c25be9243e7143aad795d496a8952f84c05375e096ec2568b96340d"
+    },
+    {
+      "ModId": "envelopes",
+      "Version": "2.1.1",
+      "Hash": "e2a411e6dd5c13b2fe870ebf32b72bc5548199a6a33582e64aaba6da17d29a1f"
+    },
+    {
+      "ModId": "expandedfoods",
+      "Version": "2.0.0-dev.5",
+      "Hash": "d287587f0ca13494bc5cf02457204d1d7f582e1cb250161160d0b5a7e8bc091c"
+    },
+    {
+      "ModId": "extrainfo",
+      "Version": null,
+      "Hash": "0f66948c8e64894bda36315eb1da4c9733c4b3c7ca4d3c38f4e3079da53930f6"
+    },
+    {
+      "ModId": "fairplayguardian",
+      "Version": "1.2.1",
+      "Hash": "7941a82dfd659a82e07d2b851a733e8dc9d59b587efad2257a068ef3690c987b"
+    },
+    {
+      "ModId": "fieldsofsalt",
+      "Version": "1.2.4",
+      "Hash": "26e9c63a24da6c682df91bbbf132f5f172b9481d909ea33ca7c9ae3bd12c673c"
+    },
+    {
+      "ModId": "foodshelves",
+      "Version": "2.3.3",
+      "Hash": "52ba85a4936b9756d0bc025b19c9a9348dd0880db934342b26e34b497e466b1a"
+    },
+    {
+      "ModId": "fromgoldencombs",
+      "Version": "1.9.4",
+      "Hash": "9f4e1b817a339510b42f273a3af5180d792b6f3656bb3f2affca489de3f48c27"
+    },
+    {
+      "ModId": "herbarium",
+      "Version": "1.4.1-rc.1",
+      "Hash": "f3e97f7f07b31dbc707020bf1f9ab9746ffc7ae9adb440fc98c2a8f6c92608ac"
+    },
+    {
+      "ModId": "hudclockpatch",
+      "Version": "1.1.2",
+      "Hash": "a89320c4d965a02073ff5246f299d97e5cf4695c7554a4cd27cb978e4782a759"
+    },
+    {
+      "ModId": "maketea",
+      "Version": "0.3.1",
+      "Hash": "34cc4e69084a4e6d5484a6f53d5d1f652347cf9313a1cf44c3cad0d3177f749e"
+    },
+    {
+      "ModId": "metaltongs",
+      "Version": "1.2.3",
+      "Hash": "719f81d617c4b71cc9ea1ae756334b5e80a3c785b26a2f8289aedb9fe4ccede0"
+    },
+    {
+      "ModId": "spearexpantion",
+      "Version": "0.3.2",
+      "Hash": "38fcaf279748e03358a5c2ca1b16b38685bdc5631e454b6df6afd942e6505524"
+    },
+    {
+      "ModId": "playerlist",
+      "Version": "2.3.4",
+      "Hash": "9c0d3bfcf1eb78ab32f5a43553ade08dd0d8d9371ef279902f60f687087ef4cd"
+    },
+    {
+      "ModId": "claywheel",
+      "Version": "1.1.7",
+      "Hash": "f9c7cb3bd3ecaa037b87f7b3dd7142182b692974c047ae28e7f32a741dbd41b6"
+    },
+    {
+      "ModId": "removeprimitivesurvivalstairs",
+      "Version": "1.0.0",
+      "Hash": "9fb946b5095f50a6a39882a5b755cadbb0ba00926e1f86b2cc2a9db6e8653e65"
+    },
+    {
+      "ModId": "rifteye",
+      "Version": "0.4.3",
+      "Hash": "4ac63f18a9f0093624d302b3dacaa77f5613656a9a73b4c5d4a86c69ffdc340b"
+    },
+    {
+      "ModId": "rpvoicechat",
+      "Version": "2.3.31",
+      "Hash": "143568431c9402b00940bbaa7601a0bc46f063688928e7da1ea64c0aee6b2d93"
+    },
+    {
+      "ModId": "scarecrow",
+      "Version": "1.7.1",
+      "Hash": "f6a7b3c10429fc33570d29b49fad23966b1975a10ffb90f2f3aeaee1b3a7c360"
+    },
+    {
+      "ModId": "smithingplus",
+      "Version": "1.8.3",
+      "Hash": "62d88f5fd77bb1573358e191395fd6bef4a561948adcf191e9e5e5747b1bb163"
+    },
+    {
+      "ModId": "statushudcont",
+      "Version": "4.0.2",
+      "Hash": "708744ed2f5b911e9c4ec371a57183eef704865088a9a595a36824045cabc2f8"
+    },
+    {
+      "ModId": "stepupcontinued",
+      "Version": null,
+      "Hash": "9835762fde49ab129b6a50770c4c86eb98bd4569643c4776486f130818b4a195"
+    },
+    {
+      "ModId": "stonebakeoven",
+      "Version": "1.2.0",
+      "Hash": "f2bc41a4a31a431ddce4562621bde67b0478df8deb1f6c9a6a7fca9e451cf4a4"
+    },
+    {
+      "ModId": "tabletopgames",
+      "Version": "3.0.2",
+      "Hash": "acc6ecbe2458552fe46e02825c1321fc8639e04d0a61fb4bb7600c42f99b9c23"
+    },
+    {
+      "ModId": "temperatureheighttweak",
+      "Version": "0.3.0",
+      "Hash": "8e988a612a281c5721fc67ef79133cbb5ff4252a31cd771602f3467df5b3ba67"
+    },
+    {
+      "ModId": "traitacquirer",
+      "Version": "0.9.6",
+      "Hash": "c7fdb60deb9d53800966368c0c7fc6a11842ac1804a611dc0b578da2707e119e"
+    },
+    {
+      "ModId": "vanity",
+      "Version": "2.4.2",
+      "Hash": "024bafdaf7782a8c4fa481ec0ebb66f63cb7d855753bcfe3c92e8679d42a72aa"
+    },
+    {
+      "ModId": "vinconomy",
+      "Version": "5.1.1",
+      "Hash": "4c006ba0d514f8970023c9c98d5385b0b896acb31d26818a91546e0da524814f"
+    },
+    {
+      "ModId": "creative",
+      "Version": "1.21.5",
+      "Hash": "473ca1f3a699155fad455381a044c9d11e421f8c8ebc6d13924f0f393b5ee462"
+    },
+    {
+      "ModId": "vsinstrumentsbase",
+      "Version": "2.0.6",
+      "Hash": "bde128af0838f893641efbb37020d8afa2decd7179f6f206144ebc53c99ee4fd"
+    },
+    {
+      "ModId": "survival",
+      "Version": "1.21.5",
+      "Hash": "04ecbe3e6606a8fcf5d37940834b8aaf3e11a65b7c0174e181cc7c1c7484efe1"
+    },
+    {
+      "ModId": "wildfarmingrevival",
+      "Version": "1.4.2",
+      "Hash": "4d29526d113b4ad14700ea3f2529fc0d5ba670f6ce0c69deab5a7aa9bd9f5853"
+    },
+    {
+      "ModId": "windchimes",
+      "Version": "1.4.1",
+      "Hash": "6f93aee6ba4f8205dfe02d36ead451ab0796f45eb7ca5a72c3b489513663238a"
+    },
+    {
+      "ModId": "bookbinders",
+      "Version": "1.3.1",
+      "Hash": "89c310d180067cc29bbcf8bb46e7414279bd664564f30d33d3176c50042a62e7"
+    },
+    {
+      "ModId": "drkboats",
+      "Version": "1.0.1",
+      "Hash": "b547753674ba85b23819b28fcf122b042edecf109e8814c8f17716de85b4acf1"
+    },
+    {
+      "ModId": "em",
+      "Version": "3.4.0",
+      "Hash": "37b48dc3b3855164dd87fe4172121f65f4b128176e4af14c5077d7e3c169458c"
+    },
+    {
+      "ModId": "extraoverlays",
+      "Version": "1.6.0",
+      "Hash": "0f8cb042c74f344a3470e514634453c260d5a2722b2b0e5d1b1fce07a45c09b3"
+    },
+    {
+      "ModId": "LongLifeFireWood",
+      "Version": "1.0.1",
+      "Hash": "fc0a018a455e42a7c65024e1e026cbd77d8d14c1e93e44c3d79747532d4a7857"
+    },
+    {
+      "ModId": "playercorpse",
+      "Version": "1.12.0",
+      "Hash": "fabbb3115e55e868f4e353382ef4a907bd0750d737f3af6cae7993c872065b60"
+    },
+    {
+      "ModId": "sandwich",
+      "Version": "1.2.8",
+      "Hash": "e7d5ee786dc64bf331338696e53013a2b02ca841eda97412ba1c2ae4f3ac7551"
+    },
+    {
+      "ModId": "shearlib",
+      "Version": "1.2.0",
+      "Hash": "0709fe3ab42b61eefc80162bd82acf50782f560de5ee1c49aae2fc76b55652ee"
+    },
+    {
+      "ModId": "stonequarry",
+      "Version": "3.5.1",
+      "Hash": "ce25eea38f48709a07547a88d5f37597c0073fb70e66521e0144424076045753"
+    },
+    {
+      "ModId": "thebasics",
+      "Version": "5.2.3",
+      "Hash": "d28f43a132a1978dedf67d1cd05160fc3df1488bb2d6e41e22e8db31463bf798"
+    },
+    {
+      "ModId": "vsinstruments_quackpack",
+      "Version": "1.0.2",
+      "Hash": "02e0e06d4dcb6f80a2f7601d66732c3d4138dd7a0f54708cba49bc58f30e606a"
+    },
+    {
+      "ModId": "tailorsdelight",
+      "Version": "2.1.2",
+      "Hash": "8b801f9b660004224dece17ff05cecb91903ec913f0de8ff9d0551d3f3029b2f"
+    },
+    {
+      "ModId": "workingclassesaos",
+      "Version": "1.5.8",
+      "Hash": "0c51ec38c980e72eb8fe73df041ea56dadc7f4850e206ea3fe25b6ec5864d40a"
+    },
+    {
+      "ModId": "wool",
+      "Version": "1.8.1",
+      "Hash": "9fc7a3ded2aff0747257ae00b2708c43e6af1192d3e9b82419eb22eaf9359e49"
+    },
+    {
+      "ModId": "dressmakers",
+      "Version": "1.7.4",
+      "Hash": "c933d70d988e232137194c5c923bec3f9adc98e536f9b2e41ccc14677f396bfa"
+    },
+    {
+      "ModId": "cavesymphony",
+      "Version": "1.0.6",
+      "Hash": "9598a4d576d2214ffe9b8b4211e10a2b6e29f961724dccb59db21da8a8ba9a2e"
+    },
+    {
+      "ModId": "storylesselk",
+      "Version": "1.0.0",
+      "Hash": "30aeb16393a49a5e564639ff0bff42304c10997fffcde8aba5a01cf0c5b28e61"
+    },
+    {
+      "ModId": "aosservertweaks",
+      "Version": "1.5.7",
+      
+    },
+    {
+      "ModId": "balaceddecorativestorage",
+      "Version": "1.0.0",
+      "Hash": "827aef6291d2c77e982559213984bc45c15857d581d47afee389bea82ac51db0"
+    },
+    {
+      "ModId": "balancedfotsaloot",
+      "Version": "1.1.0",
+      "Hash": "fb84231a9eafd2009099322109ab3712686308a5e964c00600b8d72df9353da1"
+    },
+    {
+      "ModId": "flickeringlights",
+      "Version": "0.1.2",
+      "Hash": "d477523bf68815f1bd34392be6b5be8d968abc3819d5058cabd53fd9bcabe29c"
+    },
+    {
+      "ModId": "fagothic",
+      "Version": "1.3.1",
+      "Hash": "ece809d8cae6137ae7dd08a31de9d203ea8f3517416b7d98bebeb12cf431084d"
+    },
+    {
+      "ModId": "fagreenwich",
+      "Version": "1.4.2",
+      "Hash": "24cfa2e7dab686f5965983c12a369ab5dc8f08e6ed82dcfaf11f3a09e1d21d2f"
+    },
+    {
+      "ModId": "fatemplar",
+      "Version": "1.4.3",
+      "Hash": "7a8c332ae4895b9f5011c08813e0ae09690435a2de1af27b256f51a8fd12faa5"
+    },
+    {
+      "ModId": "caninae",
+      "Version": "1.0.35",
+      "Hash": "8cf952365777655c08c21767fc8e6f5710b1ed7d65a712ecafb5bb508060f719"
+    },
+    {
+      "ModId": "capreolinae",
+      "Version": "2.0.4",
+      "Hash": "8b39c2128d117b280608381e10c35191f65869aec6542f65d68c50157735bd05"
+    },
+    {
+      "ModId": "casuariidae",
+      "Version": "1.1.8",
+      "Hash": "6a31ac96b143b754deadcd2d8ea26b98b3afbf7fa5288e5aa60f9ef5effed8df"
+    },
+    {
+      "ModId": "cervinae",
+      "Version": "0.1.11",
+      "Hash": "a22e88aa0dfc1f4c5d53802b5bce835021d1ffbb1270e1bcff3478d5f6f11c65"
+    },
+    {
+      "ModId": "elephantidae",
+      "Version": "1.0.16",
+      "Hash": "ce2d0117020f3a1ce3222ffa2d0a3bdb313f01b6ae6db033e8310f80a295180c"
+    },
+    {
+      "ModId": "machairodontinae",
+      "Version": "1.1.1",
+      "Hash": "fcf8174bd4bff22d7361b6d1a882b97ac8aa9e1929001f8246168fe1fc510691"
+    },
+    {
+      "ModId": "pantherinae",
+      "Version": "1.2.5",
+      "Hash": "02dcc108237ad70ed347c397f0b9300f525fbe0f457ece20c16e0c13918c7dc2"
+    },
+    {
+      "ModId": "rhinocerotidae",
+      "Version": "1.0.22",
+      "Hash": "35c2aeba14d523fe9935446ff0dcb1fe2cd76d3a3e2916ec29e9ea2c2d8209cb"
+    },
+    {
+      "ModId": "spheniscidae",
+      "Version": "1.0.14",
+      "Hash": "dd0ec89ad7bdcdc4908675c4847aca9009f41cf584e8747cf3c9844b5ee4a0a4"
+    },
+    {
+      "ModId": "shelfobsessed",
+      "Version": "1.9.1",
+      "Hash": "013d85727fdeb447180d49eb7a128d1abfa3760bbb7adbef1cdf03471a697c2f"
+    },
+    {
+      "ModId": "fixenfontmod",
+      "Version": "0.1.0",
+      "Hash": "73797ec95b484a9430a8104adda47f060b76b5f50273908373c41a7088a15854"
+    },
+    {
+      "ModId": "improvedhandbookrecipes",
+      "Version": "1.1.3",
+      "Hash": "93ec379dc5b4298b7a4041ebcfaabdfeed0142f5d262e2135be53e72ac97e22d"
+    },
+    {
+      "ModId": "nemi",
+      "Version": "1.1.0",
+      "Hash": "63733bf99a8b6713bb796a333a5e5f0bbd90d42fdf602d0d1da42294a43551ca"
+    },
+    {
+      "ModId": "nogenchat",
+      "Version": "1.1.0",
+      "Hash": "6e292144d0df42989f753c5011cb54b5d3f70ab7d6e6dc5f3870f5ea4e468834"
+    },
+    {
+      "ModId": "nogllogspam",
+      "Version": "1.0.1",
+      "Hash": "4a1c415f4d6b7170fd796dfc777d87ef1bb3beb0bd437148a7b90f2f33c88911"
+    },
+    {
+      "ModId": "pingchat",
+      "Version": "1.0.1",
+      "Hash": "5e73f785356c26161a29bdd773cb4c22bab057dbf6e3614885e3ddca9dcf499b"
+    },
+    {
+      "ModId": "preventdecorativesonboat",
+      "Version": "1.1.0",
+      "Hash": "2172f10d63726d68a16642f32d09b5185869d2041498472a61a9defa14408e56"
+    },
+    {
+      "ModId": "purposefulstorage",
+      "Version": "1.5.1",
+      "Hash": "b8c46eed879692cfba818cd28af032ff002a15160bb08e14b362b73cad62ff48"
+    },
+    {
+      "ModId": "radialmenu",
+      "Version": "1.0.3",
+      "Hash": "afc7e5d9507f3b1f090dc304e01760cb45c5ac4f735c3f0d2e7c738776f0982f"
+    },
+    {
+      "ModId": "steelanvil",
+      "Version": "1.0.0",
+      "Hash": "6a3e2eb64c87f5001963562375e0e2a62b883e486c0b4b882a6708150a643268"
+    },
+    {
+      "ModId": "tablet",
+      "Version": "0.2.0",
+      "Hash": "94e4ece71b733b8e229f1a87bb11ecbdca55bf566746f9a8e20cb0a4566047ef"
+    },
+    {
+      "ModId": "tieredarrows",
+      "Version": "1.2.0",
+      "Hash": "836b78d85fabf27267b791c348d0e2825dbda8f375018f039eee3d06e39683c3"
+    },
+    {
+      "ModId": "vanillaarmory",
+      "Version": "1.9.1",
+      "Hash": "f4107c9b9b5da29f3853e23006cc24faab03b79781a3fe6805056d35d0754ff2"
+    },
+    {
+      "ModId": "vsatlas_resized",
+      "Version": "1.0.9",
+      "Hash": "1cc120a13e75fb2ffd06b52a84603d4f9d16402e96c328c7a23fb682094e2508"
+    },
+    {
+      "ModId": "prospecttogether",
+      "Version": "2.0.7",
+      "Hash": "999b8bd8ae651c12204281a43df40f71e2558387513bff1413e3c26ba89be168"
+    },
+    {
+      "ModId": "accessibilitytweaks",
+      "Version": "3.8.5",
+      "Hash": "284a6ec9ff47a9d7f7190d55f936f1a8419b03640fedb528411b5b5bae14df04"
+    },
+    {
+      "ModId": "darkui",
+      "Version": "1.0.2",
+      "Hash": "f4250d1ca2177db3a69b3c0952e4edc939e10498b1dd16d601bb327c9394e4b8"
+    },
+    {
+      "ModId": "emotemenupatched",
+      "Version": "1.0.6",
+      "Hash": "b8afee74d483b45fdf9fdf0209a4dccfc556c854411c10b0d0404cd5d21af1af"
+    },
+    {
+      "ModId": "freedomunits",
+      "Version": null,
+      "Hash": "d2588ce976b55a812a6909b625b93d780bcb0fed5e8d65f9852c21157d2e86f9"
+    },
+    {
+      "ModId": "keylock",
+      "Version": "1.0.1",
+      "Hash": "0bc5d933fe869c287c337c6dabdde0ac78cd1011fe6eb73ba2e25ef8de4df3c0"
+    },
+    {
+      "ModId": "NubAutoWalker",
+      "Version": "1.2.1",
+      "Hash": "f29c24370b65eadbe95970d17ffab209bdc0e65783257b32424ff2ac5e1be027"
+    },
+    {
+      "ModId": "oldmap",
+      "Version": null,
+      "Hash": "90da3ebcb287c176c1167ee57f5508da1ba7dc45afeeaeeca4bc303de379f7e3"
+    },
+    {
+      "ModId": "spawnhighlight",
+      "Version": null,
+      "Hash": "483d4c96cc3a2190bd6f8c5b80765bd98989f1a2cd7b2a6074e0858270099c4b"
+    },
+    {
+      "ModId": "temporalstormtimer",
+      "Version": "1.1.1",
+      "Hash": "269c9446dcecfd0946d91d69c07e7c9aabd039dcaec9075cff7a71402b5d97af"
+    },
+    {
+      "ModId": "textinputenhancements",
+      "Version": "0.2.1",
+      "Hash": "3f36e9ba4443e389a0d858fa1c89fdc356b1dbdf53292f448b810a1e403f7e61"
+    },
+    {
+      "ModId": "freelook",
+      "Version": "1.0.1",
+      "Hash": "c47a66a917a6ac762766ffdb98ce4cd3abcb5c1b3f7bc16c07390a69f74c9aea"
+    },
+    {
+      "ModId": "HumanSkinTones",
+      "Version": "0.0.3",
+      "Hash": "e2a4eef9287e0be5a908d5915ebd6a27e4aab7b7ac5c8bae345d9fe9ef50033c"
+    },
+    {
+      "ModId": "magellan1k",
+      "Version": "1.0.2",
+      "Hash": "7071784e30bf4613367b49c95c52ec858223f90f25d5321296d8aee6fc619f1b"
+    },
+    {
+      "ModId": "nightskydelights",
+      "Version": "1.20.12",
+      "Hash": "67c9cbf72193321169b5499d2d8d3c0f1f1a299e58e22b9392551bf40e41647c"
+    },
+    {
+      "ModId": "viewdistancetoggler",
+      "Version": "1.0.1",
+      "Hash": "624a7bc69a26903ccd10666af4a5470d42ab1008d55840fa70078e3d717b125a"
+    },
+    {
+      "ModId": "visibleore",
+      "Version": "1.0.1",
+      "Hash": "8250ae3257a259dc5edc7d3fa70b20acc2d8f3e654289af13097e62ff16a11b9"
+    },
+    {
+      "ModId": "volumetricshadingrefreshed",
+      "Version": "1.1.7",
+      "Hash": "7b7380923ebb75f8de1d14a5fa7f9bb8721b8e68dfa8048d715ec0e89a93a917"
+    },
+    {
+      "ModId": "alloycalculator",
+      "Version": "1.0.0",
+      "Hash": "fec190e863073822963323629e8bae0374236daf4ee79d494ed6fd81ff21ed3e"
+    },
+    {
+      "ModId": "altmapiconrenderercontinued",
+      "Version": "1.5.0",
+      "Hash": "13f45ddfe9c288a1123960e41dd5ba2576abd94adb4e6a07a1b40f03a71a1746"
+    },
+    {
+      "ModId": "autolootreforged",
+      "Version": "1.0.4",
+      "Hash": "0c9c3ec647cb421284abce79776ec7aece8543952d93ea79d3d39803c7db2338"
+    },
+    {
+      "ModId": "clearerquartz",
+      "Version": "1.0.0",
+      "Hash": "6f5dd9f499a2ee9559ee77f398b9c36ceda18b163552618583e9ffae802b70d8"
+    },
+    {
+      "ModId": "customwaypointsuggestions",
+      "Version": "1.0.0",
+      "Hash": "d9b193fe7f63f9ddad6495703fabe9e0c76ee81a8d238d796203053293312238"
+    },
+    {
+      "ModId": "daytrader",
+      "Version": "1.0.5",
+      "Hash": "b517569529e254afa5e0605a0de6ab1fe91a59c31ee05a713b42c68e41f00f83"
+    },
+    {
+      "ModId": "drawonmap",
+      "Version": "0.0.2",
+      "Hash": "a6883ac02f9576c9540b9692ab4a39336ab72b15565770da9ec21900a9e7c381"
+    },
+    {
+      "ModId": "gridview",
+      "Version": "1.0.1",
+      "Hash": "ac69516f162ab9e8cdffbd5da896dfd118258721b8751266bcf0b5e0b0c73669"
+    },
+    {
+      "ModId": "healthbar",
+      "Version": "1.0.7",
+      "Hash": "cc3df6702e9388f29c70127ef9a15260d0933e87fc4cb2ffb547d9d232cd6bc1"
+    },
+    {
+      "ModId": "immersivetpscamera",
+      "Version": "1.0.7",
+      "Hash": "b78f0feec9b517e8a3e1044ed742361cc76e267a61b49d82da6214dfa4bc605c"
+    },
+    {
+      "ModId": "itempickuphighlighter",
+      "Version": "1.0.0",
+      "Hash": "e240be8702f2d7c98c794003d2f5076a996f8e29801377005610b4831c5d2d96"
+    },
+    {
+      "ModId": "itempickupnotifier",
+      "Version": "1.9.1",
+      "Hash": "474285354dfe6a241302c33c715de4e6180c168bc0408c778ce15fce83b991a1"
+    },
+    {
+      "ModId": "marximusmedievalmap",
+      "Version": "1.5.3",
+      "Hash": "cfa0137ddce2a8b95ff576a2c0cb4b03a7ac15028c58b1be279a9340f4598652"
+    },
+    {
+      "ModId": "minimalcompass",
+      "Version": "1.1.4",
+      "Hash": "e0d01d1e2cdf526b1046beead40f06394a74068aad16a07881b610d0a88e931e"
+    },
+    {
+      "ModId": "nohands",
+      "Version": "0.1.1",
+      "Hash": "b71a280551c8b863b70b7f05b37bf53a5f88a009f74fc5c3e3c32d3f1a954902"
+    },
+    {
+      "ModId": "sprucedup",
+      "Version": "1.0.3",
+      "Hash": "a5d5989cf15cbc5c4c6c853194427edc559f7e5b6e3505425e3cf934bb79c0d9"
+    },
+    {
+      "ModId": "valrossensmapfilters",
+      "Version": "1.1.1",
+      "Hash": "a383861f363dc9468ca268c222d21a507edda512716f1b922d4839d986e634f4"
+    },
+    {
+      "ModId": "vintagesymphony",
+      "Version": "1.0.4",
+      "Hash": "5c43f4d7e7d40c08d5409502e702dddee4062f2230457e7b980f2ee32d27f68b"
+    },
+    {
+      "ModId": "mapwaypointcolors",
+      "Version": "1.1.2",
+      "Hash": "52155b40474f1dbcb6fd6930834deba0ab4dc4afd704318ecda9cb063eef5380"
+    },
+    {
+      "ModId": "reforgedtools",
+      "Version": "1.2.5",
+      "Hash": "bf5a7cc14d53697556f051f211b8f2d4a66c4b01091559c7883f59b94221473e"
+    },
+    {
+      "ModId": "xinvtweaks",
+      "Version": "1.8.0",
+      "Hash": "621882b572e538573a4b9eaf9f556fdd23bed483f9a27ae19b02858ec0868b90"
+    },
+    {
+      "ModId": "mouseunlocktoggle",
+      "Version": "1.0.0",
+      "Hash": "7c780599d496f3cbd5019e93250454865b516bbe4691cf3367ae025e7eab0146"
+    },
+    {
+      "ModId": "americanfrontiersman",
+      "Version": "1.8.5",
+      "Hash": "3e63c5575cd2d03d081a08fce5f0c327cbf6e2aa75c31c4be0a7fe63313ccb7e"
+    },
+    {
+      "ModId": "charlottesclothes",
+      "Version": "1.2.1",
+      "Hash": "4c0561a86aa30ba8b0c144e9484cf71c3ba5867f4ded4fc399b6242026832baa"
+    },
+    {
+      "ModId": "falandsknecht",
+      "Version": "1.2.2",
+      "Hash": "d8e1d9a74d780af9c9df0cc4e07c03c0f1db397e35ccc68b973ccbf4fe7ed04a"
+    },
+    {
+      "ModId": "playermodellib",
+      "Version": "1.6.3",
+      "Hash": "5494eed98b61d0369bec1f81067bf0c825eb6a4190cc159f51ebb28552273eba"
+    },
+    {
+      "ModId": "scaffolding",
+      "Version": "1.2.5",
+      "Hash": "df154cf44e14b84cb680517263949d775723197cbdfd2640d4831f8277d9f0b6"
+    },
+    {
+      "ModId": "dressedtokill",
+      "Version": "1.7.0",
+      "Hash": "f56e4280d9aef9122f08bbb407acc555930a88317f1bcddceda8a5bd142a89cf"
+    },
+    {
+      "ModId": "fadynasties",
+      "Version": "1.2.5",
+      "Hash": "b060629890800a0f569d7af8c8984af28f23dfb875893e98f931c0cbc5d3fe10"
+    },
+    {
+      "ModId": "fahussar",
+      "Version": "1.1.3",
+      "Hash": "514a6ef12e8fdbc6f5c87283686193263a72442812d7d176ea6f70c5d7a97dfe"
+    },
+    {
+      "ModId": "rubberbandaid",
+      "Version": "0.0.9",
+      "Hash": "d5d5ec33ffb94f23d7cacec59783f103f80ebf05c93c9d20b9cfb781559414e3"
+    },
+    {
+      "ModId": "cinematiccamera",
+      "Version": "1.0.3",
+      "Hash": "a7c6caa3e6d75f41843bf25c85e682924ec88216083af0f548cb233937f9e7b1"
+    },
+    {
+      "ModId": "foodcrate",
+      "Version": "2.2.1",
+      "Hash": "cfd0c354311a57836e8d11871ca187c54da98c60443de86824ebc33bd7323fba"
+    },
+    {
+      "ModId": "attributerenderinglibrary",
+      "Version": "2.4.0",
+      "Hash": "6bfefa8693ba35d90f1c9aa8ca525616093b2046da147c5a660e46ef822a015a"
+    },
+    {
+      "ModId": "captions",
+      "Version": "0.6.3",
+      "Hash": "159d36fbea80004d8eb33c6bfbe4a4be7dbbe6b95a39b7c7dfab8307217c0a65"
+    },
+    {
+      "ModId": "chattranslator",
+      "Version": "1.1.0",
+      "Hash": "0bd9c15fc38ae4fe992c1386979d1241944663394d503d7668c70e8c4ed604f6"
+    },
+    {
+      "ModId": "discordrichpresence",
+      "Version": "1.1.1",
+      "Hash": "9130e2bf7b3317dc4b365353dc0eadc432d9a23b73ab3ec9fadb60c2986f7e32"
+    },
+    {
+      "ModId": "dressedtokillredux",
+      "Version": "1.0.0",
+      "Hash": "926ab51e9543c511641fd80baf4990f0cbcd4095022914207a664bc73fd15d7c"
+    },
+    {
+      "ModId": "itemizer",
+      "Version": "1.1.1",
+      "Hash": "0ebf49b3e33604312bb6bcc34d9762fb8701322593622d1bd12e8aa3ebb3ff29"
+    },
+    {
+      "ModId": "maketeaforked",
+      "Version": "0.7.1",
+      "Hash": "5135b01b8394fdc0a4e665c00cd35e62cdb894c9175b22312030d25f85bad859"
+    },
+    {
+      "ModId": "mannequinstand",
+      "Version": "1.0.7",
+      "Hash": "10081626d00b077041e7f2ca5284a1e134c686ef85e0e5eeae347f8e6ee5c963"
+    },
+    {
+      "ModId": "newfiescommunitymotd",
+      "Version": "1.2.1",
+      "Hash": "a0c27de43369a629d30a96a678347fc0caf2669cd3b80c29f51411cdea70fbf4"
+    },
+    {
+      "ModId": "stepfixelk",
+      "Version": "0.0.3",
+      "Hash": "2f1e3500defd106ce9616c45b001cdb22645442ad6e8170ace138ae1b5c5977d"
+    },
+    {
+      "ModId": "todolist",
+      "Version": "2.2.4",
+      "Hash": "e71dd96f73f969b49cb7d9743bb8638037c5d343509e51e9cc0fcafe75b2098b"
+    },
+    {
+      "ModId": "traitacquirerrevamp",
+      "Version": "0.9.14",
+      "Hash": "c1c1e90bce3945d6e6f26bfa3bb01b4667cacabda6ff0d679d02fc32a381b3fc"
+    },
+    {
+      "ModId": "transcribetobook",
+      "Version": "2.1.0",
+      "Hash": "586b8ef6f1eca327d01b64861d0ac13ec9d30caf5ec3b362789b32a9178a182c"
+    },
+    {
+      "ModId": "truethirdperson",
+      "Version": "0.0.3",
+      "Hash": "cc00b46e0e083f145f1ec6653c1270289b98c0aa1ec1480c900f510e8694e3ee"
+    },
+    {
+      "ModId": "tupaschatmod",
+      "Version": "1.0.4",
+      "Hash": "493862d93252d4952ee9c5d18de89f53afd6c08c4ce742acdd663ae8f812f042"
+    },
+    {
+      "ModId": "vtmleditor",
+      "Version": "1.1.3",
+      "Hash": "c5a6f022c6d6585c7a8f96fc1ad29f9118bc3700cad8e9be9a790d9d152d51c0"
+    },
+    {
+      "ModId": "xvshaders",
+      "Version": "0.1.1",
+      "Hash": "6c648114bc3f60ef936e0badec3c80b8441cfd5b8ddb2b62fbf786f6481943ea"
+    },
+    {
+      "ModId": "vintagesymphonyassets",
+      "Version": "1.1.0",
+      "Hash": "a26ef33db3b8557c803866fa4feac3deff54d51d3e573d91dcc693dbc4750ed2"
+    },
+    {
+      "ModId": "ancestralblissshaders",
+      "Version": "1.1.0",
+      "Hash": "26d7fe9126296a453125234cdfea4696f08b1fa8805b80d4cfa963ccef1d66c2"
+    },
+    {
+      "ModId": "optitime",
+      "Version": "1.3.9",
+      "Hash": "109ac1c66ecb5976d9404045e974ed5cf4bf40a877a04b608f8f94f5dbe83bf6"
+    }
+  ],
+  "Log": true,
+  "LogPatches": false,
+  "LogMods": false,
+  "Kick": true,
+  "Timeout": 15,
+  "TimeoutKick": 15,
+  "DisableMismatchCheck": false
+}

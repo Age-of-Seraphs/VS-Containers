@@ -1,0 +1,35 @@
+﻿[
+  {
+    "op": "addmerge",
+    "path": "/transitionableProps",
+    "value": [
+      {
+        "type": "Cure",
+        "freshHours": { "avg": 6720 },
+        "transitionHours": { "avg": 2016 },
+        "transitionedStack": { "type": "item", "code": "expandedfoods:strongspiritportion-{fruit}" },
+        "transitionRatio": 1
+      }
+    ],
+    "side": "server",
+    "file": "itemtypes/liquid/spirit.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "value": {
+        "saturation": 15,
+        "foodcategoryByType": {
+            "*-spelt": "grain", 
+            "*-rice": "grain",             
+            "*-rye": "grain", 
+            "*-amaranth": "grain", 
+            "*-cassava": "grain", 
+            "*-breadfruit": "grain", 
+            "*": "fruit"
+        }
+    },
+    "side": "server",
+    "file": "itemtypes/liquid/spirit.json"
+  }
+]

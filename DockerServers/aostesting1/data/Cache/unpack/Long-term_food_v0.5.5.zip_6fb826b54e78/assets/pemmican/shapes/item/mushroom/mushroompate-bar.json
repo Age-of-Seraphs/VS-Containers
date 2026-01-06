@@ -1,0 +1,56 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"item-paper-blank": "game:item/lore/map-blank"
+	},
+	"elements": [
+		{
+			"name": "ingot",
+			"from": [ 6.5, 0.0, 4.5 ],
+			"to": [ 9.5, 2.0, 11.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#item-paper-blank", "uv": [ 3.0, 4.5, 9.5, 10.0 ], "autoUv": false },
+				"east": { "texture": "#item-paper-blank", "uv": [ 3.0, 5.5, 13.0, 12.5 ], "autoUv": false },
+				"south": { "texture": "#item-paper-blank", "uv": [ 1.5, 5.5, 12.5, 11.0 ], "autoUv": false },
+				"west": { "texture": "#item-paper-blank", "uv": [ 2.0, 3.5, 11.5, 9.0 ], "autoUv": false },
+				"up": { "texture": "#item-paper-blank", "uv": [ 3.0, 3.5, 8.0, 12.5 ], "autoUv": false },
+				"down": { "texture": "#item-paper-blank", "uv": [ 3.0, 4.0, 9.5, 12.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "ingot2",
+			"from": [ 6.4, 0.2, 4.7 ],
+			"to": [ 9.6, 1.8, 11.3 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#item-paper-blank", "uv": [ 0.5, 7.5, 10.5, 12.5 ], "autoUv": false },
+				"east": { "texture": "#item-paper-blank", "uv": [ 3.5, 5.0, 12.5, 9.5 ], "autoUv": false },
+				"south": { "texture": "#item-paper-blank", "uv": [ 2.5, 5.0, 11.5, 12.0 ], "autoUv": false },
+				"west": { "texture": "#item-paper-blank", "uv": [ 1.5, 3.5, 13.5, 7.5 ], "autoUv": false },
+				"up": { "texture": "#item-paper-blank", "uv": [ 0.0, 0.0, 9.5, 15.5 ], "autoUv": false },
+				"down": { "texture": "#item-paper-blank", "uv": [ 0.0, 0.5, 10.0, 15.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "ingot3",
+			"from": [ 6.7, 0.2, 4.4 ],
+			"to": [ 9.4, 1.8, 11.6 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#item-paper-blank", "uv": [ 2.5, 5.0, 10.0, 8.5 ], "autoUv": false },
+				"east": { "texture": "#item-paper-blank", "uv": [ 0.0, 7.0, 11.0, 14.5 ], "autoUv": false },
+				"south": { "texture": "#item-paper-blank", "uv": [ 3.0, 4.0, 11.5, 8.0 ], "autoUv": false },
+				"west": { "texture": "#item-paper-blank", "uv": [ 0.0, 5.0, 11.5, 14.0 ], "autoUv": false },
+				"up": { "texture": "#item-paper-blank", "uv": [ 1.0, 5.0, 10.0, 15.5 ], "autoUv": false },
+				"down": { "texture": "#item-paper-blank", "uv": [ 0.5, 4.5, 11.5, 16.0 ], "autoUv": false }
+			}
+		}
+	]}

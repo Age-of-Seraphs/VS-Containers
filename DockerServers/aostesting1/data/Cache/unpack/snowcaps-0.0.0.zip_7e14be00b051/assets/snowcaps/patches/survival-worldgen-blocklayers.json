@@ -1,0 +1,23 @@
+[
+  {
+    "op": "replace",
+    "path": "/blocklayers/11/blockCode",
+    "value": "snowblock",
+    "file": "game:worldgen/blocklayers.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/blocklayers/11/id",
+    "value": "l4snow",
+    "file": "game:worldgen/blocklayers.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/blocklayers/11/name",
+    "value": "L4 Snow",
+    "file": "game:worldgen/blocklayers.json",
+    "side": "Server"
+  }
+]

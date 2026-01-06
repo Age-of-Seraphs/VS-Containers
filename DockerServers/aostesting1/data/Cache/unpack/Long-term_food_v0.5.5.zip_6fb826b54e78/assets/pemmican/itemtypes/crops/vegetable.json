@@ -1,0 +1,391 @@
+{
+	"code": "vegetable",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "corn", "potato", "sugarbeet" ]
+		},
+		{
+			"code": "cook",
+			"states": [ "raw", "charred"]
+		}
+	],
+			"skipVariants": [
+				"vegetable-sugarbeet-charred",
+			],
+	"attributesByType": {
+		"*-corn-raw": {
+			"foodTags": ["vegetable"],
+			"displaycaseable": true,
+			"shelvable": true,
+			"inContainerTexture": { "base": "pemmican:block/food/pie/fill-corn" },
+			"nutritionPropsWhenInMeal": {
+				"satiety": 350,
+				"foodcategory": "Grain"
+			},
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 0.95,
+				"endScaleY": 1.0,
+				"resultCode": "pemmican:cookedvegetable-corn-partbaked",
+				"initialCode": "pemmican:vegetable-corn-raw"
+			},
+			"inPieProperties": { "texture": "pemmican:block/food/pie/fill-corn", "partType": "Filling" }
+		},
+		"*-potato-raw": {
+			"foodTags": ["vegetable"],
+			"displaycaseable": true,
+			"shelvable": true,
+			"inContainerTexture": { "base": "pemmican:block/barrel/raw-potato" },
+			"nutritionPropsWhenInMeal": {
+				"satiety": 210,
+				"foodcategory": "Vegetable"
+			},
+			"bakingProperties": {
+				"temp": 100,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 0.95,
+				"endScaleY": 1.0,
+				"resultCode": "pemmican:cookedvegetable-potato-partbaked",
+				"initialCode": "pemmican:vegetable-potato-raw"
+			},
+			"inPieProperties": { "texture": "pemmican:block/food/pie/fill-potato", "partType": "Filling" }
+			},
+		"*-sugarbeet-raw": {
+			"displaycaseable": true,
+			"shelvable": true,
+			"nutritionPropsWhenInMeal": {
+				"satiety": 90,
+				"foodcategory": "Vegetable"
+			},
+			"inContainerTexture": { "base": "pemmican:block/barrel/fill-sugarbeet" },
+			"onDisplayTransform": {
+				"translation": {
+					"x": 0.1,
+					"y": -0.4,
+					"z": 0.1
+				},
+				"rotation": {
+					"x": 2,
+					"y": -47,
+					"z": -91
+				}
+			},
+		},
+		"vegetable-potato-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			"displaycaseable": true,
+			"shelvable": true,
+			"hydration": -50,
+			"nutritionPropsWhenInMeal": {
+				"satiety": 180,
+				"foodcategory": "Vegetable"
+			},
+			"onDisplayTransform": {
+				"scale": 1
+			}
+		},
+		"vegetable-corn-charred": {
+			"handbook": { "groupBy": [ "cookedvegetable-*" ] },
+			"displaycaseable": true,
+			"shelvable": true,
+			"hydration": -50,
+			"nutritionPropsWhenInMeal": {
+				"satiety": 300,
+				"foodcategory": "Vegetable"
+			},
+			"onDisplayTransform": {
+				"scale": 1
+			}
+		},
+		"handbook": {
+			"include":  true
+			}
+		},
+	"shape": {"base": "pemmican:item/crop/vegetable/{type}"
+	},
+	"texturesByType": {
+		"*-charred": {
+			"e5": { "base": "game:block/transparent" },
+			"e1": { "base": "game:block/transparent" },
+			"s1": { "base": "game:block/transparent" },
+			"s5": { "base": "game:block/transparent" },
+			"e3": { "base": "game:block/transparent" },
+			"skin": { "base": "pemmican:item/food/charred/{type}" }
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ], 
+		"Long-term food": ["*"]
+	},
+	"grindingPropsByType": {
+		"*-corn-raw": { "groundStack": { "type": "item", "code": "pemmican:choppedvegetable-corn" } },
+		"*-sugarbeet-raw": { "groundStack": { "type": "item", "code": "pemmican:sugargrind-sugarbeet" } },
+		"*-potato-raw": { "groundStack": { "type": "item", "code": "pemmican:sugargrind-potato" } }
+	},
+	"combustiblePropsByType": {
+		"vegetable-corn-raw": {
+			"meltingPoint": 150,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": {
+				"type": "item",
+				"code": "pemmican:vegetable-corn-charred"
+			},
+			"requiresContainer": false
+		},
+		"vegetable-potato-raw": {
+			"meltingPoint": 150,
+			"meltingDuration": 20,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": {
+				"type": "item",
+				"code": "pemmican:vegetable-potato-charred"
+			},
+			"requiresContainer": false
+		}
+	},
+	"nutritionPropsByType": {
+		"*-corn-raw": {
+			"satiety": 180,
+			"foodcategory": "Grain"
+		},
+		"*-potato-raw": {
+			"satiety": 110,
+			"foodcategory": "Vegetable"
+		},
+		"*-sugarbeet-raw": {
+			"satiety": 60,
+			"foodcategory": "Vegetable"
+		},
+		"*-corn-charred": {
+			"satiety": 300,
+			"foodcategory": "Grain"
+		},
+		"*-potato-charred": {
+			"satiety": 180,
+			"foodcategory": "Vegetable"
+		}
+	},
+	"transitionablePropsByType": {
+		"*-sugarbeet-raw": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 1800 },
+				"transitionHours": { "avg": 96 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
+				},
+				"transitionRatio": 0.5
+			}
+		],
+		"*-raw": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 2160 },
+				"transitionHours": { "avg": 96 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
+				},
+				"transitionRatio": 0.5
+			}
+		],
+		"*-charred": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 378 },
+				"transitionHours": { "avg": 80 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
+				},
+				"transitionRatio": 0.5
+			}
+		]
+	},
+	"guiTransformByType": {
+		"*-corn-*": {
+			"rotation": {
+				"x": -37,
+				"y": 143,
+				"z": 131
+			},
+			"origin": {
+				"x": 0.45,
+				"y": 0,
+				"z": 0.53
+			},
+			"scale": 4.13
+		},
+		"*-sugarbeet-*": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 180,
+				"y": 0,
+				"z": 32
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.3,
+				"z": 0.6
+			},
+			"scale": 3.57
+		},
+		"*-potato-*": {
+			"rotation": {
+				"x": -37,
+				"y": 135,
+				"z": -155
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 5.35
+		},
+	},
+	"fpHandTransformByType": {
+		"*-corn-*": {
+			"rotation": {
+				"x": 40,
+				"y": -71,
+				"z": -8
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.15,
+				"z": 0.4
+			},
+			"scale": 3.03
+		},
+		"*-sugarbeet-*": {
+			"rotation": {
+				"x": 180,
+				"y": 90,
+				"z": -145
+			},
+			"scale": 3.83
+		},
+		"*-potato-*": {
+			"rotation": {
+				"x": 45,
+				"y": 47,
+				"z": -30
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.3,
+				"z": 0.5
+			},
+			"scale": 1.9
+		}
+
+	},
+	"tpHandTransformByType": {
+		"*-corn-*": {
+			"translation": {
+				"x": -0.5,
+				"y": -0.1,
+				"z": -0.4
+			},
+			"rotation": {
+				"x": -10,
+				"y": -178,
+				"z": 13
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 1.2
+		},
+		"*-potato-*": {
+			"translation": {
+				"x": -0.7,
+				"y": -0.25,
+				"z": -0.46
+			},
+			"rotation": {
+				"x": 51,
+				"y": 1,
+				"z": -48
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 0.8
+		},
+		"*-sugarbeet-*": {
+			"translation": {
+				"x": -0.6,
+				"y": -0.18,
+				"z": -0.5
+			},
+			"rotation": {
+				"x": -11,
+				"y": -17,
+				"z": -72
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 0.8
+		}
+	},
+	"groundTransformByType": {
+		"*-corn-*": {
+			"origin": {
+				"x": 0.47,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 5
+		},
+		"*-sugarbeet-*": {
+			"translation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 90,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.5,
+				"z": 0.5299
+			},
+			"scale": 4.42
+		},
+		"*-potato-*": {
+			"origin": {
+				"x": 0.47,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 4.3
+		}
+	},
+	"materialDensity": 600
+}

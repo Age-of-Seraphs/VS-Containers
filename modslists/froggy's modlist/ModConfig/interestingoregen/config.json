@@ -1,0 +1,6 @@
+{
+  "ConfigVersion": 1.2,
+  "GlobalOreDisableChance": 0.75,
+  "depositIndicatorBoulder": false,
+  "depositIndicatorProspectVeins": true
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "file": "game:blocktypes/clay/chimneycourse.json",
+    "op": "remove",
+    "path": "/behaviors/0"
+  }
+]

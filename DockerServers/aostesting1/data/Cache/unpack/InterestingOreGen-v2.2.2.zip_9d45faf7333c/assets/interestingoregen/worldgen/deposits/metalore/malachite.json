@@ -1,0 +1,103 @@
+[
+  {
+    "code": "malachite",
+    "triesPerChunk": 0.005,
+    "withOreMap": false,
+    "handbookPageCode": "item-nugget-malachite",
+    "generator": "iog-gen",
+    "attributes": {
+      "inblock": {
+        "veintype": "hydrotubewithdepo",
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "limestone" ]
+      },
+      "placeblock": {
+        "code": "ore-*-malachite-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-limestone": [ "poor", "medium", "rich", "bountiful" ]
+        }
+      },
+      "subdeposit": {
+        "code": "ore-lapislazuli-{rock}"
+      },
+      "radius": {
+        "dist": "uniform",
+        "avg": 12,
+        "var": 6
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.45,
+        "var": 0.4
+      },
+      "thickness": {
+        "dist": "uniform",
+        "avg": 10,
+        "var": 5
+      },
+      "branchCount": {
+        "dist": "uniform",
+        "avg": 12,
+        "var": 6
+      },
+      "branchLength": {
+        "dist": "uniform",
+        "avg": 256,
+        "var": 64
+      },
+      "OreSpongePercent": 0.3
+    }
+  },
+  {
+    "code": "malachite",
+    "triesPerChunk": 0.35,
+    "withOreMap": false,
+    "handbookPageCode": "item-nugget-malachite",
+    "generator": "iog-gen",
+    "attributes": {
+      "inblock": {
+        "veintype": "hydrotube",
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "redmarble", "greenmarble", "whitemarble" ]
+      },
+      "placeblock": {
+        "code": "ore-*-malachite-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-redmarble": [ "poor", "medium", "rich" ],
+          "rock-greenmarble": [ "poor", "medium", "rich" ],
+          "rock-whitemarble": [ "poor", "medium", "rich" ]
+        }
+      },
+      "radius": {
+        "dist": "uniform",
+        "avg": 12,
+        "var": 6
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.45,
+        "var": 0.4
+      },
+      "thickness": {
+        "dist": "uniform",
+        "avg": 10,
+        "var": 5
+      },
+      "branchCount": {
+        "dist": "uniform",
+        "avg": 2,
+        "var": 1
+      },
+      "branchLength": {
+        "dist": "uniform",
+        "avg": 192,
+        "var": 64
+      },
+      "OreSpongePercent": 0
+    }
+  }
+]

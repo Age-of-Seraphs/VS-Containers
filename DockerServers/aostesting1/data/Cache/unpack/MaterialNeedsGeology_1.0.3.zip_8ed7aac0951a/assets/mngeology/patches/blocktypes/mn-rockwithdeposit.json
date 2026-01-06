@@ -1,0 +1,132 @@
+[
+  {
+    "file": "game:worldproperties/block/rockwithdeposit.json",
+    "op": "addmerge",
+    "path": "/variants/-",
+    "value":
+      {
+	"Code": "komatiite",
+	"Weight": "85",
+	"SoilpH" : "8.2",
+	"WeatheringFactor": "0.7",
+	"RockGroup": "igneous_extrusive"
+      }
+  },
+  {
+    "file": "game:worldproperties/block/rockwithdeposit.json",
+    "op": "addmerge",
+    "path": "/variants/-",
+    "value":
+      {
+	"Code": "arenite",
+	"Weight": "85",
+	"SoilpH" : "7.5",
+	"WeatheringFactor": "1.2",
+	"RockGroup": "sedimentary"
+      }
+  },
+  {
+    "file": "game:worldproperties/block/rockwithdeposit.json",
+    "op": "addmerge",
+    "path": "/variants/-",
+    "value":
+      {
+	"Code": "arkose",
+	"Weight": "85",
+	"SoilpH" : "7.5",
+	"WeatheringFactor": "1.2",
+	"RockGroup": "sedimentary"
+      }
+  },
+  {
+    "file": "game:worldproperties/block/rockwithdeposit.json",
+    "op": "addmerge",
+    "path": "/variants/-",
+    "value":
+      {
+	"Code": "marl",
+	"Weight": "85",
+	"SoilpH" : "8.0",
+	"WeatheringFactor": "0.7",
+	"RockGroup": "sedimentary"
+      }
+  },
+  {
+    "file": "game:worldproperties/block/rockwithdeposit.json",
+    "op": "addmerge",
+    "path": "/variants/-",
+    "value":
+      {
+	"Code": "travertine",
+	"Weight": "85",
+	"SoilpH" : "8.0",
+	"WeatheringFactor": "0.7",
+	"RockGroup": "sedimentary"
+      }
+  },
+  {
+    "file": "game:worldproperties/block/rockwithdeposit.json",
+    "op": "addmerge",
+    "path": "/variants/-",
+    "value":
+      {
+	"Code": "wacke",
+	"Weight": "85",
+	"SoilpH" : "7.0",
+	"WeatheringFactor": "1",
+	"RockGroup": "sedimentary"
+      }
+  },
+  {
+    "file": "game:worldproperties/block/rockwithdeposit.json",
+    "op": "addmerge",
+    "path": "/variants/-",
+    "value":
+      {
+	"Code": "serpentinite",
+	"Weight": "15",
+	"SoilpH" : "6.5",
+	"WeatheringFactor": "0.7",
+	"RockGroup": "metamorphic"
+      }
+  },
+  {
+    "file": "game:worldproperties/block/rockwithdeposit.json",
+    "op": "addmerge",
+    "path": "/variants/-",
+    "value":
+      {
+	"Code": "monzonite",
+	"Weight": "30",
+	"SoilpH" : "7.5",
+	"WeatheringFactor": "0.7",
+	"RockGroup": "igneous_intrusive"
+      }
+  },
+  {
+    "file": "game:worldproperties/block/rockwithdeposit.json",
+    "op": "addmerge",
+    "path": "/variants/-",
+    "value":
+      {
+	"Code": "syenite",
+	"Weight": "60",
+	"SoilpH" : "7.5",
+	"WeatheringFactor": "0.7",
+	"RockGroup": "igneous_intrusive"
+      }
+  },
+  {
+    "file": "game:worldproperties/block/rockwithdeposit.json",
+    "op": "addmerge",
+    "path": "/variants/-",
+    "value":
+      {
+	"Code": "pyroxenite",
+	"Weight": "60",
+	"SoilpH" : "7.5",
+	"WeatheringFactor": "0.7",
+	"RockGroup": "igneous_intrusive"
+      }
+  },
+]

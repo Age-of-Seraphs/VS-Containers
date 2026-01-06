@@ -1,0 +1,21 @@
+[
+{
+	"code": "beer-mushroomale",
+	"sealHours": 336,
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 5, "consumeLitres": 5 },
+		{ "type": "item", "code": "pemmican:yeast-ale", "quantity": 1 },
+	],
+	"output": { "type": "item", "code": "pemmican:beer-ale", "litres": 1 }
+},
+{
+	"code": "beer-forest",
+	"sealHours": 336,
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 5, "consumeLitres": 5 },
+		{ "type": "item", "code": "pemmican:yeast-forest", "quantity": 1 },
+	],
+	"output": { "type": "item", "code": "pemmican:beer-forest", "litres": 1 }
+},
+
+]

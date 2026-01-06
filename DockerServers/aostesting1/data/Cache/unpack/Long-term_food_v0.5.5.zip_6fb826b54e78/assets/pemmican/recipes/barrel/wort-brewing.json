@@ -1,0 +1,56 @@
+[
+{
+	"code": "wort-cane",
+	"sealHours": 336,
+	"ingredients": [
+		{ "type": "item", "code": "pemmican:syrup-cane", "litres": 1, "consumeLitres": 1 },
+		{ "type": "item", "code": "game:fruit-*", "quantity": 1 },
+	],
+	"output": { "type": "item", "code": "pemmican:wort-cane", "litres": 1 }
+},
+{
+	"code": "wort-beet",
+	"sealHours": 336,
+	"ingredients": [
+		{ "type": "item", "code": "pemmican:syrup-beet", "litres": 1, "consumeLitres": 1 },
+		{ "type": "item", "code": "game:fruit-*", "quantity": 1 },
+	],
+	"output": { "type": "item", "code": "pemmican:wort-beet", "litres": 1 }
+},
+{
+	"code": "wort-sugar",
+	"sealHours": 336,
+	"ingredients": [
+		{ "type": "item", "code": "pemmican:syrup-sugar", "litres": 1, "consumeLitres": 1  },
+		{ "type": "item", "code": "game:fruit-*", "quantity": 1 },
+	],
+	"output": { "type": "item", "code": "pemmican:wort-sugar", "litres": 1 }
+},
+{
+	"code": "syrup-sugar",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 1, "consumeLitres": 1  },
+		{ "type": "item", "code": "pemmican:sugar", "quantity": 1 },
+	],
+	"output": { "type": "item", "code": "pemmican:syrup-sugar", "litres": 1 }
+},
+{
+	"code": "wort-potato",
+	"sealHours": 336,
+	"ingredients": [
+		{ "type": "item", "code": "pemmican:sugarjuice-potato", "litres": 1, "consumeLitres": 1  },
+		{ "type": "item", "code": "game:fruit-*", "quantity": 1 },
+	],
+	"output": { "type": "item", "code": "pemmican:wort-potato", "litres": 1 }
+},
+{
+	"code": "wort-corn",
+	"sealHours": 336,
+	"ingredients": [
+		{ "type": "item", "code": "pemmican:flour-corn", "litres": 1 },
+		{ "type": "item", "code": "game:waterportion", "litres": 1, "consumeLitres": 1 },
+	],
+	"output": { "type": "item", "code": "pemmican:wort-corn", "litres": 1 }
+},
+]

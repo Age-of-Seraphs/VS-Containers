@@ -1,0 +1,58 @@
+[{
+	"ingredientPattern": "_K_,BMB,BPB",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 1 },
+		"B": { "type": "item", "code": "game:fruit-*" },
+		"M": { "type": "block", "code": "game:woodbucket" },
+		"P": { "type": "item", "code": "game:paper-parchment" }
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": false,
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "honeyportion" },
+			"requiresLitres": 0.25
+		}
+	},
+	"output": { "type": "item", "code": "pemmican:caramel-raw", "quantity": 1 }
+},
+{
+	"ingredientPattern": "_K_,BMB,BPB",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 1 },
+		"B": { "type": "item", "code": "game:fruit-*" },
+		"M": { "type": "block", "code": "game:bowl-*-fired" },
+		"P": { "type": "item", "code": "game:paper-parchment" }
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": false,
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "honeyportion" },
+			"requiresLitres": 0.25
+		}
+	},
+	"output": { "type": "item", "code": "pemmican:caramel-raw", "quantity": 1 }
+},
+{
+	"ingredientPattern": "_K_,BMB,BPB",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-generic-*", "isTool": true, "toolDurabilityCost": 1 },
+		"B": { "type": "item", "code": "game:fruit-*" },
+		"M": { "type": "block", "code": "game:jug-*-fired" },
+		"P": { "type": "item", "code": "game:paper-parchment" }
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": false,
+	"attributes": {
+		"liquidContainerProps": {
+			"requiresContent": { "type": "item", "code": "honeyportion" },
+			"requiresLitres": 0.25
+		}
+	},
+	"output": { "type": "item", "code": "pemmican:caramel-raw", "quantity": 1 }
+},
+]

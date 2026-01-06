@@ -1,0 +1,110 @@
+[{
+  "code": "salt",
+  "perishableProps": {
+    "type": "None",
+    "freshHours": { "avg": 36 },
+    "transitionHours": { "avg": 36 },
+    "transitionRatio": 1,
+    "transitionedStack": { "type": "item", "code": "saltwaterportion" }
+  },
+  "shape": { "base": "block/food/meal/liquid" },
+  "isfood": true,
+  "ingredients": [
+    {
+      "code": "water",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "saltwaterportion",
+          "shapeElement": "bowl/water"
+        }
+      ],
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "portionSizeLitres": 1
+    }
+  ],
+  "cooksInto": { "type": "Item", "code": "salt", "quantity": 1 }
+},
+{
+  "code": "salt",
+  "perishableProps": {
+    "type": "None",
+    "freshHours": { "avg": 36 },
+    "transitionHours": { "avg": 36 },
+    "transitionRatio": 1,
+    "transitionedStack": { "type": "item", "code": "saltwaterportion" }
+  },
+  "shape": { "base": "block/food/meal/liquid" },
+  "ingredients": [
+    {
+      "code": "water",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "saltwaterportion",
+          "shapeElement": "bowl/water"
+        }
+      ],
+      "minQuantity": 2,
+      "maxQuantity": 2,
+      "portionSizeLitres": 1
+    }
+  ],
+  "cooksInto": { "type": "Item", "code": "salt", "quantity": 2 }
+},
+{
+  "code": "salt",
+  "perishableProps": {
+    "type": "None",
+    "freshHours": { "avg": 36 },
+    "transitionHours": { "avg": 36 },
+    "transitionRatio": 1,
+    "transitionedStack": { "type": "item", "code": "saltwaterportion" }
+  },
+  "shape": { "base": "block/food/meal/liquid" },
+  "ingredients": [
+    {
+      "code": "water",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "saltwaterportion",
+          "shapeElement": "bowl/water"
+        }
+      ],
+      "minQuantity": 3,
+      "maxQuantity": 3,
+      "portionSizeLitres": 1
+    }
+  ],
+  "cooksInto": { "type": "Item", "code": "salt", "quantity": 3 }
+},
+{
+  "code": "salt",
+  "perishableProps": {
+    "type": "None",
+    "freshHours": { "avg": 36 },
+    "transitionHours": { "avg": 36 },
+    "transitionRatio": 1,
+    "transitionedStack": { "type": "item", "code": "saltwaterportion" }
+  },
+  "shape": { "base": "block/food/meal/liquid" },
+  "ingredients": [
+    {
+      "code": "water",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "saltwaterportion",
+          "shapeElement": "bowl/water"
+        }
+      ],
+      "minQuantity": 4,
+      "maxQuantity": 4,
+      "portionSizeLitres": 1
+    }
+  ],
+  "cooksInto": { "type": "Item", "code": "salt", "quantity": 4 }
+},
+]

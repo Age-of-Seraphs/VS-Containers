@@ -1,0 +1,76 @@
+{
+	"code": "redmeat",
+	"maxstacksize": 64,
+	"attributes": {
+		"foodTags": ["meat"],
+		"hydration": -80,
+		"inContainerTextureByType": {
+			"*-vintageraw": { "base": "block/wood/barrel/{type}-redmeat" }
+		},
+		"inFirePitProps": {
+			"transform": {
+				"scale": 0.9,
+				"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+				"translation": { "x": 0.03125, "y": 0.3125, "z": 0 },
+				"rotation": { "x": 0, "y": 53, "z": 90 }
+			},
+			"useFirepitModel": "Spit"
+		},
+		"nutritionPropsWhenInMeal": { "satiety": 420, "foodcategory": "Protein" },
+		"displaycaseable": false,
+		"shelvable": true
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["vintageraw"] }
+	],
+	"shapebytype": { 
+		"redmeat-vintageraw": { "base": "pemmican:item/meat/vintageraw" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "Long-term food": ["*"] },
+	"nutritionPropsByType": {
+		"redmeat-vintageraw": { "satiety": 240, "health": 0, "foodcategory": "Protein" }
+	},
+	"transitionablePropsByType": {
+		"*-vintageraw": [{
+			"type": "Dry",
+			"freshHours": { "avg": 720 },
+			"spoilHours": { "avg": 0 },
+			"transitionedStack": { "type": "item", "code": "game:redmeat-vintage" },
+			"transitionRatio": 1
+		}]
+	},
+	"materialDensity": 600,
+	"guiTransformByType": {
+		"*-vintageraw": {
+			"rotate": false,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -58, "y": 35, "z": -180 },
+			"origin": { "x": 0.49, "y": 0.04, "z": 0.44 },
+			"scale": 2.73
+		}
+	},
+	"tpHandTransformByType": {
+		"*-vintageraw": {
+			"translation": { "x": 0, "y": -0.13, "z": -0.42 },
+			"rotation": { "x": 91, "y": 11, "z": 9 },
+			"origin": { "x": 0.15, "y": -0.13, "z": 0.1 },
+			"scale": 0.61
+		}
+	},
+	"groundTransformByType": {
+		"*-vintageraw": {
+			"translation": { "x": 0, "y": 0.1, "z": 0 },
+			"rotation": { "x": -90, "y": 77, "z": -180 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 2.74
+		}
+	},
+	"fpHandTransformByType": {
+		"*-vintageraw": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -10, "y": 99, "z": 52 },
+			"origin": { "x": 0.6, "y": 0, "z": 0.2 },
+			"scale": 1.17
+		}
+	}
+}

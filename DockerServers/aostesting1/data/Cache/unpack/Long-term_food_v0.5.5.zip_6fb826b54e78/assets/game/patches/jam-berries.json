@@ -1,0 +1,16 @@
+[
+	{
+		"side": "Server",
+		"file": "game:recipes/cooking/jam.json",
+		"op": "replace",
+		"path": "/ingredients/1/maxQuantity",
+		"value": 4
+	},
+	{
+		"side": "Server",
+		"file": "game:recipes/cooking/jam.json",
+		"op": "replace",
+		"path": "/ingredients/0/minQuantity",
+		"value": 0
+	}
+]

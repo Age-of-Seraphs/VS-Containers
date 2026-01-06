@@ -1,0 +1,5 @@
+{
+  "LanternPostPlacementWhitelist": [
+    "game:lantern-up"
+  ]
+}

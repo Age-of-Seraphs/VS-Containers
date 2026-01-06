@@ -1,0 +1,21 @@
+{
+  "PerHitDamageComment": "When true tools will deal per swing damage to blocks. when false block breaking works like vanilla. This is the mod core mechanic.",
+  "PerHitDamage": true,
+  "BlockRegenerationComment": "When true broken blocks slowly repair themselves according to the interval below. When false, vanilla logic runs.",
+  "BlockRegeneration": true,
+  "BlockRegenerationIntervalComment": "How many seconds to wait before repairing broken blocks (only applies if regeneration is enabled).",
+  "BlockRegenerationInterval": 5,
+  "NoVanillaParticlesComment": "When true vanilla particles wont trigger when you mine with the tools this mod change.",
+  "NoVanillaParticles": true,
+  "EnablePickaxeComment": "If true, the per hit patch applies to pickaxes.",
+  "EnablePickaxe": true,
+  "EnableAxeComment": "If true, the per hit patch applies to axes.",
+  "EnableAxe": true,
+  "EnableShovelComment": "If true, the per hit patch applies to shovels.",
+  "EnableShovel": true,
+  "EnableKnifeComment": "If true, the per hit patch applies to knives.",
+  "EnableKnife": true,
+  "Vigor": "This will apply if you have Vigor loaded.",
+  "ExhaustedOnlyBlockerComment": "When true, tool usage is blocked only if player is exhausted. When false, it is also blocked if current stamina is below the tool configured cost.",
+  "ExhaustedOnlyBlocker": false
+}

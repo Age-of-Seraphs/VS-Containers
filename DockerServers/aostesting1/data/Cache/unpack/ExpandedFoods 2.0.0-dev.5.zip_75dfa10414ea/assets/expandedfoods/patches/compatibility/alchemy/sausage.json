@@ -1,0 +1,86 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/herbrackable",
+    "value": true,
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "alchemy" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/herbRackTransform",
+    "value": {
+      "translation": { "x": 0.01, "y": -0.15, "z": 0.03 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.75
+    },
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "alchemy" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/herbrackable",
+    "value": true,
+    "file": "expandedfoods:itemtypes/food/mixing/sausagefish.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "alchemy" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/herbRackTransform",
+    "value": {
+      "translation": { "x": 0.01, "y": -0.15, "z": 0.03 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.75
+    },
+    "file": "expandedfoods:itemtypes/food/mixing/sausagefish.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "alchemy" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/herbrackable",
+    "value": true,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sausagecrab.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "alchemy" }, { "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/herbRackTransform",
+    "value": {
+      "translation": { "x": 0.01, "y": -0.15, "z": 0.03 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.75
+    },
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sausagecrab.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "alchemy" }, { "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/herbrackable",
+    "value": true,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sausagesnake.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "alchemy" }, { "modid": "primitivesurvival" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/herbRackTransform",
+    "value": {
+      "translation": { "x": 0.01, "y": -0.15, "z": 0.03 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.75
+    },
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sausagesnake.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "alchemy" }, { "modid": "primitivesurvival" }]
+  }
+]

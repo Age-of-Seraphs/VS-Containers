@@ -1,0 +1,26 @@
+{
+  "KnifeDamageMultiplierComment": "Base damage-multiplier per knife hit (still gated by vanilla tool-tier).",
+  "KnifeDamageMultiplier": 3,
+  "ShakeAmountComment": "Camera shake intensity for every knife impact.",
+  "ShakeAmount": 0.05,
+  "ShakeFramesComment": "List of impact frames (animation ticks) that count as hits.",
+  "ShakeFrames": [
+    15,
+    25,
+    35
+  ],
+  "RequireBothHandsComment": "If true, knife can only be used with an empty off-hand.",
+  "RequireBothHands": false,
+  "WeakeningDistanceComment": "Distance weakening divisor at 5 m. 1 disables the mechanic.",
+  "WeakeningDistance": 4,
+  "DurabilityPerHitComment": "Durability lost per knife impact (0 = off).",
+  "DurabilityPerHit": 1,
+  "DarkWeakeningPercentComment": "Strength lost in complete darkness (0-1).",
+  "DarkWeakeningPercent": 0.5,
+  "MovingWeakeningPercentComment": "Strength lost while moving (0-1).",
+  "MovingWeakeningPercent": 0.3,
+  "EdgeWeakeningPercentComment": "Strength lost when hitting block edges (0-1).",
+  "EdgeWeakeningPercent": 0.3,
+  "StaminaPerHitComment": "Stamina consumed per swing when using the tool. 0 disables.",
+  "StaminaPerHit": 15
+}

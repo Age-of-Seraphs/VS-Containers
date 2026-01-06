@@ -1,0 +1,130 @@
+{
+	"code": "algae-grind",
+  "maxstacksize": 64,
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": ["brown", "green", "red", "salt"]
+    }
+  ],
+"attributesByType": {
+  "*-brown": {
+    "foodTags": ["vegetable"],
+	"displaycaseable": true,
+    "shelvable": true,
+    "onshelfTransform": {
+      "rotation": { "x": 0, "y": 90, "z": 0 },
+      "origin": { "x": 0.51, "y": 0.5, "z": 0.5 }
+    },
+    "inContainerTexture": { "base": "pemmican:item/food/mash-barrel" }
+  },
+
+  "*-green": {
+    "foodTags": ["vegetable"],
+    "hydration": 12,
+	"displaycaseable": true,
+    "shelvable": true,
+    "onshelfTransform": {
+      "rotation": { "x": 0, "y": 90, "z": 0 },
+      "origin": { "x": 0.51, "y": 0.5, "z": 0.5 }
+    },
+	"nutritionPropsWhenInMeal": { "saturation": 80, "foodcategory": "Vegetable" },
+    "inContainerTexture": { "base": "pemmican:item/food/mash-barrel" }
+  },
+
+  "*-red": {
+    "foodTags": ["vegetable"],
+	"displaycaseable": true,
+    "shelvable": true,
+    "onshelfTransform": {
+      "rotation": { "x": 0, "y": 90, "z": 0 },
+      "origin": { "x": 0.51, "y": 0.5, "z": 0.5 }
+    }
+  },
+
+  "*-salt": {
+    "foodTags": ["vegetable"],
+    "hydration": 10,
+	"displaycaseable": true,
+    "shelvable": true,
+    "onshelfTransform": {
+      "rotation": { "x": 0, "y": 90, "z": 0 },
+      "origin": { "x": 0.51, "y": 0.5, "z": 0.5 }
+    },
+	"nutritionPropsWhenInMeal": { "saturation": 100, "foodcategory": "Vegetable" },
+    "inContainerTexture": { "base": "pemmican:item/food/mash-barrel" }
+  }
+  },
+  "shapeByType": {
+    "*-brown": { "base": "pemmican:item/algae/algaemesh-brown" },
+    "*-green": { "base": "pemmican:item/algae/algaemesh" },
+	"*-salt": { "base": "pemmican:item/algae/algaemesh-salt" },
+    "*-red": { "base": "pemmican:item/algae/algaemesh-red" },
+  },
+  "creativeinventory": {
+    "general": ["*"],
+    "items": ["*"],
+    "Long-term food": ["*"]
+  },
+  "nutritionPropsByType": {
+    "*-green": { "saturation": 20, "foodcategory": "Vegetable",},
+	"*-salt": { "saturation": 40, "foodcategory": "Vegetable" }
+  },
+  "transitionablePropsByType": {
+    "*-brown": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 72 },
+        "transitionHours": { "avg": 48 },
+        "transitionedStack": { "type": "item", "code": "game:rot" },
+        "transitionRatio": 2
+      }
+    ],
+    "*-green": [
+     {
+        "type": "Perish",
+        "freshHours": { "avg": 72 },
+        "transitionHours": { "avg": 48 },
+        "transitionedStack": { "type": "item", "code": "game:rot" },
+        "transitionRatio": 2
+      }
+    ],
+    "*-red": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 72 },
+        "transitionHours": { "avg": 48 },
+        "transitionedStack": { "type": "item", "code": "game:rot" },
+        "transitionRatio": 2
+      }
+    ],
+    "*-salt": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 720 },
+        "transitionHours": { "avg": 48 },
+        "transitionedStack": { "type": "item", "code": "game:rot" },
+        "transitionRatio": 2
+      }
+    ],
+  },
+  "materialDensity": 600,
+  	"guiTransform": {
+		"translation": { "x": 1.5, "y": -4, "z": 0 },
+		"rotation": { "x": 137, "y": 131, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+		"scale": 2
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.2, "y": -0.14, "z": -1 },
+		"rotation": { "x": 1, "y": 7, "z": -103 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.5
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3
+	}
+}

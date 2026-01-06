@@ -1,0 +1,37 @@
+[
+{
+	"file": "game:itemtypes/food/legume.json",
+	"enabled": true,
+	"side": "Server",
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType",
+    "value": {
+		"*-soybean": {
+			"litresPerItem": 0.3125,
+			"liquidStack": { "type": "item", "code": "game:milkportion", "stacksize": 1 },
+			"pressedStack": { "type": "item", "code": "pemmican:pressedsoybeans", "stacksize": 1 }
+		}
+	}
+ },
+  {
+	"file": "game:itemtypes/food/cheese.json",
+    "op": "replace",
+    "path": "/nutritionPropsByType",
+    "value": {
+      "*-blue-1slice": { "saturation": 850, "health": 2, "foodcategory": "Dairy" },
+      "*-cheddar-1slice": { "saturation": 750, "health": 1, "foodcategory": "Dairy" },
+	}
+  },
+  {
+	"file": "game:itemtypes/food/cheese.json",
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "value": {
+      "satietyByType": {
+        "*-blue-1slice": 950,
+        "*-cheddar-1slice": 850,
+      },
+      "foodcategory": "Dairy"
+    }
+  }
+]

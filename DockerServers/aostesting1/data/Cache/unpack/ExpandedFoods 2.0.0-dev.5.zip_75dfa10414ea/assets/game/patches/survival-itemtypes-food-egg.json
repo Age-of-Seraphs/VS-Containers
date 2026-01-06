@@ -1,0 +1,105 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/1/states/-",
+    "value": "boiled",
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/1/states/-",
+    "value": "pickled",
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
+  },
+  {
+    "op": "remove",
+    "path": "/texture",
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
+  },
+  {
+    "op": "remove",
+    "path": "/transitionableProps",
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*-boiled": { "hay-egg": { "base": "expandedfoods:item/food/boiledegg" } },
+      "*-pickled": { "hay-egg": { "base": "expandedfoods:item/food/pickledegg" } },
+      "*": { "hay-egg": { "base": "block/wood/henbox/egg" } }
+    },
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/transitionablePropsByType",
+    "value": {
+      "*-pickled": [
+        {
+          "type": "Perish",
+          "freshHours": { "avg": 400 },
+          "transitionHours": { "avg": 72 },
+          "transitionedStack": { "type": "item", "code": "rot" },
+          "transitionRatio": 0.5
+        }
+      ],
+      "*": [
+        {
+          "type": "Perish",
+          "freshHours": { "avg": 120 },
+          "transitionHours": { "avg": 24 },
+          "transitionedStack": { "type": "item", "code": "rot" },
+          "transitionRatio": 0.5
+        }
+      ]
+    },
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "*-raw": { "texture": "game:block/food/pie/fill-egg", "partType": "Filling" },
+      "*-boiled": { "texture": "game:block/food/pie/fill-egg", "partType": "Filling" }
+    },
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "value": {
+      "*-pickled": { "saturation": 175, "foodcategory": "Protein" },
+      "*": { "saturation": 200, "foodcategory": "Protein" }
+    },
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/*-pickled",
+    "value": { "saturation": 140, "foodcategory": "Protein" },
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": { "groupBy": ["egg-*"] },
+    "side": "server",
+    "file": "game:itemtypes/food/egg.json"
+  }
+]

@@ -1,0 +1,19 @@
+[
+	{
+	"op": "remove",
+	"path": "/behaviors/1/propertiesByType/*",
+	"file": "game:blocktypes/stone/rock.json",
+	},
+	{
+	"op": "addmerge",
+	"path": "/behaviors/1/propertiesByType/@rock-(arenite|arkose|marl|travertine|wacke)",
+	"value": { collapsedBlock: "crackedrock-{rock}", collapseChance: 0.5, maxSupportDistance: 2, maxCollapseDistance: 1, impactDamageMul: 6 },
+	"file": "game:blocktypes/stone/rock.json",
+	},
+	{
+	"op": "addmerge",
+	"path": "/behaviors/1/propertiesByType/*",
+	"value": { collapsedBlock: "crackedrock-{rock}", collapseChance: 0.2, maxSupportDistance: 6, maxCollapseDistance: 3, impactDamageMul: 6 },
+	"file": "game:blocktypes/stone/rock.json",
+	},
+]

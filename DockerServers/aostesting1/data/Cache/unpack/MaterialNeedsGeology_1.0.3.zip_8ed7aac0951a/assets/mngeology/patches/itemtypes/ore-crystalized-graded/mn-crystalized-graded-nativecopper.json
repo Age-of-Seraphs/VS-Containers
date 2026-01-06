@@ -1,0 +1,31 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-nativecopper-arenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-nativecopper-arenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativecopper-arenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-nativecopper-arenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-nativecopper-arkose", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-nativecopper-arkose", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativecopper-arkose", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-nativecopper-serpentinite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-nativecopper-serpentinite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativecopper-serpentinite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-nativecopper-wacke", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-nativecopper-wacke", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativecopper-wacke", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-nativecopper-wacke", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-nativecopper-pyroxenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-nativecopper-pyroxenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativecopper-pyroxenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-nativecopper-monzonite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-nativecopper-monzonite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativecopper-monzonite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-nativecopper-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-nativecopper-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-nativecopper-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+]

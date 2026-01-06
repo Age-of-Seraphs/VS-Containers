@@ -1,0 +1,83 @@
+{
+	"code": "pressedmash",
+	"class": "ItemPressedMash",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type", "states": ["sugarcane", "sugarbeet", "corn", "potato"] }
+	],
+	"attributesByType": {
+		"*-sugarcane": {
+			"foodTags": ["fruitmash"],
+			"juiceableProperties": {
+				"liquidStack": { "type": "item", "code": "pemmican:sugarjuice-cane", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "pemmican:pressedmash-{type}", "stacksize": 1 }
+			}
+		},
+		"*-sugarbeet": {
+			"foodTags": ["fruitmash"],
+			"juiceableProperties": {
+				"liquidStack": { "type": "item", "code": "pemmican:sugarjuice-beet", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "pemmican:pressedmash-{type}", "stacksize": 1 }
+			}
+		},
+		"*-corn": {
+			"foodTags": ["fruitmash"],
+			"juiceableProperties": {
+				"liquidStack": { "type": "item", "code": "pemmican:foodoilportion-corn", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "pemmican:pressedmash-corn", "stacksize": 1 }
+			}
+		},
+		"*-potato": {
+			"foodTags": ["fruitmash"],
+			"juiceableProperties": {
+				"liquidStack": { "type": "item", "code": "pemmican:sugarjuice-potato", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "pemmican:pressedmash-{type}", "stacksize": 1 }
+			}
+		}
+	
+	},
+	"shape": { "base": "pemmican:item/pressedmash" },
+	"texturesByType": {
+		"*-sugarbeet": { "material": { "base": "pemmican:resource/pressed-sugarbeet" } },
+		"*-sugarcane": { "material": { "base": "pemmican:resource/pressed-sugarcane" } },
+		"*-corn": { "material": { "base": "pemmican:item/pressedmash" } },
+		"*-potato": { "material": { "base": "pemmican:resource/pressed-potato" } }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "Long-term food": ["*"] },
+	"transitionableProps": [{
+		"type": "Perish",
+		"freshHours": { "avg": 36 },
+		"transitionHours": { "avg": 12 },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 1
+	}],
+	"fpHandTransform": {
+		"rotation": { "x": 29, "y": 113, "z": -30 },
+		"origin": { "x": 0.5, "y": 0.25, "z": 0.5 },
+		"scale": 1.44
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -28, "y": -40, "z": 0 },
+		"origin": { "x": 0.49, "y": 0.04, "z": 0.53 },
+		"scale": 2.3
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.85, "y": -0.05, "z": -0.55 },
+		"rotation": { "x": -105, "y": -5, "z": 71 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 0.8
+	},
+	"heldRightReadyAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+    }
+}

@@ -1,0 +1,3 @@
+extra info is clientside and should not be here at all.
+
+useful shears skews the tree game away from lumberjacks, but we don't have a replacement rn.

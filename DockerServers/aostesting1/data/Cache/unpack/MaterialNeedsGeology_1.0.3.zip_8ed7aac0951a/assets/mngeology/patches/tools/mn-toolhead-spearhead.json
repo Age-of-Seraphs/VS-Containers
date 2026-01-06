@@ -1,0 +1,125 @@
+[
+	{
+	"op": "addmerge",
+	"path": "/variantgroups/0/states/-",
+	"value": "komatiite",
+	"file": "game:itemtypes/toolhead/spearhead.json"
+	},
+	{
+	"op": "addmerge",
+	"path": "/variantgroups/0/states/-",
+	"value": "pyroxenite",
+	"file": "game:itemtypes/toolhead/spearhead.json"
+	},
+	{
+	"op": "addmerge",
+	"path": "/variantgroups/0/states/-",
+	"value": "serpentinite",
+	"file": "game:itemtypes/toolhead/spearhead.json"
+	},
+	{
+	"op": "addmerge",
+	"path": "/variantgroups/0/states/-",
+	"value": "monzonite",
+	"file": "game:itemtypes/toolhead/spearhead.json"
+	},
+	{
+	"op": "addmerge",
+	"path": "/variantgroups/0/states/-",
+	"value": "syenite",
+	"file": "game:itemtypes/toolhead/spearhead.json"
+	},
+
+
+	{
+	"op": "addmerge",
+	"path": "/shapeByType",
+	"value": { 
+		"spearhead-komatiite": { base: "item/tool/spear/stone" },
+		"spearhead-pyroxenite": { base: "item/tool/spear/stone" },
+		"spearhead-serpentinite": { base: "item/tool/spear/stone" },
+		"spearhead-monzonite": { base: "item/tool/spear/stone" },
+		"spearhead-syenite": { base: "item/tool/spear/stone" },
+		 },
+	"file": "game:itemtypes/toolhead/spearhead.json"
+	},
+
+
+  {
+    "op": "remove",
+    "path": "/texturesByType/*",
+    "file": "game:itemtypes/toolhead/spearhead.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+	"spearhead-komatiite": {
+		"material": { base: "block/stone/rock/{material}1" },
+		"string": { base: "block/transparent" },
+		"handle": { base: "block/transparent" },
+      }
+    },
+    "file": "game:itemtypes/toolhead/spearhead.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+	"spearhead-pyroxenite": {
+		"material": { base: "block/stone/rock/{material}1" },
+		"string": { base: "block/transparent" },
+		"handle": { base: "block/transparent" },
+      }
+    },
+    "file": "game:itemtypes/toolhead/spearhead.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+	"spearhead-serpentinite": {
+		"material": { base: "block/stone/rock/{material}1" },
+		"string": { base: "block/transparent" },
+		"handle": { base: "block/transparent" },
+      }
+    },
+    "file": "game:itemtypes/toolhead/spearhead.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+	"spearhead-monzonite": {
+		"material": { base: "block/stone/rock/{material}1" },
+		"string": { base: "block/transparent" },
+		"handle": { base: "block/transparent" },
+      }
+    },
+    "file": "game:itemtypes/toolhead/spearhead.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+	"spearhead-syenite": {
+		"material": { base: "block/stone/rock/{material}1" },
+		"string": { base: "block/transparent" },
+		"handle": { base: "block/transparent" },
+      }
+    },
+    "file": "game:itemtypes/toolhead/spearhead.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*": {
+		"material": { base: "block/metal/ingot/{material}" },
+		"string": { base: "block/transparent" },
+		"handle": { base: "block/transparent" },
+      }
+    },
+    "file": "game:itemtypes/toolhead/spearhead.json"
+  },
+]

@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"vintage": "game:item/food/meat/vintage"
+	},
+	"elements": [
+		{
+			"name": "ingot",
+			"from": [ 6.5, 0.0, 4.5 ],
+			"to": [ 9.5, 2.0, 11.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#vintage", "uv": [ 0.0, 0.0, 9.0, 8.0 ], "autoUv": false },
+				"east": { "texture": "#vintage", "uv": [ 0.0, 0.0, 16.0, 7.0 ], "autoUv": false },
+				"south": { "texture": "#vintage", "uv": [ 0.0, 0.0, 9.0, 8.0 ], "autoUv": false },
+				"west": { "texture": "#vintage", "uv": [ 0.0, 0.0, 16.0, 6.0 ], "autoUv": false },
+				"up": { "texture": "#vintage", "uv": [ 0.0, 0.0, 8.0, 15.0 ], "autoUv": false },
+				"down": { "texture": "#vintage", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "autoUv": false }
+			}
+		}
+	]}

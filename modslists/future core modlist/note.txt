@@ -1,0 +1,3 @@
+later on ModConfig and Mods will be used for the full modlist once we've got all the catagries finished up.
+
+I'll have some more world config files for anything related to the future server config like world size, landform size, cave ins, lightning, and other behaviors controled by world config that are also related to the modpack.

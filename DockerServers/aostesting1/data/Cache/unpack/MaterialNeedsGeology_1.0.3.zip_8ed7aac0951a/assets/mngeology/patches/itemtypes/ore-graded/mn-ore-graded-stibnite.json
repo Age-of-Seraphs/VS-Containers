@@ -1,0 +1,5 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-stibnite-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-stibnite-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-stibnite-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
+]

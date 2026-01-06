@@ -1,0 +1,149 @@
+{
+	"code": "gozinaki",
+  	"class": "ExpandedFood",
+	"maxstacksize": 32,
+	"variantgroups": [
+		{"code": "state", "states": ["mashed", "cooked", "syrup"]}
+	],
+	"attributes": {
+		"displaycaseable": true,
+		"shelvable": true,
+		"handbook": { "groupBy": [ "gozinaki-*" ] },
+		"expandedNutritionProps": {
+			"game:salt": { "saturation": 10, "health": 0.5, "foodcategory": "Fruit"},
+      		"game:honeyportion" : { "saturation": 4, "foodcategory": "Fruit" },
+      		"expandedfoods:fruitsyrupportion-saguaro" : { "saturation": 12, "health": 0.2, "foodcategory": "Fruit" }, 
+      		"expandedfoods:fruitsyrupportion-*" : { "saturation": 12, "health": 0.1, "foodcategory": "Fruit" },
+      		"expandedfoods:treesyrupportion-*" : { "saturation": 9.6, "health": 0.1, "foodcategory": "Fruit" }
+		},
+    	"renderIngredientsByType": {
+			"*-cooked": {
+      			"game:legume-peanut" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"expandedfoods:acornportion" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"expandedfoods:peanut-cooked" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"expandedfoods:peanut-kernels" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"game:grain-sunflower" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json"
+			},
+			"*-mashed": {
+      			"game:legume-peanut" : "expandedfoods:shapes/item/food/gozinaki/gozinakimashed.json",
+      			"expandedfoods:acornportion" : "expandedfoods:shapes/item/food/gozinaki/gozinakimashed.json",
+      			"expandedfoods:peanut-cooked" : "expandedfoods:shapes/item/food/gozinaki/gozinakimashed.json",
+      			"expandedfoods:peanut-kernels" : "expandedfoods:shapes/item/food/gozinaki/gozinakimashed.json",
+      			"game:grain-sunflower" : "expandedfoods:shapes/item/food/gozinaki/gozinakimashed.json"
+			},
+			"*-syrup": {
+      			"game:legume-peanut" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"expandedfoods:acornportion" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"expandedfoods:peanut-cooked" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+      			"expandedfoods:peanut-kernels" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+				"game:grain-sunflower": "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+				"expandedfoods:peanutliquid-paste": { "shape": "expandedfoods:shapes/item/food/gozinaki/syrup.json", "textureMap": { "syrup": "peanutbutter" } },
+				"expandedfoods:treesyrupportion-birch": { "shape": "expandedfoods:shapes/item/food/gozinaki/syrup.json", "textureMap": { "syrup": "weaktannin" } },
+				"expandedfoods:treesyrupportion-maple": { "shape": "expandedfoods:shapes/item/food/gozinaki/syrup.json", "textureMap": { "syrup": "strongtannin" } },
+				"expandedfoods:fruitsyrupportion-*": { "shape": "expandedfoods:shapes/item/food/gozinaki/syrup.json", "name": "type", "textureMap": { "syrup": "{type}" } }
+			}
+		},
+		"onDisplayTransformByType": { 
+			"*-mashed": {
+				"translation": { "x": 0, "y": 0, "z": 0 },
+				"scale": 1.0 
+			},
+			"@*-(cooked|syrup)": {
+				"rotation": { "x": 0, "y": 45, "z": 0 },
+				"translation": { "x": 0, "y": -0.25, "z": 0 },
+				"scale": 0.5 
+			}
+		},
+		"bakingPropertiesByType": {
+			"*-mashed": {
+				"temp": 130,
+				"levelFrom": 0.0,
+				"levelTo": 0.5,
+				"startScaleY": 1.0,
+				"endScaleY": 0.5,
+				"resultCode": "expandedfoods:gozinaki-cooked"
+			},
+			"*-cooked": {
+				"temp": 130,
+				"levelFrom": 0.5,
+				"levelTo": 1.0,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"initialCode": "expandedfoods:gozinaki-mashed"
+			}
+		}
+	},
+	"shapeByType": {
+		"*-mashed": { "base": "expandedfoods:item/food/gozinaki/gozinakimashed" },
+		"@*-(cooked|syrup)": { "base": "expandedfoods:item/food/gozinaki/gozinakicooked" }
+	},
+  	"textures": {
+    	"gozinaki": {"base": "expandedfoods:item/food/gozinaki" },
+		"cranberry" : {"base": "game:block/food/pie/fill-cranberry" },
+		"blueberry" : {"base": "game:block/food/pie/fill-blueberry" },
+		"redcurrant" : {"base": "game:block/food/pie/fill-redcurrant" },
+		"blackcurrant" : {"base": "game:block/food/pie/fill-blackcurrant" },
+		"whitecurrant" : {"base": "game:block/food/pie/fill-whitecurrant" },
+		"pineapple" : {"base": "game:block/food/pie/fill-pineapple" },
+		"weaktannin": { "base": "game:block/liquid/weaktannin"},
+		"strongtannin": { "base": "game:block/liquid/strongtannin"},
+		"saguaro": { "base": "game:block/food/pie/fill-saguaro"},
+		"peanutbutter": { "base": "item/food/peanut/butter"}
+  	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	"nutritionPropsByType": {
+		"@*-(cooked|syrup)": {"saturation": 30, "health": 0.5, "foodcategory": "Fruit" }
+	},
+	"transitionablePropsByType": {
+		"*": [{
+			"type": "Perish",
+			"freshHours": { "avg": 864 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+		}]
+	},
+	"materialDensity": 200,
+	"guiTransformByType": {
+		"*-mashed": {
+			"translation": { "x": 3, "y": 0, "z": 0 },
+			"rotation": { "x": -28, "y": 23, "z": 180 },
+			"origin": { "x": 0.5, "y": 0.07, "z": 0.5 },
+			"scale": 4
+		},
+		"*": {
+			"translation": { "x": 3, "y": 0, "z": 0 },
+			"rotation": { "x": -40, "y": 40, "z": 180 },
+			"origin": { "x": 0.5, "y": 0.07, "z": 0.5 },
+			"scale": 2
+		}
+	},
+	"groundTransformByType": {
+		"*-mashed": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 1 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 4
+		},
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 1 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 2
+		}
+	},
+	"tpHandTransformByType": {
+		"*-mashed": {
+			"translation": { "x": -0.54, "y": -0.16, "z": -0.4 },
+			"rotation": { "x": 44, "y": -69, "z": 2 },
+			"origin": { "x": 0.5, "y": 0.13, "z": 0.5 },
+			"scale": 1
+		},
+		"*": {
+			"translation": { "x": -0.54, "y": -0.46, "z": -0.9 },
+			"rotation": { "x": 14, "y": 0, "z": 0 },
+			"origin": { "x": 0.3, "y": 0.13, "z": 0.4 },
+			"scale": 0.35
+		}
+	}
+}

@@ -1,0 +1,44 @@
+Game Version: v1.21.6 (Stable)
+01/06/2026 00:23:42: Critical error occurred
+Loaded Mods: 
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 10: 'disk I/O error'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction..ctor(SqliteConnection connection, IsolationLevel isolationLevel, Boolean deferred)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel, Boolean deferred)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction()
+   at Vintagestory.Common.Database.SQLiteDbConnectionv2.StoreGameData(Byte[] data) in VintagestoryLib\Common\FileIO\Database\SQLiteDbConnectionv2.cs:line 368
+   at Vintagestory.Common.GameDatabase.StoreSaveGame(SaveGame savegame, FastMemoryStream ms) in VintagestoryLib\Common\FileIO\Database\GameDatabase.cs:line 305
+   at Vintagestory.Server.ServerSystemLoadAndSaveGame.OnFinalizeAssets() in VintagestoryLib\Server\Systems\World\LoadThread\LoadSaveGame.cs:line 74
+   at Vintagestory.Server.ServerMain.EnterRunPhase(EnumServerRunPhase runPhase) in VintagestoryLib\Server\ServerMain.cs:line 652
+   at Vintagestory.Server.ServerMain.FinalizeAssets() in VintagestoryLib\Server\ServerMain.cs:line 716
+   at Vintagestory.Server.ServerMain.Launch() in VintagestoryLib\Server\ServerMain.cs:line 567
+   at Vintagestory.Server.ServerProgram.Main() in VintagestoryLib\Server\ServerProgram.cs:line 137
+   at Vintagestory.ClientNative.CrashReporter.Start(ThreadStart start) in VintagestoryLib\Client\ClientPlatform\ClientNative\CrashReporter.cs:line 95
+Game Version: v1.21.6 (Stable)
+01/06/2026 00:50:35: Critical error occurred
+Loaded Mods: 
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 10: 'disk I/O error'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at Microsoft.Data.Sqlite.SqliteConnectionExtensions.ExecuteNonQuery(SqliteConnection connection, String commandText, SqliteParameter[] parameters)
+   at Microsoft.Data.Sqlite.SqliteTransaction..ctor(SqliteConnection connection, IsolationLevel isolationLevel, Boolean deferred)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel, Boolean deferred)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction()
+   at Vintagestory.Common.Database.SQLiteDbConnectionv2.StoreGameData(Byte[] data) in VintagestoryLib\Common\FileIO\Database\SQLiteDbConnectionv2.cs:line 368
+   at Vintagestory.Common.GameDatabase.StoreSaveGame(SaveGame savegame, FastMemoryStream ms) in VintagestoryLib\Common\FileIO\Database\GameDatabase.cs:line 305
+   at Vintagestory.Server.ServerSystemLoadAndSaveGame.OnFinalizeAssets() in VintagestoryLib\Server\Systems\World\LoadThread\LoadSaveGame.cs:line 74
+   at Vintagestory.Server.ServerMain.EnterRunPhase(EnumServerRunPhase runPhase) in VintagestoryLib\Server\ServerMain.cs:line 652
+   at Vintagestory.Server.ServerMain.FinalizeAssets() in VintagestoryLib\Server\ServerMain.cs:line 716
+   at Vintagestory.Server.ServerMain.Launch() in VintagestoryLib\Server\ServerMain.cs:line 567
+   at Vintagestory.Server.ServerProgram.Main() in VintagestoryLib\Server\ServerProgram.cs:line 137
+   at Vintagestory.ClientNative.CrashReporter.Start(ThreadStart start) in VintagestoryLib\Client\ClientPlatform\ClientNative\CrashReporter.cs:line 95

@@ -1,0 +1,9 @@
+{
+  "MaxBlockLines": 500,
+  "EntityBuffer": 2000,
+  "EntityRadius": 3,
+  "MaxEntityLines": 25,
+  "ShortDelayMs": 3000,
+  "LongDelayMs": 12000,
+  "LogToFile": true
+}

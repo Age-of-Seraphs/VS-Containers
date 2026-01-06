@@ -1,0 +1,26 @@
+﻿[
+ {
+    "file": "expandedfoods:recipes/kneading/breadstarter.json",
+    "op": "addmerge", 
+    "path": "/0/ingredients/1/inputs/-", 
+    "value": { "type": "item", "code": "acorns:flour-acorn", "quantity": 1 },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" } ]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/breadstarter.json",
+    "op": "addmerge", 
+    "path": "/1/ingredients/2/inputs/-", 
+    "value": { "type": "item", "code": "acorns:flour-acorn", "quantity": 1 },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" } ]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/breadstarter.json",
+    "op": "addmerge", 
+    "path": "/1/ingredients/3/inputs/-", 
+    "value": { "type": "item", "code": "acorns:flour-acorn", "quantity": 1 },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" } ]
+ }
+]

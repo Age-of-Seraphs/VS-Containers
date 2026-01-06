@@ -1,0 +1,21 @@
+[
+  {
+    "file": "game:blocktypes/plant/mushroom-side.json",
+    "op": "addmerge",
+    "path": "/",
+    "value": {
+      "grindingPropsByType": { 
+		"mushroom-beardedtooth-*": { "groundStack": { "type": "item", "code": "pemmican:mushroompate-raw" }},
+		"mushroom-whiteoyster-*": { "groundStack": { "type": "item", "code": "pemmican:mushroompate-raw" }},
+		"mushroom-pinkoyster-*": { "groundStack": { "type": "item", "code": "pemmican:mushroompate-raw" }},
+		"mushroom-dryadsaddle-*": { "groundStack": { "type": "item", "code": "pemmican:mushroompate-raw" }},
+		"mushroom-tinderhoof-*": { "groundStack": { "type": "item", "code": "pemmican:mushroompate-raw" }},
+		"mushroom-chickenofthewoods-*": { "groundStack": { "type": "item", "code": "pemmican:mushroompate-raw" }},
+		"mushroom-reishi-*": { "groundStack": { "type": "item", "code": "pemmican:mushroompate-raw" }},
+		"mushroom-livermushroom-*": { "groundStack": { "type": "item", "code": "pemmican:mushroompate-raw" }},
+		"mushroom-shiitake-*": { "groundStack": { "type": "item", "code": "pemmican:mushroompate-raw" }},
+		"mushroom-deerear-*": { "groundStack": { "type": "item", "code": "pemmican:mushroompate-raw" }},
+	},
+    }
+  }
+]

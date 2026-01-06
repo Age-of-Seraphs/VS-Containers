@@ -1,0 +1,12 @@
+[
+  {
+    "file": "game:recipes/cooking/jam.json",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks",
+    "value": [
+			 { "type": "item", "code": "pemmican:syrup-cane",  "shapeElement": "game:bowl/fruit", "textureMapping": [ "fruit", "group5"]},
+			 { "type": "item", "code": "pemmican:syrup-beet",  "shapeElement": "game:bowl/fruit", "textureMapping": [ "fruit", "group5"]},
+			 { "type": "item", "code": "pemmican:sugar",  "shapeElement": "game:bowl/topping/fruit", "textureMapping": [ "fruit", "group5"]},
+			]
+  }
+]

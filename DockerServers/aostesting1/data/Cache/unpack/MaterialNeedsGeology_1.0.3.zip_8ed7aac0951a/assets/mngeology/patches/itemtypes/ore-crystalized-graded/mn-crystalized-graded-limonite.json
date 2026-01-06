@@ -1,0 +1,21 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-limonite-arenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-limonite-arenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-limonite-arenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-limonite-marl", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-limonite-marl", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-limonite-marl", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-limonite-wacke", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-limonite-wacke", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-limonite-wacke", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-limonite-monzonite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-limonite-monzonite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-limonite-monzonite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-limonite-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-limonite-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-limonite-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "file": "game:config/remaps.json",
+    "op": "add",
+    "path": "/expandedfoods:expandedfoods",
+    "value": [
+	"/iir remapq expandedfoods:bowl-peat-blue expandedfoods:bowl-peat force",
+    ]
+  }
+]

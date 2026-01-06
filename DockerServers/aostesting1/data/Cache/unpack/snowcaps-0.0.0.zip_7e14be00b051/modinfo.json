@@ -1,0 +1,19 @@
+{
+  "Type": 1,
+  "TextureSize": 32,
+  "Name": "Snow Caps",
+  "Version": "0.0.0",
+  "NetworkVersion": null,
+  "Description": "Accompanying mod for Terra Prety which replaces one ice blocklayer with snow to eliminate peculiar glaze of ice on mountain peaks and other regions.",
+  "Website": "https://mods.vintagestory.at/snowcaps",
+  "CoreMod": false,
+  "ModID": "snowcaps",
+  "Authors": [
+    "Nephelangelo"
+  ],
+  "Contributors": [],
+  "Side": "Universal",
+  "RequiredOnClient": false,
+  "RequiredOnServer": true,
+  "Dependencies": {}
+}

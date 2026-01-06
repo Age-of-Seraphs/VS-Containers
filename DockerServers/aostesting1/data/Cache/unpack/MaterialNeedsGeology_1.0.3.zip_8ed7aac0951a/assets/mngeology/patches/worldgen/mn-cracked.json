@@ -1,0 +1,24 @@
+[
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "arenite", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "arkose", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "komatiite", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "marl", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "monzonite", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "pyroxenite", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "serpentinite", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "syenite", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "travertine", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "wacke", "file": "game:worldgen/deposits/rock/cracked.json" },
+
+
+	{ "op": "addmerge", "path": "/1/attributes/inblock/allowedVariants/-", "value": "arenite", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/1/attributes/inblock/allowedVariants/-", "value": "arkose", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/1/attributes/inblock/allowedVariants/-", "value": "komatiite", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/1/attributes/inblock/allowedVariants/-", "value": "marl", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/1/attributes/inblock/allowedVariants/-", "value": "monzonite", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/1/attributes/inblock/allowedVariants/-", "value": "pyroxenite", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/1/attributes/inblock/allowedVariants/-", "value": "serpentinite", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/1/attributes/inblock/allowedVariants/-", "value": "syenite", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/1/attributes/inblock/allowedVariants/-", "value": "travertine", "file": "game:worldgen/deposits/rock/cracked.json" },
+	{ "op": "addmerge", "path": "/1/attributes/inblock/allowedVariants/-", "value": "wacke", "file": "game:worldgen/deposits/rock/cracked.json" },
+]

@@ -1,0 +1,13 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-rhodochrosite-arenite", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-rhodochrosite-arenite", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-rhodochrosite-arenite", "file": "game:blocktypes/stone/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-rhodochrosite-marl", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-rhodochrosite-marl", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-rhodochrosite-marl", "file": "game:blocktypes/stone/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-rhodochrosite-wacke", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-rhodochrosite-wacke", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-rhodochrosite-wacke", "file": "game:blocktypes/stone/ore-graded.json", },
+]

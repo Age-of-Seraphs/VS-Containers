@@ -1,0 +1,30 @@
+[
+  {
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "capreolinae" }]
+  },
+  {
+    "file": "capreolinae:entities/animal/mammal/hooved/capreolini-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+
+      "monthsToGrowByType": {
+        "*-capreoluscapreolus": 12,
+        "*-capreoluspygargus": 12,
+        "*-hydropotesinermis": 10
+      }
+
+    },
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  }
+]

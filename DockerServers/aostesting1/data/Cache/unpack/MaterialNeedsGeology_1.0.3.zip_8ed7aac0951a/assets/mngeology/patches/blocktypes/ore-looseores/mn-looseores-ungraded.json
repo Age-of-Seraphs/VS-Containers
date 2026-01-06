@@ -1,0 +1,67 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-quartz-arenite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-quartz-arkose-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-quartz-marl-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-quartz-wacke-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-quartz-monzonite-free", "file": "game:blocktypes/stone/looseores.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-alum-arkose-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-alum-marl-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-alum-serpentinite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-alum-wacke-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-alum-travertine-free", "file": "game:blocktypes/stone/looseores.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-lignite-arenite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-lignite-arkose-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-lignite-marl-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-lignite-wacke-free", "file": "game:blocktypes/stone/looseores.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-bituminouscoal-arenite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-bituminouscoal-arkose-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-bituminouscoal-marl-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-bituminouscoal-wacke-free", "file": "game:blocktypes/stone/looseores.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-anthracite-arenite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-anthracite-arkose-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-anthracite-wacke-free", "file": "game:blocktypes/stone/looseores.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-sulfur-arenite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-sulfur-wacke-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-sulfur-marl-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-sulfur-travertine-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-sulfur-monzonite-free", "file": "game:blocktypes/stone/looseores.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-borax-arenite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-borax-arkose-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-borax-marl-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-borax-travertine-free", "file": "game:blocktypes/stone/looseores.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-kernite-marl-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-kernite-arkose-free", "file": "game:blocktypes/stone/looseores.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-olivine-serpentinite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-olivine-komatiite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-olivine-pyroxenite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-olivine-syenite-free", "file": "game:blocktypes/stone/looseores.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-fluorite-arenite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-fluorite-arkose-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-fluorite-marl-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-fluorite-wacke-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-fluorite-travertine-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-fluorite-monzonite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-fluorite-syenite-free", "file": "game:blocktypes/stone/looseores.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-graphite-serpentinite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-graphite-syenite-free", "file": "game:blocktypes/stone/looseores.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-phosphorite-arenite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-phosphorite-wacke-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-phosphorite-marl-free", "file": "game:blocktypes/stone/looseores.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-corundum-komatiite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-corundum-pyroxenite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-corundum-serpentinite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-corundum-monzonite-free", "file": "game:blocktypes/stone/looseores.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "looseores-corundum-syenite-free", "file": "game:blocktypes/stone/looseores.json", },
+]

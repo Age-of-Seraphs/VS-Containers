@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "detailedanimals",
+  "name": "Truth and Beauty: Detailed Animals",
+  "description" : "Believable animal husbandry, behaviour, and genetics.",
+  "authors": ["sekelsta"],
+  "version": "0.7.2",
+  "dependencies": { 
+	"game": "1.21.1",
+	"survival": "",
+	"genelib": "2.1.4",
+  }
+}

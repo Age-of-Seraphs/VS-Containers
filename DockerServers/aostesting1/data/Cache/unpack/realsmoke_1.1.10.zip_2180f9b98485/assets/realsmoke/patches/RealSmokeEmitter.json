@@ -1,0 +1,195 @@
+[
+  {
+    "file": "game:blocktypes/wood/firepit.json",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value": 
+    [{
+      "name": "BlockEntityBehaviorRealSmokeEmitter",
+      "properties": {
+        "smokeProduction": 6,
+        "isSmoking": "IsBurning",
+        "extinguishFunction": "CoolNow",
+        "temperatureFunction": "furnaceTemperature",
+        "ventAbove": 1,
+        "canVentSideways": true
+      }
+    }]
+  },
+  {
+    "file": "game:blocktypes/clay/oven.json",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value":
+    [{
+      "name": "BlockEntityBehaviorRealSmokeEmitter",
+      "properties": {
+        "smokeProduction": 3,
+        "isSmoking": "IsBurning",
+        "temperature": 300,
+        "carbonContent": 0.5,
+        "moistureContent": 0.2,
+        "ventAbove": 1,
+        "canVentSideways": false,
+        "canVentFront": true
+      }
+    }]
+  },
+  {
+    "file": "game:blocktypes/wood/torch.json",
+    "op": "addmerge",
+    "path": "/entityBehaviorsByType/*-lit-*",
+    "value":
+    [{
+      "name": "BlockEntityBehaviorRealSmokeEmitter",
+      "properties": {
+        "smokeProduction": 2,
+        "isSmoking": "IsHot",
+        "extinguishFunction": "CoolNow",
+        "temperature": 600,
+        "ventAbove": 1,
+        "canVentSideways": true
+      }
+    }]
+  },
+  {
+    "file": "game:blocktypes/metal/torchholder.json",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value":
+    [{
+      "name": "BlockEntityBehaviorRealSmokeEmitter",
+      "properties": {
+        "smokeProduction": 2,
+        "isSmoking": "Filled",
+        "temperature": 600,
+        "ventAbove": 1,
+        "canVentSideways": true
+      }
+    }]
+  },
+  {
+    "file": "game:blocktypes/stone/generic/forge.json",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value":
+    [{
+      "name": "BlockEntityBehaviorRealSmokeEmitter",
+      "properties": {
+        "smokeProduction": 4,
+        "isSmoking": "IsBurning",
+        "extinguishFunction": "CoolNow",
+        "extinguishParameter": 10,
+        "temperature": 1300,
+        "ventAbove": 1,
+        "canVentSideways": false
+      }
+    }]
+  },
+  {
+    "file": "game:blocktypes/metal/verticalboiler.json",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value":
+    [{
+      "name": "BlockEntityBehaviorRealSmokeEmitter",
+      "properties": {
+        "smokeProduction": 3,
+        "isSmoking": "IsBurning",
+        "temperature": 700,
+        "ventAbove": 2,
+        "canVentSideways": true
+      }
+    }]
+  },
+  {
+    "file": "game:blocktypes/clay/bloomerybase.json",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value":
+    [{
+      "name": "BlockEntityBehaviorRealSmokeEmitter",
+      "properties": {
+        "smokeProduction": 6,
+        "isSmoking": "IsBurning",
+        "temperature": 1300,
+        "ventAbove": 2,
+        "canVentSideways": false
+      }
+    }]
+  },
+  {
+    "file": "game:blocktypes/wood/pitkiln.json",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value":
+    [{
+      "name": "BlockEntityBehaviorRealSmokeEmitter",
+      "properties": {
+        "smokeProduction": 12,
+        "isSmoking": "IsBurning",
+        "extinguishFunction": "KillFire",
+        "temperature": 950,
+        "carbonContent": 0.35,
+        "moistureContent": 0.6,
+        "ventAbove": 1,
+        "multiVent": true,
+        "canVentSideways": false
+      }
+    }]
+  },
+  {
+    "file": "game:blocktypes/coalpile.json",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value":
+    [{
+      "name": "BlockEntityBehaviorRealSmokeEmitter",
+      "properties": {
+        "smokeProduction": 6,
+        "isSmoking": "IsBurning",
+        "temperature": 1200,
+        "ventAbove": 1,
+        "multiVent": true,
+        "canVentSideways": true
+      }
+    }]
+  },
+  {
+    "file": "game:blocktypes/charcoalpit.json",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value":
+    [{
+      "name": "BlockEntityBehaviorRealSmokeEmitter",
+      "properties": {
+        "smokeProduction": 6,
+        "isSmoking": "Lit",
+        "temperature": 500,
+        "carbonContent": 0.6,
+        "moistureContent": 0.2,
+        "ventAbove": 2,
+        "multiVent": true,
+        "canVentSideways": false
+      }
+    }]
+  },
+  {
+    "file": "game:blocktypes/fire.json",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value":
+    [{
+      "name": "BlockEntityBehaviorRealSmokeEmitter",
+      "properties": {
+        "smokeProduction": 4,
+        "isSmoking": "IsBurning",
+        "extinguishFunction": "KillFire",
+        "temperature": 800,
+        "ventAbove": 1,
+        "multiVent": true,
+        "canVentSideways": true
+      }
+    }]
+  }
+]

@@ -1,0 +1,12 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-cassiterite-arenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-cassiterite-arenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-cassiterite-arenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-cassiterite-arkose", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-cassiterite-arkose", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-cassiterite-arkose", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-cassiterite-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-cassiterite-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+]

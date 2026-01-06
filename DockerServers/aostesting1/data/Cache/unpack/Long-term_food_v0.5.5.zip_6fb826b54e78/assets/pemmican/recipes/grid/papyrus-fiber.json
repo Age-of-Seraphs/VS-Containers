@@ -1,0 +1,21 @@
+[{
+	"ingredientPattern": "KK,KK",
+	"ingredients": {
+		"K": { "type": "item", "code": "pemmican:papyrus-fiber", "quantity": 1 },
+	},
+	"width": 2,
+	"height": 2,
+	"shapeless": false,
+	"output": { "type": "item", "code": "game:flaxtwine", "quantity": 1 }
+},
+{
+	"ingredientPattern": "KKK,KKK,KKK",
+	"ingredients": {
+		"K": { "type": "item", "code": "pemmican:papyrus-fiber", "quantity": 1 },
+	},
+	"width": 3,
+	"height": 3,
+	"shapeless": false,
+	"output": { "type": "item", "code": "game:paper-parchment", "quantity": 3 }
+},
+]

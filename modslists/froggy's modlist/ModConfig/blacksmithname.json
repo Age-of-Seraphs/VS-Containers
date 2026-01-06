@@ -1,0 +1,26 @@
+{
+  "itemCodesToAddAttribute": [
+    "aa-clubhead-morningstar",
+    "aa-axehead-bearded",
+    "aa-axehead-battle",
+    "aa-axehead-bardiche",
+    "aa-bladehead-gladius",
+    "aa-bladehead-arming",
+    "aa-bladehead-claymore",
+    "aa-bladehead-sabre",
+    "aa-clubhead-flanged",
+    "aa-clubhead-spiked",
+    "aa-clubhead-warhammer",
+    "aa-bladehead-longsword",
+    "aa-bladehead-falchion",
+    "aa-knifeblade-dagger",
+    "aa-knifeblade-stiletto",
+    "aa-knifeblade-khanjar",
+    "aa-knifeblade-baselard",
+    "aa-spearhead-boar",
+    "aa-spearhead-voulge",
+    "aa-spearhead-fork",
+    "aa-spearhead-ranseur"
+  ],
+  "nameColor": "#f6ffff"
+}

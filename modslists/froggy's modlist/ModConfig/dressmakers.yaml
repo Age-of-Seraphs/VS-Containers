@@ -1,0 +1,28 @@
+version: 1
+
+
+#################################################
+## Dressmakers recipes for VS vanilla clothing ##
+#################################################
+
+
+# Enable recipes for class-specific VS vanilla clothing items
+enable_class_clothing_recipes: true #  (default: True) 
+
+# Enable recipes for common VS vanilla clothing items
+enable_common_clothing_recipes: true #  (default: True) 
+
+# Enable recipes for VS Nadiyan clothing items
+enable_nadiyan_clothing_recipes: true #  (default: True) 
+
+
+###################################
+## Compatibility with other mods ##
+###################################
+
+
+# Add some VS recipe alternatives using wool
+enable_wool_recipes: true #  (default: True) 
+
+# Add some VS Nadiyan recipe alternatives using wool
+enable_nadiyan_wool_recipes: true #  (default: True) 

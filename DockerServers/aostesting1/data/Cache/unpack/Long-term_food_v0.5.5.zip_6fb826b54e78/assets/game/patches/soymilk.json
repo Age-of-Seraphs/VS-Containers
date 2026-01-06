@@ -1,0 +1,16 @@
+[
+{
+	"file": "game:itemtypes/food/legume.json",
+	"enabled": true,
+	"side": "Server",
+    "op": "add",
+    "path": "/attributes/juiceablePropertiesByType",
+    "value": {
+		"*-soybean": {
+			"litresPerItem": 0.3125,
+			"liquidStack": { "type": "item", "code": "game:milkportion", "stacksize": 1 },
+			"pressedStack": { "type": "item", "code": "pemmican:pressedsoybeans", "stacksize": 1 }
+		}
+	}
+ }
+]

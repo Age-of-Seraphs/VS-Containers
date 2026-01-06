@@ -1,0 +1,13 @@
+mainly it's the mods that provide a new player experince compared to previously.
+
+Ana's taste to give the food system a bit of a gameplay loop through "delicay tourism" for unique foods
+
+toolsmith remaps the tool crafting system, but also heavily affects tool durabilities. We will need to take a serious look at ore generation balancing if we add this in. 
+Which is why I've waited till wipe came up to seriously consider adding this one.
+
+visual degredation of clothing could be coupled with a diffrent clothing repair system to help get an economic tie for tailors. (slow clothing degredation, but requires a tailor for fancy clothes.)
+
+abyssal depths. if we want to go with an archepellago vibe and make reef exploration more fun.
+
+shipwrights mod. (not yet released)
+https://canary.discord.com/channels/302152934249070593/1450892911980970095

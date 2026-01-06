@@ -1,0 +1,1491 @@
+5.1.2026 23:27:28 [Notification] Server logger started.
+5.1.2026 23:27:28 [Notification] Game Version: v1.21.6 (Stable)
+5.1.2026 23:27:28 [Notification] C# Framework: .net 8.0.22
+5.1.2026 23:27:28 [Notification] Zstd Version: 1.5.4
+5.1.2026 23:27:28 [Notification] Operating System: Linux (Debian GNU/Linux 12 (bookworm)) [Kernel 6.6.87.2]
+5.1.2026 23:27:28 [Notification] CPU Cores: 16
+5.1.2026 23:27:28 [Notification] CPU: 11th Gen Intel(R) Core(TM) i9-11900K @ 3.50GHz
+5.1.2026 23:27:28 [Notification] Available RAM: 15826 MB
+5.1.2026 23:27:28 [Event] It begins...
+5.1.2026 23:27:28 [Event] Launching server...
+5.1.2026 23:27:28 [Event] It senses...
+5.1.2026 23:27:28 [Event] Server v1.21.6, network v1.21.10, api v1.21.0
+5.1.2026 23:27:28 [Notification] Entering runphase Initialization
+5.1.2026 23:27:28 [Event] Loading configuration...
+5.1.2026 23:27:28 [Notification] Entering runphase Configuration
+5.1.2026 23:27:28 [Notification] Using world seed: 60
+5.1.2026 23:27:28 [Notification] Loading savegame
+5.1.2026 23:27:28 [Notification] Create new save game data. Playstyle: surviveandbuild
+5.1.2026 23:27:28 [Notification] Savegame /data/Saves/default.vcdbs loaded
+5.1.2026 23:27:28 [Notification] World size = 51200 448 51200
+5.1.2026 23:27:28 [Notification] Start discovering assets
+5.1.2026 23:27:28 [Notification] Found 1 base assets in category blocktypes
+5.1.2026 23:27:28 [Notification] Found 0 base assets in category itemtypes
+5.1.2026 23:27:28 [Notification] Found 32 base assets in category lang
+5.1.2026 23:27:28 [Notification] Found 0 base assets in category patches
+5.1.2026 23:27:28 [Notification] Found 24 base assets in category config
+5.1.2026 23:27:28 [Notification] Found 0 base assets in category worldproperties
+5.1.2026 23:27:28 [Notification] Found 1 base assets in category sounds
+5.1.2026 23:27:28 [Notification] Found 230 base assets in category shapes
+5.1.2026 23:27:28 [Notification] Found 21 base assets in category textures
+5.1.2026 23:27:28 [Notification] Found 0 base assets in category recipes
+5.1.2026 23:27:28 [Notification] Found 0 base assets in category worldgen
+5.1.2026 23:27:28 [Notification] Found 3 base assets in category entities
+5.1.2026 23:27:28 [Notification] Found 312 base assets in total
+5.1.2026 23:27:28 [Event] Building assets...
+5.1.2026 23:27:28 [Notification] Entering runphase LoadAssets
+5.1.2026 23:27:29 [Notification] Will search the following paths for mods:
+5.1.2026 23:27:29 [Notification]     /server/Mods
+5.1.2026 23:27:29 [Notification]     /data/Mods
+5.1.2026 23:27:29 [Notification]     /data/ModsWorldGen
+5.1.2026 23:27:29 [Notification] Found 28 mods (0 disabled)
+5.1.2026 23:27:29 [Error] [mnflowers] Could not resolve some dependencies:
+5.1.2026 23:27:29 [Error] [mnflowers]     materialneeds - Missing
+5.1.2026 23:27:29 [Notification] Mods, sorted by dependency: betterforest, fruittreeslongripe, geoaddons, longtermfood, rockstratavariety, snowcaps, game, coolergreens, aculinaryartillery, anastastemod, cancrops, genelib, interestingoregen, jaunt, lunchbox, mnflowers, mngeology, realsmoke, temperatureheighttweak, terraprety, toolsmith, creative, survival, webcartographer, detailedanimals, expandedfoods, gaiogcompatpatch, seasonalbreeding
+5.1.2026 23:27:36 [Notification] Instantiated 155 mod systems from 27 enabled mods
+5.1.2026 23:27:36 [Notification] [IOG] Config successfully loaded.
+5.1.2026 23:27:36 [Notification] External Origins in load order: modorigin@/server/assets/creative/, modorigin@/server/assets/survival/, mod@betterforest-0.1.1.zip, mod@fruittreeslongripe-1.0.0.zip, mod@GeologyAdditions 1.4.5.zip, mod@Long-term_food_v0.5.5.zip, mod@rockstratavariety_0.0.3.zip, mod@snowcaps-0.0.0.zip, mod@ACulinaryArtillery 2.0.0-dev.11.zip, mod@cancrops_0.4.16.zip, mod@genelib_2.1.6.zip, mod@InterestingOreGen-v2.2.2.zip, mod@jaunt_2.1.2.zip, mod@lunchbox_1.0.1.zip, mod@MaterialNeedsGeology_1.0.3.zip, mod@realsmoke_1.1.10.zip, mod@terraprety-7.9.0.zip, mod@toolsmith_1.2.14.zip, mod@detailedanimals_0.7.2.zip, mod@ExpandedFoods 2.0.0-dev.5.zip, mod@gaiogcompatpatch-1.0.0.zip, mod@seasonalbreeding_1.1.0.zip, themepack@abyssaldepths_1.0.10.zip
+5.1.2026 23:27:36 [Notification] Found 546 external assets in category blocktypes
+5.1.2026 23:27:36 [Notification] Found 453 external assets in category itemtypes
+5.1.2026 23:27:36 [Notification] Found 64 external assets in category lang
+5.1.2026 23:27:37 [Notification] Found 654 external assets in category patches
+5.1.2026 23:27:37 [Notification] Found 194 external assets in category config
+5.1.2026 23:27:37 [Notification] Found 25 external assets in category worldproperties
+5.1.2026 23:27:37 [Notification] Found 25 external assets in category sounds
+5.1.2026 23:27:40 [Notification] Found 6042 external assets in category shapes
+5.1.2026 23:27:41 [Notification] Found 2639 external assets in category textures
+5.1.2026 23:27:41 [Notification] Found 743 external assets in category recipes
+5.1.2026 23:27:42 [Notification] Found 725 external assets in category worldgen
+5.1.2026 23:27:42 [Notification] Found 80 external assets in category entities
+5.1.2026 23:27:42 [Notification] Found 94 external assets in category compatibility
+5.1.2026 23:27:42 [Notification] Found 3 external assets in category genetics
+5.1.2026 23:27:42 [Notification] Found 49 external assets in category nutrition
+5.1.2026 23:27:43 [Notification] Reloaded lang file with mod assets
+5.1.2026 23:27:43 [Notification] [geoaddons] Hello from template mod: Server
+5.1.2026 23:27:43 [Notification] Mod Config successfully loaded.
+5.1.2026 23:27:43 [Notification] sekdebug 1
+5.1.2026 23:27:43 [Notification] [interestingoregen] Starting Interesting Ore Gen
+5.1.2026 23:27:43 [Notification] [IOG CaveAmbience] Initialized.
+5.1.2026 23:27:43 [Notification] Attempting rockstrata generation patch for: Server
+5.1.2026 23:27:43 [Event] Applying rockstrata generation patch.
+5.1.2026 23:27:43 [Notification] Compatibility lib: 14 assets added, 31 assets replaced.
+5.1.2026 23:27:48 [Error] Failed loading patches file interestingoregen:patches/deposits/gems/gemcomment.txt:
+5.1.2026 23:27:48 [Error] Exception: Failed deserializing gemcomment.txt: Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+   at Vintagestory.Common.Asset.ToObject[T](JsonSerializerSettings settings) in VintagestoryLib\Common\Model\Asset.cs:line 69
+   at Vintagestory.ServerMods.NoObf.ModJsonPatchLoader.ApplyPatches(String forPartialPath) in VSEssentials\Loading\JsonPatchLoader.cs:line 229
+5.1.2026 23:27:48 [Error] Failed loading patches file interestingoregen:patches/deposits/mineralore/mineralcomment.txt:
+5.1.2026 23:27:48 [Error] Exception: Failed deserializing mineralcomment.txt: Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+   at Vintagestory.Common.Asset.ToObject[T](JsonSerializerSettings settings) in VintagestoryLib\Common\Model\Asset.cs:line 69
+   at Vintagestory.ServerMods.NoObf.ModJsonPatchLoader.ApplyPatches(String forPartialPath) in VSEssentials\Loading\JsonPatchLoader.cs:line 229
+5.1.2026 23:27:49 [Error] Patch 10 (target: game:itemtypes/tool/axe-stone.json) in mngeology:patches/tools/mn-tool-axe-stone.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "axe-flint": {
+    "material": {
+      "base": "block/stone/{material}"
+    }
+  },
+  "*-bone-chert": {
+    "material": {
+      "base": "block/stone/rock/chert1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "*-bone-granite": {
+    "material": {
+      "base": "block/stone/rock/granite1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "*-bone-andesite": {
+    "material": {
+      "base": "block/stone/rock/andesite1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "*-bone-basalt": {
+    "material": {
+      "base": "block/stone/rock/basalt1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "*-bone-obsidian": {
+    "material": {
+      "base": "block/stone/rock/obsidian1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "*-bone-peridotite": {
+    "material": {
+      "base": "block/stone/rock/peridotite1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "*-bone-flint": {
+    "material": {
+      "base": "block/stone/flint"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "axe-bone-diorite": {
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    },
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    }
+  },
+  "axe-bone-gabbro": {
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    },
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    }
+  },
+  "axe-bone-quartzite": {
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    },
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    }
+  }
+}
+5.1.2026 23:27:49 [Error] Patch 15 (target: game:itemtypes/tool/knife.json) in mngeology:patches/tools/mn-tool-knife.json failed because supplied path /texturesByType/knife-generic-* is invalid: The json path /texturesByType/knife-generic-* was not found. Could traverse until /texturesByType, but then 'knife-generic-*' does not exist. Full json at this path: {
+  "knife-generic-chert": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "knife-generic-granite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "knife-generic-andesite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "knife-generic-basalt": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "knife-generic-obsidian": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "knife-generic-peridotite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "knife-generic-flint": {
+    "material": {
+      "base": "block/stone/{material}"
+    }
+  },
+  "knife-generic-bonechert": {
+    "material": {
+      "base": "block/stone/rock/chert1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "knife-generic-bonegranite": {
+    "material": {
+      "base": "block/stone/rock/granite1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "knife-generic-boneandesite": {
+    "material": {
+      "base": "block/stone/rock/andesite1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "knife-generic-bonebasalt": {
+    "material": {
+      "base": "block/stone/rock/basalt1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "knife-generic-boneobsidian": {
+    "material": {
+      "base": "block/stone/rock/obsidian1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "knife-generic-boneperidotite": {
+    "material": {
+      "base": "block/stone/rock/peridotite1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "knife-generic-boneflint": {
+    "material": {
+      "base": "block/stone/flint"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)": {
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    }
+  },
+  "knife-generic-diorite": {
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    }
+  },
+  "knife-generic-bonediorite": {
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    },
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    }
+  },
+  "knife-generic-gabbro": {
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    }
+  },
+  "knife-generic-bonegabbro": {
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    },
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    }
+  },
+  "knife-generic-quartzite": {
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    }
+  },
+  "knife-generic-bonequartzite": {
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    },
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    }
+  }
+}
+5.1.2026 23:27:49 [Error] Patch 6 (target: game:itemtypes/tool/shovel.json) in mngeology:patches/tools/mn-tool-shovel.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "shovel-flint": {
+    "material": {
+      "base": "item/tool/material/{material}"
+    }
+  },
+  "shovel-chert": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "shovel-granite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "shovel-andesite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "shovel-basalt": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "shovel-obsidian": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "shovel-peridotite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)": {
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    }
+  },
+  "*-diorite": {
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    }
+  },
+  "*-gabbro": {
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    }
+  },
+  "*-quartzite": {
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    }
+  }
+}
+5.1.2026 23:27:49 [Error] Patch 5 (target: game:itemtypes/tool/spear.json) in mngeology:patches/tools/mn-tool-spear.json failed because supplied path /texturesByType/spear-generic-* is invalid: The json path /texturesByType/spear-generic-* was not found. Could traverse until /texturesByType, but then 'spear-generic-*' does not exist. Full json at this path: {
+  "spear-generic-erel": {},
+  "spear-scrap-scrap": {},
+  "spear-generic-hacking": {},
+  "spear-generic-flint": {
+    "material": {
+      "base": "block/stone/{material}"
+    }
+  },
+  "@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite)": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze)": {
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    }
+  },
+  "spear-generic-ornate*": {},
+  "spear-generic-diorite": {
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    }
+  },
+  "spear-generic-gabbro": {
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    }
+  },
+  "spear-generic-jade": {
+    "material": {
+      "base": "block/stone/rock/jade1"
+    }
+  },
+  "spear-generic-jasper": {
+    "material": {
+      "base": "block/stone/rock/jasper1"
+    }
+  },
+  "spear-generic-quartzite": {
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    }
+  }
+}
+5.1.2026 23:27:49 [Error] Patch 5 (target: game:itemtypes/toolhead/axehead.json) in mngeology:patches/tools/mn-toolhead-axehead.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "@axehead-(chert|granite|andesite|basalt|obsidian|peridotite)": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "axehead-flint": {
+    "material": {
+      "base": "block/stone/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "@axehead-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "axehead-diorite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "axehead-gabbro": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "axehead-quartzite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  }
+}
+5.1.2026 23:27:49 [Error] Patch 5 (target: game:itemtypes/toolhead/hoehead.json) in mngeology:patches/tools/mn-toolhead-hoehead.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "hoehead-flint": {
+    "material": {
+      "base": "block/stone/flint"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "@hoehead-(chert|granite|andesite|basalt|obsidian|peridotite)": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "hoehead-diorite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "hoehead-gabbro": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "hoehead-quartzite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  }
+}
+5.1.2026 23:27:49 [Error] Patch 5 (target: game:itemtypes/toolhead/knifeblade.json) in mngeology:patches/tools/mn-toolhead-knifeblade.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "knifeblade-flint": {
+    "material": {
+      "base": "block/stone/flint"
+    }
+  },
+  "@knifeblade-(chert|flint|granite|andesite|basalt|obsidian|peridotite)": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "@knifeblade-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "knifeblade-diorite": {
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    }
+  },
+  "knifeblade-gabbro": {
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    }
+  },
+  "knifeblade-quartzite": {
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    }
+  }
+}
+5.1.2026 23:27:49 [Error] Patch 5 (target: game:itemtypes/toolhead/shovelhead.json) in mngeology:patches/tools/mn-toolhead-shovelhead.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "shovelhead-flint": {
+    "material": {
+      "base": "block/stone/flint"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "@shovelhead-(flint|chert|granite|andesite|basalt|obsidian|peridotite)": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "@shovelhead-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "shovelhead-diorite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "shovelhead-gabbro": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "shovelhead-quartzite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  }
+}
+5.1.2026 23:27:49 [Error] Patch 6 (target: game:itemtypes/toolhead/spearhead.json) in mngeology:patches/tools/mn-toolhead-spearhead.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "spearhead-chert": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-granite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-andesite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-basalt": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-obsidian": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-peridotite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-flint": {
+    "material": {
+      "base": "block/stone/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "@spearhead-(copper|tinbronze|bismuthbronze|blackbronze)": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-diorite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-gabbro": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-jade": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/jade1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-jasper": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/jasper1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-quartzite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  }
+}
+5.1.2026 23:27:51 [Notification] JsonPatch Loader: 8885 patches total, successfully applied 8731 patches, missing files on 145 patches, unmet conditions on 860 patches, had errors on 9 patches
+5.1.2026 23:27:51 [Event] 3 genome types loaded
+5.1.2026 23:27:52 [Event] 49 nutrition datasets loaded
+5.1.2026 23:27:53 [Event] It remembers...
+5.1.2026 23:27:54 [Warning] Collectible behavior XLibConsumable for item pemmican:alcohol-beet not found
+5.1.2026 23:27:54 [Warning] Collectible behavior XLibConsumable for item pemmican:alcohol-cane not found
+5.1.2026 23:27:54 [Warning] Collectible behavior XLibConsumable for item pemmican:alcohol-potato not found
+5.1.2026 23:27:54 [Warning] Collectible behavior XLibConsumable for item pemmican:alcohol-corn not found
+5.1.2026 23:27:54 [Warning] Collectible behavior XLibConsumable for item pemmican:alcohol-mushroomale not found
+5.1.2026 23:27:54 [Warning] Collectible behavior XLibConsumable for item pemmican:alcohol-forest not found
+5.1.2026 23:27:54 [Warning] Collectible behavior XLibConsumable for item pemmican:beer-ale not found
+5.1.2026 23:27:54 [Warning] Collectible behavior XLibConsumable for item pemmican:beer-forest not found
+5.1.2026 23:27:54 [Warning] Collectible behavior XLibConsumable for item pemmican:wort-beet not found
+5.1.2026 23:27:54 [Warning] Collectible behavior XLibConsumable for item pemmican:wort-cane not found
+5.1.2026 23:27:54 [Warning] Collectible behavior XLibConsumable for item pemmican:wort-sugar not found
+5.1.2026 23:27:54 [Warning] Collectible behavior XLibConsumable for item pemmican:wort-potato not found
+5.1.2026 23:27:54 [Warning] Collectible behavior XLibConsumable for item pemmican:wort-corn not found
+5.1.2026 23:27:54 [Notification] Loaded 8053 unique items
+5.1.2026 23:27:54 [Event] All that came before...
+5.1.2026 23:27:57 [Warning] Block or Collectible behavior XSkillsCrop for block pemmican:crop-sugarbeet-5 not found
+5.1.2026 23:27:57 [Warning] Block or Collectible behavior XSkillsCrop for block pemmican:crop-potato-7 not found
+5.1.2026 23:27:57 [Warning] Block or Collectible behavior XSkillsCrop for block pemmican:crop-sugarcane-8 not found
+5.1.2026 23:27:57 [Warning] Block or Collectible behavior XSkillsCrop for block pemmican:crop-corn-9 not found
+5.1.2026 23:27:57 [Notification] Loaded 21059 unique blocks
+5.1.2026 23:27:57 [Notification] Loaded 865 unique entities
+5.1.2026 23:27:57 [Notification] Loaded 12 entity tags, 4 item tags and 1 block tags from 'game' domain
+5.1.2026 23:27:57 [Notification] BlockLoader: Entities, Blocks and Items loaded
+5.1.2026 23:27:57 [Event] Remapping blocks and items...
+5.1.2026 23:27:57 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-glazed in cooking recipe game:recipes/cooking/soup.json
+5.1.2026 23:27:57 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe game:recipes/cooking/soup.json
+5.1.2026 23:27:57 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-cooked in cooking recipe game:recipes/cooking/soup.json
+5.1.2026 23:27:57 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-glazed in cooking recipe game:recipes/cooking/meatystew.json
+5.1.2026 23:27:57 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe game:recipes/cooking/meatystew.json
+5.1.2026 23:27:57 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-cooked in cooking recipe game:recipes/cooking/meatystew.json
+5.1.2026 23:27:57 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-glazed in cooking recipe game:recipes/cooking/meatystew.json
+5.1.2026 23:27:57 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe game:recipes/cooking/meatystew.json
+5.1.2026 23:27:57 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-cooked in cooking recipe game:recipes/cooking/meatystew.json
+5.1.2026 23:27:57 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-glazed in cooking recipe game:recipes/cooking/meatystew.json
+5.1.2026 23:27:57 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe game:recipes/cooking/meatystew.json
+5.1.2026 23:27:57 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-cooked in cooking recipe game:recipes/cooking/meatystew.json
+5.1.2026 23:27:58 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe pemmican:recipes/cooking/egg.json
+5.1.2026 23:27:58 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe pemmican:recipes/cooking/egg.json
+5.1.2026 23:27:58 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe pemmican:recipes/cooking/egg.json
+5.1.2026 23:27:58 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe pemmican:recipes/cooking/egg.json
+5.1.2026 23:27:58 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe pemmican:recipes/cooking/egg.json
+5.1.2026 23:27:58 [Event] 27 cooking recipes loaded
+5.1.2026 23:27:58 [Event] Taste and smell...
+5.1.2026 23:27:59 [Event] 1714 crafting recipes loaded from 355 files
+5.1.2026 23:27:59 [Event] Grand inventions...
+5.1.2026 23:27:59 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code expandedfoods:candiedfruit-redapple in mixing recipe expandedfoods:recipes/mixing/yogurtmeal.json
+5.1.2026 23:27:59 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code expandedfoods:candiedfruit-yellowapple in mixing recipe expandedfoods:recipes/mixing/yogurtmeal.json
+5.1.2026 23:27:59 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code expandedfoods:candiedfruit-pinkapple in mixing recipe expandedfoods:recipes/mixing/yogurtmeal.json
+5.1.2026 23:27:59 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code expandedfoods:candiedfruit-redapple in mixing recipe expandedfoods:recipes/mixing/yogurtmeal.json
+5.1.2026 23:27:59 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code expandedfoods:candiedfruit-yellowapple in mixing recipe expandedfoods:recipes/mixing/yogurtmeal.json
+5.1.2026 23:27:59 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code expandedfoods:candiedfruit-pinkapple in mixing recipe expandedfoods:recipes/mixing/yogurtmeal.json
+5.1.2026 23:27:59 [Event] 3 mixing recipes loaded
+5.1.2026 23:27:59 [Event] The chef and the apprentice...
+5.1.2026 23:27:59 [Warning] Failed resolving crafting recipe ingredient with code game:flour-birch in kneading recipe expandedfoods:recipes/kneading/ancienttools/pasta.json
+5.1.2026 23:27:59 [Warning] Failed resolving crafting recipe ingredient with code game:flour-pine in kneading recipe expandedfoods:recipes/kneading/ancienttools/pasta.json
+5.1.2026 23:27:59 [Warning] Failed resolving crafting recipe ingredient with code game:flour-maple in kneading recipe expandedfoods:recipes/kneading/ancienttools/pasta.json
+5.1.2026 23:27:59 [Event] 1012 kneading recipes loaded
+5.1.2026 23:27:59 [Event] Kneading the dough, letting it rise...
+5.1.2026 23:27:59 [Event] 644 simmer recipes loaded
+5.1.2026 23:27:59 [Event] A gentle simmer, then rolling boil...
+5.1.2026 23:27:59 [Event] 9 metal alloys loaded
+5.1.2026 23:27:59 [Event] Glimmers in the soil...
+5.1.2026 23:27:59 [Event] 299 smithing recipes loaded
+5.1.2026 23:27:59 [Event] Burning sparks...
+5.1.2026 23:27:59 [Event] 106 clay forming recipes loaded
+5.1.2026 23:27:59 [Event] Molded forms...
+5.1.2026 23:27:59 [Event] 84 knapping recipes loaded
+5.1.2026 23:27:59 [Event] Simple tools...
+5.1.2026 23:27:59 [Event] 516 barrel recipes loaded
+5.1.2026 23:27:59 [Notification] Entering runphase AssetsFinalize
+5.1.2026 23:28:00 [Error] Syntax error in json file 'interestingoregen:worldgen/deposits/gems/gemdepositcomment.txt': Failed deserializing gemdepositcomment.txt: Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-marl' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativegold-marl does not match any block! Please fix
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativegold-marl-free' was found (unresolved code: game:looseores-quartz_nativegold-{rock}-free)
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-marl' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativesilver-marl does not match any block! Please fix
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativesilver-marl-free' was found (unresolved code: game:looseores-quartz_nativesilver-{rock}-free)
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-wacke' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativegold-wacke does not match any block! Please fix
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativegold-wacke-free' was found (unresolved code: game:looseores-quartz_nativegold-{rock}-free)
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-wacke' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativesilver-wacke does not match any block! Please fix
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativesilver-wacke-free' was found (unresolved code: game:looseores-quartz_nativesilver-{rock}-free)
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-monzonite' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativesilver-monzonite does not match any block! Please fix
+5.1.2026 23:28:01 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativesilver-monzonite-free' was found (unresolved code: game:looseores-quartz_nativesilver-{rock}-free)
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-wacke' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-wacke does not match any block! Please fix
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-monzonite' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-monzonite does not match any block! Please fix
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-marl' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativegold-marl does not match any block! Please fix
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-wacke' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativegold-wacke does not match any block! Please fix
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-marl' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-marl does not match any block! Please fix
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-wacke' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-wacke does not match any block! Please fix
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-monzonite' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:02 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-monzonite does not match any block! Please fix
+5.1.2026 23:28:02 [Event] Server assets loaded, parsed, registered and finalized
+5.1.2026 23:28:02 [Event] Initialising systems...
+5.1.2026 23:28:02 [Notification] Entering runphase LoadGamePre
+5.1.2026 23:28:02 [Notification] [geoaddons] Hello from template mod server side: geologyadditions:hello
+5.1.2026 23:28:02 [Notification] Reloaded 19 weather patterns, 5 wind patterns and 5 weather events
+5.1.2026 23:28:03 [Notification] Started 131 systems on Server:
+5.1.2026 23:28:03 [Notification]     Mod 'VSEssentials.dll' (game):
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.Core
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.EntityPartitioning
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ErrorReporter
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.ModCompatiblityUtil
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.NoObf.ModJsonPatchLoader
+5.1.2026 23:28:03 [Notification]         FluffyClouds.FluffyCloudsModSystem
+5.1.2026 23:28:03 [Notification]         Vintagestory.Essentials.PathfindSystem
+5.1.2026 23:28:03 [Notification]         Vintagestory.Essentials.PathFindDebug
+5.1.2026 23:28:03 [Notification]         Vintagestory.Essentials.PathfindingAsync
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.JsonExport
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.ModBasicBlocksLoader
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.AiRuntimeConfig
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemSyncHarvestableDropsToClient
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemEmotes
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.LeafBlockDecay
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.POIRegistry
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.RoomRegistry
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.WeatherSystemCommands
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.WeatherSystemServer
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.WorldMapManager
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.NoObf.ModRegistryObjectTypeLoader
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.LoadColorMaps
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ClothManager
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GridRecipeLoader
+5.1.2026 23:28:03 [Notification]     Mod 'VSSurvivalMod.dll' (survival):
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenTerra
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenSnowLayer
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemControlPoints
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.SurvivalCoreSystem
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenTerraPostProcess
+5.1.2026 23:28:03 [Notification]         Vintagestory.Systems.StoryLockableDoor
+5.1.2026 23:28:03 [Notification]         Vintagestory.Client.NoObf.StoryGenFailedSystem
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.UpgradeTasks
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.ChiselBlockBulkSetMaterial
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.ModSystemDetailModeSync
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.NpcControl
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.ModSystemTiledDungeonGenerator
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenFromHeightmap
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenMaps
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenRockStrataNew
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenHotSprings
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenCreatures
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemExplosionAffectedStability
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.MyceliumSystem
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModsystemButterflySpawnCondsExtra
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemCatchCreature
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemGliding
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemSwoopDev
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.Timeswitch
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ClutterBookshelfUtil
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ScreenshakeToClientModSystem
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemResoArchiveCommands
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.StoryStructuresSpawnConditions
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemNPCHairStyling
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemSkinnableAdditions
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemVillagerDebug
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemAuction
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemBlockReinforcement
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.Core
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemBoatingSoundAndRatlineStamina
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.CharacterSystem
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.VariablesModSystem
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModsystemElevator
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ActivityModSystem
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ActivityEditorSystem
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.FruitingSystem
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemCommandHandbook
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemTutorial
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemCorpseReturnTeleporter
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemNightVision
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.TobiasTeleporter
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModJournal
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.LiquidItemStackRenderer
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemStructureLocator
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModLootRandomizer
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemEntityOwnership
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemRifts
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemRiftWeather
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSleeping
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemSupportBeamPlacer
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.TeleporterManager
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModTemperature
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.SystemTemporalStability
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.TemporalStabilityEffects
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemWearableStats
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemEditableBook
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.Mechanics.MechanicalPowerMod
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenDungeons
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenDeposits
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.GenStoryStructures
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenCaves
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenStructures
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.WgenCommands
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenDevastationLayer
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenBlockLayers
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenPonds
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenStructuresPosPass
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenVegetationAndPatches
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.RecipeRegistrySystem
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenRivulets
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenLightSurvival
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.RecipeLoader
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemFireFromLightning
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemOreMap
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemSnowballs
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.HumanoidOutfits
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.ModSystemDevastationEffects
+5.1.2026 23:28:03 [Notification]         Vintagestory.GameContent.DisableRecipeRegisteringSystem
+5.1.2026 23:28:03 [Notification]     Mod 'VSCreativeMod.dll' (creative):
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.Core
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.WorldEdit.WorldEdit
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenBlockLayersFlat
+5.1.2026 23:28:03 [Notification]         Vintagestory.ServerMods.GenLightCreative
+5.1.2026 23:28:03 [Notification]     Mod 'GeologyAdditions 1.4.5.zip' (geoaddons):
+5.1.2026 23:28:03 [Notification]         GeologyAdditions.GeologyAdditionsModSystem
+5.1.2026 23:28:03 [Notification]         GeologyAdditions.SpeleothermSystem
+5.1.2026 23:28:03 [Notification]     Mod 'ACulinaryArtillery 2.0.0-dev.11.zip' (aculinaryartillery):
+5.1.2026 23:28:03 [Notification]         ACulinaryArtillery.ACulinaryArtillery
+5.1.2026 23:28:03 [Notification]         ACulinaryArtillery.ACARecipeRegistrySystem
+5.1.2026 23:28:03 [Notification]     Mod 'AnasTasteMod-v1.2.21.zip' (anastastemod):
+5.1.2026 23:28:03 [Notification]         AnasTasteMod.AnasTasteModModSystem
+5.1.2026 23:28:03 [Notification]     Mod 'cancrops_0.4.16.zip' (cancrops):
+5.1.2026 23:28:03 [Notification]         cancrops.src.cancrops
+5.1.2026 23:28:03 [Notification]     Mod 'genelib_2.1.6.zip' (genelib):
+5.1.2026 23:28:03 [Notification]         Genelib.GenelibSystem
+5.1.2026 23:28:03 [Notification]         Genelib.JsonTweakingSystem
+5.1.2026 23:28:03 [Notification]     Mod 'InterestingOreGen-v2.2.2.zip' (interestingoregen):
+5.1.2026 23:28:03 [Notification]         InterestingOreGen.IOGCore
+5.1.2026 23:28:03 [Notification]     Mod 'jaunt_2.1.2.zip' (jaunt):
+5.1.2026 23:28:03 [Notification]         Jaunt.JauntModSystem
+5.1.2026 23:28:03 [Notification]     Mod 'lunchbox_1.0.1.zip' (lunchbox):
+5.1.2026 23:28:03 [Notification]         Lunchbox.LunchboxModSystem
+5.1.2026 23:28:03 [Notification]     Mod 'realsmoke_1.1.10.zip' (realsmoke):
+5.1.2026 23:28:03 [Notification]         RealSmoke.ModSystem
+5.1.2026 23:28:03 [Notification]     Mod 'temperatureheighttweak_0.3.0.zip' (temperatureheighttweak):
+5.1.2026 23:28:03 [Notification]         TemperatureHeightTweak.TemperatureHeightTweakModSystem
+5.1.2026 23:28:03 [Notification]     Mod 'terraprety-7.9.0.zip' (terraprety):
+5.1.2026 23:28:03 [Notification]         SmoothCoastlines.SmoothCoastlinesModSystem
+5.1.2026 23:28:03 [Notification]     Mod 'toolsmith_1.2.14.zip' (toolsmith):
+5.1.2026 23:28:03 [Notification]         Toolsmith.ToolsmithModSystem
+5.1.2026 23:28:03 [Notification]         Toolsmith.RecipeRegisterModSystem
+5.1.2026 23:28:03 [Notification]     Mod 'webcartographer_0.9.0.zip' (webcartographer):
+5.1.2026 23:28:03 [Notification]         WebCartographer.WebCartographer
+5.1.2026 23:28:03 [Notification]     Mod 'detailedanimals_0.7.2.zip' (detailedanimals):
+5.1.2026 23:28:03 [Notification]         DetailedAnimals.DetailedAnimalsModSystem
+5.1.2026 23:28:03 [Notification]         DetailedAnimals.EntityVariantsModSystem
+5.1.2026 23:28:03 [Notification]     Mod 'rockstratavariety_0.0.3.zip' (rockstratavariety):
+5.1.2026 23:28:03 [Notification]         rockstratavariety.rockstratavarietyModSystem
+5.1.2026 23:28:03 [Event] 26 traits loaded from 1 files
+5.1.2026 23:28:03 [Event] 6 classes loaded from 1 files
+5.1.2026 23:28:04 [Error] Syntax error in json file 'interestingoregen:worldgen/deposits/gems/gemdepositcomment.txt': Failed deserializing gemdepositcomment.txt: Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+5.1.2026 23:28:04 [Notification] Server map set
+5.1.2026 23:28:04 [Event] A world unbroken...
+5.1.2026 23:28:04 [Notification] Entering runphase GameReady
+5.1.2026 23:28:04 [Notification] Entering runphase WorldReady
+5.1.2026 23:28:04 [Event] The center unfolding...
+5.1.2026 23:28:04 [Event] Starting world generators...
+5.1.2026 23:28:06 [Notification] Reloaded 58 tree generators
+5.1.2026 23:28:06 [Event] Loading 7x7x14 spawn chunks...
+5.1.2026 23:28:06 [Event] 0% (49 in queue)
+5.1.2026 23:28:06 [Event] The carved mountains...
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-marl' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativegold-marl does not match any block! Please fix
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativegold-marl-free' was found (unresolved code: game:looseores-quartz_nativegold-{rock}-free)
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-marl' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativesilver-marl does not match any block! Please fix
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativesilver-marl-free' was found (unresolved code: game:looseores-quartz_nativesilver-{rock}-free)
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-wacke' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativegold-wacke does not match any block! Please fix
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativegold-wacke-free' was found (unresolved code: game:looseores-quartz_nativegold-{rock}-free)
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-wacke' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativesilver-wacke does not match any block! Please fix
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativesilver-wacke-free' was found (unresolved code: game:looseores-quartz_nativesilver-{rock}-free)
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-monzonite' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativesilver-monzonite does not match any block! Please fix
+5.1.2026 23:28:06 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativesilver-monzonite-free' was found (unresolved code: game:looseores-quartz_nativesilver-{rock}-free)
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-wacke' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-wacke does not match any block! Please fix
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-monzonite' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-monzonite does not match any block! Please fix
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-marl' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativegold-marl does not match any block! Please fix
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-wacke' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativegold-wacke does not match any block! Please fix
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-marl' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-marl does not match any block! Please fix
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-wacke' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-wacke does not match any block! Please fix
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-monzonite' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+5.1.2026 23:28:07 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-monzonite does not match any block! Please fix
+5.1.2026 23:28:07 [Event] [RockStrataVariety] Built rock directory: 38 variants
+5.1.2026 23:28:09 [Event] 0% (49 in queue)
+5.1.2026 23:28:09 [Event] The rolling hills...
+5.1.2026 23:28:11 [Event] 0% (81 in queue)
+5.1.2026 23:28:11 [Event] The sheer cliffs...
+5.1.2026 23:28:13 [Event] 0% (113 in queue)
+5.1.2026 23:28:13 [Event] The endless plains...
+5.1.2026 23:28:15 [Event] 0% (142 in queue)
+5.1.2026 23:28:15 [Event] The winter snows...
+5.1.2026 23:28:16 [Event] 0% (163 in queue)
+5.1.2026 23:28:16 [Event] And scorching deserts...
+5.1.2026 23:28:18 [Event] 0% (178 in queue)
+5.1.2026 23:28:18 [Event] Spring waters...
+5.1.2026 23:28:19 [Event] Begin game ticking...
+5.1.2026 23:28:19 [Event] ... it calls to you
+5.1.2026 23:28:19 [Notification] Entering runphase RunGame
+5.1.2026 23:28:19 [Notification] Starting server threads
+5.1.2026 23:28:19 [Notification] [webcartographer] WebCartographerConfig OutputDirectory/world is not empty. Clearing it now...
+5.1.2026 23:28:19 [Event] Dedicated Server now running on Port 42420 and all ips!
+5.1.2026 23:28:19 [Event] Return again.
+5.1.2026 23:28:19 [Notification] All clients disconnected, pausing game calendar.
+5.1.2026 23:28:19 [Notification] [webcartographer] WebCartographerConfig OutputDirectory/geojson is not empty. Clearing it now...
+5.1.2026 23:28:19 [Notification] [webcartographer] Savegames DefaultSpawnPosition: XYZ: 512000.5/210/512000.5, YPR 4.6318345/3.1415927/0, Dim 0
+5.1.2026 23:28:19 [Notification] Server ticking has been suspended
+5.1.2026 23:28:19 [Notification] [webcartographer] Created 17 sqlite connections.
+5.1.2026 23:28:19 [Notification] WebCartographer is now starting...
+5.1.2026 23:28:19 [Notification] WebCartographer is now preparing for FixWhiteLines or ExtractWorldMap ...
+5.1.2026 23:28:19 [Notification] WebCartographer is now running ExtractWorldMap...
+5.1.2026 23:28:19 [Notification] [webcartographer] Exporting world data and signs...
+5.1.2026 23:28:19 [Notification] [webcartographer] preparing chunk group data...
+5.1.2026 23:28:19 [Notification] [webcartographer] Done preparing chunk group data
+5.1.2026 23:28:19 [Notification] [webcartographer] Finished Exporting world data and signs
+5.1.2026 23:28:19 [Notification] WebCartographer is now running CreateZoomLevels...
+5.1.2026 23:28:19 [Notification] [webcartographer] Generating zoom level: 8
+5.1.2026 23:28:19 [Notification] [webcartographer] Generating zoom level: 7
+5.1.2026 23:28:19 [Notification] [webcartographer] Generating zoom level: 6
+5.1.2026 23:28:19 [Notification] [webcartographer] Generating zoom level: 5
+5.1.2026 23:28:19 [Notification] [webcartographer] Generating zoom level: 4
+5.1.2026 23:28:19 [Notification] [webcartographer] Generating zoom level: 3
+5.1.2026 23:28:19 [Notification] [webcartographer] Generating zoom level: 2
+5.1.2026 23:28:19 [Notification] [webcartographer] Generating zoom level: 1
+5.1.2026 23:28:19 [Notification] WebCartographer is now running ExtractStructures...
+5.1.2026 23:28:19 [Notification] [webcartographer] Finished Exporting traders and translocators
+5.1.2026 23:28:19 [Notification] WebCartographer did finish
+5.1.2026 23:28:19 [Notification] Server ticking has been resumed
+5.1.2026 23:28:29 [Warning] Server overloaded. A tick took 697ms to complete.
+5.1.2026 23:31:19 [Notification] A Client attempts connecting via TCP on [::ffff:172.17.0.1]:44792, assigning client id 1
+5.1.2026 23:31:20 [Notification] Client 1 uid JXlpEoRMnaVfb3cPqpk4PYpz attempting identification. Name: captanredbeard
+5.1.2026 23:31:20 [Notification] Delayed join, attempt random spawn position.
+5.1.2026 23:31:20 [Notification] Sending server identification with remap False.  Server control privilege is True
+5.1.2026 23:31:20 [Event] Searching for chunk column suitable for player spawn
+5.1.2026 23:31:20 [Event] ...
+5.1.2026 23:31:20 [Notification] Placing captanredbeard at 512047.5 242 512045.5
+5.1.2026 23:31:30 [Event] captanredbeard [::ffff:172.17.0.1]:44792 joins.
+5.1.2026 23:31:32 [Warning] An entity hare-european-baby-male failed to complete initialisation, will not be physics ticked.
+5.1.2026 23:31:41 [Notification] A client reconnected, resuming game calendar.
+5.1.2026 23:32:30 [Notification] Server ticking has been suspended
+5.1.2026 23:32:30 [Notification] Autosaving game world. Notifying mods, then systems of save...
+5.1.2026 23:32:30 [Notification] Defragmented listener lists
+5.1.2026 23:32:30 [Event] Mods and systems notified, now saving everything...
+5.1.2026 23:32:30 [Event] It pauses.
+5.1.2026 23:32:30 [Event] Will do offthread savegamedata saving...
+5.1.2026 23:32:30 [Event] One last gaze...
+5.1.2026 23:32:30 [Event] Saved player world data...
+5.1.2026 23:32:31 [Event] Saved map regions...
+5.1.2026 23:32:31 [Event] Then all goes quiet...
+5.1.2026 23:32:31 [Event] Saved map chunks...
+5.1.2026 23:32:31 [Event] The waters recede...
+5.1.2026 23:32:31 [Event] World saved! Saved 0 chunks, 0 mapchunks, 24 mapregions.
+5.1.2026 23:32:31 [Event] It sighs...
+5.1.2026 23:32:31 [Notification] A client reconnected, resuming game calendar.
+5.1.2026 23:32:31 [Notification] Server ticking has been resumed
+5.1.2026 23:32:31 [Warning] Server overloaded. A tick took 1374ms to complete.
+5.1.2026 23:32:31 [Event] Saved 300 chunks...
+5.1.2026 23:32:31 [Event] Saved 600 chunks...
+5.1.2026 23:32:31 [Event] Saved 900 chunks...
+5.1.2026 23:32:31 [Event] Saved 1200 chunks...
+5.1.2026 23:32:31 [Event] Saved 1500 chunks...
+5.1.2026 23:32:32 [Event] Saved 1800 chunks...
+5.1.2026 23:32:32 [Event] Saved 2100 chunks...
+5.1.2026 23:32:32 [Event] Saved 2400 chunks...
+5.1.2026 23:32:32 [Event] Saved 2700 chunks...
+5.1.2026 23:32:32 [Event] Saved 3000 chunks...
+5.1.2026 23:32:32 [Event] Saved 3300 chunks...
+5.1.2026 23:32:33 [Event] Saved 3600 chunks...
+5.1.2026 23:32:33 [Event] Saved 3900 chunks...
+5.1.2026 23:32:33 [Event] Saved 4200 chunks...
+5.1.2026 23:32:33 [Event] Saved 4500 chunks...
+5.1.2026 23:32:33 [Event] Saved 4800 chunks...
+5.1.2026 23:32:34 [Event] Saved 5100 chunks...
+5.1.2026 23:32:34 [Event] Saved 5400 chunks...
+5.1.2026 23:32:34 [Event] Offthread save of 5584 chunks done.
+5.1.2026 23:32:34 [Event] Saved 300 generating chunks...
+5.1.2026 23:32:34 [Event] ...
+5.1.2026 23:32:34 [Event] Saved 600 generating chunks...
+5.1.2026 23:32:34 [Event] ...
+5.1.2026 23:32:35 [Event] Saved 900 generating chunks...
+5.1.2026 23:32:35 [Event] ...
+5.1.2026 23:32:35 [Event] Saved 1200 generating chunks...
+5.1.2026 23:32:35 [Event] ...
+5.1.2026 23:32:35 [Event] Saved 1500 generating chunks...
+5.1.2026 23:32:35 [Event] ...
+5.1.2026 23:32:35 [Event] Saved 1800 generating chunks...
+5.1.2026 23:32:35 [Event] ...
+5.1.2026 23:32:35 [Event] Saved 2100 generating chunks...
+5.1.2026 23:32:35 [Event] ...
+5.1.2026 23:32:35 [Event] Saved 2400 generating chunks...
+5.1.2026 23:32:35 [Event] ...
+5.1.2026 23:32:35 [Event] Saved 2700 generating chunks...
+5.1.2026 23:32:35 [Event] ...
+5.1.2026 23:32:35 [Notification] Offthread save of 2724 generating chunks done.
+5.1.2026 23:32:36 [Event] Offthread save of 585 map chunks done.
+5.1.2026 23:32:36 [Event] Offthread save of savegame done.
+5.1.2026 23:37:32 [Notification] Server ticking has been suspended
+5.1.2026 23:37:32 [Notification] Autosaving game world. Notifying mods, then systems of save...
+5.1.2026 23:37:32 [Notification] Defragmented listener lists
+5.1.2026 23:37:32 [Event] Mods and systems notified, now saving everything...
+5.1.2026 23:37:32 [Event] It pauses.
+5.1.2026 23:37:32 [Event] Will do offthread savegamedata saving...
+5.1.2026 23:37:32 [Event] One last gaze...
+5.1.2026 23:37:32 [Event] Saved player world data...
+5.1.2026 23:37:32 [Event] Saved map regions...
+5.1.2026 23:37:32 [Event] Then all goes quiet...
+5.1.2026 23:37:32 [Event] Saved map chunks...
+5.1.2026 23:37:32 [Event] The waters recede...
+5.1.2026 23:37:32 [Event] World saved! Saved 0 chunks, 0 mapchunks, 4 mapregions.
+5.1.2026 23:37:32 [Event] It sighs...
+5.1.2026 23:37:32 [Notification] A client reconnected, resuming game calendar.
+5.1.2026 23:37:32 [Notification] Server ticking has been resumed
+5.1.2026 23:37:32 [Event] Saved 300 chunks...
+5.1.2026 23:37:32 [Event] Saved 600 chunks...
+5.1.2026 23:37:33 [Event] Saved 900 chunks...
+5.1.2026 23:37:33 [Event] Saved 1200 chunks...
+5.1.2026 23:37:33 [Event] Saved 1500 chunks...
+5.1.2026 23:37:33 [Event] Offthread save of 1629 chunks done.
+5.1.2026 23:37:33 [Notification] Offthread save of 0 generating chunks done.
+5.1.2026 23:37:34 [Event] Offthread save of 453 map chunks done.
+5.1.2026 23:37:35 [Event] Offthread save of savegame done.
+5.1.2026 23:42:33 [Notification] Server ticking has been suspended
+5.1.2026 23:42:33 [Notification] Autosaving game world. Notifying mods, then systems of save...
+5.1.2026 23:42:33 [Notification] Defragmented listener lists
+5.1.2026 23:42:33 [Event] Mods and systems notified, now saving everything...
+5.1.2026 23:42:33 [Event] It pauses.
+5.1.2026 23:42:33 [Event] Will do offthread savegamedata saving...
+5.1.2026 23:42:33 [Event] One last gaze...
+5.1.2026 23:42:33 [Event] Saved player world data...
+5.1.2026 23:42:33 [Event] Saved map regions...
+5.1.2026 23:42:33 [Event] Then all goes quiet...
+5.1.2026 23:42:33 [Event] Saved map chunks...
+5.1.2026 23:42:33 [Event] The waters recede...
+5.1.2026 23:42:33 [Event] World saved! Saved 0 chunks, 0 mapchunks, 5 mapregions.
+5.1.2026 23:42:33 [Event] It sighs...
+5.1.2026 23:42:33 [Notification] A client reconnected, resuming game calendar.
+5.1.2026 23:42:33 [Notification] Server ticking has been resumed
+5.1.2026 23:42:34 [Event] Offthread save of 277 chunks done.
+5.1.2026 23:42:34 [Notification] Offthread save of 0 generating chunks done.
+5.1.2026 23:42:35 [Event] Offthread save of 450 map chunks done.
+5.1.2026 23:42:35 [Event] Offthread save of savegame done.
+5.1.2026 23:45:53 [Warning] Failed resolving a blocks blockdrop or smeltedstack with code aculinaryartillery:mixingbowl-fire-whitemarble in tradeItem resolver
+5.1.2026 23:45:53 [Warning] Failed resolving a blocks blockdrop or smeltedstack with code aculinaryartillery:mixingbowl-orange-greenmarble in tradeItem resolver
+5.1.2026 23:45:53 [Warning] Failed resolving a blocks blockdrop or smeltedstack with code aculinaryartillery:mixingbowl-gray-greenmarble in tradeItem resolver
+5.1.2026 23:45:53 [Warning] Failed resolving a blocks blockdrop or smeltedstack with code aculinaryartillery:mixingbowl-blue-normal in tradeItem resolver
+5.1.2026 23:46:58 [Warning] An entity fish-reef-puffer-longspine-adult-female failed to complete initialisation, will not be physics ticked.
+5.1.2026 23:47:27 [Warning] An entity fish-reef-tang-powderblue-adult-male failed to complete initialisation, will not be physics ticked.
+5.1.2026 23:47:35 [Notification] Server ticking has been suspended
+5.1.2026 23:47:35 [Notification] Autosaving game world. Notifying mods, then systems of save...
+5.1.2026 23:47:35 [Notification] Defragmented listener lists
+5.1.2026 23:47:35 [Event] Mods and systems notified, now saving everything...
+5.1.2026 23:47:35 [Event] It pauses.
+5.1.2026 23:47:35 [Event] Will do offthread savegamedata saving...
+5.1.2026 23:47:35 [Event] One last gaze...
+5.1.2026 23:47:35 [Event] Saved player world data...
+5.1.2026 23:47:36 [Event] Saved map regions...
+5.1.2026 23:47:36 [Event] Then all goes quiet...
+5.1.2026 23:47:36 [Event] Saved map chunks...
+5.1.2026 23:47:36 [Event] The waters recede...
+5.1.2026 23:47:36 [Event] World saved! Saved 0 chunks, 0 mapchunks, 32 mapregions.
+5.1.2026 23:47:36 [Event] It sighs...
+5.1.2026 23:47:36 [Notification] A client reconnected, resuming game calendar.
+5.1.2026 23:47:36 [Notification] Server ticking has been resumed
+5.1.2026 23:47:36 [Warning] Server overloaded. A tick took 1696ms to complete.
+5.1.2026 23:47:36 [Event] Saved 300 chunks...
+5.1.2026 23:47:37 [Event] Saved 600 chunks...
+5.1.2026 23:47:37 [Event] Saved 900 chunks...
+5.1.2026 23:47:37 [Event] Saved 1200 chunks...
+5.1.2026 23:47:38 [Event] Saved 1500 chunks...
+5.1.2026 23:47:38 [Event] Saved 1800 chunks...
+5.1.2026 23:47:38 [Event] Saved 2100 chunks...
+5.1.2026 23:47:38 [Event] Saved 2400 chunks...
+5.1.2026 23:47:39 [Event] Saved 2700 chunks...
+5.1.2026 23:47:39 [Event] Saved 3000 chunks...
+5.1.2026 23:47:39 [Event] Saved 3300 chunks...
+5.1.2026 23:47:39 [Event] Saved 3600 chunks...
+5.1.2026 23:47:40 [Event] Saved 3900 chunks...
+5.1.2026 23:47:40 [Event] Saved 4200 chunks...
+5.1.2026 23:47:40 [Event] Saved 4500 chunks...
+5.1.2026 23:47:40 [Event] Saved 4800 chunks...
+5.1.2026 23:47:41 [Event] Saved 5100 chunks...
+5.1.2026 23:47:41 [Event] Offthread save of 5132 chunks done.
+5.1.2026 23:47:41 [Event] Saved 300 generating chunks...
+5.1.2026 23:47:41 [Event] ...
+5.1.2026 23:47:41 [Event] Saved 600 generating chunks...
+5.1.2026 23:47:41 [Event] ...
+5.1.2026 23:47:41 [Event] Saved 900 generating chunks...
+5.1.2026 23:47:41 [Event] ...
+5.1.2026 23:47:41 [Event] Saved 1200 generating chunks...
+5.1.2026 23:47:41 [Event] ...
+5.1.2026 23:47:41 [Event] Saved 1500 generating chunks...
+5.1.2026 23:47:41 [Event] ...
+5.1.2026 23:47:41 [Event] Saved 1800 generating chunks...
+5.1.2026 23:47:41 [Event] ...
+5.1.2026 23:47:42 [Event] Saved 2100 generating chunks...
+5.1.2026 23:47:42 [Event] ...
+5.1.2026 23:47:42 [Event] Saved 2400 generating chunks...
+5.1.2026 23:47:42 [Event] ...
+5.1.2026 23:47:42 [Event] Saved 2700 generating chunks...
+5.1.2026 23:47:42 [Event] ...
+5.1.2026 23:47:42 [Notification] Offthread save of 2985 generating chunks done.
+5.1.2026 23:47:44 [Event] Offthread save of 721 map chunks done.
+5.1.2026 23:47:44 [Event] Offthread save of savegame done.
+5.1.2026 23:52:38 [Notification] Server ticking has been suspended
+5.1.2026 23:52:38 [Notification] Autosaving game world. Notifying mods, then systems of save...
+5.1.2026 23:52:38 [Notification] Defragmented listener lists
+5.1.2026 23:52:38 [Event] Mods and systems notified, now saving everything...
+5.1.2026 23:52:38 [Event] It pauses.
+5.1.2026 23:52:38 [Event] Will do offthread savegamedata saving...
+5.1.2026 23:52:38 [Event] One last gaze...
+5.1.2026 23:52:38 [Event] Saved player world data...
+5.1.2026 23:52:38 [Event] Saved map regions...
+5.1.2026 23:52:38 [Event] Then all goes quiet...
+5.1.2026 23:52:38 [Event] Saved map chunks...
+5.1.2026 23:52:38 [Event] The waters recede...
+5.1.2026 23:52:38 [Event] World saved! Saved 0 chunks, 0 mapchunks, 6 mapregions.
+5.1.2026 23:52:38 [Event] It sighs...
+5.1.2026 23:52:38 [Notification] A client reconnected, resuming game calendar.
+5.1.2026 23:52:38 [Notification] Server ticking has been resumed
+5.1.2026 23:52:38 [Event] Saved 300 chunks...
+5.1.2026 23:52:39 [Event] Offthread save of 319 chunks done.
+5.1.2026 23:52:39 [Notification] Offthread save of 0 generating chunks done.
+5.1.2026 23:52:40 [Event] Offthread save of 453 map chunks done.
+5.1.2026 23:52:40 [Event] Offthread save of savegame done.
+5.1.2026 23:57:39 [Notification] Server ticking has been suspended
+5.1.2026 23:57:39 [Notification] Autosaving game world. Notifying mods, then systems of save...
+5.1.2026 23:57:39 [Notification] Defragmented listener lists
+5.1.2026 23:57:39 [Event] Mods and systems notified, now saving everything...
+5.1.2026 23:57:39 [Event] It pauses.
+5.1.2026 23:57:39 [Event] Will do offthread savegamedata saving...
+5.1.2026 23:57:39 [Event] One last gaze...
+5.1.2026 23:57:39 [Event] Saved player world data...
+5.1.2026 23:57:39 [Event] Saved map regions...
+5.1.2026 23:57:39 [Event] Then all goes quiet...
+5.1.2026 23:57:39 [Event] Saved map chunks...
+5.1.2026 23:57:39 [Event] The waters recede...
+5.1.2026 23:57:39 [Event] World saved! Saved 0 chunks, 0 mapchunks, 6 mapregions.
+5.1.2026 23:57:39 [Event] It sighs...
+5.1.2026 23:57:39 [Notification] A client reconnected, resuming game calendar.
+5.1.2026 23:57:39 [Notification] Server ticking has been resumed
+5.1.2026 23:57:39 [Warning] Server overloaded. A tick took 501ms to complete.
+5.1.2026 23:57:40 [Event] Offthread save of 276 chunks done.
+5.1.2026 23:57:40 [Notification] Offthread save of 0 generating chunks done.
+5.1.2026 23:57:41 [Event] Offthread save of 460 map chunks done.
+5.1.2026 23:57:42 [Event] Offthread save of savegame done.
+6.1.2026 00:02:41 [Notification] Server ticking has been suspended
+6.1.2026 00:02:41 [Notification] Autosaving game world. Notifying mods, then systems of save...
+6.1.2026 00:02:41 [Notification] Defragmented listener lists
+6.1.2026 00:02:41 [Event] Mods and systems notified, now saving everything...
+6.1.2026 00:02:41 [Event] It pauses.
+6.1.2026 00:02:41 [Event] Will do offthread savegamedata saving...
+6.1.2026 00:02:41 [Event] One last gaze...
+6.1.2026 00:02:41 [Event] Saved player world data...
+6.1.2026 00:02:41 [Event] Saved map regions...
+6.1.2026 00:02:41 [Event] Then all goes quiet...
+6.1.2026 00:02:41 [Event] Saved map chunks...
+6.1.2026 00:02:41 [Event] The waters recede...
+6.1.2026 00:02:41 [Event] World saved! Saved 0 chunks, 0 mapchunks, 6 mapregions.
+6.1.2026 00:02:41 [Event] It sighs...
+6.1.2026 00:02:41 [Notification] A client reconnected, resuming game calendar.
+6.1.2026 00:02:41 [Notification] Server ticking has been resumed
+6.1.2026 00:02:41 [Event] Offthread save of 234 chunks done.
+6.1.2026 00:02:41 [Notification] Offthread save of 0 generating chunks done.
+6.1.2026 00:02:43 [Event] Offthread save of 460 map chunks done.
+6.1.2026 00:02:43 [Event] Offthread save of savegame done.
+6.1.2026 00:07:41 [Notification] Client 1 disconnected: 
+6.1.2026 00:07:41 [Notification] Last player disconnected, compacting large object heap...
+6.1.2026 00:07:42 [Notification] UDP: client disconnected captanredbeard
+6.1.2026 00:07:42 [Event] Player captanredbeard got removed. Reason: Lost connection/disconnected
+6.1.2026 00:07:42 [Event] Client 1 disconnected.
+6.1.2026 00:07:42 [Warning] Server overloaded. A tick took 657ms to complete.
+6.1.2026 00:07:42 [Notification] All clients disconnected, pausing game calendar.
+6.1.2026 00:07:42 [Notification] Server ticking has been suspended
+6.1.2026 00:07:42 [Notification] Autosaving game world. Notifying mods, then systems of save...
+6.1.2026 00:07:42 [Notification] Defragmented listener lists
+6.1.2026 00:07:42 [Event] Mods and systems notified, now saving everything...
+6.1.2026 00:07:42 [Event] It pauses.
+6.1.2026 00:07:42 [Event] Will do offthread savegamedata saving...
+6.1.2026 00:07:42 [Event] One last gaze...
+6.1.2026 00:07:42 [Event] Saved player world data...
+6.1.2026 00:07:43 [Event] Saved map regions...
+6.1.2026 00:07:43 [Event] Then all goes quiet...
+6.1.2026 00:07:43 [Event] Saved map chunks...
+6.1.2026 00:07:43 [Event] The waters recede...
+6.1.2026 00:07:43 [Event] World saved! Saved 0 chunks, 0 mapchunks, 6 mapregions.
+6.1.2026 00:07:43 [Event] It sighs...
+6.1.2026 00:07:43 [Notification] Server ticking has been resumed
+6.1.2026 00:07:43 [Event] Saved 300 chunks...
+6.1.2026 00:07:43 [Event] Offthread save of 312 chunks done.
+6.1.2026 00:07:43 [Notification] Offthread save of 42 generating chunks done.
+6.1.2026 00:07:45 [Event] Offthread save of 528 map chunks done.
+6.1.2026 00:07:45 [Event] Offthread save of savegame done.
+6.1.2026 00:12:44 [Notification] Server ticking has been suspended
+6.1.2026 00:12:44 [Notification] Autosaving game world. Notifying mods, then systems of save...
+6.1.2026 00:12:44 [Notification] Defragmented listener lists
+6.1.2026 00:12:44 [Event] Mods and systems notified, now saving everything...
+6.1.2026 00:12:44 [Event] It pauses.
+6.1.2026 00:12:44 [Event] Will do offthread savegamedata saving...
+6.1.2026 00:12:44 [Event] One last gaze...
+6.1.2026 00:12:44 [Event] Saved player world data...
+6.1.2026 00:12:44 [Event] Saved map regions...
+6.1.2026 00:12:44 [Event] Then all goes quiet...
+6.1.2026 00:12:44 [Event] Saved map chunks...
+6.1.2026 00:12:44 [Event] The waters recede...
+6.1.2026 00:12:44 [Event] World saved! Saved 0 chunks, 0 mapchunks, 0 mapregions.
+6.1.2026 00:12:44 [Event] It sighs...
+6.1.2026 00:12:44 [Notification] Server ticking has been resumed
+6.1.2026 00:12:44 [Event] Offthread save of 0 chunks done.
+6.1.2026 00:12:44 [Notification] Offthread save of 0 generating chunks done.
+6.1.2026 00:12:44 [Event] Offthread save of 0 map chunks done.
+6.1.2026 00:12:44 [Event] Offthread save of savegame done.
+6.1.2026 00:17:45 [Notification] Server ticking has been suspended
+6.1.2026 00:17:45 [Notification] Autosaving game world. Notifying mods, then systems of save...
+6.1.2026 00:17:45 [Notification] Defragmented listener lists
+6.1.2026 00:17:45 [Event] Mods and systems notified, now saving everything...
+6.1.2026 00:17:45 [Event] It pauses.
+6.1.2026 00:17:45 [Event] Will do offthread savegamedata saving...
+6.1.2026 00:17:45 [Event] One last gaze...
+6.1.2026 00:17:45 [Event] Saved player world data...
+6.1.2026 00:17:45 [Event] Saved map regions...
+6.1.2026 00:17:45 [Event] Then all goes quiet...
+6.1.2026 00:17:45 [Event] Saved map chunks...
+6.1.2026 00:17:45 [Event] The waters recede...
+6.1.2026 00:17:45 [Event] World saved! Saved 0 chunks, 0 mapchunks, 0 mapregions.
+6.1.2026 00:17:45 [Event] It sighs...
+6.1.2026 00:17:45 [Notification] Server ticking has been resumed
+6.1.2026 00:17:45 [Event] Offthread save of 0 chunks done.
+6.1.2026 00:17:45 [Notification] Offthread save of 0 generating chunks done.
+6.1.2026 00:17:45 [Event] Offthread save of 0 map chunks done.
+6.1.2026 00:17:45 [Event] Offthread save of savegame done.
+6.1.2026 00:22:45 [Notification] Handling Console Command /restart 
+6.1.2026 00:22:46 [Notification] Server ticking has been suspended
+6.1.2026 00:22:46 [Notification] Autosaving game world. Notifying mods, then systems of save...
+6.1.2026 00:22:46 [Notification] Defragmented listener lists
+6.1.2026 00:22:46 [Event] Mods and systems notified, now saving everything...
+6.1.2026 00:22:46 [Event] It pauses.
+6.1.2026 00:22:46 [Event] Will do offthread savegamedata saving...
+6.1.2026 00:22:46 [Event] One last gaze...
+6.1.2026 00:22:46 [Event] Saved player world data...
+6.1.2026 00:22:46 [Event] Saved map regions...
+6.1.2026 00:22:46 [Event] Then all goes quiet...
+6.1.2026 00:22:46 [Event] Saved map chunks...
+6.1.2026 00:22:46 [Event] The waters recede...
+6.1.2026 00:22:46 [Event] World saved! Saved 0 chunks, 0 mapchunks, 0 mapregions.
+6.1.2026 00:22:46 [Event] It sighs...
+6.1.2026 00:22:46 [Notification] Server ticking has been resumed
+6.1.2026 00:22:46 [Event] Offthread save of 0 chunks done.
+6.1.2026 00:22:46 [Notification] Offthread save of 0 generating chunks done.
+6.1.2026 00:22:46 [Event] Offthread save of 0 map chunks done.
+6.1.2026 00:22:46 [Event] Offthread save of savegame done.
+6.1.2026 00:22:58 [Notification] Handling Console Command /stop 
+6.1.2026 00:22:58 [Notification] Message to all in group 0: Console Admin commenced a server shutdown
+6.1.2026 00:22:58 [Event] Console Admin shuts down server.
+6.1.2026 00:22:58 [Notification] Server stop requested, begin shutdown sequence. Stop reason: Shutdown via server command
+6.1.2026 00:22:58 [Notification] Server ticking has been suspended
+6.1.2026 00:22:58 [Notification] Entering runphase Shutdown
+6.1.2026 00:22:59 [Event] Successfully removed rockstrata generation patch!
+6.1.2026 00:22:59 [Event] Mods and systems notified, now saving everything...
+6.1.2026 00:22:59 [Event] It pauses.
+6.1.2026 00:22:59 [Event] One last gaze...
+6.1.2026 00:22:59 [Event] Saved player world data...
+6.1.2026 00:22:59 [Event] Saved map regions...
+6.1.2026 00:22:59 [Event] Then all goes quiet...
+6.1.2026 00:22:59 [Event] Saved map chunks...
+6.1.2026 00:22:59 [Event] The waters recede...
+6.1.2026 00:22:59 [Event] Saved loaded chunks...
+6.1.2026 00:22:59 [Event] The mountains fade...
+6.1.2026 00:22:59 [Event] The dark settles in.
+6.1.2026 00:22:59 [Event] Saved generating chunks...
+6.1.2026 00:22:59 [Event] Saved savegamedata...2
+6.1.2026 00:22:59 [Event] World saved! Saved 0 chunks, 0 mapchunks, 0 mapregions.
+6.1.2026 00:22:59 [Event] It sighs...
+6.1.2026 00:22:59 [Event] Shutting down 10 server threads... 
+6.1.2026 00:22:59 [Event] Killed console thread
+6.1.2026 00:22:59 [Event] Alone again...
+6.1.2026 00:22:59 [Event] All threads gracefully shut down
+6.1.2026 00:22:59 [Event] Time to rest.
+6.1.2026 00:22:59 [Event] Doing last tick...
+6.1.2026 00:22:59 [Event] Stopped the server!
+6.1.2026 00:22:59 [Notification] Shut down command executed

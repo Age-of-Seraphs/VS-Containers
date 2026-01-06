@@ -1,0 +1,6 @@
+[
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "arenite", "file": "game:worldgen/deposits/coal.json" },
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "arkose", "file": "game:worldgen/deposits/coal.json" },
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "marl", "file": "game:worldgen/deposits/coal.json" },
+	{ "op": "addmerge", "path": "/0/attributes/inblock/allowedVariants/-", "value": "wacke", "file": "game:worldgen/deposits/coal.json" },
+]

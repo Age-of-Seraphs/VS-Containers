@@ -1,0 +1,52 @@
+[
+	{
+	"op": "add",
+	"file": "game:itemtypes/resource/stone.json",
+	"side": "Server",
+	"path": "/attributesByType/stone-komatiite",
+	"value": {
+		"knappable": "true",
+		"reinforcementStrength": "50",
+		},
+	},
+	{
+	"op": "add",
+	"file": "game:itemtypes/resource/stone.json",
+	"side": "Server",
+	"path": "/attributesByType/stone-pyroxenite",
+	"value": {
+		"knappable": "true",
+		"reinforcementStrength": "50",
+		},
+	},
+	{
+	"op": "add",
+	"file": "game:itemtypes/resource/stone.json",
+	"side": "Server",
+	"path": "/attributesByType/stone-serpentinite",
+	"value": {
+		"knappable": "true",
+		"reinforcementStrength": "50",
+		},
+	},
+	{
+	"op": "add",
+	"file": "game:itemtypes/resource/stone.json",
+	"side": "Server",
+	"path": "/attributesByType/stone-monzonite",
+	"value": {
+		"knappable": "true",
+		"reinforcementStrength": "50",
+		},
+	},
+	{
+	"op": "add",
+	"file": "game:itemtypes/resource/stone.json",
+	"side": "Server",
+	"path": "/attributesByType/stone-syenite",
+	"value": {
+		"knappable": "true",
+		"reinforcementStrength": "50",
+		},
+	},
+]

@@ -1,0 +1,21 @@
+{
+  "OutputVoice": 1.0,
+  "OutputBlock": 0.6,
+  "OutputItem": 0.6,
+  "InputGain": 6.027363,
+  "InputThreshold": 0.2,
+  "InputDevice": "OpenAL Soft on Microphone (CA Essential Webcam microphone)",
+  "Denoising": true,
+  "DenoisingSensitivity": 0.5,
+  "DenoisingStrength": 0.1,
+  "ShowHud": true,
+  "IsMinimalHud": false,
+  "ActiveConfigTab": 2,
+  "PushToTalkEnabled": false,
+  "IsMuted": true,
+  "IsMonoMode": false,
+  "Loopback": false,
+  "Muffling": true,
+  "ChannelGuessing": true,
+  "FirstTimeUse": false
+}

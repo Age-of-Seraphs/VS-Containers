@@ -1,0 +1,35 @@
+{
+  "Moderation": {
+    "EnableBadWordFilter": true,
+    "BannedWords": [],
+    "BannedRegex": [],
+    "BadWordAction": "block",
+    "AutoMuteDuration": "15m",
+    "BadWordNotice": "message blocked: language not allowed",
+    "CaseInsensitive": true,
+    "NormalizeLeetspeak": true,
+    "StripPunctuation": true,
+    "AutoMuteGraceSeconds": 45,
+    "Escalation": {
+      "Enable": true,
+      "WindowSeconds": 900,
+      "Thresholds": [
+        {
+          "Hits": 1,
+          "Action": "block",
+          "Duration": "0s"
+        },
+        {
+          "Hits": 2,
+          "Action": "mute",
+          "Duration": "15m"
+        },
+        {
+          "Hits": 3,
+          "Action": "mute",
+          "Duration": "1h"
+        }
+      ]
+    }
+  }
+}

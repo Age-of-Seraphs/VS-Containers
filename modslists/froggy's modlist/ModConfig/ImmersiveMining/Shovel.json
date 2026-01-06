@@ -1,0 +1,23 @@
+{
+  "ShovelDamageMultiplierComment": "How strong each shovel impact is. Higher = more block damage per hit, lower = less. Still ruled by vanilla tool tier and mining speed.",
+  "ShovelDamageMultiplier": 12,
+  "ShakeAmountComment": "How much the camera shakes with each dig impact.",
+  "ShakeAmount": 0.15,
+  "ShakeFrameComment": "Exact impact frame of the shovel animation that triggers camera shake, particles, sound, and damage.",
+  "ShakeFrame": 15,
+  "MechanicsExplanation": "-----Those mechanics are cumulative, all of them gets into consideration to the final damage you deal, to disable one simply set it to 0-----",
+  "RequireBothHandsComment": "If true the shovel can only be used with an empty offhand.",
+  "RequireBothHands": true,
+  "WeakeningDistanceComment": "The further away you are to the target block the weaker your swings are. At max reach (5 blocks) the damage you deal to a block with DamageMultiplier is divided by the value below. This penalty begins at 1,5 blocks distance. Changing this value to 1 removes this mechanic",
+  "WeakeningDistance": 4,
+  "DurabilityPerHitComment": "Durability consumed on every impact. 0 disables this mechanic.",
+  "DurabilityPerHit": 1,
+  "DarkWeakeningPercentComment": "Percentage of strength lost in total darkness. Set to 0 to disable this.",
+  "DarkWeakeningPercent": 0.5,
+  "MovingWeakeningPercentComment": "Percentage of strength lost when the player is moving during a swing. Set to 0 to disable this.",
+  "MovingWeakeningPercent": 0.4,
+  "EdgeWeakeningPercentComment": "Percentage of strength lost when the hit lands on the edge of a block face.",
+  "EdgeWeakeningPercent": 0.3,
+  "StaminaPerHitComment": "Stamina consumed per swing when using the tool. 0 disables.",
+  "StaminaPerHit": 15
+}

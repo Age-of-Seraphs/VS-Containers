@@ -1,0 +1,23 @@
+[
+	{ 
+      "file": "game:recipes/cooking/soup", "op": "addeach",
+      "path": "/ingredients/4/validStacks/-",
+      "value": [
+        { "type": "item", "code": "bushmeat-raw", "shapeElement": "bowl/meat/*" },			
+        { "type": "item", "code": "bushmeat-cured", "shapeElement": "bowl/meat/*" }
+      ],
+      "side": "server"
+	},
+	{ 
+      "file": "game:blocktypes/clay/pot", "op": "addmerge",
+      "path": "/attributesByType/claypot-cooked/textureMapping/bushmeat-raw", 
+      "value": ["meat", "group8"],
+      "side": "server"
+	},
+	{ 
+      "file": "game:blocktypes/clay/pot", "op": "addmerge",
+      "path": "/attributesByType/claypot-cooked/textureMapping/bushmeat-cured", 
+      "value": ["meat", "group8"],
+      "side": "server"
+	}
+]

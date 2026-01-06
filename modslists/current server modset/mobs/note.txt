@@ -1,0 +1,3 @@
+The FoSA mods will need rebalancing via patches or removal and replacement with a new animal mod set
+
+They also hog a LOOOOT of the memory used on clients, as their textures are VERY, VERY unoptimized

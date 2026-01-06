@@ -1,0 +1,5 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-stibnite-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-stibnite-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-stibnite-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "peanutskins",
+      "content": { "type": "item", "code": "expandedfoods:peanut-skins" },
+      "quantityPerFillLevel": 4,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [
+        "block/wood/trough/small/legumefill1",
+        "block/wood/trough/small/legumefill1",
+        "block/wood/trough/small/legumefill2",
+        "block/wood/trough/small/legumefill2",
+        "block/wood/trough/small/legumefill3",
+        "block/wood/trough/small/legumefill3",
+        "block/wood/trough/small/legumefill4",
+        "block/wood/trough/small/legumefill4"
+      ],
+      "textureCode": "contents-peanut"
+    },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "eggshell",
+      "content": { "type": "item", "code": "aculinaryartillery:eggshell" },
+      "quantityPerFillLevel": 4,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill4",
+        "block/wood/trough/small/eggfill4"
+      ],
+      "textureCode": "contents-egg"
+    },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-peanut",
+    "value": { "base": "block/wood/trough/small/peanut" },
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-egg",
+    "value": { "base": "block/wood/trough/small/egg" },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "breadcrumbs",
+      "content": { "type": "item", "code": "expandedfoods:breadcrumbs-*" },
+      "quantityPerFillLevel": 1,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill4",
+        "block/wood/trough/small/eggfill4"
+      ],
+      "textureCode": "*"
+    },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-expandedfoods:breadcrumbs-spelt",
+    "value": { "base": "block/wood/trough/small/spelt" },
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-expandedfoods:breadcrumbs-rye",
+    "value": { "base": "block/wood/trough/small/rye" },
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-expandedfoods:breadcrumbs-flax",
+    "value": { "base": "block/wood/trough/small/flax" },
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-expandedfoods:breadcrumbs-rice",
+    "value": { "base": "block/wood/trough/small/rice" },
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-expandedfoods:breadcrumbs-cassava",
+    "value": { "base": "block/wood/trough/small/cassava" },
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-expandedfoods:breadcrumbs-amaranth",
+    "value": { "base": "block/wood/trough/small/amaranth" },
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-expandedfoods:breadcrumbs-sunflower",
+    "value": { "base": "block/wood/trough/small/sunflower" },
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-expandedfoods:breadcrumbs-acorn",
+    "value": { "base": "block/wood/trough/small/acorn" },
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-expandedfoods:breadcrumbs-birch",
+    "value": { "base": "block/wood/trough/small/birch" },
+    "file": "blocktypes/wood/trough-small.json",
+    "dependsOn": [{ "modid": "ancienttools"}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-expandedfoods:breadcrumbs-pine",
+    "value": { "base": "block/wood/trough/small/pine" },
+    "file": "blocktypes/wood/trough-small.json",
+    "dependsOn": [{ "modid": "ancienttools"}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-expandedfoods:breadcrumbs-maple",
+    "value": { "base": "block/wood/trough/small/maple" },
+    "file": "blocktypes/wood/trough-small.json",
+    "dependsOn": [{ "modid": "ancienttools"}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "breadcrumbs-feed",
+      "content": { "type": "item", "code": "expandedfoods:breadcrumbfeed" },
+      "quantityPerFillLevel": 1,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill4",
+        "block/wood/trough/small/eggfill4"
+      ],
+      "textureCode": "contents-expandedfoods:breadcrumbs-spelt"
+    },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/contents-breadcrumbfeed",
+    "value": { "base": "block/wood/trough/small/spelt" },
+    "file": "blocktypes/wood/trough-small.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/contentConfig/-",
+    "value": {
+      "code": "acornbreadcrumbs",
+      "content": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-*" },
+      "quantityPerFillLevel": 1,
+      "maxFillLevels": 8,
+      "shapesPerFillLevel": [
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill1",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill2",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill3",
+        "block/wood/trough/small/eggfill4",
+        "block/wood/trough/small/eggfill4"
+      ],
+      "textureCode": "contents-expandedfoods:breadcrumbs-acorn"
+    },
+    "side": "server",
+    "file": "blocktypes/wood/trough-small.json",
+    "dependsOn": [{ "modid": "acorns"}]
+  }
+]

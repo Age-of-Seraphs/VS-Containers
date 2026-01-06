@@ -1,0 +1,4 @@
+{
+  "TongsUsageConsumesDurability": true,
+  "TimeBetweenDurabilityConsumedSeconds": 3.0
+}

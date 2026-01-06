@@ -1,0 +1,31 @@
+[
+{
+	"code": "egg boiled",
+	"enabled": true,
+	"perishableProps": {
+		"type": "Perish",
+		"freshHours": { "avg": 120 },
+		"transitionHours": { "avg": 48 },
+		"transitionRatio": 0.5,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "egg raw", 
+			"validStacks": [ {"type": "item","code": "game:egg-chicken-raw"}],
+			"minQuantity": 1,
+			"maxQuantity": 1
+		},
+		{ 
+			"code": "water portion", 
+			"validStacks": [ {"type": "item", "code": "game:waterportion", "shapeElement": "game:bowl/water"}],
+			"minQuantity": 1,
+			"maxQuantity": 1,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:egg-boiled", "quantity": 1 }
+}
+]

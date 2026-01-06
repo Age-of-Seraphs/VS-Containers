@@ -1,0 +1,24 @@
+{
+	"type": "genericshapeless",
+	"ingredients": [
+		{
+			"type": "block",
+			"code": "gravel-*"
+		},
+		{
+			"type": "item",
+			"code": "sieve-linen",
+			"isTool": true,
+			"consumeToolDurability": 1
+		}
+	],
+	"output": [
+		{
+			"type": "item",
+			"code": "stone-*",
+			"quantity": 1,
+			"quantityRandom": 2
+		}
+	]
+}
+//Nonfunctional

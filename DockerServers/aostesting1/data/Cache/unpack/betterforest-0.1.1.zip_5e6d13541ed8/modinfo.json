@@ -1,0 +1,12 @@
+{
+	"type": "content",
+	"modid": "betterforest",
+	"name": "Better forest",
+	"authors": [ "Pafnutiy" ],
+	"description": "Improved forest and tree generation. No new blocks. No impact on performance. Only server side",
+	"version": "0.1.1",
+  	"Contributors": [],
+  	"Side": "Server",
+  	"RequiredOnClient": false,
+  	"RequiredOnServer": true,
+}

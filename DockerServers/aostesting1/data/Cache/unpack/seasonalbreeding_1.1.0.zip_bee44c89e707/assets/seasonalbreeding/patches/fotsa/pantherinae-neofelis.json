@@ -1,0 +1,57 @@
+[
+  {
+    "file": "pantherinae:entities/animal/mammal/pantherinae-neofelis-adult.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "felinae" }]
+  },
+  {
+    "file": "pantherinae:entities/animal/mammal/pantherinae-neofelis-adult.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+      "enabledByType": { "*-male-*": false },
+
+    "pregnancyMonthsByType": {
+      "*-diardi": 3.1,
+      "*-nebulosa": 3.1
+    },
+
+    "multiplyCooldownMonthsMinByType": {
+      "*-diardi": 10.0,
+      "*-nebulosa": 10.0
+    },
+
+    "multiplyCooldownMonthsMaxByType": {
+      "*-diardi": 16.0,
+      "*-nebulosa": 16.0
+    },
+
+    "lactationMonthsByType": {
+      "*-diardi": 5.5,
+      "*-nebulosa": 5.5
+    },
+
+    "breedingPeakMonthByType": {
+      "*-diardi": 4.0,
+      "*-nebulosa": 4.0
+    },
+
+    "breedingMonthsBeforeByType": {
+      "*-diardi": 3.5,
+      "*-nebulosa": 3.5
+    },
+
+    "breedingMonthsAfterByType": {
+      "*-diardi": 3.5,
+      "*-nebulosa": 3.5
+    }
+
+
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "pantherinae" }]
+  }
+]

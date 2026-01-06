@@ -1,0 +1,5 @@
+fields of salt is moderately preformance heavy (author has said they don't want to optimize that much.)
+
+smithing plus still has a metal dupe glitch
+
+wool mod needs some cfg setup so it doesn't bloat animal loots

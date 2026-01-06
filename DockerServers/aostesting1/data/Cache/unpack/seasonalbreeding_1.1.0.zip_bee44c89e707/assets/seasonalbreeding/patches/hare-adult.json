@@ -1,0 +1,26 @@
+[
+    {
+        file: "game:entities/animal/mammal/hare-adult.json",
+        op: "addmerge",
+        path: "/behaviorConfigs",
+        value: { },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/hare-adult.json",
+        op: "addmerge",
+        path: "/behaviorConfigs/genelib.multiply",
+        value: {
+            enabledByType: { "*-male": false },
+            pregnancyMonths: 1.35,
+            multiplyCooldownMonthsMin: 0.9,
+            multiplyCooldownMonthsMax: 1.1,
+            lactationMonths: 1.5,
+            inducedOvulation: true,
+            breedingPeakMonth: 2.0,
+            breedingMonthsBefore: 1.5,
+            breedingMonthsAfter: 5.5,
+        },
+        side: "server"
+    },
+]

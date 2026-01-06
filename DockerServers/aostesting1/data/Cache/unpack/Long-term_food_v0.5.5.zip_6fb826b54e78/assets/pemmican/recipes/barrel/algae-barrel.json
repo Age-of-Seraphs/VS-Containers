@@ -1,0 +1,134 @@
+[{
+	"code": "seaweed-section",
+	"enabled": true,
+	"sealHours": 240,
+	"ingredients": [
+		{
+			"type": "item",
+			"code": "game:waterportion",
+			"litres": 5
+		},
+		{
+			"type": "block",
+			"code": "game:seaweed-section",
+			"quantity": 1
+		}
+	],
+	"output": {
+		"type": "block",
+		"code": "game:seaweed-section",
+		"stackSize": 2
+	}
+},
+{
+	"code": "seaweed-top",
+	"enabled": true,
+	"sealHours": 240,
+	"ingredients": [
+		{
+			"type": "item",
+			"code": "game:waterportion",
+			"litres": 5
+		},
+		{
+			"type": "block",
+			"code": "game:seaweed-top",
+			"quantity": 1
+		}
+	],
+	"output": {
+		"type": "block",
+		"code": "game:seaweed-section",
+		"stackSize": 2
+	}
+},
+
+{
+	"code": "seaweed-yellow",
+	"enabled": true,
+	"sealHours": 240,
+	"ingredients": [
+		{
+			"type": "item",
+			"code": "game:waterportion",
+			"litres": 5
+		},
+		{
+			"type": "block",
+			"code": "game:aquatic-seagrass-yellow-section",
+			"quantity": 1
+		}
+	],
+	"output": {
+		"type": "block",
+		"code": "game:aquatic-seagrass-yellow-section",
+		"stackSize": 2
+	}
+},
+{
+	"code": "seaweed-red",
+	"enabled": true,
+	"sealHours": 240,
+	"ingredients": [
+		{
+			"type": "item",
+			"code": "game:waterportion",
+			"litres": 5
+		},
+		{
+			"type": "block",
+			"code": "game:aquatic-seagrass-red-section",
+			"quantity": 1
+		}
+	],
+	"output": {
+		"type": "block",
+		"code": "game:aquatic-seagrass-red-section",
+		"stackSize": 2
+	}
+},
+{
+	"code": "seaweed-orange",
+	"enabled": true,
+	"sealHours": 240,
+	"ingredients": [
+		{
+			"type": "item",
+			"code": "game:waterportion",
+			"litres": 5
+		},
+		{
+			"type": "block",
+			"code": "game:aquatic-seagrass-orange-section",
+			"quantity": 1
+		}
+	],
+	"output": {
+		"type": "block",
+		"code": "game:aquatic-seagrass-orange-section",
+		"stackSize": 2
+	}
+},
+{
+	"code": "seaweed-green",
+	"enabled": true,
+	"sealHours": 240,
+	"ingredients": [
+		{
+			"type": "item",
+			"code": "game:waterportion",
+			"litres": 5
+		},
+		{
+			"type": "block",
+			"code": "game:aquatic-seagrass-green-section",
+			"quantity": 1
+		}
+	],
+	"output": {
+		"type": "block",
+		"code": "game:aquatic-seagrass-green-section",
+		"stackSize": 2
+	}
+}
+]

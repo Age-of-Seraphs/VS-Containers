@@ -1,0 +1,243 @@
+[
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shovel-komatiite",
+    "value": 90
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/shovel-komatiite",
+    "value": {
+			"soil": 2.5,
+			"sand": 2.5,
+			"gravel": 2.1,
+			"snow": 2.1
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shovel-komatiite",
+    "value": 1
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shovel-bonekomatiite",
+    "value": 100
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/shovel-bonekomatiite",
+    "value": {
+			"soil": 3,
+			"sand": 3,
+			"gravel": 2.2,
+			"snow": 2.2
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shovel-bonekomatiite",
+    "value": 1.25
+  },
+
+
+
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shovel-pyroxenite",
+    "value": 100
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/shovel-pyroxenite",
+    "value": {
+			"soil": 3,
+			"sand": 3,
+			"gravel": 2.2,
+			"snow": 2.2
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shovel-pyroxenite",
+    "value": 1.25
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shovel-bonepyroxenite",
+    "value": 110
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/shovel-bonepyroxenite",
+    "value": {
+			"soil": 3.5,
+			"sand": 3.5,
+			"gravel": 2.3,
+			"snow": 2.3
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shovel-bonepyroxenite",
+    "value": 1.5
+  },
+
+
+
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shovel-serpentinite",
+    "value": 60
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/shovel-serpentinite",
+    "value": {
+			"soil": 2.2,
+			"sand": 2.2,
+			"gravel": 1.9,
+			"snow": 1.9
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shovel-serpentinite",
+    "value": 0.75
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shovel-boneserpentinite",
+    "value": 90
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/shovel-boneserpentinite",
+    "value": {
+			"soil": 2.5,
+			"sand": 2.5,
+			"gravel": 2.1,
+			"snow": 2.1
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shovel-boneserpentinite",
+    "value": 1
+  },
+
+
+
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shovel-monzonite",
+    "value": 90
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/shovel-monzonite",
+    "value": {
+			"soil": 2.5,
+			"sand": 2.5,
+			"gravel": 2.1,
+			"snow": 2.1
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shovel-monzonite",
+    "value": 1
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shovel-bonemonzonite",
+    "value": 100
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/shovel-bonemonzonite",
+    "value": {
+			"soil": 3,
+			"sand": 3,
+			"gravel": 2.2,
+			"snow": 2.2
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shovel-bonemonzonite",
+    "value": 1.25
+  },
+
+
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shovel-syenite",
+    "value": 60
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/shovel-syenite",
+    "value": {
+			"soil": 2.2,
+			"sand": 2.2,
+			"gravel": 1.9,
+			"snow": 1.9
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shovel-syenite",
+    "value": 0.75
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shovel-bonesyenite",
+    "value": 90
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/shovel-bonesyenite",
+    "value": {
+			"soil": 2.5,
+			"sand": 2.5,
+			"gravel": 2.1,
+			"snow": 2.1
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shovel-bonesyenite",
+    "value": 1
+  },
+]

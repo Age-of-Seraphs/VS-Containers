@@ -1,0 +1,257 @@
+{
+  "code": "crop",
+  "class": "BlockCrop",
+  "enabled": true,
+  "behaviorsByType": {
+	"crop-corn-9": [
+		{ "name": "Unstable" },{ "name": "XSkillsCrop", "properties": { "xp": 1.5 } }
+	],
+	"crop-potato-7": [
+		{ "name": "Unstable" },{ "name": "XSkillsCrop", "properties": { "xp": 1 } }
+	],
+	"crop-sugarbeet-5": [
+		{ "name": "Unstable" },{ "name": "XSkillsCrop", "properties": { "xp": 1 } }
+	],
+	"crop-sugarcane-8": [
+		{ "name": "Unstable" },{ "name": "XSkillsCrop", "properties": { "xp": 1.5 } }
+	],
+	"*": [
+		{ "name": "Unstable" }
+	]
+	},
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "corn", "potato", "sugarbeet", "sugarcane" ]
+    },
+    {
+      "code": "stage",
+      "states": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ]
+    }
+  ],
+  "skipVariants": [
+    "crop-corn-10",
+    "crop-corn-11",
+    "crop-corn-12",
+    "crop-corn-13",
+    "crop-corn-14",
+    "crop-corn-15",
+    "crop-potato-8",
+    "crop-potato-9",
+    "crop-potato-10",
+    "crop-potato-11",
+    "crop-potato-12",
+    "crop-potato-13",
+    "crop-potato-14",
+    "crop-potato-15",
+    "crop-sugarbeet-6",
+    "crop-sugarbeet-7",
+    "crop-sugarbeet-8",
+    "crop-sugarbeet-9",
+    "crop-sugarbeet-10",
+    "crop-sugarbeet-11",
+    "crop-sugarbeet-12",
+    "crop-sugarbeet-13",
+    "crop-sugarbeet-14",
+    "crop-sugarbeet-15",
+    "crop-sugarcane-9",
+    "crop-sugarcane-10",
+    "crop-sugarcane-11",
+    "crop-sugarcane-12",
+    "crop-sugarcane-13",
+    "crop-sugarcane-14",
+    "crop-sugarcane-15",
+  ],
+  "creativeinventory": {
+    "general": [ "*" ],
+    "Long-term food": ["*"]
+  },
+  "renderpass": "OpaqueNoCull",
+  "shapeByType": {
+    "*": { "base": "pemmican:block/plant/crop/{type}/stage{stage}" }
+  },
+  "blockmaterial": "Plant",
+  "attributes": {
+	"foodTags": ["vegetable"],
+    "butterflyFeedByType": {
+      "*": true
+    },
+    "beeFeedByType": {
+      "*": true
+    },
+    "sitHeight": 0.3,
+    "tickGrowthProbability": 0.05,
+    "handbook": {
+		"includeByType": {
+			"*-sugarcane-8": true,
+			"*-potato-7": true,
+			"*-corn-9": true,
+			"*-sugarbeet-5": true,
+			"*": false,
+		}
+	}
+    },
+  "sideopaque": {
+    "all": false
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "replaceable": 3000,
+  "lightAbsorption": 0,
+  "resistance": 0.5,
+  "soundsByType": {
+    "*": {
+      "place": "game:block/plant",
+      "break": "game:block/plant",
+      "hit": "game:block/plant"
+    }
+  },
+  "rainPermeable": false,
+  "dropsByType": {
+    "*-corn-9": [
+      {
+        "type": "item",
+        "code": "pemmican:seeds-corn",
+        "quantity": { "avg": 1.1 }
+      },
+      {
+        "type": "item",
+        "code": "pemmican:vegetable-corn-raw",
+        "quantity": {
+          "avg": 3,
+          "var": 1
+        }
+      }
+    ],
+    "*-potato-6": [
+      {
+        "type": "item",
+        "code": "pemmican:seeds-potato",
+        "quantity": { "avg": 0.9 }
+      },
+      {
+        "type": "item",
+        "code": "pemmican:vegetable-potato-raw",
+        "quantity": {
+          "avg": 1.5,
+          "var": 0.5
+        }
+      }
+    ],
+    "*-potato-7": [
+      {
+        "type": "item",
+        "code": "pemmican:seeds-potato",
+        "quantity": { "avg": 1.1 }
+      },
+      {
+        "type": "item",
+        "code": "pemmican:vegetable-potato-raw",
+        "quantity": {
+          "avg": 6,
+          "var": 1
+        }
+      }
+    ],
+    "*-sugarbeet-4": [
+      {
+        "type": "item",
+        "code": "pemmican:seeds-sugarbeet",
+        "quantity": { "avg": 0.9 }
+      },
+      {
+        "type": "item",
+        "code": "pemmican:vegetable-sugarbeet-raw",
+        "quantity": {
+          "avg": 2,
+          "var": 1
+        }
+      }
+    ],
+    "*-sugarbeet-5": [
+      {
+        "type": "item",
+        "code": "pemmican:seeds-sugarbeet",
+        "quantity": { "avg": 1.1 }
+      },
+      {
+        "type": "item",
+        "code": "pemmican:vegetable-sugarbeet-raw",
+        "quantity": {
+          "avg": 6,
+          "var": 1
+        }
+      }
+    ],
+    "*-sugarcane-8": [
+      {
+        "type": "item",
+        "code": "pemmican:seeds-sugarcane",
+        "quantity": { "avg": 1.2 }
+      },
+      {
+        "type": "block",
+        "code": "pemmican:sugarcane",
+        "quantity": { "avg": 6,"var": 2 }
+      }
+    ],
+	 "*": [
+			{
+        "type": "item",
+        "code": "pemmican:seeds-{type}",
+        "quantity": {
+           "avg": 0.7 
+           }  
+        }
+		]
+  },
+  "cropPropsByType": {
+    "*-corn-*": {
+      "requiredNutrient": "N",
+      "nutrientConsumption": 35,
+      "growthStages": 9,
+      "totalGrowthMonths": 2.0,
+      "coldDamageBelow": -2,
+      "heatDamageAbove": 40
+    },
+    "*-potato-*": {
+      "requiredNutrient": "N",
+      "nutrientConsumption": 35,
+      "growthStages": 7,
+      "totalGrowthMonths": 1.5,
+      "coldDamageBelow": -1,
+      "heatDamageAbove": 35
+    },
+    "*-sugarbeet-*": {
+      "requiredNutrient": "P",
+      "nutrientConsumption": 31,
+      "growthStages": 5,
+      "totalGrowthMonths": 1.5,
+      "coldDamageBelow": -5,
+      "heatDamageAbove": 30
+    },
+    "*-sugarcane-*": {
+      "requiredNutrient": "P",
+      "nutrientConsumption": 35,
+      "growthStages": 8,
+      "totalGrowthMonths": 2.0,
+      "coldDamageBelow": 10,
+      "heatDamageAbove": 45
+    }
+  },
+  "collisionbox": null,
+  "selectionbox": {
+    "x1": 0.0625,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.9375,
+    "y2": 0.25,
+    "z2": 0.9375
+  },
+  "materialDensity": 200,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 10
+  }
+}

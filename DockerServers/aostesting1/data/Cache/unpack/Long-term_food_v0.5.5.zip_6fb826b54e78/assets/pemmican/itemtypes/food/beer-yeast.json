@@ -1,0 +1,85 @@
+{
+	"code": "yeast",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type", "states": ["forest", "ale"] }
+	],
+	"attributesByType": {
+	"*-forest": {
+		"dissolveInWater": true,
+		"inContainerTexture": { "base": "pemmican:block/food/pie/fill-seed" },
+		"dissolveInWater": true,
+		"displaycaseable": true,
+		"hydration": -50,
+		"shelvable": true,
+		"onshelfTransform": {
+			"rotation": { "x": 0, "y": 90, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.45 },
+			"scale": 0.65
+			},
+	},
+	"*-ale": {
+		"dissolveInWater": true,
+		"inContainerTexture": { "base": "pemmican:block/barrel/fill-sugarbeet" },
+		"dissolveInWater": true,
+		"displaycaseable": true,
+		"hydration": -50,
+		"shelvable": true,
+		"onshelfTransform": {
+			"rotation": { "x": 0, "y": 90, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.45 },
+			"scale": 0.65
+			},
+	}
+	},
+	"transitionableProps": [
+    {
+      "type": "Perish",
+      "freshHours": { "avg": 96 },
+      "transitionHours": { "avg": 48 },
+      "transitionedStack": { "type": "item", "code": "game:rot" },
+      "transitionRatio": 1
+    }
+  ],
+	"shape": { "base": "pemmican:item/food/flour" },
+	"textureByType": {
+		"*-forest": { "base": "pemmican:block/barrel/yeast-forest" },
+		"*-ale": { "base": "pemmican:block/barrel/yeast-ale" }
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ], 
+		"Long-term food": ["*"]
+	},
+	"materialDensity": 600,
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": -25 },
+		"rotation": { "x": 171, "y": 57, "z": -20 },
+		"origin": { "x": 0.46, "y": 0.08, "z": 0.48 },
+		"scale": 2.75
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0.1, "y": 0.16, "z": 0 },
+		"rotation": { "x": 37, "y": 77, "z": 2 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 1.95
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.04, "y": -0.6, "z": -0.8 },
+		"rotation": { "x": 119, "y": -7, "z": -72 },
+		"origin": { "x": -0.1, "y": 0.32, "z": 0.82 },
+		"scale": 0.48
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3
+	},
+	"heldRightReadyAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+    }
+}

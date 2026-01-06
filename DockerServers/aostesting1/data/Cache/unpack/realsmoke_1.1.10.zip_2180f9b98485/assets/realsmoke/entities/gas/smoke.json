@@ -1,0 +1,43 @@
+{
+  "code": "smoke",
+  "class": "EntitySmoke",
+  "attributes": {
+    "dieInLiquid": true,
+    "asphyxiates": true,
+    "damageWhenHot": true,
+    "causesFire": true,
+    "damageOnTouch": 0,
+    "dissipationRate": 0.33,
+    "handbook": {
+      "exclude": true
+    }
+  },
+  "matterState": "gas",
+  "collisionBoxes": [ { "x1": -0.005, "y1": 0, "z1": -0.005, "x2": 0.005, "y2": 0.01, "z2": 0.005 } ],
+  "selectionBoxes": [],
+  "client": {
+    "renderer": "Dummy",
+    "size": 0.05,
+    "behaviors": [
+      { "code": "entitygasphysics" }
+    ]
+  },
+  "server": {
+    "behaviors": [
+      { "code": "entitygasphysics" }
+    ]
+  },
+  "creativeinventory": {
+    "general": [ "*" ]
+  },
+  "rainPermeable": true,
+  "textures": { },
+  "invisible": true,
+  "blockMaterial": "Other",
+  "replaceable": 9900,
+  "lightAbsorption": 0,
+  "requiredMiningTier": 9999,
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "heldRightReadyAnimation": "heldblockready",
+  "heldTpUseAnimation": "twohandplaceblock"
+}

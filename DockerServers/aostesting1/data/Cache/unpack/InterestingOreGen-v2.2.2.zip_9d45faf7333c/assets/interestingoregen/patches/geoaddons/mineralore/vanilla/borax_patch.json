@@ -1,0 +1,16 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/borax.json",
+		"op": "addeach",
+		"path": "/0/attributes/inblock/allowedVariants/0",
+		"value": [
+			"mudstone",
+			"siltstone",
+			"dolostone"
+		]
+	},
+]

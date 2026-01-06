@@ -1,0 +1,9 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-uranium-monzonite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-uranium-monzonite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-uranium-monzonite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-uranium-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-uranium-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-uranium-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+]

@@ -1,0 +1,27 @@
+[
+    {
+        file: "game:entities/animal/mammal/hooved/gazelle-adult.json",
+        op: "addmerge",
+        path: "/behaviorConfigs",
+        value: { },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/hooved/gazelle-adult.json",
+        op: "addmerge",
+        path: "/behaviorConfigs/genelib.multiply",
+        value: {
+            enabledByType: { "*-male": false },
+            pregnancyMonths: 5.5,
+            multiplyCooldownMonthsMin: 8.8,
+            multiplyCooldownMonthsMax: 9.2,
+            lactationMonths: 6,
+            //estrousCycleMonths: 1.0,
+            //daysInHeat: 2.0,
+            breedingPeakMonth: 1.0,
+            breedingMonthsBefore: 8.0,
+            breedingMonthsAfter: 8.0,
+        },
+        side: "server"
+    },
+]

@@ -1,0 +1,25 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-galena-arenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-galena-arenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-galena-arenite", "file": "game:itemtypes/resource/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-galena-arkose", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-galena-arkose", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-galena-arkose", "file": "game:itemtypes/resource/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-galena-wacke", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-galena-wacke", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-galena-wacke", "file": "game:itemtypes/resource/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-galena-travertine", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-galena-travertine", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-galena-travertine", "file": "game:itemtypes/resource/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-galena-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-galena-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-galena-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-galena-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-galena-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-galena-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
+]

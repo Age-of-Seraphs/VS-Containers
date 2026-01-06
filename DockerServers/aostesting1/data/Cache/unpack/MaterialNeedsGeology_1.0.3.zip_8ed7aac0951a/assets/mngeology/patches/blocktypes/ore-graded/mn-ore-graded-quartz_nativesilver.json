@@ -1,0 +1,9 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-quartz_nativesilver-arenite", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-quartz_nativesilver-arenite", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-quartz_nativesilver-arenite", "file": "game:blocktypes/stone/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-quartz_nativesilver-arkose", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-quartz_nativesilver-arkose", "file": "game:blocktypes/stone/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-quartz_nativesilver-arkose", "file": "game:blocktypes/stone/ore-graded.json", },
+]

@@ -1,0 +1,83 @@
+[
+{
+	"code": "cleanpot",
+	"sealHours": 0.2,
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 10 },
+		{ "type": "block", "code": "game:dirtyclaypot-blue-empty", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "game:claypot-blue-fired", "stackSize": 1 }
+},
+{
+	"code": "cleanpot",
+	"sealHours": 0.2,
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 10 },
+		{ "type": "block", "code": "game:dirtyclaypot-fire-empty", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "game:claypot-fire-fired", "stackSize": 1 }
+},
+{
+	"code": "cleanpot",
+	"sealHours": 0.2,
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 10 },
+		{ "type": "block", "code": "game:dirtyclaypot-black-empty", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "game:claypot-black-fired", "stackSize": 1 }
+},
+{
+	"code": "cleanpot",
+	"sealHours": 0.2,
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 10 },
+		{ "type": "block", "code": "game:dirtyclaypot-brown-empty", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "game:claypot-brown-fired", "stackSize": 1 }
+},
+{
+	"code": "cleanpot",
+	"sealHours": 0.2,
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 10 },
+		{ "type": "block", "code": "game:dirtyclaypot-cream-empty", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "game:claypot-cream-fired", "stackSize": 1 }
+},
+{
+	"code": "cleanpot",
+	"sealHours": 0.2,
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 10 },
+		{ "type": "block", "code": "game:dirtyclaypot-gray-empty", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "game:claypot-gray-fired", "stackSize": 1 }
+},
+{
+	"code": "cleanpot",
+	"sealHours": 0.2,
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 10 },
+		{ "type": "block", "code": "game:dirtyclaypot-orange-empty", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "game:claypot-orange-fired", "stackSize": 1 }
+},
+{
+	"code": "cleanpot",
+	"sealHours": 0.2,
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 10 },
+		{ "type": "block", "code": "game:dirtyclaypot-red-empty", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "game:claypot-red-fired", "stackSize": 1 }
+},
+{
+	"code": "cleanpot",
+	"sealHours": 0.2,
+	"ingredients": [
+		{ "type": "item", "code": "game:waterportion", "litres": 10 },
+		{ "type": "block", "code": "game:dirtyclaypot-tan-empty", "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "game:claypot-tan-fired", "stackSize": 1 }
+},
+]

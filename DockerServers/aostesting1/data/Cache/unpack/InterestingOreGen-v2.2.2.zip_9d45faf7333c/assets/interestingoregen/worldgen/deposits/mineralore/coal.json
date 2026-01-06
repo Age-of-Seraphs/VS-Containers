@@ -1,0 +1,143 @@
+[
+  {
+    "code": "lignite",
+    "triesPerChunk": 0.005,
+    "withOreMap": false,
+    "handbookPageCode": "ore-lignite",
+    "generator": "iog-gen",
+    "attributes": {
+      "inblock": {
+        "veintype": "seam",
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "claystone", "sandstone", "shale", "chalk", "limestone", "chert", "conglomerate" ]
+      },
+      "placeblock": {
+        "code": "ore-lignite-{rock}"
+      },
+      "subdeposit": {
+        "code": "rawclay-fire-none"
+      },
+      "radius": {
+        "dist": "uniform",
+        "avg": 96,
+        "var": 32
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.45,
+        "var": 0.4
+      },
+      "thickness": {
+        "dist": "uniform",
+        "avg": 2,
+        "var": 1
+      },
+      "branchCount": {
+        "dist": "uniform",
+        "avg": 20,
+        "var": 10
+      },
+      "branchLength": {
+        "dist": "uniform",
+        "avg": 3,
+        "var": 2
+      },
+      "OreSpongePercent": 0.3
+    }
+  },
+  {
+    "code": "bituminouscoal",
+    "triesPerChunk": 0.001,
+    "withOreMap": false,
+    "handbookPageCode": "ore-bituminouscoal",
+    "generator": "iog-gen",
+    "attributes": {
+      "inblock": {
+        "veintype": "seam",
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "claystone", "sandstone", "shale", "chalk", "limestone", "chert", "conglomerate" ]
+      },
+      "placeblock": {
+        "code": "ore-bituminouscoal-{rock}"
+      },
+      "subdeposit": {
+        "code": "rawclay-fire-none"
+      },
+      "radius": {
+        "dist": "uniform",
+        "avg": 96,
+        "var": 32
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.45,
+        "var": 0.4
+      },
+      "thickness": {
+        "dist": "uniform",
+        "avg": 2,
+        "var": 1
+      },
+      "branchCount": {
+        "dist": "uniform",
+        "avg": 7,
+        "var": 4
+      },
+      "branchLength": {
+        "dist": "uniform",
+        "avg": 5,
+        "var": 2
+      },
+      "OreSpongePercent": 0.3
+    }
+  },
+  {
+    "code": "anthracite",
+    "triesPerChunk": 0.005,
+    "withOreMap": false,
+    "handbookPageCode": "ore-anthracite",
+    "generator": "iog-gen",
+    "attributes": {
+      "inblock": {
+        "veintype": "seam",
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "claystone", "sandstone", "shale", "chalk", "limestone", "chert", "conglomerate" ]
+      },
+      "placeblock": {
+        "code": "ore-anthracite-{rock}"
+      },
+      "subdeposit": {
+        "code": "rawclay-fire-none"
+      },
+      "radius": {
+        "dist": "uniform",
+        "avg": 96,
+        "var": 32
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.45,
+        "var": 0.4
+      },
+      "thickness": {
+        "dist": "uniform",
+        "avg": 2,
+        "var": 1
+      },
+      "branchCount": {
+        "dist": "uniform",
+        "avg": 7,
+        "var": 4
+      },
+      "branchLength": {
+        "dist": "uniform",
+        "avg": 5,
+        "var": 2
+      },
+      "OreSpongePercent": 0.3
+    }
+  }
+]

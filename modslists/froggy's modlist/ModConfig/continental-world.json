@@ -1,0 +1,13 @@
+{
+  "ExtraLandcoverScale": 2.0,
+  "CellularJitter": 0.43701595,
+  "ContinentWarpOctaves": 5,
+  "ContinentWarpScale": 4.0,
+  "ContinentWarpPersistence": 0.75,
+  "ContinentWarpPower": 2.0,
+  "IslandThreshold": 1.0,
+  "IslandNoiseOctaves": 5,
+  "IslandNoiseScale": 2.0,
+  "IslandNoisePersistence": 0.9,
+  "IslandScale": 2.0
+}

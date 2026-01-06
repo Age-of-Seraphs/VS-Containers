@@ -1,0 +1,50 @@
+[
+{
+	"enabled": true,
+	"ingredientPattern": "A,V",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:knife-*", "isTool": true },
+		"V": { "type": "item", "code": "pemmican:choppedvegetable-corn" },
+	},
+	"width": 1,
+	"height": 2,
+	"shapeless": false,
+	"output": { "type": "item", "code": "pemmican:seeds-corn", "quantity": 1 }
+},
+{
+	"enabled": true,
+	"ingredientPattern": "A,V",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 1 },
+		"V": { "type": "item", "code": "pemmican:vegetable-potato-raw" },
+	},
+	"width": 1,
+	"height": 2,
+	"shapeless": false,
+	"output": { "type": "item", "code": "pemmican:seeds-potato", "quantity": 1 }
+},
+{
+	"enabled": true,
+	"ingredientPattern": "A,V",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 1 },
+		"V": { "type": "item", "code": "pemmican:vegetable-sugarbeet-raw" },
+	},
+	"width": 1,
+	"height": 2,
+	"shapeless": false,
+	"output": { "type": "item", "code": "pemmican:seeds-sugarbeet", "quantity": 1 }
+},
+{
+	"enabled": true,
+	"ingredientPattern": "A,V",
+	"ingredients": {
+		"A": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 1 },
+		"V": { "type": "block", "code": "pemmican:sugarcane" },
+	},
+	"width": 1,
+	"height": 2,
+	"shapeless": false,
+	"output": { "type": "item", "code": "pemmican:seeds-sugarcane", "quantity": 1 }
+},
+]

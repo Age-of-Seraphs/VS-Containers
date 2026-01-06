@@ -1,0 +1,18 @@
+[
+	{
+	"op": "addmerge",
+	"file": "game:itemtypes/resource/stone.json",
+	"path": "/grindingPropsByType/*-marl",
+	"value": {
+		groundStack: { "type": "item", "code": "game:lime", "stacksize": 1 },
+		},
+	},
+	{
+	"op": "addmerge",
+	"file": "game:itemtypes/resource/stone.json",
+	"path": "/grindingPropsByType/*-travertine",
+	"value": {
+		groundStack: { "type": "item", "code": "game:lime", "stacksize": 1 },
+		},
+	},
+]

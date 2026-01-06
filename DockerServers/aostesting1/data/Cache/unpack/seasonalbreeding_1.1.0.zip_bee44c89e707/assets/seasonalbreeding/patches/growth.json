@@ -1,0 +1,86 @@
+[
+    {
+        file: "game:entities/animal/mammal/hooved/deer-baby.json",
+        op: "add",
+        path: "/server/behaviors/9/monthsToGrow",
+        value: 12.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/hooved/gazelle-baby.json",
+        op: "add",
+        path: "/server/behaviors/8/monthsToGrow",
+        value: 9.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/hooved/goat-baby.json",
+        op: "add",
+        path: "/server/behaviors/9/monthsToGrow",
+        value: 10.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/hooved/moose-baby.json",
+        op: "add",
+        path: "/server/behaviors/9/monthsToGrow",
+        value: 12.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/hooved/pig-baby.json",
+        op: "add",
+        path: "/server/behaviors/9/monthsToGrow",
+        value: 9.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/hooved/sheep-baby.json",
+        op: "add",
+        path: "/server/behaviors/9/monthsToGrow",
+        value: 12.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/fox-baby.json",
+        op: "add",
+        path: "/server/behaviors/9/monthsToGrow",
+        value: 6.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/hare-baby.json",
+        op: "add",
+        path: "/server/behaviors/8/monthsToGrow",
+        value: 6.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/hare-baby.json",
+        op: "add",
+        path: "/server/behaviors/8/monthsToGrow",
+        value: 6.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/hyena-baby.json",
+        op: "add",
+        path: "/server/behaviors/9/monthsToGrow",
+        value: 6.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/raccoon-baby.json",
+        op: "add",
+        path: "/server/behaviors/9/monthsToGrow",
+        value: 6.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/wolf-baby.json",
+        op: "add",
+        path: "/server/behaviors/9/monthsToGrow",
+        value: 9.0,
+        side: "server"
+    },
+]

@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "anastastemod",
+    "name": "AnasTasteMod",
+    "authors": [
+        "Anastasia 'Aspiracja'"
+    ],
+    "description": "Diversify your diet! That's an order!",
+    "version": "1.2.21",
+    "dependencies": {
+        "game": "1.21.1"
+    }
+}

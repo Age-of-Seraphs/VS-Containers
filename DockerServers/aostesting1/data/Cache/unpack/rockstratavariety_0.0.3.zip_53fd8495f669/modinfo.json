@@ -1,0 +1,14 @@
+{
+  "Type": "code",
+  "ModID": "rockstratavariety",
+  "Name": "Rock Strata Variety",
+  "Description": "Patches rock strata generation to allow more varied rock type distribution.",
+  "Version": "0.0.3",
+  "NetworkVersion": null,
+  "Website": "",
+  "Authors": [ "chisps" ],
+  "Contributors": [ "" ],
+  "Side": "Server",
+  "RequiredOnServer": true,
+  "Dependencies": {}
+}

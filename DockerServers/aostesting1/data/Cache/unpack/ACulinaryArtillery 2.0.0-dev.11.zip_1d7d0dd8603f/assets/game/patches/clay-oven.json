@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/entityClass",
+    "value": "ExpandedOven",
+    "file": "game:blocktypes/clay/oven.json"
+  }
+]

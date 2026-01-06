@@ -1,0 +1,22 @@
+{
+  "Colors": {
+    "statictranslocator": "#00d4ad"
+  },
+  "ScanDelay": 20000,
+  "MaxSearchRadius": 512,
+  "MaxLabelRadius": 16,
+  "ShouldShowEntityLines": false,
+  "ShouldShowDebugText": true,
+  "LabelScale": 1.0,
+  "SearchDebounceMs": 500,
+  "SearchAutomatically": true,
+  "LargeBlockGroupThreshold": 500000,
+  "OutlineLightnessThreshold": 0.54901963,
+  "DebugOverlayPosition": {
+    "X": 10,
+    "Y": 10
+  },
+  "AutoFocusDialogs": true,
+  "Parallelism": 12,
+  "LineWeight": 1.0
+}

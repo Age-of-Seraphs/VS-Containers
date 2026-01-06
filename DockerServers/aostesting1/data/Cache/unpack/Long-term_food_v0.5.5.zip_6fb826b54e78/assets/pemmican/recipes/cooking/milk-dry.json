@@ -1,0 +1,113 @@
+[{
+	"code": "saltymilk-dry",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 9000 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "drymilk", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:saltmilkportion", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 1,
+			"maxQuantity": 1,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:longmilk-dry", "quantity": 1 }
+},
+{
+	"code": "saltymilk-dry",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 9000 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "drymilk", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:saltmilkportion", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 2,
+			"maxQuantity": 2,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:longmilk-dry", "quantity": 2 }
+},
+{
+	"code": "saltymilk-dry",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 9000 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "drymilk", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:saltmilkportion", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 3,
+			"maxQuantity": 3,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:longmilk-dry", "quantity": 3 }
+},
+{
+	"code": "saltymilk-dry",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 9000 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "drymilk", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:saltmilkportion", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 4,
+			"maxQuantity": 4,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:longmilk-dry", "quantity": 4 }
+},
+]

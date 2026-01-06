@@ -1,0 +1,60 @@
+[
+  {
+    "file": "capreolinae:entities/animal/mammal/hooved/odocoileini-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "capreolinae" }]
+  },
+  {
+    "file": "capreolinae:entities/animal/mammal/hooved/odocoileini-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+      
+      "monthsToGrowByType": {
+        "*-antiferultra": 16,
+        "*-blastocerusdichotomus": 16,
+        "*-bretzianebrascensis": 16,
+        "*-hippocamelusantisensis": 14,
+        "*-hippocamelusbisulcus": 14,
+        "*-mazamaamericana": 10,
+        "*-mazamabricenii": 11,
+        "*-mazamajucunda": 10,
+        "*-mazamanana": 10,
+        "*-mazamarufa": 10,
+        "*-mazamarufina": 11,
+        "*-mazamatemama": 10,
+        "*-mazamatienhoveni": 10,
+        "*-odocoileushemionus": 14,
+        "*-odocoileuslucasi": 14,
+        "*-odocoileuspandora": 10,
+        "*-odocoileusvirginianus": 14,
+        "*-ozotocerosbezoarticus": 11,
+        "*-passalitesnemorivaga": 12,
+        "*-pudellacarlae": 10,
+        "*-pudellamephistophiles": 10,
+        "*-pudupuda": 10,
+        "*-rangiferarcticus": 15,
+        "*-rangifercaribou": 15,
+        "*-rangiferfennicus": 15,
+        "*-rangifergroenlandicus": 15,
+        "*-rangiferplatyrhynchus": 15,
+        "*-rangifertarandus": 15,
+        "*-rangifertarandusdomesticus": 15,
+        "*-subulochunyi": 10,
+        "*-subulogouazoubira": 10,
+        "*-torontoceroshypnogeos": 15
+      }
+
+
+    },
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  }
+]

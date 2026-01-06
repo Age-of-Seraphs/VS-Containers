@@ -1,0 +1,30 @@
+[
+    {
+        file: "game:entities/animal/mammal/fox-adult.json",
+        op: "addmerge",
+        path: "/behaviorConfigs",
+        value: { },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/fox-adult.json",
+        op: "addmerge",
+        path: "/behaviorConfigs/genelib.multiply",
+        value: {
+            enabledByType: { "*-male": false },
+            pregnancyMonths: 1.72,
+            multiplyCooldownMonthsMin: 8.8,
+            multiplyCooldownMonthsMax: 9.2,
+            lactationMonths: 5,
+            //estrousCycleMonths: 0.9,
+            //daysInHeat: 4.0,
+            breedingPeakMonthByType: {
+                "*-red": 1.6,
+                "*-arctic": 2.5,
+            },
+            breedingMonthsBefore: 0.5,
+            breedingMonthsAfter: 0.3,
+        },
+        side: "server"
+    },
+]

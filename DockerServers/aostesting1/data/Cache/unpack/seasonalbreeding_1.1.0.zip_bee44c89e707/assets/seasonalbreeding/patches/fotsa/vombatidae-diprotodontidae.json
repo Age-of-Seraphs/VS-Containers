@@ -1,0 +1,43 @@
+[
+  {
+    "file": "vombatidae:entities/land/diprotodontidae-adult.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "vombatidae" }]
+  },
+  {
+    "file": "vombatidae:entities/land/diprotodontidae-adult.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+      "enabledByType": { "*-male-*": false },
+
+      "breedingPeakMonthByType": {
+        "*-zygomaturustrilobus": 0.5
+      },
+      "breedingMonthsBeforeByType": {
+        "*-zygomaturustrilobus": 5.5
+      },
+      "breedingMonthsAfterByType": {
+        "*-zygomaturustrilobus": 5.5
+      },
+      "pregnancyMonthsByType": {
+        "*-zygomaturustrilobus": 0.7
+      },
+      "multiplyCooldownMonthsMinByType": {
+        "*-zygomaturustrilobus": 12.0
+      },
+      "multiplyCooldownMonthsMaxByType": {
+        "*-zygomaturustrilobus": 18.0
+      },
+      "lactationMonthsByType": {
+        "*-zygomaturustrilobus": 8.0
+      }
+
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "vombatidae" }]
+  }
+]

@@ -1,0 +1,16 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-chromite-serpentinite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-chromite-serpentinite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-chromite-serpentinite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-chromite-serpentinite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-chromite-pyroxenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-chromite-pyroxenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-chromite-pyroxenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-chromite-pyroxenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-chromite-komatiite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-chromite-komatiite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-chromite-komatiite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-bountiful-chromite-komatiite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
+]

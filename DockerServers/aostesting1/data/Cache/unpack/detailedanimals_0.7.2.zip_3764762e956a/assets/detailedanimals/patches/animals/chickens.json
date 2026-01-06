@@ -1,0 +1,514 @@
+[
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "add",
+        path: "/attributes/maleByType",
+        value: { "chicken-hen*": false, "*": true },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "replace",
+        path: "/server/spawnconditionsByType/*-rooster/runtime/companions",
+        value: ["chicken-hen", "chicken-hen", "detailedanimals:chicken-female-chick", "detailedanimals:chicken-male-chick"],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "replace",
+        path: "/server/spawnconditionsByType/*-rooster/worldgen/companions",
+        value: ["chicken-hen", "chicken-hen", "detailedanimals:chicken-female-chick", "detailedanimals:chicken-male-chick"],
+        side: "server"
+    },
+
+
+
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "add",
+        path: "/server/behaviors/6/drops/-",
+        value: {
+            type: "item", 
+            code: "game:poultry-raw", 
+            category: "meat",
+            quantity: {
+                "*":{ avg: 0.9, var: 0 } 
+            }
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "replace",
+        path: "/server/behaviors/5/drops/0/quantityByType",
+        value: { "*": { avg: 0.9, var: 0 } },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "replace",
+        path: "/server/behaviors/5/drops/1/quantity",
+        value: { avg: 12, var: 4 },
+        side: "server"
+    },
+
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "replace",
+        path: "/server/behaviors/7",
+        value: { 
+            code: "agegradually",
+            monthsToGrow: 2.0,
+            adultEntityCodesByType: {
+                "*-male-*": ["game:chicken-roosterpoult"],
+                "*-female-*": ["game:chicken-henpoult"],
+                "*": ["game:chicken-henpoult", "game:chicken-roosterpoult"],
+            },
+            initialWeight: 0.0175,
+            portionsEatenForTaming: 6,
+            maxTameness: 0.9,
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "replace",
+        path: "/server/behaviors/8",
+        value: { 
+            code: "agegradually",
+            monthsToGrow: 2.7,
+            startAgeMonthsByType: {
+                "poult": 2.0,
+                "*": 4.7,
+            },
+            adultEntityCodeByType: {
+                "*-henpoult": "chicken-hen",
+                "*-roosterpoult": "chicken-rooster",
+            },
+            initialWeightByType: {
+                "*poult": 0.3,
+                "*": 0.7,
+            },
+            finalWeightByType: {
+                "*-hen": 1.0,
+                "*-rooster": 1.0,
+            },
+            portionsEatenForTaming: 9,
+            maxTameness: 0.5,
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "add",
+        path: "/client/behaviors/-",
+        value: { code: "agegradually" },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "add",
+        path: "/client/behaviors/-",
+        value: { code: "agegradually" },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "addmerge",
+        path: "/attributes",
+        value: { adultWeightKg: 2, weightDimorphism: 0.08 },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "addmerge",
+        path: "/attributes",
+        value: { adultWeightKg: 2, weightDimorphism: 0.08 },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "add",
+        path: "/client/size",
+        value: 2.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "remove",
+        path: "/client/sizeByType",
+        side: "server"
+    },
+
+
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "addeach",
+        path: "/attributes/creatureDiet/foodCategories/-",
+        value: [ "Fruit", "Vegetable", "Protein", "Dairy" ],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "addeach",
+        path: "/attributes/creatureDiet/foodCategories/-",
+        value: [ "Fruit", "Vegetable", "Protein", "Dairy" ],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "addeach",
+        path: "/attributes/creatureDiet/weightedFoodTags/-",
+        value: [{ weight:0.2, code:"foliage"}, { weight:0.2, code:"grass"}, { weight:0.8, code:"meat"}, { weight:0.8, code:"egg"}, { weight:0.2, code:"acorn"}, { weight:2.0, code:"peanut"}, { weight:1.5, code:"soybean"}, { weight:0.8, code:"tastyvegetable"}],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "addeach",
+        path: "/attributes/creatureDiet/weightedFoodTags/-",
+        value: [{ weight:0.2, code:"foliage"}, { weight:0.2, code:"grass"}, { weight:0.8, code:"meat"}, { weight:0.8, code:"egg"}, { weight:0.2, code:"acorn"}, { weight:2.0, code:"peanut"}, { weight:1.5, code:"soybean"}, { weight:0.8, code:"tastyvegetable"}],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "addmerge",
+        path: "/attributes/creatureDiet/skipFoodTags",
+        value: [ "rawegg" ],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "addmerge",
+        path: "/attributes/creatureDiet/skipFoodTags",
+        value: [ "rawegg" ],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "addmerge",
+        path: "/behaviorConfigs",
+        value: { },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "addmerge",
+        path: "/behaviorConfigs",
+        value: { },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "addmerge",
+        path: "/behaviorConfigs/animalhunger",
+        value: { 
+            fiber: 0.1,
+            fiberMax: 0.5,
+            sugar: 0.1,
+            fat: 0.05,
+            fatMax: 0.3,
+            starch: 0.55,
+            protein: 0.18,
+            water: 1.0,
+            minerals: 0.02,
+            mineralsMax: 0.1,
+            fiberDigestion: 0.1,
+            grazeMethods: ["nibblegraze"],
+            eatRate: 0.04,
+            saturationPerKgPerDay: 30,
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "addmerge",
+        path: "/behaviorConfigs/animalhunger",
+        value: { 
+            fiber: 0.1,
+            fiberMax: 0.5,
+            sugar: 0.1,
+            fat: 0.05,
+            fatMax: 0.3,
+            starch: 0.55,
+            protein: 0.18,
+            water: 1.0,
+            minerals: 0.02,
+            mineralsMax: 0.1,
+            fiberDigestion: 0.1,
+            grazeMethods: ["nibblegraze"],
+            eatRate: 0.04,
+            saturationPerKgPerDay: 30,
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "replace",
+        path: "/server/behaviors/11/aitasks/8/code",
+        value: "forage",
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "add",
+        path: "/server/behaviors/11/aitasks/8/eatAnimation",
+        value: "Eat",
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "replace",
+        path: "/server/behaviors/11/aitasks/8/mincooldownHours",
+        value: 0.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "replace",
+        path: "/server/behaviors/11/aitasks/8/maxcooldownHours",
+        value: 0.05,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "replace",
+        path: "/server/behaviors/10/aitasks/2/code",
+        value: "forage",
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "add",
+        path: "/server/behaviors/10/aitasks/2/eatAnimation",
+        value: "Eat",
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "replace",
+        path: "/server/behaviors/10/aitasks/2/mincooldownHours",
+        value: 0.0,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "replace",
+        path: "/server/behaviors/10/aitasks/2/maxcooldownHours",
+        value: 0.05,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "add",
+        path: "/server/behaviors/11/aitasks/12/enabled",
+        value: false,
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "add",
+        path: "/server/behaviors/10/aitasks/5/enabled",
+        value: false,
+        side: "server"
+    },
+
+
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "add",
+        path: "/attributes/eggTypes",
+        value: [
+                { type: "item", code: "detailedanimals:egg-chicken-peewee-raw", },
+                { type: "item", code: "detailedanimals:egg-chicken-small-raw", },
+                { type: "item", code: "detailedanimals:egg-chicken-medium-raw", },
+                { type: "item", code: "detailedanimals:egg-chicken-large-raw", },
+                { type: "item", code: "detailedanimals:egg-chicken-jumbo-raw", },
+            ],
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "replace",
+        path: "/client/behaviors/4",
+        value: { code: "eggreproduce", enabledByType: { "chicken-hen": true, "*": false } },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "replace",
+        path: "/server/behaviors/7",
+        value: {
+            code: "eggreproduce",
+            enabledByType: { "chicken-hen": true, "*": false },
+            mateTaskPriority: 1.29,
+            sireCodes: [ "game:chicken-rooster" ],
+            spawnEntityCodes: [ {"code": "detailedanimals:chicken-male-chick"}, {"code": "detailedanimals:chicken-female-chick"} ],
+            "_comment": "In egg-layers, pregnancyMonths is how long the female can lay fertile eggs after mating.",
+            pregnancyMonths: 0.6,
+            estrousCycleDays: 1,
+            breedingPeakMonth: 4.0,
+            breedingMonthsBefore: 3.5,
+            breedingMonthsAfter: 6.5,
+            multiplyCooldownMonthsMin: 1.25,
+            multiplyCooldownMonthsMin: 1.75,
+            "_comment2": "In egg layers, litter size is the number of fertile eggs that can be laid after a single mating.",
+            litterAddAttempts: 15,
+            litterAddChance: 0.5,
+            hoursPerEgg: { avg: 25, var: 2, dist: "narrowgaussian" },
+            incubationMonths: 0.7,
+            layeggtask: {
+                code: "layegg",
+                nestTypes: [ "ground" ],
+                priority: 1.37,
+                layTime: 5,
+                movespeed: 0.006,
+                animation: "Walk",
+                mincooldownHours: 1,
+                maxcooldownHours: 2,
+                sitAnimation: "Sit",
+                sound: "creature/chicken/hen-lay"
+            }
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "replace",
+        path: "/server/behaviors/11/aitasks/7",
+        value: {
+            code: "sitonnest",
+            enabledByType: { "chicken-hen": true, "*": false },
+            nestTypes: [ "ground" ],
+            priority: 1.36,
+            sitDays: 0.45,
+            movespeed: 0.006,
+            animation: "Walk",
+            mincooldownHours: 0.1,
+            maxcooldownHours: 0.8,
+            sitAnimation: "Sit",
+            sound: "creature/chicken/hen-lay"
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "add",
+        path: "/server/behaviors/-",
+        value: { code: "genelib.genetics", genomeType: "detailedanimals:junglefowl" },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "add",
+        path: "/server/behaviors/-",
+        value: { code: "genelib.genetics", genomeType: "detailedanimals:junglefowl" },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "add",
+        path: "/client/behaviors/-",
+        value: { code: "genelib.genetics", genomeType: "detailedanimals:junglefowl" },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "add",
+        path: "/client/behaviors/-",
+        value: { code: "genelib.genetics", genomeType: "detailedanimals:junglefowl" },
+        side: "server"
+    },
+
+
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "replace",
+        path: "/client/shape",
+        value: { base: "detailedanimals:entity/chicken/chick" },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-baby.json",
+        op: "replace",
+        path: "/client/texture",
+        value: { base: "detailedanimals:entity/chicken/chick-duckwing", 
+            alternates: [{ base: "detailedanimals:entity/chicken/chick-yellow"}, 
+            { base: "detailedanimals:entity/chicken/chick-black"}, 
+            { base: "detailedanimals:entity/chicken/chick-blue"},
+            { base: "detailedanimals:entity/chicken/chick-splash"},
+            { base: "detailedanimals:entity/chicken/chick-black", "_comment": "Birchen chicks look just like black ones"}, 
+            { base: "detailedanimals:entity/chicken/chick-blue"},
+            { base: "detailedanimals:entity/chicken/chick-splash"},
+            { base: "detailedanimals:entity/chicken/chick-duckwing-blue"},
+            { base: "detailedanimals:entity/chicken/chick-duckwing-splash"},
+            ] 
+        },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "replace",
+        path: "/client/shapeByType/chicken-hen*",
+        value: { base: "detailedanimals:entity/chicken/hen" },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "replace",
+        path: "/client/shapeByType/*",
+        value: { base: "detailedanimals:entity/chicken/rooster" },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "remove",
+        path: "/client/textureByType",
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/bird/chicken-adult.json",
+        op: "add",
+        path: "/client/texturesByType",
+        value: {
+            "chicken-hen*": {
+                chicken: { base: "detailedanimals:entity/chicken/hen-duckwing", 
+                    alternates: [{ base: "detailedanimals:entity/chicken/adult-white"}, 
+                    { base: "detailedanimals:entity/chicken/adult-black"}, 
+                    { base: "detailedanimals:entity/chicken/hen-blue"},
+                    { base: "detailedanimals:entity/chicken/hen-splash"},
+                    { base: "detailedanimals:entity/chicken/hen-birchen"},
+                    { base: "detailedanimals:entity/chicken/hen-birchen-blue"},
+                    { base: "detailedanimals:entity/chicken/hen-birchen-splash"},
+                    { base: "detailedanimals:entity/chicken/hen-duckwing-blue"},
+                    { base: "detailedanimals:entity/chicken/hen-duckwing-splash"},
+                ]},
+                shanks: { base: "detailedanimals:entity/chicken/shanks/darkwhite",
+                    alternates: [{ base: "detailedanimals:entity/chicken/shanks/darkyellow"},
+                    { base: "detailedanimals:entity/chicken/shanks/black"},
+                    { base: "detailedanimals:entity/chicken/shanks/blackyellow"},
+                    { base: "detailedanimals:entity/chicken/shanks/white"},
+                    { base: "detailedanimals:entity/chicken/shanks/yellow"},
+                ]}},
+            "*": {
+                chicken: { base: "detailedanimals:entity/chicken/rooster-duckwing", 
+                    alternates: [{ base: "detailedanimals:entity/chicken/adult-white"}, 
+                    { base: "detailedanimals:entity/chicken/adult-black"}, 
+                    { base: "detailedanimals:entity/chicken/rooster-blue"},
+                    { base: "detailedanimals:entity/chicken/rooster-splash"},
+                    { base: "detailedanimals:entity/chicken/rooster-birchen"},
+                    { base: "detailedanimals:entity/chicken/rooster-birchen-blue"},
+                    { base: "detailedanimals:entity/chicken/rooster-birchen-splash"},
+                    { base: "detailedanimals:entity/chicken/rooster-duckwing-blue"},
+                    { base: "detailedanimals:entity/chicken/rooster-duckwing-splash"},
+                    ]},
+                shanks: { base: "detailedanimals:entity/chicken/shanks/darkwhite",
+                    alternates: [{ base: "detailedanimals:entity/chicken/shanks/darkyellow"},
+                    { base: "detailedanimals:entity/chicken/shanks/black"},
+                    { base: "detailedanimals:entity/chicken/shanks/blackyellow"},
+                    { base: "detailedanimals:entity/chicken/shanks/white"},
+                    { base: "detailedanimals:entity/chicken/shanks/yellow"},
+                ]}}
+        },
+        side: "server"
+    },
+]

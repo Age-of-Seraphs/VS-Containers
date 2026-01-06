@@ -1,0 +1,41 @@
+[
+  {
+    "file": "caninae:entities/land/cerdocyonina-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "caninae" }]
+  },
+  {
+    "file": "caninae:entities/land/cerdocyonina-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+
+      "monthsToGrowByType": {
+        "*-atelocynus-microtis": 12,
+        "*-cerdocyon-thous": 10,
+        "*-chrysocyon-brachyurus": 14,
+        "*-dusicyon-australis": 13,
+        "*-dusicyon-avus": 14,
+        "*-lycalopex-culpaeus": 12,
+        "*-lycalopex-fulvipes": 11,
+        "*-lycalopex-griseus": 11,
+        "*-lycalopex-gymnocercus": 11,
+        "*-lycalopex-sechurae": 10,
+        "*-lycalopex-vetulus": 10,
+        "*-speothos-pacivorus": 12,
+        "*-speothos-venaticus": 12
+      }
+
+
+    },
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        file: "game:entities/animal/mammal/hooved/elk-tamed.json",
+        op: "addmerge",
+        path: "/behaviorConfigs",
+        value: { },
+        side: "server"
+    },
+    {
+        file: "game:entities/animal/mammal/hooved/elk-tamed.json",
+        op: "addmerge",
+        path: "/behaviorConfigs/genelib.multiply",
+        value: {
+            enabledByType: { "*-male": false },
+            pregnancyMonthsByType: {
+                "*elk-*": 8.05,
+            },
+            multiplyCooldownMonthsMin: 8.8,
+            multiplyCooldownMonthsMax: 9.2,
+            lactationMonths: 6,
+            //estrousCycleMonths: 0.6,
+            //daysInHeat: 2.0,
+            breedingPeakMonth: 9.0,
+            breedingMonthsBefore: 0.5,
+            breedingMonthsAfter: 0.5,
+        },
+        side: "server"
+    },
+]

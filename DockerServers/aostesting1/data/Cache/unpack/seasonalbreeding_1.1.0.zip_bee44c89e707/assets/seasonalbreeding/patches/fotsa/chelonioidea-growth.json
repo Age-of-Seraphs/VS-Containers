@@ -1,0 +1,30 @@
+[
+  {
+    "file": "chelonioidea:entities/water/chelonioidea-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "chelonioidea" }]
+  },
+  {
+    "file": "chelonioidea:entities/water/chelonioidea-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+
+      "monthsToGrowByType": {
+        "*-carettacaretta": 24,
+        "*-cheloniamydas": 26,
+        "*-dermochelyscoriacea": 22,
+        "*-eretmochelysimbricata": 24,
+        "*-lepidochelyskempii": 20,
+        "*-lepidochelysolivacea": 20,
+        "*-natatordepressus": 24
+      }
+
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "chelonioidea" }]
+  }
+]

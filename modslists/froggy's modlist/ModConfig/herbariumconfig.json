@@ -1,0 +1,31 @@
+{
+  "plantsCanDamage": true,
+  "plantsCanPoison": true,
+  "plantsDamage": 0.5,
+  "plantsDamageTick": 0.7,
+  "plantsWillDamage": [
+    "game:wolf",
+    "game:bear",
+    "game:drifter",
+    "game:bowtorn",
+    "game:shiver",
+    "game:player"
+  ],
+  "poulticeHealOverTime": true,
+  "berryBushCanDamage": true,
+  "berryBushDamage": 0.5,
+  "berryBushDamageTick": 0.7,
+  "berryBushWillDamage": [
+    "game:wolf",
+    "game:bear",
+    "game:drifter",
+    "game:bowtorn",
+    "game:shiver",
+    "game:player"
+  ],
+  "berryGrowthRateMul": 1.0,
+  "berriesGrowByMonth": false,
+  "useKnifeForClipping": true,
+  "useShearsForClipping": true,
+  "simplifiedBerryTooltips": false
+}

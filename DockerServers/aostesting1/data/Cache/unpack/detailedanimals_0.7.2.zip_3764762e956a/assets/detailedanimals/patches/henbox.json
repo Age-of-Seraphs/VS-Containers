@@ -1,0 +1,16 @@
+[
+    {
+        file: "game:recipes/grid/henbox.json",
+        op: "replace",
+        path: "/output/code",
+        value: "genelib:nestbox",
+        side: "server",
+    },
+    {
+        file: "game:blocktypes/wood/henbox.json",
+        op: "add",
+        path: "/drops",
+        value: [ { type: "block", code: "genelib:nestbox" } ],
+        side: "server",
+    }
+]

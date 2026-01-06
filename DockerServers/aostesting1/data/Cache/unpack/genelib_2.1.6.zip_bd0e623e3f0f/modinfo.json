@@ -1,0 +1,14 @@
+{
+  "type": "code",
+  "modid": "genelib",
+  "name": "Genelib",
+  "description" : "Calculates genetic inheritance for other mods.",
+  "authors": ["sekelsta"],
+  "version": "2.1.6",
+  "dependencies": { 
+	"game": "1.21.0",
+  },
+  "custom": {
+    "logosource": "https://commons.wikimedia.org/wiki/File:Dna-163466.jpg"
+  }
+}

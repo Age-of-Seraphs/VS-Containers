@@ -1,0 +1,42 @@
+[
+  {
+    "file": "caninae:entities/land/canina-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "caninae" }]
+  },
+  {
+    "file": "caninae:entities/land/canina-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+
+      "monthsToGrowByType": {
+        "*-aenocyon-dirus": 18,
+        "*-canis-aureus": 10,
+        "*-canis-familiaris": 8,
+        "*-canis-latrans": 12,
+        "*-canis-lupaster": 11,
+        "*-canis-lupus": 15,
+        "*-canis-lupusarctos": 16,
+        "*-canis-lupusdingo": 13,
+        "*-canis-lycaon": 15,
+        "*-canis-rufus": 15,
+        "*-canis-simensis": 15,
+        "*-cuon-alpinus": 14,
+        "*-cynotherium-sardous": 13,
+        "*-lupulella-adusta": 10,
+        "*-lupulella-mesomelas": 10,
+        "*-lycaon-pictus": 15
+      }
+    },
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  }
+]

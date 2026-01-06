@@ -1,0 +1,39 @@
+[
+  {
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+	"komatiite",
+	"pyroxenite",
+	"serpentinite",
+	"monzonite",
+	"syenite",
+	]
+  },
+
+
+
+  {
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": { 
+				"spear-generic-komatiite": {
+				"material": { base: "block/stone/rock/{material}1" },
+			},
+				"spear-generic-pyroxenite": {
+				"material": { base: "block/stone/rock/{material}1" },
+			},
+				"spear-generic-serpentinite": {
+				"material": { base: "block/stone/rock/{material}1" },
+			},
+				"spear-generic-monzonite": {
+				"material": { base: "block/stone/rock/{material}1" },
+			},
+				"spear-generic-syenite": {
+				"material": { base: "block/stone/rock/{material}1" },
+			},
+	},
+  },
+]

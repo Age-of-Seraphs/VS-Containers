@@ -1,0 +1,52 @@
+[
+	{
+		ingredientPattern: "T	B",
+		ingredients: {
+			"T": { type: "item", code: "game:knifeblade-komatiite" },
+			"B": { type: "item", code: "game:bone" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:knife-generic-bonekomatiite", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T	B",
+		ingredients: {
+			"T": { type: "item", code: "game:knifeblade-monzonite" },
+			"B": { type: "item", code: "game:bone" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:knife-generic-bonemonzonite", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T	B",
+		ingredients: {
+			"T": { type: "item", code: "game:knifeblade-pyroxenite" },
+			"B": { type: "item", code: "game:bone" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:knife-generic-bonepyroxenite", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T	B",
+		ingredients: {
+			"T": { type: "item", code: "game:knifeblade-serpentinite" },
+			"B": { type: "item", code: "game:bone" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:knife-generic-boneserpentinite", quantity: 1  }
+	},
+	{
+		ingredientPattern: "T	B",
+		ingredients: {
+			"T": { type: "item", code: "game:knifeblade-syenite" },
+			"B": { type: "item", code: "game:bone" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:knife-generic-bonesyenite", quantity: 1  }
+	},
+]

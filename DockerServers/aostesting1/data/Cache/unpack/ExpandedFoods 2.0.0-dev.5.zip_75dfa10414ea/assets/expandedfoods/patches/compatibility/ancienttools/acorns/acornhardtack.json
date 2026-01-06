@@ -1,0 +1,10 @@
+﻿[
+ {
+    "file": "expandedfoods:itemtypes/food/acorns/mixing/acornhardtack.json",
+    "op": "addmerge", 
+    "path": "/skipVariants",
+    "value": [ "acornhardtack-birch-*", "acornhardtack-pine-*", "acornhardtack-maple-*"],
+    "side": "server",
+    "dependsOn": [{ "modid": "ancienttools", "invert": true }, { "modid": "acorns" }]
+ }
+]

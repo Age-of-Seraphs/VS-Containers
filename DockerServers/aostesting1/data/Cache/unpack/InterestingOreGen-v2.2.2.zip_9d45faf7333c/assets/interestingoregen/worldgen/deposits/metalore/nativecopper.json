@@ -1,0 +1,139 @@
+[
+  {
+    "code": "nativecopper",
+    "triesPerChunk": 0.00125,
+    "withOreMap": true,
+    "handbookPageCode": "item-nugget-nativecopper",
+    "generator": "iog-gen",
+    "attributes": {
+      "inblock": {
+        "veintype": "fault",
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "granite", "basalt", "peridotite", "claystone", "sandstone", "shale", "chalk", "chert", "conglomerate", "phyllite", "slate" ]
+      },
+      "tracerblock": { "code": "ore-quartz-{rock}" },
+      "placeblock": {
+        "code": "ore-*-nativecopper-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-andesite": [ "poor", "medium" ],
+          "rock-granite": [ "poor", "medium" ],
+          "rock-basalt": [ "poor", "medium", "rich" ],
+          "rock-peridotite": [ "poor", "medium" ],
+          "rock-claystone": [ "poor", "medium" ],
+          "rock-sandstone": [ "poor", "medium" ],
+          "rock-shale": [ "poor", "medium" ],
+          "rock-chalk": [ "poor", "medium" ],
+          "rock-chert": [ "poor", "medium" ],
+          "rock-conglomerate": [ "poor", "medium" ],
+          "rock-phyllite": [ "poor", "medium" ],
+          "rock-slate": [ "poor", "medium" ]
+        }
+      },
+      "subdeposit": {
+        "code": "ore-*-quartz_nativesilver-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-andesite": [ "poor", "medium" ],
+          "rock-granite": [ "poor", "medium" ],
+          "rock-basalt": [ "poor", "medium" ],
+          "rock-peridotite": [ "poor", "medium" ],
+          "rock-claystone": [ "poor", "medium" ],
+          "rock-sandstone": [ "poor", "medium" ],
+          "rock-shale": [ "poor", "medium" ],
+          "rock-chalk": [ "poor", "medium" ],
+          "rock-chert": [ "poor", "medium" ],
+          "rock-conglomerate": [ "poor", "medium" ],
+          "rock-phyllite": [ "poor", "medium" ],
+          "rock-slate": [ "poor", "medium" ]
+        }
+      },
+      "radius": {
+        "dist": "uniform",
+        "avg": 48,
+        "var": 16
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.45,
+        "var": 0.4
+      },
+      "thickness": {
+        "dist": "uniform",
+        "avg": 3,
+        "var": 2
+      },
+      "branchCount": {
+        "dist": "uniform",
+        "avg": 10,
+        "var": 10
+      },
+      "branchLength": {
+        "dist": "uniform",
+        "avg": 3,
+        "var": 2
+      },
+      "OreSpongePercent": 0.3
+    }
+  },
+  {
+    "code": "nativecopper",
+    "triesPerChunk": 0.00125,
+    "withOreMap": true,
+    "handbookPageCode": "item-nugget-nativecopper",
+    "generator": "iog-gen",
+    "attributes": {
+      "inblock": {
+        "veintype": "chimney",
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "granite", "basalt", "peridotite", "claystone", "sandstone", "shale", "chalk", "chert", "conglomerate", "phyllite", "slate" ]
+      },
+      "placeblock": {
+        "code": "ore-*-nativecopper-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-andesite": [ "poor", "medium" ],
+          "rock-granite": [ "poor", "medium" ],
+          "rock-basalt": [ "poor", "medium", "rich" ],
+          "rock-peridotite": [ "poor", "medium" ],
+          "rock-claystone": [ "poor", "medium" ],
+          "rock-sandstone": [ "poor", "medium" ],
+          "rock-shale": [ "poor", "medium" ],
+          "rock-chalk": [ "poor", "medium" ],
+          "rock-chert": [ "poor", "medium" ],
+          "rock-conglomerate": [ "poor", "medium" ],
+          "rock-phyllite": [ "poor", "medium" ],
+          "rock-slate": [ "poor", "medium" ]
+        }
+      },
+      "radius": {
+        "dist": "uniform",
+        "avg": 5,
+        "var": 2
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.2,
+        "var": 0.2
+      },
+      "thickness": {
+        "dist": "uniform",
+        "avg": 0,
+        "var": 0
+      },
+      "branchCount": {
+        "dist": "uniform",
+        "avg": 5,
+        "var": 1
+      },
+      "branchLength": {
+        "dist": "uniform",
+        "avg": 64,
+        "var": 32
+      },
+      "OreSpongePercent": 0.3
+    }
+  }
+]

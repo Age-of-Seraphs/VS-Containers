@@ -1,0 +1,16 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-chromite-serpentinite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-chromite-serpentinite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-chromite-serpentinite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-bountiful-chromite-serpentinite", "file": "game:itemtypes/resource/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-chromite-pyroxenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-chromite-pyroxenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-chromite-pyroxenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-bountiful-chromite-pyroxenite", "file": "game:itemtypes/resource/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-chromite-komatiite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-chromite-komatiite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-chromite-komatiite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-bountiful-chromite-komatiite", "file": "game:itemtypes/resource/ore-graded.json", },
+]

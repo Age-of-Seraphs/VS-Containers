@@ -1,0 +1,46 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/coal.json",
+		"op": "addeach",
+		"path": "/0/attributes/inblock/allowedVariants/0",
+		"value": [
+			"arenite",
+			"arkose",
+			"marl",
+			"wacke"
+		]
+	},
+		{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/coal.json",
+		"op": "addeach",
+		"path": "/1/attributes/inblock/allowedVariants/0",
+		"value": [
+			"arenite",
+			"arkose",
+			"marl",
+			"wacke"
+		]
+	},
+		{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/coal.json",
+		"op": "addeach",
+		"path": "/2/attributes/inblock/allowedVariants/0",
+		"value": [
+			"arenite",
+			"arkose",
+			"wacke"
+		]
+	},
+]

@@ -1,0 +1,20 @@
+{
+  "EnableDensityMode": true,
+  "OneShotDensity": false,
+  "NewDensityMode": true,
+  "NewDensityDmg": 3,
+  "LinearDensityScaling": true,
+  "AddProximityMode": true,
+  "ProximitySearchRadius": 8,
+  "ProximityDmg": 2,
+  "AddStoneMode": true,
+  "StonePercentSearch": true,
+  "StoneSearchRadius": 64,
+  "StoneDmg": 4,
+  "AddBoreHoleMode": true,
+  "BoreholeRadius": 8,
+  "BoreholeDmg": 2,
+  "BoreholeScansOre": true,
+  "BoreholeScansStone": false,
+  "DebugMode": false
+}

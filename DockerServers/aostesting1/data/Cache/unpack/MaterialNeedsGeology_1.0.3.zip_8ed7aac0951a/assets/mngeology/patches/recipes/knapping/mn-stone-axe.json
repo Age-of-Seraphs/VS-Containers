@@ -1,0 +1,32 @@
+[
+	{
+	"op": "addmerge",
+	"path": "/ingredient/allowedVariants/-",
+	"value": "komatiite",
+	"file": "game:recipes/knapping/stone-hatchet.json"
+	},
+	{
+	"op": "addmerge",
+	"path": "/ingredient/allowedVariants/-",
+	"value": "pyroxenite",
+	"file": "game:recipes/knapping/stone-hatchet.json"
+	},
+	{
+	"op": "addmerge",
+	"path": "/ingredient/allowedVariants/-",
+	"value": "serpentinite",
+	"file": "game:recipes/knapping/stone-hatchet.json"
+	},
+	{
+	"op": "addmerge",
+	"path": "/ingredient/allowedVariants/-",
+	"value": "monzonite",
+	"file": "game:recipes/knapping/stone-hatchet.json"
+	},
+	{
+	"op": "addmerge",
+	"path": "/ingredient/allowedVariants/-",
+	"value": "syenite",
+	"file": "game:recipes/knapping/stone-hatchet.json"
+	},
+]

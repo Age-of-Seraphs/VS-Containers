@@ -1,0 +1,47 @@
+[{
+	"code": "pickled-potato",
+	"enabled": true,
+	"sealHours": 144,
+	"ingredients": [
+		{
+			"type": "item",
+			"code": "game:brineportion",
+			"litres": 1,
+			"consumeLitres": 1
+		},
+		{
+			"type": "item",
+			"code": "pemmican:vegetable-potato-raw",
+			"quantity": 1
+		}
+	],
+	"output": {
+		"type": "item",
+		"code": "pemmican:pickledvegetable-pickledpotato",
+		"stackSize": 1
+	}
+},
+{
+	"code": "pickled-potato2",
+	"enabled": true,
+	"sealHours": 48,
+	"ingredients": [
+		{
+			"type": "item",
+			"code": "game:brineportion",
+			"litres": 1,
+			"consumeLitres": 1
+		},
+		{
+			"type": "item",
+			"code": "pemmican:choppedvegetable-potato",
+			"quantity": 1
+		}
+	],
+	"output": {
+		"type": "item",
+		"code": "pemmican:choppedvegetable-pickledpotato",
+		"stackSize": 1
+	}
+}
+]

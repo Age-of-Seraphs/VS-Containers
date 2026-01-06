@@ -1,0 +1,80 @@
+[
+  {
+    "file": "chelonioidea:entities/water/chelonioidea-adult.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "chelonioidea" }]
+  },
+  {
+    "file": "chelonioidea:entities/water/chelonioidea-adult.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+      "enabledByType": { "*-male-*": false },
+
+      "pregnancyMonthsByType": {
+        "*-carettacaretta": 2.0,
+        "*-cheloniamydas": 2.0,
+        "*-dermochelyscoriacea": 2.0,
+        "*-eretmochelysimbricata": 2.0,
+        "*-lepidochelyskempii": 2.0,
+        "*-lepidochelysolivacea": 2.0,
+        "*-natatordepressus": 2.0
+      },
+
+      "breedingPeakMonthByType": {
+        "*-carettacaretta": 5.5,
+        "*-cheloniamydas": 6.5,
+        "*-dermochelyscoriacea": 6.0,
+        "*-eretmochelysimbricata": 6.5,
+        "*-lepidochelyskempii": 4.8,
+        "*-lepidochelysolivacea": 9.8,
+        "*-natatordepressus": 10.5
+      },
+
+      "breedingMonthsBeforeByType": {
+        "*-carettacaretta": 2.5,
+        "*-cheloniamydas": 2.0,
+        "*-dermochelyscoriacea": 3.5,
+        "*-eretmochelysimbricata": 3.5,
+        "*-lepidochelyskempii": 1.5,
+        "*-lepidochelysolivacea": 2.5,
+        "*-natatordepressus": 2.5
+      },
+
+      "breedingMonthsAfterByType": {
+        "*-carettacaretta": 2.5,
+        "*-cheloniamydas": 2.0,
+        "*-dermochelyscoriacea": 3.5,
+        "*-eretmochelysimbricata": 3.5,
+        "*-lepidochelyskempii": 1.7,
+        "*-lepidochelysolivacea": 2.7,
+        "*-natatordepressus": 2.0
+      },
+      "multiplyCooldownMonthsMinByType": {
+        "*-carettacaretta": 10.0,
+        "*-cheloniamydas": 10.0,
+        "*-dermochelyscoriacea": 9.0,
+        "*-eretmochelysimbricata": 10.0,
+        "*-lepidochelyskempii": 9.0,
+        "*-lepidochelysolivacea": 9.0,
+        "*-natatordepressus": 10.0
+      },
+
+      "multiplyCooldownMonthsMaxByType": {
+        "*-carettacaretta": 18.0,
+        "*-cheloniamydas": 20.0,
+        "*-dermochelyscoriacea": 18.0,
+        "*-eretmochelysimbricata": 20.0,
+        "*-lepidochelyskempii": 16.0,
+        "*-lepidochelysolivacea": 16.0,
+        "*-natatordepressus": 20.0
+      }
+
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "chelonioidea" }]
+  }
+]

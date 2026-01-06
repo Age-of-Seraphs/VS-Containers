@@ -1,0 +1,44 @@
+[
+  {
+    "file": "cervinae:entities/land/cervini.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "cervinae" }]
+  },
+  {
+    "file": "cervinae:entities/land/cervini.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+      "pregnancyMonthsByType": {
+        "*-megalocerosgiganteus": 7.8
+      },
+      "multiplyCooldownMonthsMinByType": {
+        "*-megalocerosgiganteus": 10.0
+      },
+      "multiplyCooldownMonthsMaxByType": {
+        "*-megalocerosgiganteus": 14.0
+      },
+      "lactationMonthsByType": {
+        "*-megalocerosgiganteus": 5.5
+      },
+      "breedingPeakMonthByType": {
+        "*-megalocerosgiganteus": 9.5
+      },
+      "breedingMonthsBeforeByType": {
+        "*-megalocerosgiganteus": 1.5
+      },
+      "breedingMonthsAfterByType": {
+        "*-megalocerosgiganteus": 1.5
+      },
+      "monthsToGrowByType": {
+        "*-megalocerosgiganteus": 18
+      }
+
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "cervinae" }]
+  }
+]

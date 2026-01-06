@@ -1,0 +1,20 @@
+We DEFENITELY all need to be on the same page for what we're going to have as the ficus of this iteration of the server, and roughly the time frame of this modpack as well as future additions later on in the server's lifespan.
+
+
+The "future core modlist" folder is going to be the final product, and main one we're adding to.
+It's rather bare in some places ATM as There's several paths I know we could take in those areas and I want us to have a solid idea of what the modpack's theme is beforehand.
+
+First we test one or a few catagories in the future core, and get those parts of the modlist fleshed out.
+write any tweaks neccecary for that catagory
+continue for the other catagories till we have at least something in every box and we have a good idea of the focus of the new modpack.
+put in any tweaks for cross catagory issues.
+
+
+
+current server modlist is the current modset split up into a couple catagories so I could get an idea of what to carry over from the old modlist.
+
+"froggy's modlist" is one he's made with some of his prospects which he's sent me.
+
+"new mods to look at from captan" is a collection of a few gameplay changing mods that I have picked up over the past few months that I'd like us to discuss whether they'd be a good fit once we have the modpack theme down fully.
+
+"client mods to help" is a collection of mods I've got that can help with various aspects of testing mods.

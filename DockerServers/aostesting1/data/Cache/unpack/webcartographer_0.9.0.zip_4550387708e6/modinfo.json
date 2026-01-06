@@ -1,0 +1,14 @@
+{
+  "type": "code",
+  "modid": "webcartographer",
+  "name": "WebCartographer",
+  "authors": [
+    "Th3Dilli"
+  ],
+  "description": "Creates a webmap from a vintagestory save file",
+  "version": "0.9.0",
+  "side": "server",
+  "dependencies": {
+    "game": "1.21.0-pre.1"
+  }
+}

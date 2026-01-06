@@ -1,0 +1,11 @@
+{
+    tag: "meat",
+    water: 0.75,
+    protein: 0.8,
+    fat: 0.1,
+    fiber: 0.01,
+    minerals: 0.04,
+    sugar: 0.01,
+    starch: 0.0,
+    priority: -1,
+}

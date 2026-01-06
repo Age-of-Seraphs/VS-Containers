@@ -1,0 +1,41 @@
+﻿[
+  {
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:acorndumpling-raw",
+      "shapeElement": "bowl/dumplings1/*",
+      "textureMapping": [ "dumpling", "dumpling" ]
+    },
+    "file": "game:recipes/cooking/soup.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:acorndumpling-raw",
+      "shapeElement": "bowl/dumplings2/*",
+      "textureMapping": [ "dumpling", "dumpling" ]
+    },
+    "file": "game:recipes/cooking/soup.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" } ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:acorndumpling-raw",
+      "shapeElement": "bowl/dumplings3/*",
+      "textureMapping": [ "dumpling", "dumpling" ]
+    },
+    "file": "game:recipes/cooking/soup.json",
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" } ]
+  }
+]

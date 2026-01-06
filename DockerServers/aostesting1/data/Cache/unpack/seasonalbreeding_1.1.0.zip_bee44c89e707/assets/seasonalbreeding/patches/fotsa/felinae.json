@@ -1,0 +1,78 @@
+[
+  {
+    "file": "felinae:entities/land/felinae.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "felinae" }]
+  },
+  {
+    "file": "felinae:entities/land/felinae.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+      "enabledByType": { "*-male-*": false },
+
+      "pregnancyMonthsByType": {
+        "*-caracalcaracal": 2.6,
+        "*-lynxcanadensis": 2.6,
+        "*-lynxlynx": 2.6,
+        "*-lynxpardinus": 2.6
+      },
+
+      "multiplyCooldownMonthsMinByType": {
+        "*-caracalcaracal": 8.0,
+        "*-lynxcanadensis": 10.0,
+        "*-lynxlynx": 10.0,
+        "*-lynxpardinus": 10.0
+      },
+
+      "multiplyCooldownMonthsMaxByType": {
+        "*-caracalcaracal": 12.0,
+        "*-lynxcanadensis": 16.0,
+        "*-lynxlynx": 16.0,
+        "*-lynxpardinus": 16.0
+      },
+
+      "lactationMonthsByType": {
+        "*-caracalcaracal": 3.0,
+        "*-lynxcanadensis": 3.5,
+        "*-lynxlynx": 3.5,
+        "*-lynxpardinus": 3.5
+      },
+
+      "breedingPeakMonthByType": {
+        "*-caracalcaracal": 4.0,
+        "*-lynxcanadensis": 2.0,
+        "*-lynxlynx": 2.0,
+        "*-lynxpardinus": 2.0
+      },
+
+      "breedingMonthsBeforeByType": {
+        "*-caracalcaracal": 4.0,
+        "*-lynxcanadensis": 1.5,
+        "*-lynxlynx": 1.5,
+        "*-lynxpardinus": 1.5
+      },
+
+      "breedingMonthsAfterByType": {
+        "*-caracalcaracal": 4.0,
+        "*-lynxcanadensis": 1.5,
+        "*-lynxlynx": 1.5,
+        "*-lynxpardinus": 1.5
+      },
+
+      "monthsToGrowByType": {
+        "*-caracalcaracal": 12,
+        "*-lynxcanadensis": 14,
+        "*-lynxlynx": 14,
+        "*-lynxpardinus": 14
+      }
+
+
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "felinae" }]
+  }
+]

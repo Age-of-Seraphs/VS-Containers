@@ -1,0 +1,35 @@
+{
+	treeWorldPropertyCode: "smallnorthlarch",
+	sizeMultiplier: 0.7,
+	trunks: [{
+		widthloss: 0.14,
+		dieAt: { avg: 0.06, var: 0.06 },
+		branchStart: { dist: "gaussian", avg: 0.2, var: 0.1 },
+		branchSpacing: { avg: 0.1, var: 0.05 },
+		branchVerticalAngle:  { dist: "gaussian", avg: 1.57, var: 0.3 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.3, var: 0.05 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 0.7 },
+		branchQuantity: { avg: 3, var: 1.5 },
+		branchQuantityEvolve: { transform: "quadratic", factor: 0.8 }
+	}],
+	branches: [{
+		widthLoss: 0.088,
+		gravityDrag: -0.06,
+
+		branchStart:  { avg: 0.1, var: 0.1 },
+		branchSpacing: { avg: 0, var: 0 },
+		branchVerticalAngle: { avg: 2, var: 0.7 },
+		branchHorizontalAngle: { avg: 0, var: 2.1415 },
+
+		branchQuantity: { avg: 0.8, var: 0 },
+		branchWidthMultiplier: { avg: 0.2, var: 0 }
+	}],
+	treeBlocks: {
+		logBlockCode: "log-grown-larch-ud",
+		leavesBlockCode: "leaves-grown-larch",
+		leavesBranchyBlockCode: "leavesbranchy-grown-larch",
+		vinesBlockCode: "wildvine-section-north",
+		vinesEndBlockCode: "wildvine-end-north"
+	}
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "file": "game:itemtypes/liquid/alcohol.json",
+    "op": "replace",
+    "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitre/satiety",
+    "value": 350
+  }
+]

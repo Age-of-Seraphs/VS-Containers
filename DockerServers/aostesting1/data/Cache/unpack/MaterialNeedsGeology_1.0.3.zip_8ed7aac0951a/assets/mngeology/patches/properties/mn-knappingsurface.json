@@ -1,0 +1,32 @@
+[
+	{
+	"op": "addmerge",
+	"path": "/textures/komatiite",
+	"value": { "base": "block/stone/rock/komatiite1" },
+	"file": "game:blocktypes/stone/knappingsurface.json",
+	},
+	{
+	"op": "addmerge",
+	"path": "/textures/pyroxenite",
+	"value": { "base": "block/stone/rock/pyroxenite1" },
+	"file": "game:blocktypes/stone/knappingsurface.json",
+	},
+	{
+	"op": "addmerge",
+	"path": "/textures/serpentinite",
+	"value": { "base": "block/stone/rock/serpentinite1" },
+	"file": "game:blocktypes/stone/knappingsurface.json",
+	},
+	{
+	"op": "addmerge",
+	"path": "/textures/monzonite",
+	"value": { "base": "block/stone/rock/monzonite1" },
+	"file": "game:blocktypes/stone/knappingsurface.json",
+	},
+	{
+	"op": "addmerge",
+	"path": "/textures/syenite",
+	"value": { "base": "block/stone/rock/syenite1" },
+	"file": "game:blocktypes/stone/knappingsurface.json",
+	},
+]

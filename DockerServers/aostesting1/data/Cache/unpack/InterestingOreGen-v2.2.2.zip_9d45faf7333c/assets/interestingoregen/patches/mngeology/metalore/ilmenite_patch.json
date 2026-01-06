@@ -1,0 +1,150 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/ilmenite.json",
+		"op": "addeach",
+		"path": "/0/attributes/inblock/allowedVariants/0",
+		"value": [
+			"pyroxenite",
+			"komatiite",
+			"monzonite",
+			"syenite"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/ilmenite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-pyroxenite",
+		"value": [
+			"poor",
+			"medium",
+			"rich",
+			"bountiful"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/ilmenite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-komatiite",
+		"value": [
+			"poor",
+			"medium",
+			"rich",
+			"bountiful"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/ilmenite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-monzonite",
+		"value": [
+			"poor",
+			"medium",
+			"rich",
+			"bountiful"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/ilmenite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-syenite",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/ilmenite.json",
+		"op": "addeach",
+		"path": "/1/attributes/inblock/allowedVariants/0",
+		"value": [
+			"pyroxenite",
+			"komatiite",
+			"monzonite",
+			"syenite"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/ilmenite.json",
+		"op": "add",
+		"path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-pyroxenite",
+		"value": [
+			"poor",
+			"medium",
+			"rich",
+			"bountiful"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/ilmenite.json",
+		"op": "add",
+		"path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-komatiite",
+		"value": [
+			"poor",
+			"medium",
+			"rich",
+			"bountiful"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/ilmenite.json",
+		"op": "add",
+		"path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-monzonite",
+		"value": [
+			"poor",
+			"medium",
+			"rich",
+			"bountiful"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/ilmenite.json",
+		"op": "add",
+		"path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-syenite",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+]

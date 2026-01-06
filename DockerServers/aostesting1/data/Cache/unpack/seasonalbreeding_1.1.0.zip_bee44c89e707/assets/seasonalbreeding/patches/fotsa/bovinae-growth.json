@@ -1,0 +1,54 @@
+[
+  {
+    "file": "bovinae:entities/animal/mammal/hooved/bovinae-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "bovinae" }]
+  },
+  {
+    "file": "bovinae:entities/animal/mammal/hooved/bovinae-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+
+      "monthsToGrowByType": {
+        "*-bosprimigeniusprimigenius": 22,
+        "*-boselaphustragocamelus": 14,
+        "*-bubalusarnee": 22,
+        "*-bubalusbreevicornis": 18,
+        "*-bubalusbubalis": 22,
+        "*-bubalusbebuensis": 21,
+        "*-bubalusdepressicornis": 16,
+        "*-bubalusgrovesi": 15,
+        "*-bubalusmephistopheles": 17,
+        "*-bubalusmindorensis": 18,
+        "*-bubalusmurrensis": 21,
+        "*-bubalusquarlesi": 14,
+        "*-pseudoryxnghetinhensis": 18,
+        "*-syncerusantiquus": 21,
+        "*-synceruscaffer": 20,
+        "*-syncerusnanus": 14,
+        "*-taurotragusderbianus": 18,
+        "*-taurotragusoryx": 17,
+        "*-tetracerusquadricornis": 13,
+        "*-tragelaphusangasii": 12,
+        "*-tragelaphusbuxtoni": 15,
+        "*-tragelaphuseurycerus": 16,
+        "*-tragelaphusimberbis": 12,
+        "*-tragelaphusscriptus": 11,
+        "*-tragelaphusspekii": 14,
+        "*-tragelaphusstrepsiceros": 16,
+        "*-tragelaphussylvaticus": 11
+      }
+
+    },
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "bovinae"
+      }
+    ]
+  }
+]

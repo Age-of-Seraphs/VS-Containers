@@ -1,0 +1,56 @@
+[
+  {
+    "file": "capreolinae:entities/animal/mammal/hooved/alceini-adult.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "capreolinae" }]
+  },
+  {
+    "file": "capreolinae:entities/animal/mammal/hooved/alceini-adult.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+      "enabledByType": { "*-male-*": false },
+
+      "breedingPeakMonthByType": {
+        "*-alcesalces": 9.5,
+        "*-cervalcesscotti": 9.25
+      },
+      "breedingMonthsBeforeByType": {
+        "*-alcesalces": 1.25,
+        "*-cervalcesscotti": 1.5
+      },
+      "breedingMonthsAfterByType": {
+        "*-alcesalces": 1.25,
+        "*-cervalcesscotti": 1.25
+      },
+      "pregnancyMonthsByType": {
+        "*-alcesalces": 7.7,
+        "*-cervalcesscotti": 7.8
+      },
+      "multiplyCooldownMonthsMinByType": {
+        "*-alcesalces": 10.0,
+        "*-cervalcesscotti": 10.5
+      },
+
+      "multiplyCooldownMonthsMaxByType": {
+        "*-alcesalces": 14.0,
+        "*-cervalcesscotti": 15.0
+      },
+
+      "lactationMonthsByType": {
+        "*-alcesalces": 6.0,
+        "*-cervalcesscotti": 6.5
+      }
+
+    },
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "capreolinae"
+      }
+    ]
+  }
+]

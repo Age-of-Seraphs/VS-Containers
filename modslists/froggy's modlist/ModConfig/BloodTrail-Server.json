@@ -1,0 +1,6 @@
+{
+  "BleedingDuration": 13,
+  "CausedByPlayer": true,
+  "DamageThreshold": 1.0,
+  "BleedingChance": 100
+}

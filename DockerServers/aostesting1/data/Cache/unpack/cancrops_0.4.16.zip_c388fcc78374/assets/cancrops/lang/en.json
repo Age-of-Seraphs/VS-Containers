@@ -1,0 +1,38 @@
+﻿{
+    "game:tabname-cancrops": "CANCrops",
+    "block-canselectionsticks": "Selection sticks",
+    "crop-next-stage-in": "Next stage in {0} day(s)",
+    "crop-next-stage-in-less-1": "Next stage in less than 1 day.",
+
+    "gain-stat": "Gain",
+    "growth-stat": "Growth",
+    "resistance-stat": "Resistance",
+    "strength-stat": "Strength",
+    "fertility-stat": "Fertility",
+    "mutativity-stat": "Mutativity",
+    "block-crop-fieldmushroom-*": "Field mushroom",
+    "block-crop-almondmushroom-*": "Almond mushroom",
+    "item-seeds-fieldmushroom": "Field mushroom mycelium",
+    "item-seeds-almondmushroom": "Almond mushroom mycelium",
+
+    "item-handcultivatorhead-copper": "Copper hand cultivator head",
+    "item-handcultivatorhead-tinbronze": "Tin bronze hand cultivator head",
+    "item-handcultivatorhead-bismuthbronze": "Bismuth bronze hand cultivator head",
+    "item-handcultivatorhead-blackbronze": "Black bronze hand cultivator head",
+    "item-handcultivatorhead-gold": "Golden hand cultivator head",
+    "item-handcultivatorhead-silver": "Silver hand cultivator head",
+    "item-handcultivatorhead-iron": "Iron hand cultivator head",
+    "item-handcultivatorhead-meteoriciron": "Meteoric iron hand cultivator head",
+    "item-handcultivatorhead-steel": "Steel hand cultivator head",
+
+    "item-handcultivator-copper": "Copper hand cultivator",
+    "item-handcultivator-tinbronze": "Tin bronze hand cultivator",
+    "item-handcultivator-bismuthbronze": "Bismuth bronze hand cultivator",
+    "item-handcultivator-blackbronze": "Black bronze hand cultivator",
+    "item-handcultivator-gold": "Golden hand cultivator",
+    "item-handcultivator-silver": "Silver hand cultivator",
+    "item-handcultivator-iron": "Iron hand cultivator",
+    "item-handcultivator-meteoriciron": "Meteoric iron hand cultivator",
+    "item-handcultivator-steel": "Steel hand cultivator",
+    "item-canantiweed-temporal": "Anti-weed"
+}

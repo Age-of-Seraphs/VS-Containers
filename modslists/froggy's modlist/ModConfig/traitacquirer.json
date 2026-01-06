@@ -1,0 +1,13 @@
+{
+  "acquireCmdPrivilege": "gamemode",
+  "giveCmdPrivilege": "root",
+  "listCmdPrivilege": "chat",
+  "classManuals": false,
+  "manualsAvgPrice": 0.0,
+  "manualsVarPrice": 0.0,
+  "manualsAvgStock": 0.0,
+  "manualsVarStock": 0.0,
+  "manualsAvgLoot": 0.0,
+  "manualsVarLoot": 0.0,
+  "manualsChanceLoot": 0.0
+}

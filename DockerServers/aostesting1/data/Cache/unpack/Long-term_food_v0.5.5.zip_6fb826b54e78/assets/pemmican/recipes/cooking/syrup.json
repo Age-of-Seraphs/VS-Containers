@@ -1,0 +1,437 @@
+[{
+	"code": "syrup-beet-1",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "sugarjuice", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:sugarjuice-beet", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 1,
+			"maxQuantity": 1,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:syrup-beet", "quantity": 20 }
+},
+{"code": "syrup-beet-2",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "sugarjuice", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:sugarjuice-beet", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 2,
+			"maxQuantity": 2,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:syrup-beet", "quantity": 40 }
+},
+{"code": "syrup-beet-3",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "sugarjuice", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:sugarjuice-beet", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 3,
+			"maxQuantity": 3,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:syrup-beet", "quantity": 60 }
+},
+{"code": "syrup-beet-4",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "sugarjuice", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:sugarjuice-beet", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 4,
+			"maxQuantity": 4,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:syrup-beet", "quantity": 80 }
+},
+{
+	"code": "syrup-cane-1",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "sugarjuice", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:sugarjuice-cane", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 1,
+			"maxQuantity": 1,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:syrup-cane", "quantity": 40 }
+},
+{"code": "syrup-cane-2",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "sugarjuice", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:sugarjuice-cane", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 2,
+			"maxQuantity": 2,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:syrup-cane", "quantity": 80 }
+},
+{"code": "syrup-cane-3",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "sugarjuice", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:sugarjuice-cane", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 3,
+			"maxQuantity": 3,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:syrup-cane", "quantity": 160 }
+},
+{"code": "syrup-cane-4",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "sugarjuice", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:sugarjuice-cane", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 4,
+			"maxQuantity": 4,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:syrup-cane", "quantity": 320 }
+},
+{
+	"code": "sugar-beet-1",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "syrup", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:syrup-beet", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 1,
+			"maxQuantity": 1,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:sugar", "quantity": 1 }
+},
+{"code": "sugar-beet-2",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "syrup", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:syrup-beet", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 2,
+			"maxQuantity": 2,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:sugar", "quantity": 2 }
+},
+{"code": "sugar-beet-3",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "syrup", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:syrup-beet", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 3,
+			"maxQuantity": 3,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:sugar", "quantity": 3 }
+},
+{"code": "sugar-beet-4",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "syrup", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:syrup-beet", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 4,
+			"maxQuantity": 4,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:sugar", "quantity": 4 }
+},
+{
+	"code": "sugar-cane-1",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "syrup", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:syrup-cane", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 1,
+			"maxQuantity": 1,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:sugar", "quantity": 1 }
+},
+{"code": "sugar-cane-2",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "syrup", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:syrup-cane", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 2,
+			"maxQuantity": 2,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:sugar", "quantity": 2 }
+},
+{"code": "sugar-cane-3",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "syrup", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:syrup-cane", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 3,
+			"maxQuantity": 3,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:sugar", "quantity": 3 }
+},
+{"code": "sugar-cane-4",
+	"perishableProps": {
+		"type": "None",
+		"freshHours": { "avg": 2156 },
+		"transitionHours": { "avg": 200 },
+		"transitionRatio": 1,
+		"transitionedStack": { "type": "item", "code": "game:rot" }
+	},
+	"shape": { "base": "game:block/food/meal/liquid" },
+	"isfood": true,
+	"ingredients": [
+		{ 
+			"code": "syrup", 
+			"validStacks": [ 
+				{ 
+					"type": "item", 
+					"code": "pemmican:syrup-cane", 
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 4,
+			"maxQuantity": 4,
+			"portionSizeLitres": 1
+		}
+	],
+	"cooksInto": { "type": "item", "code": "pemmican:sugar", "quantity": 4 }
+}
+]

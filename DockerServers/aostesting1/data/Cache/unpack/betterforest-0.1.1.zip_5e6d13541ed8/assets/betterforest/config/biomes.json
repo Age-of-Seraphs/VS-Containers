@@ -1,0 +1,177 @@
+{
+  "NorthernRealms": [
+    "pacific nearctic",
+    "atlantic nearctic",
+    "atlantic palearctic",
+    "central palearctic",
+    "eastern palearctic",
+    "pacific palearctic"
+  ],
+  "SouthernRealms": [
+    "pacific neotropic",
+    "atlantic neotropic",
+    "atlantic afrotropic",
+    "eastern afrotropic",
+    "australasian",
+    "oceanic"
+  ],
+  "TreeBiomes": {
+    "curveacacia": [
+        "pacific nearctic",
+        "atlantic nearctic",
+        "atlantic palearctic",
+        "central palearctic",
+        "eastern palearctic",
+        "pacific palearctic",
+        "pacific neotropic",
+        "atlantic neotropic",
+        "atlantic afrotropic",
+        "eastern afrotropic"
+    ],
+    "baldlarch": [
+        "pacific nearctic",
+        "atlantic nearctic",
+        "atlantic palearctic",
+        "central palearctic",
+        "eastern palearctic",
+        "pacific palearctic"
+    ],
+    "deadpine": [
+        "pacific nearctic",
+        "atlantic nearctic",
+        "atlantic palearctic",
+        "central palearctic",
+        "eastern palearctic",
+        "pacific palearctic"
+    ],
+    "deadtree": [
+        "pacific nearctic",
+        "atlantic nearctic",
+        "atlantic palearctic",
+        "central palearctic",
+        "eastern palearctic",
+        "pacific palearctic",
+        "pacific neotropic",
+        "atlantic neotropic",
+        "atlantic afrotropic",
+        "eastern afrotropic",
+        "australasian",
+        "oceanic"
+    ],
+    "doublebirch": [
+        "atlantic palearctic",
+        "central palearctic",
+        "eastern palearctic",
+        "pacific palearctic"
+    ],
+    "dwarfpine": [
+        "eastern palearctic",
+        "pacific palearctic"
+    ],
+    "dwarflarch": [
+        "pacific nearctic",
+        "atlantic nearctic",
+        "atlantic palearctic",
+        "central palearctic",
+        "eastern palearctic"
+    ],
+    "forestoak": [
+        "atlantic nearctic",
+        "central palearctic",
+        "eastern palearctic",
+        "pacific palearctic"
+    ],
+    "italianpine": [
+        "atlantic palearctic"
+    ],
+    "juniper": [
+        "pacific nearctic",
+        "atlantic nearctic",
+        "atlantic palearctic",
+        "central palearctic",
+        "eastern palearctic",
+        "pacific palearctic"
+    ],
+    "talllarch": [
+        "central palearctic",
+        "eastern palearctic",
+        "pacific palearctic"
+    ],
+    "normalredwoodpine": [
+        "pacific nearctic"
+    ],
+    "oldforestoak": [
+        "atlantic nearctic",
+        "atlantic palearctic",
+        "central palearctic",
+        "eastern palearctic",
+        "pacific palearctic"
+    ],
+    "fieldoak": [
+        "atlantic nearctic",
+        "pacific nearctic",
+        "atlantic palearctic",
+        "central palearctic",
+        "eastern palearctic",
+        "pacific palearctic"
+    ],
+    "japaneseoak": [
+        "eastern palearctic",
+        "pacific palearctic"
+    ],
+    "karelbirch": [
+        "atlantic palearctic"
+    ],
+    "tallkapok": [
+        "pacific neotropic",
+        "atlantic neotropic",
+        "atlantic afrotropic"
+    ],
+    "siberianpine": [
+        "central palearctic",
+        "eastern palearctic"
+    ],
+    "pineswamp": [
+        "atlantic nearctic"
+    ],
+    "bushacacia": [
+        "pacific nearctic",
+        "atlantic nearctic",
+        "atlantic palearctic",
+        "central palearctic",
+        "eastern palearctic",
+        "pacific palearctic",
+        "pacific neotropic",
+        "atlantic neotropic",
+        "atlantic afrotropic",
+        "eastern afrotropic",
+        "australasian",
+        "oceanic"
+    ],
+    "smallnorthlarch": [
+        "pacific nearctic",
+        "atlantic nearctic",
+        "central palearctic",
+        "eastern palearctic"
+    ],
+    "northernpine": [
+        "atlantic palearctic",
+        "central palearctic",
+        "atlantic nearctic",
+        "pacific nearctic"
+    ],
+    "oldkapok": [
+        "pacific nearctic",
+        "atlantic nearctic",
+        "atlantic palearctic",
+        "pacific neotropic",
+        "atlantic neotropic",
+        "atlantic afrotropic"
+    ],
+    "whitebirch": [
+        "atlantic palearctic",
+        "central palearctic",
+        "eastern palearctic"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-malachite-travertine", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-malachite-travertine", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-malachite-travertine", "file": "game:itemtypes/resource/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-malachite-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-malachite-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-malachite-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-malachite-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-malachite-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-malachite-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
+]

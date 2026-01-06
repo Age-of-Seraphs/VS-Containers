@@ -1,0 +1,335 @@
+[
+ {
+    "op": "addmerge",
+    "side": "server",
+    "path": "/attributesByType/*",
+    "file": "game:itemtypes/food/vegetable.json",
+    "value": {
+	"inContainerTexture": { "base": "block/wood/barrel/raw-{type}" },
+	"nutritionPropsWhenInMeal": { "satiety": 150, "foodcategory": "Vegetable" },
+	"inPieProperties": { "texture": "block/food/pie/fill-{type}", "partType": "Filling" },
+	"bakingProperties": {
+		"temp": 100,
+		"levelFrom": 0.0,
+		"levelTo": 0.25,
+        "startScaleY": 1.0,
+       	"endScaleY": 1.0,
+		"resultCode": "expandedfoods:cookedveggie-{type}-partbaked"
+	},
+    "onDisplayTransformByType": {
+        "@*-(carrot|parsnip|turnip)": { "rotation": { "x": 0, "y": 45, "z": 90}, "translation": { "x": -0.2, "y": -0.45, "z": 0.2 }, "scale": 1 },
+        "*": { "translation": { "x": 0, "y": 0, "z": 0 }, "scale": 1 } }
+     }
+  },
+  {
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-cabbage": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "expandedfoods:cookedveggie-cabbage-charred" },
+        "requiresContainer": false
+      },
+      "*-carrot": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "expandedfoods:cookedveggie-carrot-charred" },
+        "requiresContainer": false
+      },
+      "*-onion": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "expandedfoods:cookedveggie-onion-charred" },
+        "requiresContainer": false
+      },
+      "*-turnip": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "expandedfoods:cookedveggie-turnip-charred" },
+        "requiresContainer": false
+      },
+      "*-parsnip": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "expandedfoods:cookedveggie-parsnip-charred" },
+        "requiresContainer": false
+      },
+      "*-cassava": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "expandedfoods:cookedveggie-cassava-charred" },
+        "requiresContainer": false
+      },
+      "*-pumpkin": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "expandedfoods:cookedveggie-pumpkin-charred" },
+        "requiresContainer": false
+      }
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*/inFirePitProps",
+    "value": {
+      "transform": {
+        "scale": 0.85,
+        "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+        "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+        "rotation": { "x": 0, "y": 0, "z": 0 }
+      },
+      "useFirepitModel": "Spit"
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*/juiceablePropertiesByType",
+    "value": {
+        "*-olive": {
+            "litresPerItem": 0.3125,
+            "liquidStack": { "type": "item", "code": "expandedfoods:foodoilportion-olive", "stacksize": 1 },
+            "pressedStack": { "type": "item", "code": "game:pressedmash-olive", "stacksize": 1 }
+        },
+        "*": {
+            "litresPerItem": 0.3125,
+            "liquidStack": { "type": "item", "code": "expandedfoods:vegetablejuiceportion-{type}", "stacksize": 1 },
+            "pressedStack": { "type": "item", "code": "game:pressedmash-{type}", "stacksize": 1 }
+        }
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-cabbage/inFirePitProps",
+    "value": {
+      "transform": {
+        "scale": 0.85,
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "translation": { "x": 0.65, "y": 0.6, "z": 0.1 },
+        "rotation": { "x": 0, "y": 0, "z": 90 }
+      },
+      "useFirepitModel": "Spit"
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-pumpkin/inFirePitProps",
+    "value": {
+      "transform": {
+      "scale": 0.85,
+      "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+      "translation": { "x": -0.02125, "y": 0.125, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 90 }
+      },
+    "useFirepitModel": "Spit"
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-cabbage/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "expandedfoods:cookedveggie-cabbage-partbaked"
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-cabbage/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.3125,
+      "liquidStack": { "type": "item", "code": "expandedfoods:vegetablejuiceportion-cabbage", "stacksize": 1 },
+      "pressedStack": { "type": "item", "code": "game:pressedmash-cabbage", "stacksize": 1 }
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-cabbage/onDisplayTransform",
+    "value": {
+      "translation": { "x": 0, "y": -0.125, "z": 0 },
+      "scale": 0.75
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-cassava/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "expandedfoods:cookedveggie-cassava-partbaked"
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-cassava/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.3125,
+      "liquidStack": { "type": "item", "code": "expandedfoods:vegetablejuiceportion-cassava", "stacksize": 1 },
+      "pressedStack": { "type": "item", "code": "game:pressedmash-cassava", "stacksize": 1 }
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-pumpkin/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "expandedfoods:cookedveggie-pumpkin-partbaked"
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-pumpkin/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.3125,
+      "liquidStack": { "type": "item", "code": "expandedfoods:vegetablejuiceportion-pumpkin", "stacksize": 1 },
+      "pressedStack": { "type": "item", "code": "game:pressedmash-pumpkin", "stacksize": 1 }
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-pumpkin/onDisplayTransform",
+    "value": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-onion/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "expandedfoods:cookedveggie-onion-partbaked"
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-onion/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.3125,
+      "liquidStack": { "type": "item", "code": "expandedfoods:vegetablejuiceportion-onion", "stacksize": 1 },
+      "pressedStack": { "type": "item", "code": "game:pressedmash-onion", "stacksize": 1 }
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-bellpepper/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "expandedfoods:cookedveggie-bellpepper-partbaked"
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-bellpepper/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.3125,
+      "liquidStack": { "type": "item", "code": "expandedfoods:vegetablejuiceportion-bellpepper", "stacksize": 1 },
+      "pressedStack": { "type": "item", "code": "game:pressedmash-bellpepper", "stacksize": 1 }
+    },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variantgroups/0/states/5",
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variantgroups/0/states/5",
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variantgroups/0/states/5",
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups/0/states/5",
+    "value": "pumpkin",
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "cassava",
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*/handbook",
+    "value": { "groupBy": ["vegetable-*"] },
+    "side": "server",
+    "file": "itemtypes/food/vegetable.json"
+  }
+]

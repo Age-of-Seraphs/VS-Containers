@@ -1,0 +1,742 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/grindingPropsByType",
+    "value": {
+      "*-spelt-*": {
+        "groundStack": {  "type": "item", "code": "expandedfoods:breadcrumbs-spelt", "quantity": 4 }
+      },
+      "*-rye-*": {
+        "groundStack": { "type": "item",  "code": "expandedfoods:breadcrumbs-rye", "quantity": 4 }
+      },
+      "*-rice-*": {
+        "groundStack": { "type": "item", "code": "expandedfoods:breadcrumbs-rice", "quantity": 4 }
+      },
+      "*-flax-*": {
+        "groundStack": { "type": "item", "code": "expandedfoods:breadcrumbs-flax", "quantity": 4 }
+      },
+      "*-cassava-*": {
+        "groundStack": { "type": "item", "code": "expandedfoods:breadcrumbs-cassava", "quantity": 4 }
+      },
+      "*-amaranth-*": {
+        "groundStack": { "type": "item", "code": "expandedfoods:breadcrumbs-amaranth", "quantity": 4 }
+      },
+      "*-sunflower-*": {
+        "groundStack": { "type": "item", "code": "expandedfoods:breadcrumbs-sunflower", "quantity": 4 }
+      },
+      "*-birch-*": {
+    	"dependsOn": [{ "modid": "ancienttools" }],
+        "groundStack": { "type": "item", "code": "expandedfoods:breadcrumbs-birch", "quantity": 4 }
+      },
+      "*-pine-*": {
+    	"dependsOn": [{ "modid": "ancienttools" }],
+        "groundStack": { "type": "item", "code": "expandedfoods:breadcrumbs-pine", "quantity": 4 }
+      },
+      "*-maple-*": {
+    	"dependsOn": [{ "modid": "ancienttools" }],
+        "groundStack": { "type": "item", "code": "expandedfoods:breadcrumbs-maple", "quantity": 4 }
+      },
+      "*-acornspelt-*": {
+    	"dependsOn": [{ "modid": "acorns" }],
+        "groundStack": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-acornspelt", "quantity": 4 }
+      },
+      "*-acornrye-*": {
+    	"dependsOn": [{ "modid": "acorns" }],
+        "groundStack": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-acornrye", "quantity": 4 }
+      },
+      "*-acornrice-*": {
+    	"dependsOn": [{ "modid": "acorns" }],
+        "groundStack": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-acornrice", "quantity": 4 }
+      },
+      "*-acornflax-*": {
+    	"dependsOn": [{ "modid": "acorns" }],
+        "groundStack": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-acornflax", "quantity": 4 }
+      },
+      "*-acorncassava-*": {
+    	"dependsOn": [{ "modid": "acorns" }],
+        "groundStack": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-acorncassava", "quantity": 4 }
+      },
+      "*-acornamaranth-*": {
+    	"dependsOn": [{ "modid": "acorns" }],
+        "groundStack": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-acornamaranth", "quantity": 4 }
+      },
+      "*-acornsunflower-*": {
+    	"dependsOn": [{ "modid": "acorns" }],
+        "groundStack": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-acornsunflower", "quantity": 4 }
+      },
+      "*-acornbirch-*": {
+    	"dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+        "groundStack": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-acornbirch", "quantity": 4 }
+      },
+      "*-acornpine-*": {
+    	"dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+        "groundStack": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-acornpine", "quantity": 4 }
+      },
+      "*-acornmaple-*": {
+    	"dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+        "groundStack": { "type": "item", "code": "expandedfoods:acornbreadcrumbs-acornmaple", "quantity": 4 }
+      }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "add",
+    "path": "/class",
+    "value": "ExpandedFood",
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornamaranth-charred",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 1.13,
+        "endScaleY": 1.1,
+        "initialCode": "bread-{type}-perfect"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornamaranthbread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornamaranth-partbaked",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "bread-{type}-perfect",
+        "initialCode": "dough-{type}"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornamaranthbread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornamaranth-perfect",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.1,
+        "endScaleY": 1.13,
+        "resultCode": "bread-{type}-charred",
+        "initialCode": "bread-{type}-partbaked"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornamaranthbread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acorncassava-charred",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 1.13,
+        "endScaleY": 1.1,
+        "initialCode": "bread-{type}-perfect"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acorncassavabread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acorncassava-partbaked",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "bread-{type}-perfect",
+        "initialCode": "dough-{type}"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acorncassavabread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acorncassava-perfect",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.1,
+        "endScaleY": 1.13,
+        "resultCode": "bread-{type}-charred",
+        "initialCode": "bread-{type}-partbaked"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acorncassavabread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornflax-charred",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 1.13,
+        "endScaleY": 1.1,
+        "initialCode": "bread-{type}-perfect"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornflaxbread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornflax-partbaked",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "bread-{type}-perfect",
+        "initialCode": "dough-{type}"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornflaxbread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornflax-perfect",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.1,
+        "endScaleY": 1.13,
+        "resultCode": "bread-{type}-charred",
+        "initialCode": "bread-{type}-partbaked"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornflaxbread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornrice-charred",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 1.13,
+        "endScaleY": 1.1,
+        "initialCode": "bread-{type}-perfect"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornricebread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornrice-partbaked",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "bread-{type}-perfect",
+        "initialCode": "dough-{type}"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornricebread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornrice-perfect",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.1,
+        "endScaleY": 1.13,
+        "resultCode": "bread-{type}-charred",
+        "initialCode": "bread-{type}-partbaked"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornricebread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornrye-charred",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 1.13,
+        "endScaleY": 1.1,
+        "initialCode": "bread-{type}-perfect"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornryebread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornrye-partbaked",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "bread-{type}-perfect",
+        "initialCode": "dough-{type}"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornryebread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornrye-perfect",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.1,
+        "endScaleY": 1.13,
+        "resultCode": "bread-{type}-charred",
+        "initialCode": "bread-{type}-partbaked"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornryebread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornspelt-charred",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 1.13,
+        "endScaleY": 1.1,
+        "initialCode": "bread-{type}-perfect"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornspeltbread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornspelt-partbaked",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "bread-{type}-perfect",
+        "initialCode": "dough-{type}"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornspeltbread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornspelt-perfect",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.1,
+        "endScaleY": 1.13,
+        "resultCode": "bread-{type}-charred",
+        "initialCode": "bread-{type}-partbaked"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornspeltbread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornsunflower-charred",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 1.13,
+        "endScaleY": 1.1,
+        "initialCode": "bread-{type}-perfect"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornsunflower-partbaked",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "bread-{type}-perfect",
+        "initialCode": "dough-{type}"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "dependsOn": [ { "modid": "acorns" } ],
+    "path": "/attributesByType/*-acornsunflower-perfect",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.1,
+        "endScaleY": 1.13,
+        "resultCode": "bread-{type}-charred",
+        "initialCode": "bread-{type}-partbaked"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json" }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-acornbirch-charred",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 1.13,
+        "endScaleY": 1.1,
+        "initialCode": "bread-{type}-perfect"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json" }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-acornbirch-partbaked",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "bread-{type}-perfect",
+        "initialCode": "dough-{type}"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json" }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-acornbirch-perfect",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.1,
+        "endScaleY": 1.13,
+        "resultCode": "bread-{type}-charred",
+        "initialCode": "bread-{type}-partbaked"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json" }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-acornpine-charred",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 1.13,
+        "endScaleY": 1.1,
+        "initialCode": "bread-{type}-perfect"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json" }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-acornpine-partbaked",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "bread-{type}-perfect",
+        "initialCode": "dough-{type}"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json" }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-acornpine-perfect",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.1,
+        "endScaleY": 1.13,
+        "resultCode": "bread-{type}-charred",
+        "initialCode": "bread-{type}-partbaked"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json" }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-acornmaple-charred",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.75,
+        "levelTo": 1,
+        "startScaleY": 1.13,
+        "endScaleY": 1.1,
+        "initialCode": "bread-{type}-perfect"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json" }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-acornmaple-partbaked",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 0.95,
+        "endScaleY": 1.1,
+        "resultCode": "bread-{type}-perfect",
+        "initialCode": "dough-{type}"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json" }
+    },
+    "side": "server",
+    "dependsOn": [ { "modid": "acorns" }, { "modid": "ancienttools" } ],
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-partBaked": { "satMult": 0.5 },
+      "*-perfect": { "satMult": 1.0 },
+      "*-charred": {"satMult":  0.75},
+      "*": { "satMult": 1.0 }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/*-acornmaple-perfect",
+    "value": {
+      "displaycaseable": true,
+      "shelvable": true,
+      "bakingProperties": {
+        "temp": 160,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.1,
+        "endScaleY": 1.13,
+        "resultCode": "bread-{type}-charred",
+        "initialCode": "bread-{type}-partbaked"
+      },
+      "renderIngredients": { "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread.json" }
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "acorns" }, { "modid": "ancienttools" }],
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/",
+    "value": {
+      "renderIngredients": {
+        "game:flour-spelt": "game:shapes/item/food/bread/speltbread.json",
+        "game:flour-rye": "game:shapes/item/food/bread/ryebread.json",
+        "game:flour-flax": "game:shapes/item/food/bread/flaxbread.json",
+        "game:flour-rice": "game:shapes/item/food/bread/ricebread.json",
+        "game:flour-cassava": "game:shapes/item/food/bread/cassavabread.json",
+        "game:flour-amaranth": "game:shapes/item/food/bread/amaranthbread.json",
+        "game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread.json",
+        "game:flour-birch": "game:shapes/item/food/bread/birchbread.json",
+        "game:flour-pine": "game:shapes/item/food/bread/pinebread.json",
+        "game:flour-maple": "game:shapes/item/food/bread/maplebread.json"
+      }
+    },
+    "side": "server",
+    "file": "itemtypes/food/bread.json"
+  }
+]

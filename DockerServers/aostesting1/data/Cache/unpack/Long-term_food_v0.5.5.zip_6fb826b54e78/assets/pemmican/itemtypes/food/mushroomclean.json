@@ -1,0 +1,109 @@
+{
+  "code": "mushroomclean",
+  "maxstacksize": 64,
+  "variantgroups": [{
+    "code": "type",
+    "states": ["raw", "pickled"]
+  }],
+  "attributesByType": {
+    "*-raw": {
+		"foodTags": ["vegetable"],
+		"displaycaseable": true,
+		"shelvable": true,
+		"onshelfTransform": {
+			"rotation": { "x": 0, "y": 90, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.45
+		},
+		"hydration": 40,
+		"nutritionPropsWhenInMeal": {
+			"saturation": 80,
+			"foodcategory": "Vegetable"
+		}
+  },
+  "*-pickled": {
+		"foodTags": ["vegetable"],
+		"displaycaseable": true,
+		"shelvable": true,
+		"hydration": 20,
+		"onshelfTransform": {
+			"rotation": { "x": 0, "y": 90, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.45
+		},
+		"nutritionPropsWhenInMeal": {
+			"saturation": 100,
+			"foodcategory": "Vegetable"
+		}
+	}
+  },
+  "shapeByType": {
+    "*-raw": { "base": "pemmican:item/mushroom/mushroomclean" },
+    "*-pickled": { "base": "pemmican:item/mushroom/mushroompickled" }
+  },
+  "creativeinventory": {
+    "general": ["*"],
+    "items": ["*"],
+    "Long-term food": ["*"]
+  },
+  "grindingProps": {
+		"groundStack": { "type": "item", "code": "pemmican:mushroompate-raw" }
+	},
+  "nutritionPropsByType": {
+    "*-raw":{
+		"saturation": 80,
+		"foodcategory": "Vegetable"},
+	"*-pickled":{
+		"saturation": 100,
+		"foodcategory": "Vegetable"},
+  },
+  "transitionablePropsByType":{
+	"*-raw": [{
+		"type": "Perish",
+		"freshHours": { "avg": 312 },
+		"transitionHours": { "avg": 72 },
+		"transitionedStack": {"type": "item","code": "game:rot"},
+		"transitionRatio": 1,
+	}],
+	"*-pickled":[{
+		"type": "Perish",
+		"freshHours": { "avg": 3600 },
+		"transitionHours": { "avg": 600 },
+		"transitionedStack": {
+			"type": "item",
+			"code": "game:rot"
+		},
+		"transitionRatio": 1,
+    }]
+  },
+  "materialDensity": 400,
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 180, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.1, "z": 0.6 },
+    "scale": 3.11
+  },
+  "guiTransform": {
+    "rotation": { "x": -11, "y": 33, "z": -13 },
+    "origin": { "x": 0.8, "y": 0.2, "z": 0 },
+    "scale": 2.4
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0.1, "y": 0.16, "z": 0 },
+    "rotation": { "x": 37, "y": 77, "z": 2 },
+    "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+    "scale": 1.95
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.04, "y": -0.6, "z": -0.8 },
+    "rotation": { "x": 119, "y": -7, "z": -72 },
+    "origin": { "x": -0.1, "y": 0.32, "z": 0.82 },
+    "scale": 0.48
+  },
+  "heldRightReadyAnimationByType": {
+    "*": "holdbothhands"
+  },
+  "heldTpIdleAnimationByType": {
+    "*": "holdbothhands"
+  }
+}

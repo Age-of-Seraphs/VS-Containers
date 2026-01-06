@@ -1,0 +1,73 @@
+[
+  {
+    "code": "rhodochrosite",
+    "triesPerChunk": 0.001,
+    "withOreMap": true,
+    "handbookPageCode": "item-nugget-rhodochrosite",
+    "generator": "iog-gen",
+    "attributes": {
+      "inblock": {
+        "veintype": "hydrotubewithdepo",
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "claystone", "sandstone", "shale", "chalk", "limestone", "chert", "conglomerate", "phyllite", "slate" ]
+      },
+      "placeblock": {
+        "code": "ore-*-rhodochrosite-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-claystone": [ "poor", "medium", "rich" ],
+          "rock-sandstone": [ "poor", "medium", "rich" ],
+          "rock-shale": [ "poor", "medium", "rich" ],
+          "rock-chalk": [ "poor", "medium" ],
+          "rock-limestone": [ "poor", "medium" ],
+          "rock-chert": [ "poor", "medium" ],
+          "rock-conglomerate": [ "poor", "medium", "rich" ],
+          "rock-phyllite": [ "poor", "medium", "rich", "bountiful" ],
+          "rock-slate": [ "poor", "medium", "rich", "bountiful" ]
+        }
+      },
+      "subdeposit": {
+        "code": "ore-*-sphalerite-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-claystone": [ "poor", "medium", "rich" ],
+          "rock-sandstone": [ "poor", "medium", "rich" ],
+          "rock-shale": [ "poor", "medium", "rich" ],
+          "rock-chalk": [ "poor", "medium", "rich" ],
+          "rock-limestone": [ "poor", "medium", "rich" ],
+          "rock-chert": [ "poor", "medium", "rich" ],
+          "rock-conglomerate": [ "poor", "medium", "rich" ],
+          "rock-phyllite": [ "poor", "medium", "rich", "bountiful" ],
+          "rock-slate": [ "poor", "medium", "rich", "bountiful" ]
+        }
+      },
+      "radius": {
+        "dist": "uniform",
+        "avg": 12,
+        "var": 6
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.3,
+        "var": 0.2
+      },
+      "thickness": {
+        "dist": "uniform",
+        "avg": 10,
+        "var": 5
+      },
+      "branchCount": {
+        "dist": "uniform",
+        "avg": 12,
+        "var": 8
+      },
+      "branchLength": {
+        "dist": "uniform",
+        "avg": 192,
+        "var": 64
+      },
+      "OreSpongePercent": 0.3
+    }
+  }
+]

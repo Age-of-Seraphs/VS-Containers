@@ -1,0 +1,290 @@
+[
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype",
+    "value": {
+		"hoe-serpentinite": {
+			"soil": 2.0
+		},
+	},
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype",
+    "value": {
+		"hoe-komatiite": {
+			"soil": 2.0
+		},
+	},
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype",
+    "value": {
+		"hoe-pyroxenite": {
+			"soil": 2.0
+		},
+	},
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype",
+    "value": {
+		"hoe-monzenite": {
+			"soil": 2.0
+		},
+	},
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype",
+    "value": {
+		"hoe-syenite": {
+			"soil": 2.0
+		},
+	},
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype",
+    "value": {
+	"@hoe-(bonearkose|boneserpentine|bonewacke)": {
+			"soil": 2.0
+		},
+	},
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype",
+    "value": {
+		"hoe-bonekomatiite": {
+			"soil": 2.2
+		},
+	},
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/hoe",
+    "value": {
+		"hoe-bonepyroxenite": {
+			"soil": 2.0
+		},
+	},
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/hoe",
+    "value": {
+		"hoe-bonemonzenite": {
+			"soil": 2.0
+		},
+	},
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/hoe",
+    "value": {
+		"hoe-bonesyenite": {
+			"soil": 2.0
+		},
+	},
+  },
+
+
+
+
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-arkose",
+    "value": 1,
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-komatiite",
+    "value": 1,
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-pyroxenite",
+    "value": 1,
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-serpentinite",
+    "value": 1,
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-wacke",
+    "value": 1,
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-monzonite",
+    "value": 1,
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-syenite",
+    "value": 1,
+  },
+
+
+
+
+
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-bonearkose",
+    "value": 1.2,
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-bonekomatiite",
+    "value": 1.2,
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-bonepyroxenite",
+    "value": 1.2,
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-boneserpentinite",
+    "value": 1.2,
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-bonewacke",
+    "value": 1.2,
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-monzonite",
+    "value": 1.2,
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-syenite",
+    "value": 1.2,
+  },
+
+
+
+
+
+
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-arkose",
+    "value": 20
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-komatiite",
+    "value": 40
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-pyroxenite",
+    "value": 50
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-serpentinite",
+    "value": 30
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-wacke",
+    "value": 20
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-monzonite",
+    "value": 40
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-syenite",
+    "value": 30
+  },
+
+
+
+
+
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-bonearkose",
+    "value": 30
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-bonekomatiite",
+    "value": 50
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-bonepyroxenite",
+    "value": 60
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-boneserpentinite",
+    "value": 40
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-bonewacke",
+    "value": 30
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-bonemonzonite",
+    "value": 50
+  },
+  {
+    "file": "game:itemtypes/tool/hoe.json",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-bonesyenite",
+    "value": 40
+  },
+]

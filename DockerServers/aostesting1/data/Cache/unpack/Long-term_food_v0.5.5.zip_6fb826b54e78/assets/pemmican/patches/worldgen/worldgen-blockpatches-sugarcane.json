@@ -1,0 +1,26 @@
+[
+{
+	"file": "game:worldgen/blockpatches/crop.json",
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of sugarcane",
+      "blockCodes": [
+        "pemmican:crop-sugarcane-4",
+        "pemmican:crop-sugarcane-6",
+        "pemmican:crop-sugarcane-8"
+      ],
+      "minTemp": 20,
+      "maxTemp": 42,
+      "minRain": 0.5,
+      "maxRain": 1,
+      "maxForest": 0.5,
+      "quantity": {
+        "avg": 5,
+        "var": 5
+      },
+      "chance": 0.03
+    }
+  }
+]

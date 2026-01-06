@@ -1,0 +1,18 @@
+[{
+	"code": "saltymilk",
+	"sealHours": 0.1,
+	"ingredients": [
+		{ "type": "item", "code": "game:milkportion", "litres": 1 },
+		{ "type": "item", "code": "game:salt", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "pemmican:saltmilkportion", "litres": 1 }
+},
+{
+	"code": "normalmilk",
+	"sealHours": 0.1,
+	"ingredients": [
+		{ "type": "item", "code": "pemmican:saltmilkportion", "litres": 1 }
+	],
+	"output": { "type": "item", "code": "game:milkportion", "litres": 1 }
+}
+]

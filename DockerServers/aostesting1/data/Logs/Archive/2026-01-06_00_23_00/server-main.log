@@ -1,0 +1,897 @@
+6.1.2026 00:23:00 [Notification] Server logger started.
+6.1.2026 00:23:00 [Notification] Game Version: v1.21.6 (Stable)
+6.1.2026 00:23:00 [Notification] C# Framework: .net 8.0.22
+6.1.2026 00:23:00 [Notification] Zstd Version: 1.5.4
+6.1.2026 00:23:00 [Notification] Operating System: Linux (Debian GNU/Linux 12 (bookworm)) [Kernel 6.6.87.2]
+6.1.2026 00:23:00 [Notification] CPU Cores: 16
+6.1.2026 00:23:00 [Notification] CPU: 11th Gen Intel(R) Core(TM) i9-11900K @ 3.50GHz
+6.1.2026 00:23:00 [Notification] Available RAM: 15826 MB
+6.1.2026 00:23:00 [Event] It begins...
+6.1.2026 00:23:00 [Event] Launching server...
+6.1.2026 00:23:00 [Event] It senses...
+6.1.2026 00:23:00 [Event] Server v1.21.6, network v1.21.10, api v1.21.0
+6.1.2026 00:23:00 [Notification] Entering runphase Initialization
+6.1.2026 00:23:00 [Event] Loading configuration...
+6.1.2026 00:23:00 [Notification] Entering runphase Configuration
+6.1.2026 00:23:00 [Notification] Using world seed: 60
+6.1.2026 00:23:00 [Notification] Loading savegame
+6.1.2026 00:23:00 [Notification] Loaded existing save game data. Playstyle: surviveandbuild, Playstyle Lang code: surviveandbuild-bands, WorldType: surviveandbuild-bands
+6.1.2026 00:23:00 [Notification] Savegame /data/Saves/default.vcdbs loaded
+6.1.2026 00:23:00 [Notification] World size = 1024000 448 1024000
+6.1.2026 00:23:01 [Notification] Start discovering assets
+6.1.2026 00:23:01 [Notification] Found 1 base assets in category blocktypes
+6.1.2026 00:23:01 [Notification] Found 0 base assets in category itemtypes
+6.1.2026 00:23:01 [Notification] Found 32 base assets in category lang
+6.1.2026 00:23:01 [Notification] Found 0 base assets in category patches
+6.1.2026 00:23:01 [Notification] Found 24 base assets in category config
+6.1.2026 00:23:01 [Notification] Found 0 base assets in category worldproperties
+6.1.2026 00:23:01 [Notification] Found 1 base assets in category sounds
+6.1.2026 00:23:01 [Notification] Found 230 base assets in category shapes
+6.1.2026 00:23:01 [Notification] Found 21 base assets in category textures
+6.1.2026 00:23:01 [Notification] Found 0 base assets in category recipes
+6.1.2026 00:23:01 [Notification] Found 0 base assets in category worldgen
+6.1.2026 00:23:01 [Notification] Found 3 base assets in category entities
+6.1.2026 00:23:01 [Notification] Found 312 base assets in total
+6.1.2026 00:23:01 [Event] Building assets...
+6.1.2026 00:23:01 [Notification] Entering runphase LoadAssets
+6.1.2026 00:23:01 [Notification] Will search the following paths for mods:
+6.1.2026 00:23:01 [Notification]     /server/Mods
+6.1.2026 00:23:01 [Notification]     /data/Mods
+6.1.2026 00:23:01 [Notification]     /data/ModsWorldGen
+6.1.2026 00:23:01 [Notification] Found 27 mods (0 disabled)
+6.1.2026 00:23:01 [Error] [mnflowers] Could not resolve some dependencies:
+6.1.2026 00:23:01 [Error] [mnflowers]     materialneeds - Missing
+6.1.2026 00:23:01 [Notification] Mods, sorted by dependency: betterforest, fruittreeslongripe, geoaddons, longtermfood, rockstratavariety, snowcaps, game, coolergreens, aculinaryartillery, anastastemod, cancrops, genelib, interestingoregen, jaunt, lunchbox, mnflowers, mngeology, realsmoke, temperatureheighttweak, terraprety, creative, survival, webcartographer, detailedanimals, expandedfoods, gaiogcompatpatch, seasonalbreeding
+6.1.2026 00:23:07 [Notification] Instantiated 153 mod systems from 26 enabled mods
+6.1.2026 00:23:07 [Notification] [IOG] Config successfully loaded.
+6.1.2026 00:23:07 [Notification] External Origins in load order: modorigin@/server/assets/creative/, modorigin@/server/assets/survival/, mod@betterforest-0.1.1.zip, mod@fruittreeslongripe-1.0.0.zip, mod@GeologyAdditions 1.4.5.zip, mod@Long-term_food_v0.5.5.zip, mod@rockstratavariety_0.0.3.zip, mod@snowcaps-0.0.0.zip, mod@ACulinaryArtillery 2.0.0-dev.11.zip, mod@cancrops_0.4.16.zip, mod@genelib_2.1.6.zip, mod@InterestingOreGen-v2.2.2.zip, mod@jaunt_2.1.2.zip, mod@lunchbox_1.0.1.zip, mod@MaterialNeedsGeology_1.0.3.zip, mod@realsmoke_1.1.10.zip, mod@terraprety-7.9.0.zip, mod@detailedanimals_0.7.2.zip, mod@ExpandedFoods 2.0.0-dev.5.zip, mod@gaiogcompatpatch-1.0.0.zip, mod@seasonalbreeding_1.1.0.zip, themepack@abyssaldepths_1.0.10.zip
+6.1.2026 00:23:08 [Notification] Found 544 external assets in category blocktypes
+6.1.2026 00:23:08 [Notification] Found 446 external assets in category itemtypes
+6.1.2026 00:23:08 [Notification] Found 58 external assets in category lang
+6.1.2026 00:23:09 [Notification] Found 638 external assets in category patches
+6.1.2026 00:23:09 [Notification] Found 134 external assets in category config
+6.1.2026 00:23:09 [Notification] Found 25 external assets in category worldproperties
+6.1.2026 00:23:09 [Notification] Found 22 external assets in category sounds
+6.1.2026 00:23:10 [Notification] Found 5832 external assets in category shapes
+6.1.2026 00:23:11 [Notification] Found 2618 external assets in category textures
+6.1.2026 00:23:12 [Notification] Found 731 external assets in category recipes
+6.1.2026 00:23:12 [Notification] Found 725 external assets in category worldgen
+6.1.2026 00:23:12 [Notification] Found 80 external assets in category entities
+6.1.2026 00:23:12 [Notification] Found 45 external assets in category compatibility
+6.1.2026 00:23:12 [Notification] Found 3 external assets in category genetics
+6.1.2026 00:23:12 [Notification] Found 49 external assets in category nutrition
+6.1.2026 00:23:13 [Notification] Reloaded lang file with mod assets
+6.1.2026 00:23:13 [Notification] [geoaddons] Hello from template mod: Server
+6.1.2026 00:23:13 [Notification] Mod Config successfully loaded.
+6.1.2026 00:23:14 [Notification] sekdebug 1
+6.1.2026 00:23:14 [Notification] [interestingoregen] Starting Interesting Ore Gen
+6.1.2026 00:23:14 [Notification] [IOG CaveAmbience] Initialized.
+6.1.2026 00:23:14 [Notification] Attempting rockstrata generation patch for: Server
+6.1.2026 00:23:14 [Event] Applying rockstrata generation patch.
+6.1.2026 00:23:14 [Notification] Compatibility lib: 14 assets added, 31 assets replaced.
+6.1.2026 00:23:25 [Error] Failed loading patches file interestingoregen:patches/deposits/gems/gemcomment.txt:
+6.1.2026 00:23:25 [Error] Exception: Failed deserializing gemcomment.txt: Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+   at Vintagestory.Common.Asset.ToObject[T](JsonSerializerSettings settings) in VintagestoryLib\Common\Model\Asset.cs:line 69
+   at Vintagestory.ServerMods.NoObf.ModJsonPatchLoader.ApplyPatches(String forPartialPath) in VSEssentials\Loading\JsonPatchLoader.cs:line 229
+6.1.2026 00:23:25 [Error] Failed loading patches file interestingoregen:patches/deposits/mineralore/mineralcomment.txt:
+6.1.2026 00:23:25 [Error] Exception: Failed deserializing mineralcomment.txt: Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+   at Vintagestory.Common.Asset.ToObject[T](JsonSerializerSettings settings) in VintagestoryLib\Common\Model\Asset.cs:line 69
+   at Vintagestory.ServerMods.NoObf.ModJsonPatchLoader.ApplyPatches(String forPartialPath) in VSEssentials\Loading\JsonPatchLoader.cs:line 229
+6.1.2026 00:23:27 [Error] Patch 10 (target: game:itemtypes/tool/axe-stone.json) in mngeology:patches/tools/mn-tool-axe-stone.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "axe-flint": {
+    "material": {
+      "base": "block/stone/{material}"
+    }
+  },
+  "*-bone-chert": {
+    "material": {
+      "base": "block/stone/rock/chert1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "*-bone-granite": {
+    "material": {
+      "base": "block/stone/rock/granite1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "*-bone-andesite": {
+    "material": {
+      "base": "block/stone/rock/andesite1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "*-bone-basalt": {
+    "material": {
+      "base": "block/stone/rock/basalt1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "*-bone-obsidian": {
+    "material": {
+      "base": "block/stone/rock/obsidian1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "*-bone-peridotite": {
+    "material": {
+      "base": "block/stone/rock/peridotite1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "*-bone-flint": {
+    "material": {
+      "base": "block/stone/flint"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "axe-bone-diorite": {
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    },
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    }
+  },
+  "axe-bone-gabbro": {
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    },
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    }
+  },
+  "axe-bone-quartzite": {
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    },
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    }
+  }
+}
+6.1.2026 00:23:27 [Error] Patch 15 (target: game:itemtypes/tool/knife.json) in mngeology:patches/tools/mn-tool-knife.json failed because supplied path /texturesByType/knife-generic-* is invalid: The json path /texturesByType/knife-generic-* was not found. Could traverse until /texturesByType, but then 'knife-generic-*' does not exist. Full json at this path: {
+  "knife-generic-chert": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "knife-generic-granite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "knife-generic-andesite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "knife-generic-basalt": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "knife-generic-obsidian": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "knife-generic-peridotite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "knife-generic-flint": {
+    "material": {
+      "base": "block/stone/{material}"
+    }
+  },
+  "knife-generic-bonechert": {
+    "material": {
+      "base": "block/stone/rock/chert1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "knife-generic-bonegranite": {
+    "material": {
+      "base": "block/stone/rock/granite1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "knife-generic-boneandesite": {
+    "material": {
+      "base": "block/stone/rock/andesite1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "knife-generic-bonebasalt": {
+    "material": {
+      "base": "block/stone/rock/basalt1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "knife-generic-boneobsidian": {
+    "material": {
+      "base": "block/stone/rock/obsidian1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "knife-generic-boneperidotite": {
+    "material": {
+      "base": "block/stone/rock/peridotite1"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "knife-generic-boneflint": {
+    "material": {
+      "base": "block/stone/flint"
+    },
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    }
+  },
+  "@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)": {
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    }
+  },
+  "knife-generic-diorite": {
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    }
+  },
+  "knife-generic-bonediorite": {
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    },
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    }
+  },
+  "knife-generic-gabbro": {
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    }
+  },
+  "knife-generic-bonegabbro": {
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    },
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    }
+  },
+  "knife-generic-quartzite": {
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    }
+  },
+  "knife-generic-bonequartzite": {
+    "handle": {
+      "base": "block/creature/bone-yellow"
+    },
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    }
+  }
+}
+6.1.2026 00:23:27 [Error] Patch 6 (target: game:itemtypes/tool/shovel.json) in mngeology:patches/tools/mn-tool-shovel.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "shovel-flint": {
+    "material": {
+      "base": "item/tool/material/{material}"
+    }
+  },
+  "shovel-chert": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "shovel-granite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "shovel-andesite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "shovel-basalt": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "shovel-obsidian": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "shovel-peridotite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)": {
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    }
+  },
+  "*-diorite": {
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    }
+  },
+  "*-gabbro": {
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    }
+  },
+  "*-quartzite": {
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    }
+  }
+}
+6.1.2026 00:23:27 [Error] Patch 5 (target: game:itemtypes/tool/spear.json) in mngeology:patches/tools/mn-tool-spear.json failed because supplied path /texturesByType/spear-generic-* is invalid: The json path /texturesByType/spear-generic-* was not found. Could traverse until /texturesByType, but then 'spear-generic-*' does not exist. Full json at this path: {
+  "spear-generic-erel": {},
+  "spear-scrap-scrap": {},
+  "spear-generic-hacking": {},
+  "spear-generic-flint": {
+    "material": {
+      "base": "block/stone/{material}"
+    }
+  },
+  "@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite)": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze)": {
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    }
+  },
+  "spear-generic-ornate*": {},
+  "spear-generic-diorite": {
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    }
+  },
+  "spear-generic-gabbro": {
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    }
+  },
+  "spear-generic-jade": {
+    "material": {
+      "base": "block/stone/rock/jade1"
+    }
+  },
+  "spear-generic-jasper": {
+    "material": {
+      "base": "block/stone/rock/jasper1"
+    }
+  },
+  "spear-generic-quartzite": {
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    }
+  }
+}
+6.1.2026 00:23:27 [Error] Patch 5 (target: game:itemtypes/toolhead/axehead.json) in mngeology:patches/tools/mn-toolhead-axehead.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "@axehead-(chert|granite|andesite|basalt|obsidian|peridotite)": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "axehead-flint": {
+    "material": {
+      "base": "block/stone/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "@axehead-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "axehead-diorite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "axehead-gabbro": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "axehead-quartzite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  }
+}
+6.1.2026 00:23:27 [Error] Patch 5 (target: game:itemtypes/toolhead/hoehead.json) in mngeology:patches/tools/mn-toolhead-hoehead.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "hoehead-flint": {
+    "material": {
+      "base": "block/stone/flint"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "@hoehead-(chert|granite|andesite|basalt|obsidian|peridotite)": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "hoehead-diorite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "hoehead-gabbro": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "hoehead-quartzite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  }
+}
+6.1.2026 00:23:27 [Error] Patch 5 (target: game:itemtypes/toolhead/knifeblade.json) in mngeology:patches/tools/mn-toolhead-knifeblade.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "knifeblade-flint": {
+    "material": {
+      "base": "block/stone/flint"
+    }
+  },
+  "@knifeblade-(chert|flint|granite|andesite|basalt|obsidian|peridotite)": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    }
+  },
+  "@knifeblade-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "knifeblade-diorite": {
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    }
+  },
+  "knifeblade-gabbro": {
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    }
+  },
+  "knifeblade-quartzite": {
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    }
+  }
+}
+6.1.2026 00:23:27 [Error] Patch 5 (target: game:itemtypes/toolhead/shovelhead.json) in mngeology:patches/tools/mn-toolhead-shovelhead.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "shovelhead-flint": {
+    "material": {
+      "base": "block/stone/flint"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "@shovelhead-(flint|chert|granite|andesite|basalt|obsidian|peridotite)": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "@shovelhead-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron)": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "shovelhead-diorite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "shovelhead-gabbro": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "shovelhead-quartzite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  }
+}
+6.1.2026 00:23:27 [Error] Patch 6 (target: game:itemtypes/toolhead/spearhead.json) in mngeology:patches/tools/mn-toolhead-spearhead.json failed because supplied path /texturesByType/* is invalid: The json path /texturesByType/* was not found. Could traverse until /texturesByType, but then '*' does not exist. Full json at this path: {
+  "spearhead-chert": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-granite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-andesite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-basalt": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-obsidian": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-peridotite": {
+    "material": {
+      "base": "block/stone/rock/{material}1"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-flint": {
+    "material": {
+      "base": "block/stone/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    },
+    "handle": {
+      "base": "block/transparent"
+    }
+  },
+  "@spearhead-(copper|tinbronze|bismuthbronze|blackbronze)": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/metal/ingot/{material}"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-diorite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/diorite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-gabbro": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/gabbro1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-jade": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/jade1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-jasper": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/jasper1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  },
+  "spearhead-quartzite": {
+    "handle": {
+      "base": "block/transparent"
+    },
+    "material": {
+      "base": "block/stone/rock/quartzite1"
+    },
+    "string": {
+      "base": "block/transparent"
+    }
+  }
+}
+6.1.2026 00:23:29 [Notification] JsonPatch Loader: 8796 patches total, successfully applied 8642 patches, missing files on 145 patches, unmet conditions on 859 patches, had errors on 9 patches
+6.1.2026 00:23:29 [Event] 3 genome types loaded
+6.1.2026 00:23:30 [Event] 49 nutrition datasets loaded
+6.1.2026 00:23:32 [Event] It remembers...
+6.1.2026 00:23:33 [Warning] Collectible behavior XLibConsumable for item pemmican:alcohol-beet not found
+6.1.2026 00:23:33 [Warning] Collectible behavior XLibConsumable for item pemmican:alcohol-cane not found
+6.1.2026 00:23:33 [Warning] Collectible behavior XLibConsumable for item pemmican:alcohol-potato not found
+6.1.2026 00:23:33 [Warning] Collectible behavior XLibConsumable for item pemmican:alcohol-corn not found
+6.1.2026 00:23:33 [Warning] Collectible behavior XLibConsumable for item pemmican:alcohol-mushroomale not found
+6.1.2026 00:23:33 [Warning] Collectible behavior XLibConsumable for item pemmican:alcohol-forest not found
+6.1.2026 00:23:33 [Warning] Collectible behavior XLibConsumable for item pemmican:beer-ale not found
+6.1.2026 00:23:33 [Warning] Collectible behavior XLibConsumable for item pemmican:beer-forest not found
+6.1.2026 00:23:33 [Warning] Collectible behavior XLibConsumable for item pemmican:wort-beet not found
+6.1.2026 00:23:33 [Warning] Collectible behavior XLibConsumable for item pemmican:wort-cane not found
+6.1.2026 00:23:33 [Warning] Collectible behavior XLibConsumable for item pemmican:wort-sugar not found
+6.1.2026 00:23:33 [Warning] Collectible behavior XLibConsumable for item pemmican:wort-potato not found
+6.1.2026 00:23:33 [Warning] Collectible behavior XLibConsumable for item pemmican:wort-corn not found
+6.1.2026 00:23:34 [Notification] Loaded 8039 unique items
+6.1.2026 00:23:34 [Event] All that came before...
+6.1.2026 00:23:36 [Warning] Block or Collectible behavior XSkillsCrop for block pemmican:crop-sugarbeet-5 not found
+6.1.2026 00:23:36 [Warning] Block or Collectible behavior XSkillsCrop for block pemmican:crop-potato-7 not found
+6.1.2026 00:23:36 [Warning] Block or Collectible behavior XSkillsCrop for block pemmican:crop-sugarcane-8 not found
+6.1.2026 00:23:36 [Warning] Block or Collectible behavior XSkillsCrop for block pemmican:crop-corn-9 not found
+6.1.2026 00:23:36 [Notification] Loaded 21039 unique blocks
+6.1.2026 00:23:36 [Notification] Loaded 865 unique entities
+6.1.2026 00:23:36 [Notification] Loaded 12 entity tags, 4 item tags and 1 block tags from 'game' domain
+6.1.2026 00:23:36 [Notification] BlockLoader: Entities, Blocks and Items loaded
+6.1.2026 00:23:36 [Event] Remapping blocks and items...
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-glazed in cooking recipe game:recipes/cooking/soup.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe game:recipes/cooking/soup.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-cooked in cooking recipe game:recipes/cooking/soup.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-glazed in cooking recipe game:recipes/cooking/meatystew.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe game:recipes/cooking/meatystew.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-cooked in cooking recipe game:recipes/cooking/meatystew.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-glazed in cooking recipe game:recipes/cooking/meatystew.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe game:recipes/cooking/meatystew.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-cooked in cooking recipe game:recipes/cooking/meatystew.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-glazed in cooking recipe game:recipes/cooking/meatystew.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe game:recipes/cooking/meatystew.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-cooked in cooking recipe game:recipes/cooking/meatystew.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe pemmican:recipes/cooking/egg.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe pemmican:recipes/cooking/egg.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe pemmican:recipes/cooking/egg.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe pemmican:recipes/cooking/egg.json
+6.1.2026 00:23:37 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code pemmican:egg-boiled in cooking recipe pemmican:recipes/cooking/egg.json
+6.1.2026 00:23:37 [Event] 27 cooking recipes loaded
+6.1.2026 00:23:37 [Event] Taste and smell...
+6.1.2026 00:23:38 [Event] 1667 crafting recipes loaded from 344 files
+6.1.2026 00:23:38 [Event] Grand inventions...
+6.1.2026 00:23:39 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code expandedfoods:candiedfruit-redapple in mixing recipe expandedfoods:recipes/mixing/yogurtmeal.json
+6.1.2026 00:23:39 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code expandedfoods:candiedfruit-yellowapple in mixing recipe expandedfoods:recipes/mixing/yogurtmeal.json
+6.1.2026 00:23:39 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code expandedfoods:candiedfruit-pinkapple in mixing recipe expandedfoods:recipes/mixing/yogurtmeal.json
+6.1.2026 00:23:39 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code expandedfoods:candiedfruit-redapple in mixing recipe expandedfoods:recipes/mixing/yogurtmeal.json
+6.1.2026 00:23:39 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code expandedfoods:candiedfruit-yellowapple in mixing recipe expandedfoods:recipes/mixing/yogurtmeal.json
+6.1.2026 00:23:39 [Warning] Failed resolving a blocks itemdrop or smeltedstack with code expandedfoods:candiedfruit-pinkapple in mixing recipe expandedfoods:recipes/mixing/yogurtmeal.json
+6.1.2026 00:23:39 [Event] 3 mixing recipes loaded
+6.1.2026 00:23:39 [Event] The chef and the apprentice...
+6.1.2026 00:23:39 [Warning] Failed resolving crafting recipe ingredient with code game:flour-birch in kneading recipe expandedfoods:recipes/kneading/ancienttools/pasta.json
+6.1.2026 00:23:39 [Warning] Failed resolving crafting recipe ingredient with code game:flour-pine in kneading recipe expandedfoods:recipes/kneading/ancienttools/pasta.json
+6.1.2026 00:23:39 [Warning] Failed resolving crafting recipe ingredient with code game:flour-maple in kneading recipe expandedfoods:recipes/kneading/ancienttools/pasta.json
+6.1.2026 00:23:39 [Event] 1012 kneading recipes loaded
+6.1.2026 00:23:39 [Event] Kneading the dough, letting it rise...
+6.1.2026 00:23:40 [Event] 644 simmer recipes loaded
+6.1.2026 00:23:40 [Event] A gentle simmer, then rolling boil...
+6.1.2026 00:23:40 [Event] 9 metal alloys loaded
+6.1.2026 00:23:40 [Event] Glimmers in the soil...
+6.1.2026 00:23:40 [Event] 299 smithing recipes loaded
+6.1.2026 00:23:40 [Event] Burning sparks...
+6.1.2026 00:23:40 [Event] 106 clay forming recipes loaded
+6.1.2026 00:23:40 [Event] Molded forms...
+6.1.2026 00:23:40 [Event] 79 knapping recipes loaded
+6.1.2026 00:23:40 [Event] Simple tools...
+6.1.2026 00:23:40 [Event] 516 barrel recipes loaded
+6.1.2026 00:23:40 [Notification] Entering runphase AssetsFinalize
+6.1.2026 00:23:40 [Error] Syntax error in json file 'interestingoregen:worldgen/deposits/gems/gemdepositcomment.txt': Failed deserializing gemdepositcomment.txt: Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-marl' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativegold-marl does not match any block! Please fix
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativegold-marl-free' was found (unresolved code: game:looseores-quartz_nativegold-{rock}-free)
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-marl' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativesilver-marl does not match any block! Please fix
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativesilver-marl-free' was found (unresolved code: game:looseores-quartz_nativesilver-{rock}-free)
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-wacke' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativegold-wacke does not match any block! Please fix
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativegold-wacke-free' was found (unresolved code: game:looseores-quartz_nativegold-{rock}-free)
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-wacke' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativesilver-wacke does not match any block! Please fix
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativesilver-wacke-free' was found (unresolved code: game:looseores-quartz_nativesilver-{rock}-free)
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-monzonite' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativesilver-monzonite does not match any block! Please fix
+6.1.2026 00:23:42 [Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativesilver-monzonite-free' was found (unresolved code: game:looseores-quartz_nativesilver-{rock}-free)
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-wacke' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-wacke does not match any block! Please fix
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-monzonite' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-monzonite does not match any block! Please fix
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-marl' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativegold-marl does not match any block! Please fix
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-wacke' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativegold-wacke does not match any block! Please fix
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-marl' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-marl does not match any block! Please fix
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-wacke' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-wacke does not match any block! Please fix
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-monzonite' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 00:23:42 [Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-monzonite does not match any block! Please fix

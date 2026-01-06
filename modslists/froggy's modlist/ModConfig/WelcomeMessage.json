@@ -1,0 +1,7 @@
+{
+  "WelcomeMessages": [
+    "<strong>This is {0}'s first time here! Give them a warm welcome! :)</strong>",
+    "<font size=20 color=#96BAC1><strong>Woah! Haven't seen {0} here before! are they new?'</strong></font>",
+    "<i><font size=20>A new soul has reached this world, come forth, <font color=#96BAC1>{0}</font>!</font></i>"
+  ]
+}

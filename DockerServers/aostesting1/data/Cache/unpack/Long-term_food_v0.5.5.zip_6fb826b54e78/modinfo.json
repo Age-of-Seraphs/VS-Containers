@@ -1,0 +1,13 @@
+
+{
+	"type": "content",
+	"name": "Long-term food",
+	"ModID": "longtermfood",
+	"description" : "Adds food that does not spoil for a very long time.",
+	"website": "",
+	"authors": ["MrFlame"],
+    "Side": "Universal",
+    "RequiredOnClient": true,
+    "RequiredOnServer": true,
+	"version": "0.5.5",
+}

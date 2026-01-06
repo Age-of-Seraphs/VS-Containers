@@ -1,0 +1,21 @@
+[
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-ilmenite-pyroxenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-ilmenite-pyroxenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-ilmenite-pyroxenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-bountiful-ilmenite-pyroxenite", "file": "game:itemtypes/resource/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-ilmenite-komatiite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-ilmenite-komatiite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-ilmenite-komatiite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-bountiful-ilmenite-komatiite", "file": "game:itemtypes/resource/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-ilmenite-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-ilmenite-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-ilmenite-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-bountiful-ilmenite-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
+
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-ilmenite-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-ilmenite-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-ilmenite-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
+	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-bountiful-ilmenite-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
+]

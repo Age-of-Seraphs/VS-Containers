@@ -1,0 +1,42 @@
+[
+  {
+    "file": "caninae:entities/land/vulpini-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "caninae" }]
+  },
+  {
+    "file": "caninae:entities/land/vulpini-baby.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+
+      "monthsToGrowByType": {
+        "*-nyctereutes-procyonoides": 11,
+        "*-nyctereutes-viverrinus": 11,
+        "*-otocyon-megalotis": 9,
+        "*-vulpes-bengalensis": 10,
+        "*-vulpes-cana": 10,
+        "*-vulpes-chama": 10,
+        "*-vulpes-corsac": 10,
+        "*-vulpes-ferrilata": 11,
+        "*-vulpes-lagopus": 11,
+        "*-vulpes-macrotis": 9,
+        "*-vulpes-pallida": 9,
+        "*-vulpes-rueppellii": 9,
+        "*-vulpes-velox": 9,
+        "*-vulpes-vulpes": 11,
+        "*-vulpes-zerda": 8
+      }
+
+    },
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "caninae"
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "playerVolume": 0.7,
+  "blockVolume": 1.0,
+  "abcBufferSize": 32,
+  "abcLocalLocation": "/home/container/abc",
+  "abcServerLocation": "/home/container/abc_server"
+}

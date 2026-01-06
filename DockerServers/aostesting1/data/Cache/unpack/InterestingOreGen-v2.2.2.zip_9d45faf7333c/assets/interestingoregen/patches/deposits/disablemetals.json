@@ -1,0 +1,98 @@
+﻿[
+  {
+    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
+    "op": "addmerge",
+    "path": "/0/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "op": "addmerge",
+    "path": "/1/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "op": "addmerge",
+    "path": "/2/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/metalore/chromite.json",
+    "op": "addmerge",
+    "path": "/0/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/metalore/galena.json",
+    "op": "addmerge",
+    "path": "/0/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/metalore/ilmenite.json",
+    "op": "addmerge",
+    "path": "/0/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/metalore/iron.json",
+    "op": "addmerge",
+    "path": "/0/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/metalore/iron.json",
+    "op": "addmerge",
+    "path": "/1/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/metalore/iron.json",
+    "op": "addmerge",
+    "path": "/2/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/metalore/malachite.json",
+    "op": "addmerge",
+    "path": "/0/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "op": "addmerge",
+    "path": "/1/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/metalore/pentlandite.json",
+    "op": "addmerge",
+    "path": "/0/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "op": "addmerge",
+    "path": "/0/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/metalore/sphalerite.json",
+    "op": "addmerge",
+    "path": "/0/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/mineralore/quartz.json",
+    "op": "add",
+    "path": "/0/childDeposits/0/triesPerChunk",
+    "value": 0
+  },
+  {
+    "file": "game:worldgen/deposits/mineralore/quartz.json",
+    "op": "add",
+    "path": "/0/childDeposits/1/triesPerChunk",
+    "value": 0
+  }
+]

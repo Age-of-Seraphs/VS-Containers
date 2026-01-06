@@ -1,0 +1,57 @@
+[
+  {
+    "file": "machairodontinae:entities/animal/mammal/machairodontinae-adult.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs",
+    "value": {},
+    "side": "server",
+    "dependsOn": [{ "modid": "machairodontinae" }]
+  },
+  {
+    "file": "machairodontinae:entities/animal/mammal/machairodontinae-adult.json",
+    "op": "addmerge",
+    "path": "/behaviorConfigs/genelib.multiply",
+    "value": {
+      "enabledByType": { "*-male-*": false },
+
+      "pregnancyMonthsByType": {
+        "*-homotherium-serum": 3.5,
+        "*-smilodon-fatalis": 3.5,
+        "*-smilodon-populator": 3.6
+      },
+
+      "multiplyCooldownMonthsMinByType": {
+        "*-homotherium-serum": 12.0,
+        "*-smilodon-fatalis": 12.0,
+        "*-smilodon-populator": 12.5
+      },
+
+      "multiplyCooldownMonthsMaxByType": {
+        "*-homotherium-serum": 18.0,
+        "*-smilodon-fatalis": 18.0,
+        "*-smilodon-populator": 19.0
+      },
+
+      "lactationMonthsByType": {
+        "*-homotherium-serum": 6.5,
+        "*-smilodon-fatalis": 7.0,
+        "*-smilodon-populator": 7.5
+      },
+
+      "breedingMonthsBeforeByType": {
+        "*-homotherium-serum": 2.5,
+        "*-smilodon-fatalis": 2.5,
+        "*-smilodon-populator": 2.5
+      },
+
+      "breedingMonthsAfterByType": {
+        "*-homotherium-serum": 2.5,
+        "*-smilodon-fatalis": 2.5,
+        "*-smilodon-populator": 2.5
+      }
+
+    },
+    "side": "server",
+    "dependsOn": [{ "modid": "machairodontinae" }]
+  }
+]
