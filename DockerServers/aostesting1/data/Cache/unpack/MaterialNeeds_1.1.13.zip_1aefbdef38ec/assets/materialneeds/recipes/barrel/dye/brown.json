@@ -1,0 +1,29 @@
+[
+	{
+		code: "game:dye-brown",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "item", code: "game:treeseed-walnut", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-brown", litres: 5 }
+	},
+	{
+		code: "game:dye-brown",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-green",  litres: 5 },
+			{ type: "item", code: "game:crushed-cinnabar", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-brown", litres: 5 }
+	},
+	{
+		code: "game:dye-brown",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-green",  litres: 5 },
+			{ type: "item", code: "game:powder-cinnabar", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-brown", litres: 5 }
+	},
+]

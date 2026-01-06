@@ -1,0 +1,68 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/plantContainable/smallContainerByType/*",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/plantContainable/smallContainerByType/*-pinklilyofthevalley-*",
+    "value": { shape: { base: "block/clay/flowerpot/contents-pinklilyofthevalley" } },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/plantContainable/smallContainerByType/*-purplelilyofthevalley-*",
+    "value": { shape: { base: "block/clay/flowerpot/contents-purplelilyofthevalley" } },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/plantContainable/smallContainerByType/*",
+    "value": {
+					shape: { base: "block/clay/flowerpot/contents" },
+					textures: {
+						"north": { base: "block/plant/potted/{flower}" },
+						"south": { base: "block/plant/potted/{flower}" },
+					},
+				},
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/plantContainable/largeContainerByType/*",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/plantContainable/largeContainerByType/*-pinklilyofthevalley-*",
+    "value": { shape: { base: "block/clay/planter/contents-pinklilyofthevalley" } },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/plantContainable/largeContainerByType/*-purplelilyofthevalley-*",
+    "value": { shape: { base: "block/clay/planter/contents-purplelilyofthevalley" } },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/plantContainable/largeContainerByType/*",
+    "value": {
+					shape: { base:  "block/clay/planter/contents" },
+					textures: {
+						"north": { base: "block/plant/potted/{flower}" },
+						"south": { base: "block/plant/potted/{flower}" },
+					},
+				},
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+]

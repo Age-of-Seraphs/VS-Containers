@@ -1,0 +1,11 @@
+[
+  {
+    "file": "game:itemtypes/liquid/vinegarportion.json",
+    "op": "replace",
+    "path": "/attributes/handbook",
+    "value": {
+		"exclude": "false",
+		"ignoreCreativeInvStacks": "true"
+	}
+  }
+]

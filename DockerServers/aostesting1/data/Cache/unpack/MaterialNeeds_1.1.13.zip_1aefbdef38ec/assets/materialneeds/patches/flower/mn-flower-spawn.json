@@ -1,0 +1,622 @@
+[
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		blockCodes: ["flower-pinkcatmint-free"],
+		minTemp: 5,
+		maxTemp: 19,
+		minForest: 0.1,
+		maxForest: 0.5,
+		minRain: 0.39,
+		maxRain: 0.86,
+		quantity: { dist: "invexp", avg: 8, var: 15 },
+		chance: 0.02
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		blockCodes: ["flower-whitecatmint-free"],
+		minTemp: 5,
+		maxTemp: 19,
+		minForest: 0.1,
+		maxForest: 0.5,
+		minRain: 0.39,
+		maxRain: 0.86,
+		quantity: { dist: "invexp", avg: 8, var: 15 },
+		chance: 0.02
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		blockCodes: ["flower-bluecatmint-free"],
+		minTemp: 5,
+		maxTemp: 19,
+		minForest: 0.1,
+		maxForest: 0.5,
+		minRain: 0.39,
+		maxRain: 0.86,
+		quantity: { dist: "invexp", avg: 8, var: 15 },
+		chance: 0.002
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		blockCodes: ["flower-persianbluecatmint-free"],
+		minTemp: 5,
+		maxTemp: 19,
+		minForest: 0.1,
+		maxForest: 0.5,
+		minRain: 0.39,
+		maxRain: 0.86,
+		quantity: { dist: "invexp", avg: 8, var: 15 },
+		chance: 0.0002
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Rare but huge patches of heather
+		blockCodes: ["flower-yellowheather-free"],
+		minTemp: 2,
+		maxTemp: 15,
+		minForest: 0,
+		maxForest: 0.35,
+		minRain: 0.4,
+		maxRain: 1,
+		maxFertility: 0.4,
+		chance: 0.015,
+		maxY: 0.72,
+		quantity: { dist: "invexp", avg: 75, var: 250 },
+		offsetX: { dist: "gaussian", avg: 0, var: 16 },
+		offsetZ: { dist: "gaussian", avg: 0, var: 16 },
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Rare but huge patches of heather
+		blockCodes: ["flower-orangeheather-free"],
+		minTemp: 2,
+		maxTemp: 15,
+		minForest: 0,
+		maxForest: 0.35,
+		minRain: 0.4,
+		maxRain: 1,
+		maxFertility: 0.4,
+		chance: 0.015,
+		maxY: 0.72,
+		quantity: { dist: "invexp", avg: 75, var: 250 },
+		offsetX: { dist: "gaussian", avg: 0, var: 16 },
+		offsetZ: { dist: "gaussian", avg: 0, var: 16 },
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Rare but huge patches of heather
+		blockCodes: ["flower-scarletheather-free"],
+		minTemp: 2,
+		maxTemp: 15,
+		minForest: 0,
+		maxForest: 0.35,
+		minRain: 0.4,
+		maxRain: 1,
+		maxFertility: 0.4,
+		chance: 0.0015,
+		maxY: 0.72,
+		quantity: { dist: "invexp", avg: 75, var: 250 },
+		offsetX: { dist: "gaussian", avg: 0, var: 16 },
+		offsetZ: { dist: "gaussian", avg: 0, var: 16 },
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Rare but huge patches of heather
+		blockCodes: ["flower-blueheather-free"],
+		minTemp: 2,
+		maxTemp: 15,
+		minForest: 0,
+		maxForest: 0.35,
+		minRain: 0.4,
+		maxRain: 1,
+		maxFertility: 0.4,
+		chance: 0.00015,
+		maxY: 0.72,
+		quantity: { dist: "invexp", avg: 75, var: 250 },
+		offsetX: { dist: "gaussian", avg: 0, var: 16 },
+		offsetZ: { dist: "gaussian", avg: 0, var: 16 },
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		blockCodes: ["flower-redcornflower-free"],
+		minTemp: 3,
+		maxTemp: 23,
+		minForest: 0.1,
+		maxForest: 0.45,
+		minRain: 0.35,
+		maxRain: 0.75,
+		quantity: { avg: 8, var: 8 },
+		chance: 0.004
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		blockCodes: ["flower-whitecornflower-free"],
+		minTemp: 3,
+		maxTemp: 23,
+		minForest: 0.1,
+		maxForest: 0.45,
+		minRain: 0.35,
+		maxRain: 0.75,
+		quantity: { avg: 8, var: 8 },
+		chance: 0.004
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		blockCodes: ["flower-pinkcornflower-free"],
+		minTemp: 3,
+		maxTemp: 23,
+		minForest: 0.1,
+		maxForest: 0.45,
+		minRain: 0.35,
+		maxRain: 0.75,
+		quantity: { avg: 8, var: 8 },
+		chance: 0.0004
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		blockCodes: ["flower-burgundycornflower-free"],
+		minTemp: 3,
+		maxTemp: 23,
+		minForest: 0.1,
+		maxForest: 0.45,
+		minRain: 0.35,
+		maxRain: 0.75,
+		quantity: { avg: 8, var: 8 },
+		chance: 0.00004
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Small patches or orange mallows in hot and dry climate
+		blockCodes: ["flower-yellowmallow-free"],
+		minTemp: 20,
+		maxTemp: 37,
+		minRain: 0.1,
+		maxRain: 0.35,
+		maxFertility: 0.5,
+		chance: 0.02,
+		quantity: { dist: "stronginvexp", avg: 2, var: 6 },
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Small patches or orange mallows in hot and dry climate
+		blockCodes: ["flower-redmallow-free"],
+		minTemp: 20,
+		maxTemp: 37,
+		minRain: 0.1,
+		maxRain: 0.35,
+		maxFertility: 0.5,
+		chance: 0.02,
+		quantity: { dist: "stronginvexp", avg: 2, var: 6 },
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Small patches or orange mallows in hot and dry climate
+		blockCodes: ["flower-pinkmallow-free"],
+		minTemp: 20,
+		maxTemp: 37,
+		minRain: 0.1,
+		maxRain: 0.35,
+		maxFertility: 0.5,
+		chance: 0.002,
+		quantity: { dist: "stronginvexp", avg: 2, var: 6 },
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Small patches or orange mallows in hot and dry climate
+		blockCodes: ["flower-bluemallow-free"],
+		minTemp: 20,
+		maxTemp: 37,
+		minRain: 0.1,
+		maxRain: 0.35,
+		maxFertility: 0.5,
+		chance: 0.0002,
+		quantity: { dist: "stronginvexp", avg: 2, var: 6 },
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Rare golden poppy patches
+		blockCodes: ["flower-yellowpoppy-free"],
+		minTemp: 22,
+		maxTemp: 25,
+		minRain: 0.5,
+		maxRain: 1,
+		chance: 0.01,
+		quantity: { dist: "stronginvexp", avg: 6, var: 35 },
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Rare golden poppy patches
+		blockCodes: ["flower-redpoppy-free"],
+		minTemp: 22,
+		maxTemp: 25,
+		minRain: 0.5,
+		maxRain: 1,
+		chance: 0.01,
+		quantity: { dist: "stronginvexp", avg: 6, var: 35 },
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Rare golden poppy patches
+		blockCodes: ["flower-pinkpoppy-free"],
+		minTemp: 22,
+		maxTemp: 25,
+		minRain: 0.5,
+		maxRain: 1,
+		chance: 0.001,
+		quantity: { dist: "stronginvexp", avg: 6, var: 35 },
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Rare golden poppy patches
+		blockCodes: ["flower-bluepoppy-free"],
+		minTemp: 22,
+		maxTemp: 25,
+		minRain: 0.5,
+		maxRain: 1,
+		chance: 0.0001,
+		quantity: { dist: "stronginvexp", avg: 6, var: 35 },
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Your occasional large patch of lily of the valleys in forests
+		blockCodes: ["flower-pinklilyofthevalley-free"],
+		minTemp: 2,
+		maxTemp: 13,
+		minRain: 0.45,
+		maxRain: 1,
+		minForest: 0.6,
+		chance: 0.00008,
+		quantity: { dist: "stronginvexp", avg: 20, var: 50 },
+		placement: "OnSurfacePlusUnderTrees"
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Your occasional large patch of lily of the valleys in forests
+		blockCodes: ["flower-purplelilyofthevalley-free"],
+		minTemp: 2,
+		maxTemp: 13,
+		minRain: 0.45,
+		maxRain: 1,
+		minForest: 0.6,
+		chance: 0.000008,
+		quantity: { dist: "stronginvexp", avg: 20, var: 50 },
+		placement: "OnSurfacePlusUnderTrees"
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Common smaller patches of lily of the valley in temperate forests
+		blockCodes: ["flower-pinklilyofthevalley-free"],
+		minTemp: 2,
+		maxTemp: 13,
+		minRain: 0.45,
+		maxRain: 1,
+		minForest: 0.55,
+		chance: 0.0005,
+		minFertility: 0.2,
+		quantity: { dist: "stronginvexp", avg: 6, var: 25 },
+		placement: "OnSurfacePlusUnderTrees"
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Common smaller patches of lily of the valley in temperate forests
+		blockCodes: ["flower-purplelilyofthevalley-free"],
+		minTemp: 2,
+		maxTemp: 13,
+		minRain: 0.45,
+		maxRain: 1,
+		minForest: 0.55,
+		chance: 0.00005,
+		minFertility: 0.2,
+		quantity: { dist: "stronginvexp", avg: 6, var: 25 },
+		placement: "OnSurfacePlusUnderTrees"
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		blockCodes: ["flower-pinkforgetmenot-free"],
+		minTemp: 7,
+		maxTemp: 20,
+		minForest: 0,
+		maxForest: 0.4,
+		minRain: 0.4,
+		maxRain: 0.8,
+		quantity: { avg: 1, var: 0 },
+		chance: 0.0004
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		blockCodes: ["flower-blueforgetmenot-free"],
+		minTemp: 7,
+		maxTemp: 20,
+		minForest: 0,
+		maxForest: 0.4,
+		minRain: 0.4,
+		maxRain: 0.8,
+		quantity: { avg: 1, var: 0 },
+		chance: 0.0004
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Uncommon clumps of forget-me-not in forest clearings
+		blockCodes: ["flower-pinkforgetmenot-free"],
+		minTemp: 7,
+		maxTemp: 20,
+		minForest: 0.5,
+		minRain: 0.6,
+		maxRain: 0.9,
+		minFertility: 0.2,
+		quantity: { avg: 5, var: 3 },
+		chance: 0.0009
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Uncommon clumps of forget-me-not in forest clearings
+		blockCodes: ["flower-blueforgetmenot-free"],
+		minTemp: 7,
+		maxTemp: 20,
+		minForest: 0.5,
+		minRain: 0.6,
+		maxRain: 0.9,
+		minFertility: 0.2,
+		quantity: { avg: 5, var: 3 },
+		chance: 0.0009
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Rare but huge patches of western gorse
+		blockCodes: ["flower-redbroom-free"],
+		minTemp: 2,
+		maxTemp: 15,
+		minForest: 0,
+		maxForest: 0.35,
+		minRain: 0.4,
+		maxRain: 1,
+		maxFertility: 0.4,
+		chance: 0.015,
+		maxY: 0.72,
+		quantity: { dist: "invexp", avg: 75, var: 250 },
+		offsetX: { dist: "gaussian", avg: 0, var: 16 },
+		offsetZ: { dist: "gaussian", avg: 0, var: 16 }
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Rare but huge patches of western gorse
+		blockCodes: ["flower-orangebroom-free"],
+		minTemp: 2,
+		maxTemp: 15,
+		minForest: 0,
+		maxForest: 0.35,
+		minRain: 0.4,
+		maxRain: 1,
+		maxFertility: 0.4,
+		chance: 0.015,
+		maxY: 0.72,
+		quantity: { dist: "invexp", avg: 75, var: 250 },
+		offsetX: { dist: "gaussian", avg: 0, var: 16 },
+		offsetZ: { dist: "gaussian", avg: 0, var: 16 }
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Rare but huge patches of western gorse
+		blockCodes: ["flower-pinkbroom-free"],
+		minTemp: 2,
+		maxTemp: 15,
+		minForest: 0,
+		maxForest: 0.35,
+		minRain: 0.4,
+		maxRain: 1,
+		maxFertility: 0.4,
+		chance: 0.0015,
+		maxY: 0.72,
+		quantity: { dist: "invexp", avg: 75, var: 250 },
+		offsetX: { dist: "gaussian", avg: 0, var: 16 },
+		offsetZ: { dist: "gaussian", avg: 0, var: 16 }
+	},
+  },
+  {
+    "dependsOn": [ { "modid": "mnflowers", } ],
+    "file": "game:worldgen/blockpatches/flower.json",
+    "path": "/-",
+    "op": "addmerge",
+    "value": 
+	{
+		// Rare but huge patches of western gorse
+		blockCodes: ["flower-burgundybroom-free"],
+		minTemp: 2,
+		maxTemp: 15,
+		minForest: 0,
+		maxForest: 0.35,
+		minRain: 0.4,
+		maxRain: 1,
+		maxFertility: 0.4,
+		chance: 0.00015,
+		maxY: 0.72,
+		quantity: { dist: "invexp", avg: 75, var: 250 },
+		offsetX: { dist: "gaussian", avg: 0, var: 16 },
+		offsetZ: { dist: "gaussian", avg: 0, var: 16 }
+	},
+  },
+]

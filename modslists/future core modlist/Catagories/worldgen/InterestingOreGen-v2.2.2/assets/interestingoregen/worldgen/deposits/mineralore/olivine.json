@@ -1,0 +1,51 @@
+﻿[
+    {
+        "code": "olivine",
+        "triesPerChunk": 0.01,
+        "withOreMap": false,
+        "handbookPageCode": "ore-olivine",
+        "generator": "iog-gen",
+        "attributes": {
+            "inblock": {
+                "veintype": "fault",
+                "code": "rock-*",
+                "name": "rock",
+                "allowedVariants": [ "peridotite" ]
+            },
+            "subdeposit": {
+                "code": "ore-*-olivine_peridot-{rock}",
+                "name": "grade",
+                "allowedVariants": [ "low", "medium", "high" ]
+            },
+            "placeblock": {
+                "code": "ore-olivine-{rock}"
+            },
+          "radius": {
+            "dist": "uniform",
+            "avg": 96,
+            "var": 32
+          },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.45,
+                "var": 0.4
+            },
+            "thickness": {
+                "dist": "uniform",
+                "avg": 1,
+                "var": 1
+            },
+            "branchCount": {
+                "dist": "uniform",
+                "avg": 50,
+                "var": 10
+            },
+            "branchLength": {
+                "dist": "uniform",
+                "avg": 3,
+                "var": 1.5
+            },
+            "OreSpongePercent": 0.3
+        }
+    }
+]

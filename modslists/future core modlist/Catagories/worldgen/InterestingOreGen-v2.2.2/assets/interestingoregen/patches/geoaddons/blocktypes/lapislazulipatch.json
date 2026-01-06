@@ -1,0 +1,12 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-ungraded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-lapislazuli-dolostone"
+	},
+]

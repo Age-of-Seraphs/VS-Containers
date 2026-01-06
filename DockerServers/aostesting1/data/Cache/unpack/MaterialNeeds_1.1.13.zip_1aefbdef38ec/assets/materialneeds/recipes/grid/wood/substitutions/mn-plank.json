@@ -1,0 +1,126 @@
+[
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "game:log-placed-aged-ud", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-lightaged", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "game:planks-lightaged-ud", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-lightaged", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "game:planks-lightaged-ns", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-lightaged", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "game:plankstairs-lightaged-up-north-free", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-lightaged", quantity: 3  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "game:plankslab-lightaged-down-free", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-lightaged", quantity: 2  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "game:log-placed-darkaged-ud", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-aged", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "game:log-placed-darkaged-ud", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-aged", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "game:planks-aged-ud", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-aged", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "game:planks-aged-ns", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-aged", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "game:plankstairs-aged-up-north-free", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-aged", quantity: 3  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "game:plankslab-aged-down-free", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-aged", quantity: 2  }
+	},
+]

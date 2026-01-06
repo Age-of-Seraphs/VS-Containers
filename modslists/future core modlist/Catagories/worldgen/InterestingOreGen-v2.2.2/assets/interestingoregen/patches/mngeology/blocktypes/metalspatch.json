@@ -1,0 +1,92 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-quartz_nativesilver-pyroxenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-quartz_nativesilver-pyroxenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-rich-quartz_nativesilver-pyroxenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-quartz_nativesilver-serpentinite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-quartz_nativesilver-serpentinite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-rich-quartz_nativesilver-serpentinite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-quartz_nativesilver-syenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-quartz_nativesilver-syenite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "game:blocktypes/stone/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-rich-quartz_nativesilver-syenite"
+	}
+]

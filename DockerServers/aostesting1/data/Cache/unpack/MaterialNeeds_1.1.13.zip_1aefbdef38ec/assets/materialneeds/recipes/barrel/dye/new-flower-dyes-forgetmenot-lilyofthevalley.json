@@ -1,0 +1,38 @@
+[
+	{
+		code: "game:dye-purple",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "block", code: "game:flower-pinkforgetmenot-free", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-purple", litres: 5 }
+	},
+	{
+		code: "game:dye-blue",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "block", code: "game:flower-blueforgetmenot-free", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-blue", litres: 5 }
+	},
+	{
+		code: "game:dye-pink",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "block", code: "game:flower-pinklilyofthevalley-free", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-pink", litres: 5 }
+	},
+	{
+		code: "game:dye-purple",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "block", code: "game:flower-purplelilyofthevalley-free", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-purple", litres: 5 }
+	},
+]

@@ -1,9 +1,0 @@
-[
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-quartz_nativesilver-arenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-quartz_nativesilver-arenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-quartz_nativesilver-arenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
-
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-quartz_nativesilver-arkose", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-quartz_nativesilver-arkose", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-rich-quartz_nativesilver-arkose", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
-]

@@ -1,0 +1,57 @@
+[
+	{
+		ingredientPattern: "C,G",
+		ingredients: {
+			"C": { type: "item", code: "game:powder-charcoal", },
+			"G": { type: "block", code: "game:dirtygravel-wet-plain", },
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:dirtygravel-wetdark-plain", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C,G",
+		ingredients: {
+			"C": { type: "item", code: "game:powder-charcoal", },
+			"G": { type: "block", code: "game:dirtygravel-wet-cracked", },
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:dirtygravel-wetdark-cracked", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C,G",
+		ingredients: {
+			"C": { type: "item", code: "game:powder-charcoal", },
+			"G": { type: "block", code: "game:dirtygravel-wet-stoney", },
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:dirtygravel-wetdark-stoney", quantity: 1  }
+	},
+	{
+		ingredientPattern: "S,G",
+		ingredients: {
+			"S": { type: "item", code: "game:stone-*", },
+			"G": { type: "block", code: "game:dirtygravel-wetdark-plain", },
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:dirtygravel-wetdark-cracked", quantity: 1  }
+	},
+	{
+		ingredientPattern: "S,G",
+		ingredients: {
+			"S": { type: "item", code: "game:stone-*", },
+			"G": { type: "block", code: "game:dirtygravel-wetdark-cracked", },
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:dirtygravel-wetdark-stoney", quantity: 1  }
+	},
+]

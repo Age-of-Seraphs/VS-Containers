@@ -1,0 +1,12 @@
+[
+{
+	ingredientPattern: "PSP	PSP",
+	ingredients: {
+		"P": { type: "item", code: "game:plank-lightaged", name: "wood", allowedVariants: ["birch", "oak", "maple", "pine", "acacia", "kapok", "aged", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart"] },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "game:woodenfence-lightaged-ew-free", quantity: 8  }
+},
+]

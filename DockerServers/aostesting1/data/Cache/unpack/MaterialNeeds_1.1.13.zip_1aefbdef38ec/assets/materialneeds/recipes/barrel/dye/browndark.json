@@ -1,0 +1,11 @@
+[
+	{
+		code: "game:dye-browndark",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "item", code: "game:oakbark", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-browndark", litres: 5 }
+	},
+]

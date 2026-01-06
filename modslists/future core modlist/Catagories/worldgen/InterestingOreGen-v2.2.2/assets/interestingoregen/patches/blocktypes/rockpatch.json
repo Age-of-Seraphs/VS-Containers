@@ -1,0 +1,20 @@
+[
+  {
+    "file": "game:blocktypes/stone/rock",
+    "op": "replace",
+    "path": "/behaviors/1/propertiesByType/@rock-(claystone|sandstone|shale|conglomerate|limestone|chert|chalk)/collapsedBlock",
+    "value": "gravel-{rock}"
+  },
+  {
+    "file": "game:blocktypes/stone/rock",
+    "op": "replace",
+    "path": "/behaviors/1/propertiesByType/@rock-(bauxite|slate|phyllite)/collapsedBlock",
+    "value": "gravel-{rock}"
+  },
+  {
+    "file": "game:blocktypes/stone/rock",
+    "op": "replace",
+    "path": "/behaviors/1/propertiesByType/*/collapsedBlock",
+    "value": "gravel-{rock}"
+  }
+]

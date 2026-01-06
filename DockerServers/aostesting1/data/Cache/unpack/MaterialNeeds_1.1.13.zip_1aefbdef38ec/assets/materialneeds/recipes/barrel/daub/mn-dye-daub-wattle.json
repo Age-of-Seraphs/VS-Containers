@@ -1,0 +1,950 @@
+[
+  {
+      "code": "daub-black",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-black",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "russet"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-black-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-charcoal",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-gray",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "chestnut",
+            "brown"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-charcoal-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-graphite",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-gray",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "browngolden",
+            "russet"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-graphite-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-pewter",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-white",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "browngolden",
+            "russet"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-pewter-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-viridian",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-cyan",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "chestnut",
+            "brown"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-viridian-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-moss",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-green",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "russet"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-moss-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-chartreuse",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-chartreuse",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "browngolden"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-chartreuse-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-sage",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-cyan",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "browngolden"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-sage-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-turquoise",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-cyan",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "russet",
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-turquoise-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-azure",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-blue",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "taupe"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-azure-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-cobalt",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-blue",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "russet",
+            "chestnut"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-cobalt-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-violet",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-purple",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "russet",
+            "chestnut"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-violet-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-magenta",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-magenta",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "russet",
+            "chestnut"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-magenta-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-rouge",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-pink",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "taupe"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-rouge-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-salmon",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-pink",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "tan"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-salmon-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-amber",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-amber",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "browngolden",
+            "russet",
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-amber-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-taupe",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-brown",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "tan"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-taupe-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-russet",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-brown",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "browngolden"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-russet-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-taupe",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-orange",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "sage"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-taupe-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-chestnut",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-brown",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "russet"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-chestnut-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-coral",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-orange",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "russet"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-coral-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-cinnabar",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-vermilion",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "browngolden",
+            "russet",
+            "chestnut"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-cinnabar-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-red",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-red",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "browngolden",
+            "russet",
+            "chestnut"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-red-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-oxblood",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-red",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "brown"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-oxblood-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-lime",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-chartreuse",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "taupe"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-lime-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-brownlight",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-white",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "tan"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-brownlight-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-orange",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-orange",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "taupe"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-orange-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-green",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-green",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "chestnut"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-green-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-pink",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-pink",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "brownlight"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-pink-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-yellow",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-yellow",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "browngolden"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-yellow-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-ashen",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-gray",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "taupe"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-ash-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-tan",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-white",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "taupe"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-tan-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-browngolden",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-brown",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "taupe"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-browngolden-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-brownweathered",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-white",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "chestnut"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-brownweathered-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-brownweathered",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-white",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "chestnut"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-brownweathered-wattle",
+        "quantity": 1
+      }
+  },
+  {
+      "code": "daub-brown",
+      "sealHours": 4,
+      "ingredients": [
+        {
+          "type": "item",
+          "code": "game:dye-brown",
+          "litres": 2,
+          "consumeLitres": 2,
+        },
+        {
+          "type": "block",
+          "code": "game:daub-*-wattle",
+          "name": "color",
+          "allowedVariants": [
+            "chestnut"
+          ],
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "type": "block",
+        "code": "game:daub-brown-wattle",
+        "quantity": 1
+      }
+  },
+]

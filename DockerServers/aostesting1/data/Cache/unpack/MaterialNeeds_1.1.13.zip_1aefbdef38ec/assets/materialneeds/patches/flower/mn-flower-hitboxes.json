@@ -1,0 +1,127 @@
+[
+  {
+    "op": "remove",
+    "path": "/selectionboxByType/*",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-whitecatmint-*",
+    "value": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.625, z2: 0.875 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-pinkcatmint-*",
+    "value": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.625, z2: 0.875 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-persianbluecatmint-*",
+    "value": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.625, z2: 0.875 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-bluecatmint-*",
+    "value": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.625, z2: 0.875 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-scarletheather-*",
+    "value": { x1: 0.0625, y1: 0, z1: 0.125, x2: 0.875, y2: 0.3125, z2: 0.9375 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-blueheather-*",
+    "value": { x1: 0.0625, y1: 0, z1: 0.125, x2: 0.875, y2: 0.3125, z2: 0.9375 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-orangeheather-*",
+    "value": { x1: 0.0625, y1: 0, z1: 0.125, x2: 0.875, y2: 0.3125, z2: 0.9375 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-yellowheather-*",
+    "value": { x1: 0.0625, y1: 0, z1: 0.125, x2: 0.875, y2: 0.3125, z2: 0.9375 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-pinkcornflower-*",
+    "value": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.75, z2: 0.875 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-burgundycornflower-*",
+    "value": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.75, z2: 0.875 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-redcornflower-*",
+    "value": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.75, z2: 0.875 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-whitecornflower-*",
+    "value": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.75, z2: 0.875 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-yellowdaisy-*",
+    "value": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.75, z2: 0.875 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-pinkdaisy-*",
+    "value": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.75, z2: 0.875 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-orangedaisy-*",
+    "value": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.75, z2: 0.875 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/flower-bluedaisy-*",
+    "value": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.75, z2: 0.875 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/selectionboxByType/*",
+    "value": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.25, z2: 0.875 },
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+]

@@ -1,0 +1,62 @@
+[
+	{
+		ingredientPattern: "H,S",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: "true", },
+			"S": { type: "block", code: "game:diamond-stone-clean", },
+		},
+		width: 1,
+		height: 2,
+		shapeless: false,
+		output: {
+			type: "block",
+			code: "game:diamond-stone-clean-aged",
+			quantity: 1,
+			}
+	},
+	{
+		ingredientPattern: "H,S",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: "true", },
+			"S": { type: "block", code: "game:diamond-stone-dark", },
+		},
+		width: 1,
+		height: 2,
+		shapeless: false,
+		output: {
+			type: "block",
+			code: "game:diamond-stone-dark-aged",
+			quantity: 1,
+			}
+	},
+	{
+		ingredientPattern: "H,S",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: "true", },
+			"S": { type: "block", code: "game:diamond-stone-light", },
+		},
+		width: 1,
+		height: 2,
+		shapeless: false,
+		output: {
+			type: "block",
+			code: "game:diamond-stone-light-aged",
+			quantity: 1,
+			}
+	},
+	{
+		ingredientPattern: "H,S",
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: "true", },
+			"S": { type: "block", code: "game:diamond-stone-mixed", },
+		},
+		width: 1,
+		height: 2,
+		shapeless: false,
+		output: {
+			type: "block",
+			code: "game:diamond-stone-mixed-aged",
+			quantity: 1,
+		}
+	},
+]

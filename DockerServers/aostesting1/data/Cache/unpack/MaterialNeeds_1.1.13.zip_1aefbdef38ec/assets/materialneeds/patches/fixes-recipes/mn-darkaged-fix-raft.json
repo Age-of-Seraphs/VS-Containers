@@ -1,0 +1,26 @@
+[
+	{
+	"op": "addmerge",
+	"path": "/0/ingredients/L/skipVariants",
+	"value": [ "lightaged", "darkaged", "aged" ],
+	"file": "game:recipes/grid/raft.json",
+	},
+	{
+	"op": "addmerge",
+	"path": "/1/ingredients/L/skipVariants",
+	"value": [ "lightaged", "darkaged", "aged" ],
+	"file": "game:recipes/grid/raft.json",
+	},
+	{
+	"op": "addmerge",
+	"path": "/2/ingredients/L/skipVariants",
+	"value": [ "lightaged", "darkaged", "aged" ],
+	"file": "game:recipes/grid/raft.json",
+	},
+	{
+	"op": "addmerge",
+	"path": "/3/ingredients/L/skipVariants",
+	"value": [ "lightaged", "darkaged", "aged" ],
+	"file": "game:recipes/grid/raft.json",
+	},
+]

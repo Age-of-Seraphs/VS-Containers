@@ -1,0 +1,12 @@
+[
+  {
+    "ingredientPattern": "CCC,CCC,CCC",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:clay-*", "name": "clay", "allowedVariants": [ "blue", "red", "fire" ] }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": { "type": "block", "code": "game:rawclay-{clay}-none", "quantity": 1 }
+  },
+]

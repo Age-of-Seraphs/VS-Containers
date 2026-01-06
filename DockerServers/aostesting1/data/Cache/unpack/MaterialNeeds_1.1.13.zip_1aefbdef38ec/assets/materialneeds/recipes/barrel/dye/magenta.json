@@ -1,0 +1,29 @@
+[
+	{
+		code: "game:dye-magenta",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-purple",  litres: 5 },
+			{ type: "item", code: "game:crushed-cinnabar", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-magenta", litres: 5 }
+	},
+	{
+		code: "game:dye-magenta",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-red",  litres: 5 },
+			{ type: "item", code: "game:fruit-blackcurrant", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-magenta", litres: 5 }
+	},
+	{
+		code: "game:dye-magenta",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-red",  litres: 5 },
+			{ type: "item", code: "game:fruit-blueberry", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-magenta", litres: 5 }
+	},
+]

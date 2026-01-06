@@ -1,0 +1,76 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/dropsByType",
+    "value": {
+      "leaves-placed-*": [
+        {
+          "type": "block",
+          "code": "game:leaves-placed-{wood}",
+          "quantity": {
+            "avg": 1
+          },
+          "tool": "saw"
+        }
+      ]
+    },
+    "file": "game:blocktypes/plant/leaves/normal.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType",
+    "value": {
+      "leaves-placed-*": [
+        {
+          "type": "block",
+          "code": "game:leaves-placed-{wood}",
+          "quantity": {
+            "avg": 1
+          },
+          "tool": "shears",
+	conditions: [ { type: "isCrouching" } ],
+        }
+      ]
+    },
+    "file": "game:blocktypes/plant/leaves/normal.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType",
+    "value": {
+      "leavesbranchy-placed-*": [
+        {
+          "type": "block",
+          "code": "game:leavesbranchy-placed-{wood}",
+          "quantity": {
+            "avg": 1
+          },
+          "tool": "saw"
+        }
+      ]
+    },
+    "file": "game:blocktypes/plant/leaves/branchy.json",
+    "side": "server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType",
+    "value": {
+      "leavesbranchy-placed-*": [
+        {
+          "type": "block",
+          "code": "game:leavesbranchy-placed-{wood}",
+          "quantity": {
+            "avg": 1
+          },
+          "tool": "shears",
+	conditions: [ { type: "isCrouching" } ],
+        }
+      ]
+    },
+    "file": "game:blocktypes/plant/leaves/branchy.json",
+    "side": "server"
+  },
+]

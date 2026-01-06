@@ -1,0 +1,38 @@
+[
+	{
+		code: "game:dye-indigo",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-blue",  litres: 5 },
+			{ type: "item", code: "game:fruit-blackcurrant", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-indigo", litres: 5 }
+	},
+	{
+		code: "game:dye-indigo",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-blue",  litres: 5 },
+			{ type: "item", code: "game:fruit-blueberry", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-indigo", litres: 5 }
+	},
+	{
+		code: "game:dye-indigo",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-purple",  litres: 5 },
+			{ type: "item", code: "game:crushed-lapislazuli", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-indigo", litres: 5 }
+	},
+	{
+		code: "game:dye-indigo",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-purple",  litres: 5 },
+			{ type: "item", code: "game:powder-lapislazuli", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-indigo", litres: 5 }
+	},
+]

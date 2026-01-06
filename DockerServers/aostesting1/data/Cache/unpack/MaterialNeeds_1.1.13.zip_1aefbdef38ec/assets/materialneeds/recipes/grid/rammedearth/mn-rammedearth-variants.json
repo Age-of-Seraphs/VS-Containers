@@ -1,0 +1,48 @@
+[
+{
+	ingredientPattern: "G",
+	ingredients: {
+		"G": { type: "block", code: "materialneeds:rammed-light-*-plain", name: "color", quantity: 1  }
+	},
+	width: 1,
+	height: 1,
+	output: { type: "block", code: "materialneeds:rammed-light-{color}-thinlight", quantity: 1  }
+},
+{
+	ingredientPattern: "G",
+	ingredients: {
+		"G": { type: "block", code: "materialneeds:rammed-light-*-thinlight", name: "color", quantity: 1  }
+	},
+	width: 1,
+	height: 1,
+	output: { type: "block", code: "materialneeds:rammed-light-{color}-thicklight", quantity: 1  }
+},
+{
+	ingredientPattern: "G",
+	ingredients: {
+		"G": { type: "block", code: "materialneeds:rammed-light-*-thicklight", name: "color", quantity: 1  }
+	},
+	width: 1,
+	height: 1,
+	output: { type: "block", code: "materialneeds:rammed-light-{color}-thinheavy", quantity: 1  }
+},
+{
+	ingredientPattern: "G",
+	ingredients: {
+		"G": { type: "block", code: "materialneeds:rammed-light-*-thinheavy", name: "color", quantity: 1  }
+	},
+	width: 1,
+	height: 1,
+	output: { type: "block", code: "materialneeds:rammed-light-{color}-thickheavy", quantity: 1  }
+},
+{
+	ingredientPattern: "G",
+	ingredients: {
+		"G": { type: "block", code: "materialneeds:rammed-light-*-thickheavy", name: "color", quantity: 1  }
+	},
+	recipegroup: 1,
+	width: 1,
+	height: 1,
+	output: { type: "block", code: "materialneeds:rammed-light-{color}-plain", quantity: 1  }
+}
+]

@@ -1,0 +1,39 @@
+[
+	{
+		ingredientPattern: "P_P,PPP,P_P",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-aged", }
+		},
+		name: "foobar",
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:bookshelf", attributes: { "type": "2row1col", "material": "darkaged" } }
+	},
+	{
+		ingredientPattern: "PPP,P_P,PPP",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-aged", }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:bookshelf", attributes: { "type": "1row1col", "material": "darkaged" } }
+	},
+	{
+		ingredientPattern: "PPP,_P_,PPP",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-aged", }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:bookshelf", attributes: { "type": "1row2col", "material": "darkaged" } }
+	},
+	{
+		ingredientPattern: "P_P,_P_,P_P",
+		ingredients: {
+			"P": { type: "item", code: "game:plank-aged", }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:bookshelf", attributes: { "type": "2row2col", "material": "darkaged" } }
+	},
+]

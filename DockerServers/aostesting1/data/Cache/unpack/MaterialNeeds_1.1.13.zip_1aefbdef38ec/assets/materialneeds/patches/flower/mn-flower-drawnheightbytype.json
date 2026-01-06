@@ -1,0 +1,85 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/drawnHeightByType/*",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/drawnHeightByType/*-scarletheather-*",
+    "value": "28",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/drawnHeightByType/*-blueheather-*",
+    "value": "28",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/drawnHeightByType/*-orangeheather-*",
+    "value": "28",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/drawnHeightByType/*-yellowheather-*",
+    "value": "28",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/drawnHeightByType/*-bluepoppy-*",
+    "value": "32",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/drawnHeightByType/*-redpoppy-*",
+    "value": "32",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/drawnHeightByType/*-pinkpoppy-*",
+    "value": "32",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/drawnHeightByType/*-yellowpoppy-*",
+    "value": "32",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/drawnHeightByType/*-pinkforgetmenot-*",
+    "value": "16",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/drawnHeightByType/*-blueforgetmenot-*",
+    "value": "16",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/drawnHeightByType/*",
+    "value": "48",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+]

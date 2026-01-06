@@ -1,0 +1,116 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/franckeite.json",
+		"op": "addmerge",
+		"path": "/-",
+		"value": {
+			"code": "franckeite",
+			"enabled": false,
+			"triesPerChunk": 0.001, //1
+			"withOreMap": true,
+			"handbookPageCode": "item-nugget-franckeite",
+			"generator": "iog-gen",
+			"attributes": {
+				"inblock": {
+					"veintype": "hydrotube",
+					"code": "rock-*",
+					"name": "rock",
+					"allowedVariants": [
+						"limestone",
+						"dolostone",
+						"claystone",
+						"mudstone",
+						"sandstone",
+						"shale",
+						"chert",
+						"quartzite",
+						"slate",
+						"amphibolite"
+					]
+				},
+				"placeblock": {
+					"code": "ore-*-franckeite-{rock}",
+					"name": "grade",
+					"allowedVariantsByInBlock": {
+						"rock-limestone": [
+							"poor",
+							"medium",
+							"rich"
+						],
+						"rock-dolostone": [
+							"poor",
+							"medium",
+							"rich"
+						],
+						"rock-claystone": [
+							"poor",
+							"medium",
+							"rich",
+							"bountiful"
+						],
+						"rock-mudstone": [
+							"poor",
+							"medium",
+							"rich",
+							"bountiful"
+						],
+						"rock-sandstone": [
+							"poor",
+							"medium",
+							"rich"
+						],
+						"rock-shale": [
+							"poor",
+							"medium",
+							"rich"
+						],
+						"rock-chert": [
+							"poor",
+							"medium"
+						],
+						"rock-quartzite": [
+							"poor",
+							"medium"
+						],
+						"rock-slate": [
+							"poor"
+						],
+						"rock-amphibolite": [
+							"poor"
+						]
+					}
+				},
+				"radius": {
+					"dist": "uniform",
+					"avg": 12,
+					"var": 6
+				},
+				"yPosRel": {
+					"dist": "uniform",
+					"avg": 0.6,
+					"var": 0.2
+				},
+				"thickness": {
+					"dist": "uniform",
+					"avg": 10,
+					"var": 5
+				},
+				"branchCount": {
+					"dist": "uniform",
+					"avg": 12,
+					"var": 6
+				},
+				"branchLength": {
+					"dist": "uniform",
+					"avg": 128,
+					"var": 64
+				},
+				"OreSpongePercent": 0.3
+			}
+		}
+	},
+]

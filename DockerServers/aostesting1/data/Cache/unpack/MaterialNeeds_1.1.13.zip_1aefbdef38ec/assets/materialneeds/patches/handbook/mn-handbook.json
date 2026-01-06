@@ -1,0 +1,26 @@
+[
+	{
+	"op": "replace",
+	"path": "/attributes/handbook/exclude",
+	"value": "false",
+	"file": "game:blocktypes/roofing/beam-plane.json",
+	},
+	{
+	"op": "replace",
+	"path": "/attributes/handbook/exclude",
+	"value": "false",
+	"file": "game:blocktypes/roofing/beam-ridge.json",
+	},
+	{
+	"op": "replace",
+	"path": "/attributes/handbook/exclude",
+	"value": "false",
+	"file": "game:itemtypes/resource/oakbark.json",
+	},
+	{
+	"op": "replace",
+	"path": "/attributes/handbook/exclude",
+	"value": "false",
+	"file": "game:blocktypes/cloth/ropebeam.json",
+	},
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "ingredientPattern": "CC,CC",
+    "ingredients": {
+      "C": { "type": "block", "code": "game:peatbrick", }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": false,
+    "output": { "type": "block", "code": "game:peat-none", "quantity": 1 }
+  },
+]

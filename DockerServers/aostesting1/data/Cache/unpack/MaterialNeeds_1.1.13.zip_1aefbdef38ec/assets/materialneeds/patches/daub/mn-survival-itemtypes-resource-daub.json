@@ -1,0 +1,170 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "amber",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "black",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "cobalt",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "azure",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "taupe",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "chestnut",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "salmon",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "moss",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "chartreuse",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "graphite",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "charcoal",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "pewter",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "rouge",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "magenta",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "oxblood",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "red",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "violet",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "cinnabar",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "sage",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "turquoise",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "russet",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "coral",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "viridian",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "lime",
+    "file": "game:itemtypes/resource/daub.json",
+    "side": "Server"
+  },
+]

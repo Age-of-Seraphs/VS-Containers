@@ -1,0 +1,30 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/overrideRandomDrawOffsetByType/*-scarletheather-*",
+    "value": "3",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/overrideRandomDrawOffsetByType/*-blueheather-*",
+    "value": "3",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/overrideRandomDrawOffsetByType/*-orangeheather-*",
+    "value": "3",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/overrideRandomDrawOffsetByType/*-yellowheather-*",
+    "value": "3",
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "Server"
+  },
+]

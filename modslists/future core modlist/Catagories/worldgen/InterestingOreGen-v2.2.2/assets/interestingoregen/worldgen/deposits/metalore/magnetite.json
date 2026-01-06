@@ -1,0 +1,163 @@
+[
+  {
+    "code": "magnetite",
+    "triesPerChunk": 0.0005,
+    "withOreMap": true,
+    "handbookPageCode": "item-nugget-magnetite",
+    "generator": "iog-gen",
+    "attributes": {
+      "inblock": {
+        "veintype": "chimney",
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite", "claystone", "chalk", "conglomerate", "slate" ]
+      },
+      "placeblock": {
+        "code": "ore-*-magnetite-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-andesite": [ "poor", "medium", "rich" ],
+          "rock-claystone": [ "poor", "medium" ],
+          "rock-chalk": [ "poor", "medium" ],
+          "rock-conglomerate": [ "poor", "medium" ],
+          "rock-slate": [ "poor", "medium" ]
+        }
+      },
+      "radius": {
+        "dist": "uniform",
+        "avg": 7,
+        "var": 3
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.2,
+        "var": 0.25
+      },
+      "thickness": {
+        "dist": "uniform",
+        "avg": 60,
+        "var": 40
+      },
+      "branchCount": {
+        "dist": "uniform",
+        "avg": 6,
+        "var": 2
+      },
+      "branchLength": {
+        "dist": "uniform",
+        "avg": 32,
+        "var": 16
+      },
+      "OreSpongePercent": 0.3
+    }
+  },
+  {
+    "code": "magnetite",
+    "triesPerChunk": 0.0005,
+    "withOreMap": true,
+    "handbookPageCode": "item-nugget-magnetite",
+    "generator": "iog-gen",
+    "attributes": {
+      "inblock": {
+        "veintype": "hydrotubewithdepo", //Was a Fault Vein
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "claystone", "chalk", "conglomerate", "slate" ]
+      },
+      "placeblock": {
+        "code": "ore-*-magnetite-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-claystone": [ "poor", "medium" ],
+          "rock-chalk": [ "poor", "medium" ],
+          "rock-conglomerate": [ "poor", "medium" ],
+          "rock-slate": [ "poor", "medium" ]
+        }
+      },
+      "subdeposit": {
+        "code": "ore-*-hematite-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-claystone": [ "poor", "medium" ],
+          "rock-chalk": [ "poor", "medium" ],
+          "rock-conglomerate": [ "poor", "medium" ],
+          "rock-slate": [ "poor", "medium" ]
+        }
+      },
+      "radius": {
+        "dist": "uniform",
+        "avg": 12,
+        "var": 6
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.4,
+        "var": 0.2
+      },
+      "thickness": { //Doesn't apply for this generator
+        "dist": "uniform",
+        "avg": 1,
+        "var": 0
+      },
+      "branchCount": {
+        "dist": "uniform",
+        "avg": 11,
+        "var": 5
+      },
+      "branchLength": {
+        "dist": "uniform",
+        "avg": 200,
+        "var": 120
+      },
+      "OreSpongePercent": 0.3
+    }
+  },
+  {
+    "code": "magnetite",
+    "triesPerChunk": 0.005,
+    "withOreMap": true,
+    "handbookPageCode": "item-nugget-magnetite",
+    "generator": "iog-gen",
+    "attributes": {
+      "inblock": {
+        "veintype": "fault",
+        "code": "rock-*",
+        "name": "rock",
+        "allowedVariants": [ "andesite" ]
+      },
+      "placeblock": {
+        "code": "ore-*-magnetite-{rock}",
+        "name": "grade",
+        "allowedVariantsByInBlock": {
+          "rock-andesite": [ "poor", "medium", "rich" ]
+        }
+      },
+      "radius": {
+        "dist": "uniform",
+        "avg": 48,
+        "var": 16
+      },
+      "yPosRel": {
+        "dist": "uniform",
+        "avg": 0.45,
+        "var": 0.4
+      },
+      "thickness": { //Doesn't apply for this generator
+        "dist": "uniform",
+        "avg": 2,
+        "var": 1
+      },
+      "branchCount": {
+        "dist": "uniform",
+        "avg": 0,
+        "var": 0
+      },
+      "branchLength": {
+        "dist": "uniform",
+        "avg": 0,
+        "var": 0
+      },
+      "OreSpongePercent": 0.3
+    }
+  }
+]

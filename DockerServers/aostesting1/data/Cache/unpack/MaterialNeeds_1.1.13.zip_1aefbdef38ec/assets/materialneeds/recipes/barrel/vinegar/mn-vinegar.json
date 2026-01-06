@@ -1,0 +1,29 @@
+[
+	{
+	"code": "vinegar",
+	"enabled": "true",
+	"sealHours": 120,
+	"ingredients":
+	[
+		{
+		"type": "item",
+		"code": "game:waterportion",
+        	"litres": 10,
+        	"consumeLitres": 10,
+		},
+		{
+		"type": "item",
+		"code": "game:fruit-*",
+		"name": "fruit",
+		"quantity": 5,
+		"allowedVariants": [ "redcurrant", "whitecurrant", "saguaro", "pineapple", "redapple", "pineapple", "yellowapple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", ],
+		},
+	],
+	"output":
+		{
+		"type": "item",
+		"code": "game:vinegarportion",
+		"litres": 10,
+		}
+	},
+]

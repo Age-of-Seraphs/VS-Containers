@@ -1,0 +1,14 @@
+{
+    "type": "content",
+    "modid": "mngeology",
+    "name": "Material Needs: Geology",
+    "authors": [
+        "Nephelangelo",
+    ],
+    "description": "Supplementary mod to Material Needs and Terra Prety, adding 10 new rock varieties to the game.",
+    "Website": "https://mods.vintagestory.at/materialneedsgeology",
+    "version": "1.0.4",
+    "dependencies": {
+        "game": ""
+    }
+}

@@ -1,0 +1,106 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/pentlandite.json",
+		"op": "addeach",
+		"path": "/0/attributes/inblock/allowedVariants/0",
+		"value": [
+			"serpentinite",
+			"komatiite",
+			"pyroxenite"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/pentlandite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite",
+		"value": [
+			"poor",
+			"medium",
+			"rich",
+			"bountiful"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/pentlandite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-komatiite",
+		"value": [
+			"poor",
+			"medium",
+			"rich",
+			"bountiful"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/pentlandite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-pyroxenite",
+		"value": [
+			"poor",
+			"medium",
+			"rich",
+			"bountiful"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/pentlandite.json",
+		"op": "add",
+		"path": "/0/attributes/subdeposit/allowedVariantsByInBlock/rock-serpentinite",
+		"value": [
+			"poor",
+			"medium",
+			"rich",
+			"bountiful"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/pentlandite.json",
+		"op": "add",
+		"path": "/0/attributes/subdeposit/allowedVariantsByInBlock/rock-komatiite",
+		"value": [
+			"poor",
+			"medium",
+			"rich",
+			"bountiful"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/pentlandite.json",
+		"op": "add",
+		"path": "/0/attributes/subdeposit/allowedVariantsByInBlock/rock-pyroxenite",
+		"value": [
+			"poor",
+			"medium",
+			"rich",
+			"bountiful"
+		]
+	},
+]

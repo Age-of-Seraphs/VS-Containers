@@ -1,0 +1,110 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/bismuthinite.json",
+		"op": "addeach",
+		"path": "/0/attributes/inblock/allowedVariants/0",
+		"value": [
+			"diorite",
+			"gabbro"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/bismuthinite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-diorite",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/bismuthinite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-gabbro",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/bismuthinite.json",
+		"op": "addeach",
+		"path": "/1/attributes/inblock/allowedVariants/0",
+		"value": [
+			"diorite",
+			"gabbro"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/bismuthinite.json",
+		"op": "add",
+		"path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-diorite",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/bismuthinite.json",
+		"op": "add",
+		"path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-gabbro",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/bismuthinite.json",
+		"op": "add",
+		"path": "/1/attributes/subdeposit/allowedVariantsByInBlock/rock-diorite",
+		"value": [
+			"poor",
+			"medium"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/bismuthinite.json",
+		"op": "add",
+		"path": "/1/attributes/subdeposit/allowedVariantsByInBlock/rock-gabbro",
+		"value": [
+			"poor",
+			"medium"
+		]
+	},
+]

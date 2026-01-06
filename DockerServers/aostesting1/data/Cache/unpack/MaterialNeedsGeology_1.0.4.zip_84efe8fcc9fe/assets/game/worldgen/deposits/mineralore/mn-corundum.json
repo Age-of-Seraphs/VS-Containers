@@ -1,0 +1,17 @@
+[
+	{
+		code: "corundum",
+		triesPerChunk: 0.2,
+		generator: "disc-anywhere",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: [ "komatiite", "pyroxenite", "serpentinite", "syenite", ] },
+			placeblock: { code: "ore-corundum-{rock}" },
+			surfaceBlock: { code: "looseores-corundum-{rock}-free" },
+			genSurfaceBlockChance: 0.35,
+			surfaceBlockChance: 0.05,
+			radius: { dist: "gaussian", avg: 32, var: 32 },
+			yPosRel: {dist: "uniform", avg: 0.5, var: 0.5 },
+			thickness: { dist: "invexp", avg: 1.2, var: 3 },
+		},
+	}
+]

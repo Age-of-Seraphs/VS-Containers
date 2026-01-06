@@ -1,0 +1,88 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/limonite.json",
+		"op": "addeach",
+		"path": "/0/attributes/inblock/allowedVariants/0",
+		"value": [
+			"arenite",
+			"marl",
+			"wacke",
+			"monzonite",
+			"syenite"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/limonite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-arenite",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/limonite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marl",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/limonite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-wacke",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/limonite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-monzonite",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/limonite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-syenite",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+]

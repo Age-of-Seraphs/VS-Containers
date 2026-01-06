@@ -1,0 +1,18 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/sulfur.json",
+		"op": "addeach",
+		"path": "/0/attributes/inblock/allowedVariants/0",
+		"value": [
+			"arenite",
+			"marl",
+			"travertine",
+			"wacke",
+			"monzonite"
+		]
+	},
+]

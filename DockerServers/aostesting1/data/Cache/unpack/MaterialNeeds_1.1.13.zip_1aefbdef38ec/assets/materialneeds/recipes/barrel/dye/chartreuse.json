@@ -1,0 +1,38 @@
+[
+	{
+		code: "game:dye-chartreuse",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "block", code: "game:flower-westerngorse-free", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-chartreuse", litres: 5 }
+	},
+	{
+		code: "game:dye-chartreuse",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "block", code: "game:flower-lupine-purple-free", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-chartreuse", litres: 5 }
+	},
+	{
+		code: "game:dye-chartreuse",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "block", code: "game:flower-lupine-red-free", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-chartreuse", litres: 5 }
+	},
+	{
+		code: "game:dye-chartreuse",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "block", code: "game:flower-lupine-orange-free", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-chartreuse", litres: 5 }
+	},
+]

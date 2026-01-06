@@ -1,0 +1,13 @@
+{
+    "type": "code",
+  "modid": "interestingoregen",
+    "name": "Interesting Ore Gen",
+    "authors": [
+        "RosstheGreat"
+    ],
+    "description": "Makes Ore generation more Interesting and semi-realistic!",
+    "version": "2.2.2",
+  "dependencies": {
+    "game": "1.21.6"
+  }
+}

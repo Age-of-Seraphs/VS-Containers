@@ -1,0 +1,122 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-hematite-amphibolite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-hematite-amphibolite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-rich-hematite-amphibolite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-hematite-migmatite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-hematite-migmatite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-rich-hematite-migmatite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-magnetite-diorite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-magnetite-diorite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-rich-magnetite-diorite"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-poor-magnetite-gabbro"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-medium-magnetite-gabbro"
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "game:itemtypes/resource/ore-graded",
+		"op": "add",
+		"path": "/allowedVariants/-",
+		"value": "ore-rich-magnetite-gabbro"
+	},
+]

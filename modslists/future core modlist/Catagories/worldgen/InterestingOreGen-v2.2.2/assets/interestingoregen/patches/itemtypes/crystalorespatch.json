@@ -1,0 +1,110 @@
+[
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-poor-magnetite-andesite"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-poor-magnetite-granite"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-medium-magnetite-granite"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-poor-magnetite-basalt"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-medium-magnetite-basalt"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-rich-magnetite-basalt"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-poor-magnetite-peridotite"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-medium-magnetite-peridotite"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-poor-quartz_nativesilver-limestone"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-medium-quartz_nativesilver-limestone"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-poor-hematite-claystone"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-medium-hematite-claystone"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-poor-hematite-chalk"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-medium-hematite-chalk"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-poor-hematite-conglomerate"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-medium-hematite-conglomerate"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-poor-hematite-slate"
+  },
+  {
+    "file": "game:itemtypes/resource/crystalizedore-graded",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "crystalizedore-medium-hematite-slate"
+  }
+]

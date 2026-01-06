@@ -1,0 +1,66 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/topazamber.json",
+		"op": "addmerge",
+		"path": "/-",
+		"value": {
+			"code": "topazamber",
+			"enabled": false,
+			"triesPerChunk": 0.1,
+			"withOreMap": true,
+			"handbookPageCode": "item-gem-topazamber-rough",
+			"generator": "iog-gen",
+			"attributes": {
+				"inblock": {
+					"veintype": "chimney",
+					"code": "rock-*",
+					"name": "rock",
+					"allowedVariants": [
+						"granite",
+						"rhyolite",
+						"pumice"
+					]
+				},
+				"placeblock": {
+					"code": "ore-*-topazamber-{rock}",
+					"name": "potential",
+					"allowedVariants": [
+						"low",
+						"medium",
+						"high"
+					]
+				},
+				"radius": {
+					"dist": "uniform",
+					"avg": 3,
+					"var": 1
+				},
+				"yPosRel": {
+					"dist": "uniform",
+					"avg": 0.45,
+					"var": 0.4
+				},
+				"thickness": {
+					"dist": "uniform",
+					"avg": 10,
+					"var": 1
+				},
+				"branchCount": {
+					"dist": "uniform",
+					"avg": 1,
+					"var": 0
+				},
+				"branchLength": {
+					"dist": "uniform",
+					"avg": 72,
+					"var": 10
+				},
+				"OreSpongePercent": 0.6
+			}
+		}
+	},
+]

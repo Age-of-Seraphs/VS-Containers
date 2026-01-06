@@ -1,0 +1,15 @@
+{
+    "type": "content",
+    "modid": "mnflowers",
+    "name": "Material Needs: Flowers",
+    "authors": [
+        "Nephelangelo",
+    ],
+    "description": "Supplementary mod to Material Needs and Terra Prety, adding 28 new flower varieties.",
+    "Website": "https://mods.vintagestory.at/materialneedsflowers",
+    "version": "0.0.0",
+    "dependencies": {
+        "game": "",
+        "materialneeds": ""
+    }
+}

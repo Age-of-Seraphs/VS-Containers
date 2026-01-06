@@ -1,0 +1,58 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/malachite.json",
+		"op": "addeach",
+		"path": "/0/attributes/inblock/allowedVariants/0",
+		"value": [
+			"travertine",
+			"monzonite",
+			"syenite"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/malachite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-travertine",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/malachite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-monzonite",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "mngeology" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/metalore/malachite.json",
+		"op": "add",
+		"path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-syenite",
+		"value": [
+			"poor",
+			"medium",
+			"rich"
+		]
+	},
+]

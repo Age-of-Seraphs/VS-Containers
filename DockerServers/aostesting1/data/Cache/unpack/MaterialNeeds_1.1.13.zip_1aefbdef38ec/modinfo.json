@@ -1,0 +1,14 @@
+{
+    "type": "content",
+    "modid": "materialneeds",
+    "name": "Material Needs",
+    "authors": [
+        "Nephelangelo",
+    ],
+    "description": "This mod adds hundreds of new Plaster and Wattle & Daub colors, new Dyes, new Flowers, new Woods, and makes countless blocks available in Survival Mode with new recipes for Aged Wood, Aged Hay, Aged & Cracked Ashlar, and much more!",
+    "Website": "https://mods.vintagestory.at/materialneeds",
+    "version": "1.1.13",
+    "dependencies": {
+        "game": ""
+    }
+}

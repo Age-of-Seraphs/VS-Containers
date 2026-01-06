@@ -1,0 +1,148 @@
+6.1.2026 23:01:54 [Server Notification]         RealSmoke.ModSystem
+6.1.2026 23:01:54 [Server Notification]     Mod 'temperatureheighttweak_0.3.0.zip' (temperatureheighttweak):
+6.1.2026 23:01:54 [Server Notification]         TemperatureHeightTweak.TemperatureHeightTweakModSystem
+6.1.2026 23:01:54 [Server Notification]     Mod 'terraprety-7.9.0.zip' (terraprety):
+6.1.2026 23:01:54 [Server Notification]         SmoothCoastlines.SmoothCoastlinesModSystem
+6.1.2026 23:01:54 [Server Notification]     Mod 'webcartographer_0.9.0.zip' (webcartographer):
+6.1.2026 23:01:54 [Server Notification]         WebCartographer.WebCartographer
+6.1.2026 23:01:54 [Server Notification]     Mod 'detailedanimals_0.7.2.zip' (detailedanimals):
+6.1.2026 23:01:54 [Server Notification]         DetailedAnimals.DetailedAnimalsModSystem
+6.1.2026 23:01:54 [Server Notification]         DetailedAnimals.EntityVariantsModSystem
+6.1.2026 23:01:54 [Server Notification]     Mod 'rockstratavariety_0.0.3.zip' (rockstratavariety):
+6.1.2026 23:01:54 [Server Notification]         rockstratavariety.rockstratavarietyModSystem
+6.1.2026 23:01:54 [Server Event] 26 traits loaded from 1 files
+6.1.2026 23:01:54 [Server Event] 6 classes loaded from 1 files
+6.1.2026 23:01:55 [Server Debug] Loading leaf block decay system
+6.1.2026 23:01:55 [Server Debug] Finished loading leaf block decay system
+6.1.2026 23:01:55 [Server Debug] Block simulation loaded blocks
+6.1.2026 23:01:55 [Server Error] Syntax error in json file 'interestingoregen:worldgen/deposits/gems/gemdepositcomment.txt': Failed deserializing gemdepositcomment.txt: Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+6.1.2026 23:01:56 [Server Debug] Block simulation loaded items
+6.1.2026 23:01:56 [Server Notification] Server map set
+6.1.2026 23:01:56 [Server Notification] Entering runphase GameReady
+6.1.2026 23:01:56 [Server Notification] Entering runphase WorldReady
+6.1.2026 23:01:56 [Server Event] Starting world generators...
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-marl' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativegold-marl does not match any block! 
+Please fix
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativegold-marl-free' was found (unresolved code: game:looseores-quartz_nativegold-{rock}-free)
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-marl' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativesilver-marl does not match any block! Please fix
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativesilver-marl-free' was found (unresolved code: game:looseores-quartz_nativesilver-{rock}-free)
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-wacke' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativegold-wacke does not match any block! Please fix
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativegold-wacke-free' was found (unresolved code: game:looseores-quartz_nativegold-{rock}-free)
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-wacke' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativesilver-wacke does not match any block! Please fix
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativesilver-wacke-free' was 
+found (unresolved code: game:looseores-quartz_nativesilver-{rock}-free)
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-monzonite' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: AllowedVariants for game:ore-*-quartz_nativesilver-monzonite does not match any 
+block! Please fix
+6.1.2026 23:01:56 [Server Warning] Deposit game:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:looseores-quartz_nativesilver-monzonite-free' 
+was found (unresolved code: game:looseores-quartz_nativesilver-{rock}-free)
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-wacke' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-wacke does not match any block! Please fix
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-monzonite' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/metalore/nativecopper.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-monzonite does not match any block! Please fix
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-marl' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativegold-marl does not match any block! Please fix
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativegold-wacke' was found (unresolved code: game:ore-*-quartz_nativegold-{rock})
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativegold-wacke does not match any block! Please fix
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-marl' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-marl does not match any block! Please fix
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-wacke' 
+was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-wacke does not match any block! Please fix
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: No block with code/wildcard 'game:ore-*-quartz_nativesilver-monzonite' was found (unresolved code: game:ore-*-quartz_nativesilver-{rock})
+6.1.2026 23:01:56 [Server Warning] Deposit interestingoregen:worldgen/deposits/mineralore/quartz.json: AllowedVariantsByInBlock for game:ore-*-quartz_nativesilver-monzonite does not match any block! Please fix
+6.1.2026 23:01:57 [Server Notification] Reloaded 58 tree generators
+6.1.2026 23:01:57 [Server Event] Loading 7x7x14 spawn chunks...
+6.1.2026 23:01:57 [Server Event] 0% (49 in queue)
+6.1.2026 23:01:58 [Server Event] [RockStrataVariety] Built rock directory: 26 variants
+6.1.2026 23:02:00 [Server Event] 0% (49 in queue)
+6.1.2026 23:02:02 [Server Event] 0% (81 in queue)
+6.1.2026 23:02:03 [Server Event] 0% (81 in queue)
+6.1.2026 23:02:05 [Server Event] 0% (116 in queue)
+6.1.2026 23:02:06 [Server Event] 0% (156 in queue)
+6.1.2026 23:02:08 [Server Event] 0% (178 in queue)
+6.1.2026 23:02:09 [Server Notification] Handling Console Command /whitelist off
+6.1.2026 23:02:09 [Server Notification] Whitelist was already disabled
+6.1.2026 23:02:09 [Server Event] Begin game ticking...
+6.1.2026 23:02:09 [Server Notification] Entering runphase RunGame
+6.1.2026 23:02:09 [Server Notification] Starting server threads
+6.1.2026 23:02:09 [Server Event] Dedicated Server now running on Port 42420 and all ips!
+6.1.2026 23:02:09 [Server Notification] All clients disconnected, pausing game calendar.
+6.1.2026 23:02:09 [Server Notification] A Client attempts connecting via TCP on [::ffff:172.17.0.1]:58208, assigning client id 1
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Savegames DefaultSpawnPosition: XYZ: 512000.5/210/512000.5, YPR 0.55814046/3.1415927/0, Dim 0
+6.1.2026 23:02:09 [Server Notification] Server ticking has been suspended
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Created 17 sqlite connections.
+6.1.2026 23:02:09 [Server Notification] WebCartographer is now starting...
+6.1.2026 23:02:09 [Server Notification] WebCartographer is now preparing for FixWhiteLines or ExtractWorldMap ...
+6.1.2026 23:02:09 [Server Notification] WebCartographer is now running ExtractWorldMap...
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Exporting world data and signs...
+6.1.2026 23:02:09 [Server Notification] [webcartographer] preparing chunk group data...
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Done preparing chunk group data
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Finished Exporting world data and signs
+6.1.2026 23:02:09 [Server Notification] WebCartographer is now running CreateZoomLevels...
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Generating zoom level: 8
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Generating zoom level: 7
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Generating zoom level: 6
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Generating zoom level: 5
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Generating zoom level: 4
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Generating zoom level: 3
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Generating zoom level: 2
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Generating zoom level: 1
+6.1.2026 23:02:09 [Server Notification] WebCartographer is now running ExtractStructures...
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Finished Exporting traders and translocators
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Finished Exporting traders and translocators
+6.1.2026 23:02:09 [Server Notification] WebCartographer did finish
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Finished Exporting traders and translocators
+6.1.2026 23:02:09 [Server Notification] WebCartographer did finish
+6.1.2026 23:02:09 [Server Notification] [webcartographer] Finished Exporting traders and translocators                                                        
+6.1.2026 23:02:09 [Server Notification] WebCartographer did finish
+6.1.2026 23:02:09 [Server Notification] Server ticking has been resumed
+6.1.2026 23:02:09 [Server Notification] Client 1 uid JXlpEoRMnaVfb3cPqpk4PYpz attempting identification. Name: captanredbeard
+6.1.2026 23:02:09 [Server Debug] Client uid JXlpEoRMnaVfb3cPqpk4PYpz, mp token tAk/raGbUwOql25AX/XLU1ilivOatMyv9OF8/bNrd5Q=: Verifying with auth server       switches to TCP too.
+6.1.2026 23:02:10 [Server Debug] Response from auth server: {"playername":"captanredbeard","entitlements":null,"valid":1}
+6.1.2026 23:02:10 [Server Notification] Delayed join, attempt random spawn position.                                                                          
+6.1.2026 23:02:10 [Server Notification] Sending server identification with remap False.  Server control privilege is True
+6.1.2026 23:02:10 [Server Notification] Placing captanredbeard at 512045.5 218 511972.5
+6.1.2026 23:02:10 [Server Debug] UDP: Server did not receive any UDP packets from Client 1 for 49.916s, telling the client to send positions over TCP, server switches to TCP too.
+6.1.2026 23:02:20 [Server Debug] UDP: Server did not receive any UDP packets from Client 1, telling the client to send positions over TCP.
+6.1.2026 23:02:43 [Server Debug] [IOG CaveAmbience] Skipping scan, cave-ins disabled in world config (caveIns=off)
+6.1.2026 23:02:45 [Server Event] captanredbeard [::ffff:172.17.0.1]:58208 joins.
+6.1.2026 23:03:16 [Server Warning] An entity hare-european-adult-male failed to complete initialisation, will not be physics ticked.
+6.1.2026 23:03:16 [Server Warning] An entity hare-european-baby-male failed to complete initialisation, will not be physics ticked.
+6.1.2026 23:06:05 [Server Notification] Server ticking has been suspended
+6.1.2026 23:06:05 [Server Notification] Autosaving game world. Notifying mods, then systems of save...
+6.1.2026 23:06:05 [Server Notification] Defragmented listener lists
+6.1.2026 23:06:05 [Server Event] Mods and systems notified, now saving everything...
+6.1.2026 23:06:05 [Server Event] Will do offthread savegamedata saving...
+6.1.2026 23:06:05 [Server Event] Saved player world data...
+6.1.2026 23:06:05 [Server Event] Saved map regions...
+6.1.2026 23:06:05 [Server Event] Saved map chunks...
+6.1.2026 23:06:05 [Server Event] World saved! Saved 0 chunks, 0 mapchunks, 12 mapregions.
+6.1.2026 23:06:05 [Server Notification] Server ticking has been resumed
+6.1.2026 23:06:05 [Server Warning] Server overloaded. A tick took 633ms to complete.
+6.1.2026 23:06:05 [Server Event] Saved 300 chunks...
+6.1.2026 23:06:05 [Server Event] Saved 600 chunks...
+6.1.2026 23:06:05 [Server Event] Saved 900 chunks...
+6.1.2026 23:06:05 [Server Event] Saved 1200 chunks...
+6.1.2026 23:06:06 [Server Event] Saved 1500 chunks...
+6.1.2026 23:06:06 [Server Event] Saved 1800 chunks...
+6.1.2026 23:06:06 [Server Event] Saved 2100 chunks...
+6.1.2026 23:06:06 [Server Event] Saved 2400 chunks...
+6.1.2026 23:06:06 [Server Event] Saved 2700 chunks...
+6.1.2026 23:06:06 [Server Event] Saved 3000 chunks...
+6.1.2026 23:06:06 [Server Event] Saved 3300 chunks...
+6.1.2026 23:06:07 [Server Event] Saved 3600 chunks...
+6.1.2026 23:06:07 [Server Event] Saved 3900 chunks...
+6.1.2026 23:06:07 [Server Event] Saved 4200 chunks...
+6.1.2026 23:06:07 [Server Event] Saved 4500 chunks...
+6.1.2026 23:06:07 [Server Event] Saved 4800 chunks...
+6.1.2026 23:06:07 [Server Event] Saved 5100 chunks...
+6.1.2026 23:06:08 [Server Event] Saved 5400 chunks...
+6.1.2026 23:06:08 [Server Event] Saved 5700 chunks...
+6.1.2026 23:06:08 [Server Event] Offthread save of 5894 chunks done.
+6.1.2026 23:06:08 [Server Notification] Offthread save of 0 generating chunks done.
+6.1.2026 23:06:09 [Server Event] Offthread save of 421 map chunks done.

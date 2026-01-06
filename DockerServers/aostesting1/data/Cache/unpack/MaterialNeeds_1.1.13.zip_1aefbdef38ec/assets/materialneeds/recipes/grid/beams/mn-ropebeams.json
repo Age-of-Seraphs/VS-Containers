@@ -1,0 +1,52 @@
+[
+  {
+    "ingredientPattern": "R	R	R",
+    "ingredients": {
+      "R": { "type": "item", "code": "game:rope" },
+    },
+    "width": 1,
+    "height": 3,
+    "shapeless": false,
+    "output": { "type": "block", "code": "game:supportrope-one-new", "quantity": 3 }
+  },
+  {
+    "ingredientPattern": "R	R",
+    "ingredients": {
+      "R": { "type": "block", "code": "game:supportrope-one-new" },
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": false,
+    "output": { "type": "block", "code": "game:supportrope-two-new", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "R	R",
+    "ingredients": {
+      "R": { "type": "block", "code": "game:supportrope-two-new" },
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": false,
+    "output": { "type": "block", "code": "game:supportrope-three-new", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "R	R",
+    "ingredients": {
+      "R": { "type": "block", "code": "game:supportrope-one-old" },
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": false,
+    "output": { "type": "block", "code": "game:supportrope-two-old", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "R	R",
+    "ingredients": {
+      "R": { "type": "block", "code": "game:supportrope-two-old" },
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": false,
+    "output": { "type": "block", "code": "game:supportrope-three-old", "quantity": 1 }
+  },
+]

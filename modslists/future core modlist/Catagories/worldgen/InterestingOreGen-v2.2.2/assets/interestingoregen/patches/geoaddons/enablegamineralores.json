@@ -1,0 +1,172 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/berylaquamarine.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/berylbixbite.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/garnetalmandine.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/garnetgossular.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/garnetpyrope.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/garnetspessartine.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/garnetuvarovite.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/ruby.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/sapphire.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/spinelred.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/topazamber.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/topazblue.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/topazpink.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/tourmalinerubellite.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/tourmalineschorl.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/tourmalineverdelite.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+	{
+		"dependsOn": [
+			{ "modid": "geoaddons" }
+		],
+		"side": "Server",
+		"file": "interestingoregen:worldgen/deposits/mineralore/0/tourmalinewatermelon.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true
+	},
+]

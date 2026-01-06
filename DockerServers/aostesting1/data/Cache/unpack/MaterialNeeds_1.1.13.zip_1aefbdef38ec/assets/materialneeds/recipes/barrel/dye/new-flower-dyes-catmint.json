@@ -1,0 +1,38 @@
+[
+	{
+		code: "game:dye-yellow",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "block", code: "game:flower-pinkcatmint-free", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-yellow", litres: 5 }
+	},
+	{
+		code: "game:dye-cyan",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "block", code: "game:flower-bluecatmint-free", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-cyan", litres: 5 }
+	},
+	{
+		code: "game:dye-cyan",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "block", code: "game:flower-whitecatmint-free", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-cyan", litres: 5 }
+	},
+	{
+		code: "game:dye-blue",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 5 },
+			{ type: "block", code: "game:flower-persianbluecatmint-free", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-blue", litres: 5 }
+	},
+]

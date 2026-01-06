@@ -1,0 +1,128 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/69/ingredients/P/skipVariants",
+    "value": [ "lightaged", "darkaged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/70/ingredients/P/skipVariants",
+    "value": [ "lightaged", "darkaged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/71/ingredients/P/skipVariants",
+    "value": [ "lightaged", "darkaged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/72/ingredients/P/skipVariants",
+    "value": [ "lightaged", "darkaged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/73/ingredients/P/skipVariants",
+    "value": [ "lightaged", "darkaged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/81/ingredients/H/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/82/ingredients/H/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/83/ingredients/H/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/84/ingredients/H/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/85/ingredients/H/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/86/ingredients/H/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/87/ingredients/H/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/88/ingredients/H/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/89/ingredients/H/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/90/ingredients/H/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/91/ingredients/H/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/92/ingredients/H/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/93/ingredients/H/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/roofing.json",
+    "side": "Server"
+  },
+]

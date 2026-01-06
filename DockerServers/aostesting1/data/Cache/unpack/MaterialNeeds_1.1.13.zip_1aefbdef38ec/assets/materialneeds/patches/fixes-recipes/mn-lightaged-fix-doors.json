@@ -1,0 +1,37 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/2/ingredients/W/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/doors.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/3/ingredients/W/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/doors.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/4/ingredients/W/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/doors.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/5/ingredients/W/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/doors.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/6/ingredients/W/skipVariants",
+    "value": [ "lightaged", "darkaged", "aged" ],
+    "file": "game:recipes/grid/doors.json",
+    "side": "Server"
+  },
+]

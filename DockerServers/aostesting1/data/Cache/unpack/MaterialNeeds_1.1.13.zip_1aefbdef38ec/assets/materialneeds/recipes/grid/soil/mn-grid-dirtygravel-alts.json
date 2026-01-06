@@ -1,0 +1,35 @@
+[
+	{
+		ingredientPattern: "R,G",
+		ingredients: {
+			"R": { type: "item", code: "game:clay-*", },
+			"G": { type: "block", code: "game:dirtygravel-dry-plain", quantity: 1 },
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:muddygravel", quantity: 1 }
+	},
+	{
+		ingredientPattern: "I,G",
+		ingredients: {
+			"I": { type: "item", code: "game:powder-iron-oxide", },
+			"G": { type: "block", code: "game:dirtygravel-wetdark-plain", quantity: 1 },
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:sludgygravel", quantity: 1  }
+	},
+	{
+		ingredientPattern: "C,G",
+		ingredients: {
+			"C": { type: "item", code: "game:powder-charcoal", },
+			"G": { type: "block", code: "game:dirtygravel-wetdark-plain", quantity: 1 },
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		output: { type: "block", code: "game:dirtygravel-wetverydark-plain", quantity: 1  }
+	},
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "game:worldproperties/block/wood.json",
+    "op": "addmerge",
+    "path": "/variants",
+    "value": [
+      {
+        "code": "darkaged",
+      }
+    ]
+  },
+  {
+    "file": "game:worldproperties/block/wood.json",
+    "op": "addmerge",
+    "path": "/variants",
+    "value": [
+      {
+        "code": "lightaged",
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "ingredientPattern": "HL,CL",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+      "C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+      "L": { "type": "block", "code": "game:clayshingleblock-*", "name": "ceramic" }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": true,
+    "output": { "type": "block", "code": "game:beam-plane-{ceramic}clay-free", "quantity": 3 }
+  },
+  {
+    "ingredientPattern": "HL,C_",
+    "ingredients": {
+      "H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+      "C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+      "L": { "type": "block", "code": "game:clayshingleblock-*", "name": "ceramic" }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": true,
+    "output": { "type": "block", "code": "game:beam-ridge-{ceramic}clay-free", "quantity": 3 }
+  },
+]

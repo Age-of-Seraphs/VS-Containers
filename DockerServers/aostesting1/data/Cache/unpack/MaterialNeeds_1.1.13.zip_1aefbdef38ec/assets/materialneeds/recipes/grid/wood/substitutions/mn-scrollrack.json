@@ -1,0 +1,22 @@
+[
+{
+	ingredientPattern: "W_W,NW_,W_W",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-aged", name: "wood" },
+		"N": { type: "item", code: "game:metalnailsandstrips-*" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:scrollrack", attributes: { "type": "normal", material: "darkaged" }  }
+},
+{
+	ingredientPattern: "W_W,NW_,W_W",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-lightaged", name: "wood" },
+		"N": { type: "item", code: "game:metalnailsandstrips-*" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:scrollrack", attributes: { "type": "normal", material: "aged" }  }
+}
+]

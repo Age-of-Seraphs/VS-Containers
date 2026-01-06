@@ -1,0 +1,332 @@
+[
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "blue" ] },
+		"G": { type: "block", code: "game:gravel-basalt", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-black-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "blue" ] },
+		"G": { type: "block", code: "game:gravel-shale", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-graphite-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "blue" ] },
+		"G": { type: "block", code: "game:gravel-granite", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-graphite-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "blue" ] },
+		"G": { type: "block", code: "game:gravel-chalk", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-pewter-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "blue", "fire" ] },
+		"G": { type: "block", code: "game:sand-andesite", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-ashen-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "blue" ] },
+		"G": { type: "block", code: "game:gravel-peridotite", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-viridian-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "fire" ] },
+		"G": { type: "block", code: "game:gravel-peridotite", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-moss-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "blue", "fire" ] },
+		"G": { type: "block", code: "game:sand-peridotite", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-green-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "fire" ] },
+		"G": { type: "block", code: "game:gravel-limestone", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-chartreuse-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "blue" ] },
+		"G": { type: "block", code: "game:gravel-limestone", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-sage-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "fire" ] },
+		"G": { type: "block", code: "game:gravel-andesite", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-turquoise-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "blue" ] },
+		"G": { type: "block", code: "game:gravel-andesite", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-azure-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "red" ] },
+		"G": { type: "block", code: "game:gravel-chalk", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-rouge-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "fire" ] },
+		"G": { type: "block", code: "game:gravel-chalk", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-salmon-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "red", "blue", "fire" ] },
+		"G": { type: "block", code: "game:sand-sandstone", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-yellow-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "red", "fire" ] },
+		"G": { type: "block", code: "game:gravel-sandstone", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-amber-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "red", "fire" ] },
+		"G": { type: "block", code: "game:sand-bauxite", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-orange-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "red", "fire" ] },
+		"G": { type: "block", code: "game:gravel-bauxite", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-coral-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "fire" ] },
+		"G": { type: "block", code: "game:gravel-chert", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-cinnabar-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "red" ] },
+		"G": { type: "block", code: "game:gravel-chert", quantity: 1  },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-red-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "red" ] },
+		"G": { type: "block", code: "game:gravel-*", name: "gravel", allowedVariants: [ "slate", "basalt" ] },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-oxblood-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "red", "fire" ] },
+		"G": { type: "block", code: "game:sand-*", name: "sand", allowedVariants: [ "slate", "basalt", "shale" ] },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-brown-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "red", ] },
+		"G": { type: "block", code: "game:gravel-*", name: "gravel", allowedVariants: [ "shale", "granite", "claystone" ] },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-chestnut-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "fire", ] },
+		"G": { type: "block", code: "game:gravel-*", name: "gravel", allowedVariants: [ "peridotite", "andesite", "granite", "claystone" ] },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-russet-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "fire", ] },
+		"G": { type: "block", code: "game:sand-*", name: "sand", allowedVariants: [ "claystone", "andesite", "granite", "conglomerate", "limestone", "chalk" ] },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-browngolden-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "blue", "fire", ] },
+		"G": { type: "block", code: "game:sand-*", name: "sand", allowedVariants: [ "granite" ] },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-taupe-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "red", ] },
+		"G": { type: "block", code: "game:gravel-*", name: "gravel", allowedVariants: [ "limestone" ] },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-tan-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "blue", "fire", ] },
+		"G": { type: "block", code: "game:sand-*", name: "sand", allowedVariants: [ "limestone", "chalk" ] },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-brownlight-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "blue", "fire", ] },
+		"G": { type: "block", code: "game:sand-*", name: "sand", allowedVariants: [ "phyllite", "chert" ] },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-brownweathered-plain", quantity: 6  }
+},
+{
+	ingredientPattern: "CCC	GGG	DDD",
+	ingredients: {
+		"C": { type: "item", code: "game:clay-*", quantity: 1, name: "clay", allowedVariants: [ "blue", ] },
+		"G": { type: "block", code: "game:gravel-*", name: "gravel", allowedVariants: [ "sandstone" ] },
+		"D": { type: "block", code: "game:packeddirt", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "rammed-light-lime-plain", quantity: 6  }
+},
+]
