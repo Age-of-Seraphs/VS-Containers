@@ -1,9 +1,0 @@
-{
-	"code": "pickledmushroom",
-	"sealHours": 336,
-	"ingredients": [
-		{ "type": "item", "code": "game:brineportion", "litres": 1 },
-		{ "type": "item", "code": "pemmican:mushroomclean-raw", "quantity": 1 }
-	],
-	"output": { "type": "item", "code": "pemmican:mushroomclean-pickled", "stackSize": 1 }
-}

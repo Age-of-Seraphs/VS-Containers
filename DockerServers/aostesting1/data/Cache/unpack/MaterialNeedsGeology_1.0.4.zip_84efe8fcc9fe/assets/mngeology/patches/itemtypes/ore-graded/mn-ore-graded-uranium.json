@@ -1,9 +1,0 @@
-[
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-uranium-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-uranium-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-uranium-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
-
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-uranium-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-uranium-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-rich-uranium-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
-]

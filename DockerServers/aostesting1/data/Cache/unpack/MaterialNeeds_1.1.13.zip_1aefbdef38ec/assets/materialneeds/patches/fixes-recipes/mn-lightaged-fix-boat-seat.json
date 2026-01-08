@@ -1,9 +1,0 @@
-[
-  {
-    "op": "addmerge",
-    "path": "/0/ingredients/W/skipVariants",
-    "value": [ "lightaged", "darkaged" ],
-    "file": "game:recipes/grid/boat-seat.json",
-    "side": "Server"
-  },
-]

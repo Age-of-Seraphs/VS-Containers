@@ -1,9 +1,0 @@
-[
-  {
-    "op": "addmerge",
-    "path": "/3/ingredients/B/skipVariants",
-    "value": [ "aged", "lightaged", "darkaged" ],
-    "file": "game:recipes/grid/too/shield.json",
-    "side": "Server"
-  },
-]

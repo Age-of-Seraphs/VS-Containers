@@ -1,3 +1,7 @@
-/DockerServers/aostesting1/data/Logs
-/DockerServers/aostesting1/data/Cache
-/DockerServers/aostesting1/data/Saves
+/DockerServers/aos1/data/Logs
+/DockerServers/aos1/data/Cache
+/DockerServers/aos1/data/Saves
+/DockerServers/aos2/data/Logs
+/DockerServers/aos3/data/Cache
+/DockerServers/aos4/data/Saves
+/DockerServers/**

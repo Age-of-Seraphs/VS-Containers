@@ -1,9 +1,0 @@
-[
-  {
-    "op": "addmerge",
-    "path": "/attributes/handbook",
-    "value": { "groupBy": ["legume-*"] },
-    "side": "server",
-    "file": "itemtypes/food/legume.json"
-  }
-]

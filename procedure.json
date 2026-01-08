@@ -1,0 +1,7 @@
+
+/wgen pregen 100
+
+/webc export
+
+
+docker run -dit --name aos1 -p 42420:42420 -p 42422:42422 -v /c/Users/Daniel/Desktop/VS-Containers/DockerServers/aos1/data:/data --restart unless-stopped xurxomf/vsds:stable

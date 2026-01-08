@@ -1,7 +1,0 @@
-[
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-bismuthinite-monzonite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-bismuthinite-monzonite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
-
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-poor-bismuthinite-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "crystalizedore-medium-bismuthinite-syenite", "file": "game:itemtypes/resource/crystalizedore-graded.json", },
-]

@@ -1,7 +1,0 @@
-[
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-bismuthinite-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-bismuthinite-monzonite", "file": "game:itemtypes/resource/ore-graded.json", },
-
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-poor-bismuthinite-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
-	{ "op": "addmerge", "path": "/allowedVariants/-", "value": "ore-medium-bismuthinite-syenite", "file": "game:itemtypes/resource/ore-graded.json", },
-]

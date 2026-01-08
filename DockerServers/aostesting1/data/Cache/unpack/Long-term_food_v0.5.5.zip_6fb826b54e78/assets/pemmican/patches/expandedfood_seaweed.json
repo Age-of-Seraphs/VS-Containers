@@ -1,9 +1,0 @@
-[{ 
-        "file": "pemmican:recipes/grid/algae.json",
-        "enabled": true,
-        "op": "replace", 
-        "path": "/9/enabled", 
-        "value": true,
-        "dependsOn": [ { "modid": "expandedfoods" } ]
-    },
-]
