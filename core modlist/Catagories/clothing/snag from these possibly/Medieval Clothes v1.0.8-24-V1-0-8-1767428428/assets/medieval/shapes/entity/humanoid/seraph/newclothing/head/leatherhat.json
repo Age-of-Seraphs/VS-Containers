@@ -1,0 +1,69 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"leatherhat": [64,64]
+	},
+	"textures": {
+		"leatherhat": "entity/humanoid/seraphclothes/head/leatherhat"
+	},
+	"elements": [
+		{
+			"name": "ArmorHelmet",
+			"stepParentName": "Head",
+			"from": [ -0.2, -0.5, -0.6 ],
+			"to": [ -0.2, -0.5, -0.6 ],
+			"unwrapMode": 4,
+			"uv": [ 26.5, 14.0 ],
+			"rotationOrigin": [ -0.2, -0.5, -0.6 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "hidehat",
+					"stepParentName": "Head",
+					"from": [ -0.1, -0.6, -0.4 ],
+					"to": [ -0.1, -0.6, -0.4 ],
+					"autoUnwrap": false,
+					"uv": [ 999.0, 999.0 ],
+					"rotationOrigin": [ -0.1, -0.6, -0.4 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "cube0",
+							"from": [ -0.5, -0.8, -0.4 ],
+							"to": [ 6.7, 6.2, 6.1 ],
+							"autoUnwrap": false,
+							"uv": [ 32.0, 20.0 ],
+							"rotationOrigin": [ -0.3, 0.0, -0.2 ],
+							"faces": {
+								"north": { "texture": "#leatherhat", "uv": [ 32.0, 27.0, 39.0, 34.0 ], "autoUv": false },
+								"east": { "texture": "#leatherhat", "uv": [ 52.0, 27.0, 58.0, 34.0 ], "autoUv": false },
+								"south": { "texture": "#leatherhat", "uv": [ 45.0, 27.0, 52.0, 34.0 ], "autoUv": false },
+								"west": { "texture": "#leatherhat", "uv": [ 39.0, 27.0, 45.0, 34.0 ], "autoUv": false },
+								"up": { "texture": "#leatherhat", "uv": [ 39.0, 20.0, 45.0, 27.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#leatherhat", "uv": [ 38.0, 26.0, 39.0, 27.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "cube11",
+							"from": [ -4.8, 3.7, -5.3 ],
+							"to": [ 11.0, 3.71, 11.0 ],
+							"autoUnwrap": false,
+							"uv": [ 34.5, 22.0 ],
+							"rotationOrigin": [ -4.6, 4.5, -5.1 ],
+							"faces": {
+								"up": { "texture": "#leatherhat", "uv": [ 40.0, 45.0, 54.0, 59.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#leatherhat", "uv": [ 54.0, 45.0, 40.0, 59.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

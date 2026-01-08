@@ -1,0 +1,72 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"head": [64,64]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "ArmorHelmet",
+			"stepParentName": "Head",
+			"from": [ -0.2, -0.5, -0.6 ],
+			"to": [ -0.2, -0.5, -0.6 ],
+			"unwrapMode": 4,
+			"uv": [ 26.5, 14.0 ],
+			"rotationOrigin": [ -0.2, -0.5, -0.6 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "group",
+					"stepParentName": "Head",
+					"from": [ 0.0, -0.6, -0.5 ],
+					"to": [ 0.0, -0.6, -0.5 ],
+					"autoUnwrap": false,
+					"uv": [ 999.0, 999.0 ],
+					"rotationOrigin": [ 0.0, -0.6, -0.5 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "cube451",
+							"from": [ -0.51, -1.41, 0.09 ],
+							"to": [ 6.31, 6.11, 6.01 ],
+							"autoUnwrap": false,
+							"uv": [ 32.0, 20.0 ],
+							"rotationOrigin": [ -0.3, -0.6, 0.3 ],
+							"faces": {
+								"north": { "texture": "#head", "uv": [ 32.0, 27.0, 39.0, 34.5 ], "autoUv": false },
+								"east": { "texture": "#head", "uv": [ 52.0, 27.0, 58.0, 34.5 ], "autoUv": false },
+								"south": { "texture": "#head", "uv": [ 45.0, 27.0, 52.0, 34.5 ], "autoUv": false },
+								"west": { "texture": "#head", "uv": [ 39.0, 27.0, 45.0, 34.5 ], "autoUv": false },
+								"up": { "texture": "#head", "uv": [ 39.0, 20.0, 45.0, 27.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#head", "uv": [ 38.0, 26.0, 39.0, 27.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "cube452",
+							"from": [ -0.21, -2.31, 0.19 ],
+							"to": [ 6.01, 5.71, 5.91 ],
+							"autoUnwrap": false,
+							"uv": [ 32.0, 20.0 ],
+							"rotationOrigin": [ 0.0, -1.5, 0.4 ],
+							"faces": {
+								"north": { "texture": "#head", "uv": [ 8.0, 19.0, 14.0, 27.0 ], "autoUv": false },
+								"east": { "texture": "#head", "uv": [ 25.0, 19.0, 30.0, 27.0 ], "autoUv": false },
+								"south": { "texture": "#head", "uv": [ 19.0, 19.0, 25.0, 27.0 ], "autoUv": false },
+								"west": { "texture": "#head", "uv": [ 14.0, 19.0, 19.0, 27.0 ], "autoUv": false },
+								"up": { "texture": "#head", "uv": [ 14.0, 13.0, 19.0, 19.0 ], "rotation": 90, "autoUv": false },
+								"down": { "texture": "#head", "uv": [ 38.0, 26.0, 39.0, 27.0 ], "rotation": 270, "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

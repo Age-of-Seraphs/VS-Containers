@@ -1,0 +1,110 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"vikingboots": [16, 16]
+	},
+	"textures": {
+		"vikingboots": "entity/humanoid/seraphclothes/foot/vikingboots"
+	},
+	"elements": [
+		{
+			"name": "shoe R",
+			"stepParentName": "LowerFootR",
+			"from": [ -0.1, -0.1, -0.1 ], 
+			"to": [ 4.1, 8.9, 3.1 ], 
+			"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#vikingboots", "uv": [ 3.0, 7.0, 7.0, 16.0 ] },
+				"east": { "texture": "#vikingboots", "uv": [ 0.0, 7.0, 3.0, 16.0 ] },
+				"south": { "texture": "#vikingboots", "uv": [ 10.0, 7.0, 14.0, 16.0 ] },
+				"west": { "texture": "#vikingboots", "uv": [ 7.0, 7.0, 10.0, 16.0 ] },
+				"up": { "texture": "#vikingboots", "uv": [ 7.0, 3.0, 10.0, 7.0 ], "rotation": 90 },
+				"down": { "texture": "#vikingboots", "uv": [ 11.0, 3.0, 14.0, 7.0 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "Cube1",
+					"from": [ -0.1, 5.5, -0.1 ], 
+					"to": [ 4.9, 6.0, 3.3 ], 
+					"rotationOrigin": [ -0.1, 5.5, -0.1 ],
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#vikingboots", "uv": [ 10.0, 1.5, 15.0, 2.0 ] },
+						"east": { "texture": "#vikingboots", "uv": [ 10.0, 1.5, 13.0, 2.0 ] },
+						"south": { "texture": "#vikingboots", "uv": [ 10.0, 1.5, 15.0, 2.0 ] },
+						"west": { "texture": "#vikingboots", "uv": [ 10.0, 2.0, 13.0, 2.5 ] },
+						"up": { "texture": "#vikingboots", "uv": [ 10.0, 0.0, 15.0, 3.0 ] },
+						"down": { "texture": "#vikingboots", "uv": [ 10.0, 0.0, 15.0, 3.0 ] }
+					}
+				},
+				{
+					"name": "Cube14",
+					"from": [ -0.1, 7.5, -0.11 ], 
+					"to": [ 4.9, 8.0, 3.29 ], 
+					"rotationOrigin": [ -0.1, 8.0, -0.1 ],
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#vikingboots", "uv": [ 10.0, 1.5, 15.0, 2.0 ] },
+						"east": { "texture": "#vikingboots", "uv": [ 10.0, 1.5, 13.0, 2.0 ] },
+						"south": { "texture": "#vikingboots", "uv": [ 10.0, 1.5, 15.0, 2.0 ] },
+						"west": { "texture": "#vikingboots", "uv": [ 10.0, 2.0, 13.0, 2.5 ] },
+						"up": { "texture": "#vikingboots", "uv": [ 10.0, 0.0, 15.0, 3.0 ] },
+						"down": { "texture": "#vikingboots", "uv": [ 10.0, 0.0, 15.0, 3.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "shoe L",
+			"stepParentName": "LowerFootL",
+			"from": [ -0.1, -0.1, -0.1 ], 
+			"to": [ 4.1, 8.9, 3.1 ], 
+			"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#vikingboots", "uv": [ 14.0, 7.0, 10.0, 16.0 ], "autoUv": false },
+				"east": { "texture": "#vikingboots", "uv": [ 3.0, 7.0, 0.0, 16.0 ], "autoUv": false },
+				"south": { "texture": "#vikingboots", "uv": [ 7.0, 7.0, 3.0, 16.0 ], "autoUv": false },
+				"west": { "texture": "#vikingboots", "uv": [ 10.0, 7.0, 7.0, 16.0 ], "autoUv": false },
+				"up": { "texture": "#vikingboots", "uv": [ 10.0, 3.0, 7.0, 7.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#vikingboots", "uv": [ 10.0, 3.0, 13.0, 7.0 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "Cube16",
+					"from": [ -0.1, 5.5, -0.1 ], 
+					"to": [ 4.9, 6.0, 3.3 ], 
+					"rotationOrigin": [ -0.1, 5.5, -0.1 ],
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#vikingboots", "uv": [ 10.0, 1.5, 15.0, 2.0 ] },
+						"east": { "texture": "#vikingboots", "uv": [ 10.0, 1.5, 13.0, 2.0 ] },
+						"south": { "texture": "#vikingboots", "uv": [ 10.0, 1.5, 15.0, 2.0 ] },
+						"west": { "texture": "#vikingboots", "uv": [ 10.0, 2.0, 13.0, 2.5 ] },
+						"up": { "texture": "#vikingboots", "uv": [ 10.0, 0.0, 15.0, 3.0 ] },
+						"down": { "texture": "#vikingboots", "uv": [ 10.0, 0.0, 15.0, 3.0 ] }
+					}
+				},
+				{
+					"name": "Cube17",
+					"from": [ -0.1, 7.5, -0.11 ], 
+					"to": [ 4.9, 8.0, 3.29 ], 
+					"rotationOrigin": [ -0.1, 8.0, -0.1 ],
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#vikingboots", "uv": [ 10.0, 1.5, 15.0, 2.0 ] },
+						"east": { "texture": "#vikingboots", "uv": [ 10.0, 1.5, 13.0, 2.0 ] },
+						"south": { "texture": "#vikingboots", "uv": [ 10.0, 1.5, 15.0, 2.0 ] },
+						"west": { "texture": "#vikingboots", "uv": [ 10.0, 2.0, 13.0, 2.5 ] },
+						"up": { "texture": "#vikingboots", "uv": [ 10.0, 0.0, 15.0, 3.0 ] },
+						"down": { "texture": "#vikingboots", "uv": [ 10.0, 0.0, 15.0, 3.0 ] }
+					}
+				}
+			]
+		}
+	]}

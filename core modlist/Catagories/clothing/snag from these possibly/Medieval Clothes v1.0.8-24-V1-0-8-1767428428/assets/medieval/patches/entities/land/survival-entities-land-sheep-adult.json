@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/drops/0",
+    "value": {
+      "type": "item",
+      "code": "medieval:horn",
+      "quantity": {
+        "avg": 2,
+        "var": 0
+      }
+    },
+    "file": "game:entities/animal/mammal/hooved/sheep-adult.json",
+    "side": "Server"
+  }
+]

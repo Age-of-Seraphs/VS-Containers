@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/drops/0",
+    "value": {
+      "type": "item",
+      "code": "medieval:rabbit",
+      "quantity": {
+        "avg": 0.1,
+        "var": 0
+      }
+    },
+    "file": "game:entities/animal/mammal/hare-adult.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,637 @@
+[
+
+
+
+
+
+
+
+	
+	{
+		ingredientPattern: "L,H,T",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:nugget-nativegold", quantity: 1 },
+			"H": { type: "item", code: "game:hide-pelt-huge", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-capacubierta"  }
+	},
+
+
+
+
+
+
+
+	
+	{
+		ingredientPattern: "LTL,_H_",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-orange", quantity: 1 },
+			"H": { type: "item", code: "game:hide-pelt-small", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-fox"  }
+	},
+	
+	{
+		ingredientPattern: "LTL,TLT,_L_",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-delantal"  }
+	},
+	{
+		ingredientPattern: "LTL,TLT,_L_",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"T": { type: "item", code: "game:flaxfibers", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-mason"  }
+	},
+	{
+		ingredientPattern: "_FP,_FP,SFP",
+		recipeGroup: 1,
+		ingredients: {
+			"P": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"F": { type: "item", code: "game:flaxtwine" },
+			"S": { type: "item", code: "game:shears-*",  isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-butcher"  }
+	},
+	{
+		ingredientPattern: "FP_,FP_,FPS",
+		recipeGroup: 1,
+		ingredients: {
+			"P": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"F": { type: "item", code: "game:flaxtwine" },
+			"S": { type: "item", code: "game:shears-*",  isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-kitchener"  }
+	},
+	{
+		ingredientPattern: "_FP,_FP,SFP",
+		recipeGroup: 1,
+		ingredients: {
+			"P": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"F": { type: "item", code: "game:flaxtwine" },
+			"S": { type: "item", code: "medieval:shears-*",  isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-butcher"  }
+	},
+	{
+		ingredientPattern: "FP_,FP_,FPS",
+		recipeGroup: 1,
+		ingredients: {
+			"P": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"F": { type: "item", code: "game:flaxtwine" },
+			"S": { type: "item", code: "medieval:shears-*",  isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-kitchener"  }
+	},
+	{
+		ingredientPattern: "K__,WSW,_G_",
+		ingredients: {
+			"W": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"G": { type: "item", code: "game:leather-normal-gray", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 1 },
+			"K": { type: "item", code: "game:shears-*",  isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-medieval-woman-coat-shoulder"  }
+	},
+	{
+		ingredientPattern: "K__,WSW,_G_",
+		ingredients: {
+			"W": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"G": { type: "item", code: "game:leather-normal-gray", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 1 },
+			"K": { type: "item", code: "shears-*",  isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-medieval-woman-coat-shoulder"  }
+	},
+	{
+		ingredientPattern: "CGC,SC_",
+		ingredients: {
+			"C": { type: "item", code: "game:leather-normal-gray", quantity: 1 },
+			"S": { type: "item", code: "game:flaxtwine" },
+			"G": { type: "item", code: "game:nugget-nativegold", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-medieval-hide-robe"  }
+	},
+	{
+		ingredientPattern: "TLT,LTL",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-medieval-leather-poncho"  }
+	},
+	{
+		ingredientPattern: "KT",
+		ingredients: {
+			"T": { type: "item", code: "medieval:clothes-shoulder-medieval-leather-poncho" },
+			"K": { type: "item", code: "game:shears-*",  isTool: true }
+		},
+		width: 2,
+		height: 1,
+		copyAttributesFrom: 'T',
+		output: { type: "item", code: "medieval:clothes-shoulder-neckcover"  }
+	},
+	{
+		ingredientPattern: "KT",
+		ingredients: {
+			"T": { type: "item", code: "medieval:clothes-shoulder-medieval-leather-poncho" },
+			"K": { type: "item", code: "medieval:shears-*",  isTool: true }
+		},
+		width: 2,
+		height: 1,
+		copyAttributesFrom: 'T',
+		averageDurability: false,
+		output: { type: "item", code: "medieval:clothes-shoulder-neckcover"  }
+	},
+	{
+		ingredientPattern: "LTL,_L_",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-black", quantity: 1 },
+			"T": { type: "item", code: "game:flaxtwine" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-medieval-leather-poncho-black"  }
+	},
+	{
+		ingredientPattern: "BFB,BBB",
+		enabled: false,
+		ingredients: {
+			"B": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-medieval-jord-robe"  }
+	},
+	{
+		ingredientPattern: "BFB	BBB	_B_",
+		ingredients: {
+			"B": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"F": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-medieval-scarf"  }
+	},
+	{
+		ingredientPattern: "BGB,_B_,_B_",
+		ingredients: {
+			"B": { type: "item", code: "game:cloth-brown", quantity: 2 },
+			"G": { type: "item", code: "game:nugget-nativegold", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-medieval-cape"  }
+	},
+	{
+		ingredientPattern: "KSK,_L_,_S_",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"S": { type: "item", code: "game:leather-normal-green", quantity: 1 },
+			"K": { type: "item", code: "medieval:stripsofleather",  quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-shawl-green" }
+	},
+	{
+		ingredientPattern: "_G_,KRK,_R_",
+		ingredients: {
+			"R": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"G": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"K": { type: "item", code: "medieval:stripsofleather",  quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-chaleco" }
+	},
+	{
+		ingredientPattern: "_G_,GKG",
+		ingredients: {
+			"G": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"K": { type: "item", code: "game:flaxfibers",  quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-miner" }
+	},
+
+
+
+	{
+		ingredientPattern: "_G,SK",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-plain", quantity: 3 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-plain" }
+	},
+	{
+		ingredientPattern: "_G,SK",
+		ingredients: {
+			"S": { type: "item", code: "medieval:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-plain", quantity: 3 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-plain" }
+	},
+	{
+		ingredientPattern: "_G,SK",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-orange", quantity: 3 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-orange" }
+	},
+	{
+		ingredientPattern: "_G,SK",
+		ingredients: {
+			"S": { type: "item", code: "medieval:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-orange", quantity: 3 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-orange" }
+	},
+	{
+		ingredientPattern: "_G,SK",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-green", quantity: 3 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-green" }
+	},
+	{
+		ingredientPattern: "_G,SK",
+		ingredients: {
+			"S": { type: "item", code: "medieval:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-green", quantity: 3 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-green" }
+	},
+	{
+		ingredientPattern: "SK",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*",  isTool: true },
+			"K": { type: "item", code: "clothes-shoulder-plain",  quantity: 1 }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-shoulder-plain1" }
+	},
+	{
+		ingredientPattern: "SK",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*",  isTool: true },
+			"K": { type: "item", code: "clothes-shoulder-orange",  quantity: 1 }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-shoulder-orange1" }
+	},
+	{
+		ingredientPattern: "SK",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*",  isTool: true },
+			"K": { type: "item", code: "clothes-shoulder-green",  quantity: 1 }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-shoulder-green1" }
+	},
+
+	{
+		ingredientPattern: "_S,GK",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-yellow", quantity: 1 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-yellow" }
+	},
+	{
+		ingredientPattern: "_S,GK",
+		ingredients: {
+			"S": { type: "item", code: "medieval:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-yellow", quantity: 1 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-yellow" }
+	},
+	{
+		ingredientPattern: "_S,GK",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-red" }
+	},
+	{
+		ingredientPattern: "_S,GK",
+		ingredients: {
+			"S": { type: "item", code: "medieval:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-red" }
+	},
+	{
+		ingredientPattern: "_S,GK",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-blue", quantity: 1 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-blue" }
+	},
+	{
+		ingredientPattern: "_S,GK",
+		ingredients: {
+			"S": { type: "item", code: "medieval:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-blue", quantity: 1 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-blue" }
+	},
+	{
+		ingredientPattern: "_S,GK",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-brown" }
+	},
+	{
+		ingredientPattern: "_S,GK",
+		ingredients: {
+			"S": { type: "item", code: "medieval:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"K": { type: "item", code: "game:flaxtwine",  quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-brown" }
+	},
+	{
+		ingredientPattern: "_S,GT",
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:hide-pelt-small", quantity: 2 },
+			"T": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-brown" }
+	},
+	{
+		ingredientPattern: "_S,GT",
+		ingredients: {
+			"S": { type: "item", code: "medieval:shears-*",  isTool: true },
+			"G": { type: "item", code: "game:hide-pelt-small", quantity: 2 },
+			"T": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-shoulder-brown" }
+	},
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "game:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoor"  }
+	},
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "game:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-green", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoorgreen"  }
+	},
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "game:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-orange", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoororange"  }
+	},
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "game:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-red", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoorred"  }
+	},
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "game:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-blue", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoorblue"  }
+	},
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "game:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-black", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoorblack"  }
+	},
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "game:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-brown", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoorbrown"  }
+	},
+
+
+
+
+
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "medieval:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-plain", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoor"  }
+	},
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "medieval:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-green", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoorgreen"  }
+	},
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "medieval:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-orange", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoororange"  }
+	},
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "medieval:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-red", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoorred"  }
+	},
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "medieval:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-blue", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoorblue"  }
+	},
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "medieval:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-black", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoorblack"  }
+	},
+
+	{
+		ingredientPattern: "STC,ST_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "medieval:shears-*", isTool: true },
+			"T": { type: "item", code: "game:cloth-brown", quantity: 2 },
+			"S": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-shoulder-tunicapoorbrown"  }
+	}
+]

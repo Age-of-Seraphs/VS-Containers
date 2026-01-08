@@ -1,0 +1,658 @@
+{
+	code: "armormedieval",
+	class: "ItemWearable",
+	heldTpIdleAnimation: "holdunderarm",
+	variantgroups: [
+		{ code: "bodypart",  states: ["head", "body", "legs"] },
+		{ code: "type",  states: [ "chain", "scale", "plate" ] },
+		{ code: "material", states: [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] }
+	],
+	shapeByType: {
+		"*-head-*": { base: "entity/humanoid/seraph/armor/armadura/armorheadx" },
+		
+		"*-body-*": { base: "entity/humanoid/seraph/armor/armadura/armorbodyx" },
+		
+		"*-legs-*": { base: "entity/humanoid/seraph/armor/armadura/armorlegsx" }
+	},
+	texturesByType: {
+		"*-head-chain-copper": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headchaincopper1" }
+		},
+		"*-body-chain-copper": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodychaincopper1" }
+		},
+		"*-legs-chain-copper": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legschaincopper1" }
+		},
+
+
+		
+		"*-head-chain-tinbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headchaintinbronze1" }
+		},
+		"*-body-chain-tinbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodychaintinbronze1" }
+		},
+		"*-legs-chain-tinbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legschaintinbronze1" }
+		},
+
+
+		
+		"*-head-chain-bismuthbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headchainbismuthbronze1" }
+		},
+		"*-body-chain-bismuthbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodychainbismuthbronze1" }
+		},
+		"*-legs-chain-bismuthbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legschainbismuthbronze1" }
+		},
+
+
+		
+		"*-head-chain-blackbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headchainblackbronze1" }
+		},
+		"*-body-chain-blackbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodychainblackbronze1" }
+		},
+		"*-legs-chain-blackbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legschainblackbronze1" }
+		},
+
+
+		
+		"*-head-chain-iron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headchainiron1" }
+		},
+		"*-body-chain-iron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodychainiron1" }
+		},
+		"*-legs-chain-iron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legschainiron1" }
+		},
+
+
+		
+		"*-head-chain-meteoriciron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headchainmeteoriciron1" }
+		},
+		"*-body-chain-meteoriciron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodychainmeteoriciron1" }
+		},
+		"*-legs-chain-meteoriciron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legschainmeteoriciron1" }
+		},
+
+
+		
+		"*-head-chain-steel": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headchainsteel1" }
+		},
+		"*-body-chain-steel": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodychainsteel1" }
+		},
+		"*-legs-chain-steel": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legschainsteel1" }
+		},
+
+
+
+		
+		"*-head-scale-copper": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headscalecopper1" }
+		},
+		"*-body-scale-copper": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyscalecopper1" }
+		},
+		"*-legs-scale-copper": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsscalecopper1" }
+		},
+
+
+		
+		"*-head-scale-tinbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headscaletinbronze1" }
+		},
+		"*-body-scale-tinbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyscaletinbronze1" }
+		},
+		"*-legs-scale-tinbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsscaletinbronze1" }
+		},
+
+
+		
+		"*-head-scale-bismuthbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headscalebismuthbronze1" }
+		},
+		"*-body-scale-bismuthbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyscalebismuthbronze1" }
+		},
+		"*-legs-scale-bismuthbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsscalebismuthbronze1" }
+		},
+
+
+		
+		"*-head-scale-blackbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headscaleblackbronze1" },
+		},
+		"*-body-scale-blackbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyscaleblackbronze1" }
+		},
+		"*-legs-scale-blackbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsscaleblackbronze1" }
+		},
+
+
+		
+		"*-head-scale-iron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headscaleiron1" }
+		},
+		"*-body-scale-iron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyscaleiron1" }
+		},
+		"*-legs-scale-iron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsscaleiron1" }
+		},
+
+
+		
+		"*-head-scale-meteoriciron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headscalemeteoriciron1" }
+		},
+		"*-body-scale-meteoriciron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyscalemeteoriciron1" }
+		},
+		"*-legs-scale-meteoriciron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsscalemeteoriciron1" }
+		},
+
+
+		
+		"*-head-scale-steel": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headscalesteel1" }
+		},
+		"*-body-scale-steel": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyscalesteel1" }
+		},
+		"*-legs-scale-steel": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsscalesteel1" }
+		},
+
+
+
+
+
+
+		"*-head-plate-tinbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headplatetinbronze1" }
+		},
+		"*-body-plate-tinbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyplatetinbronze1" }
+		},
+		"*-legs-plate-tinbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsplatetinbronze1" },
+		},
+
+
+		"*-head-plate-bismuthbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headplatebismuthbronze1" }
+		},
+		"*-body-plate-bismuthbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyplatebismuthbronze1" }
+		},
+		"*-legs-plate-bismuthbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsplatebismuthbronze1" }
+		},
+
+
+		"*-head-plate-blackbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headplateblackbronze1" }
+		},
+		"*-body-plate-blackbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyplateblackbronze1" }
+		},
+		"*-legs-plate-blackbronze": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsplateblackbronze1" }
+		},
+
+
+		"*-head-plate-iron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headplateiron1" }
+		},
+		"*-body-plate-iron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyplateiron1" }
+		},
+		"*-legs-plate-iron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsplateiron1" }
+		},
+
+
+		"*-head-plate-meteoriciron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headplatemeteoriciron1" }
+		},
+		"*-body-plate-meteoriciron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyplatemeteoriciron1" },
+		},
+		"*-legs-plate-meteoriciron": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsplatemeteoriciron1" },
+		},
+
+
+		"*-head-plate-steel": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headplatesteel1" },
+		},
+		"*-body-plate-steel": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyplatesteel1" },
+		},
+		"*-legs-plate-steel": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsplatesteel1" }
+		},
+
+
+		"*-head-plate-*": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/headplatecopper1" }
+		},
+		"*-body-plate-*": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/bodyplatecopper1" }
+		},
+		"*-legs-plate-*": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/legsplatecopper1" }
+		},
+
+
+
+
+	},
+	storageFlags: 128,
+	"__comment": "'keepElements names must also be added to game/entities/humanoid/player file, under the 'disableElements' attribute.",
+    wearableAttachment: true,
+	attributes: {
+    	wearableAttachment: true,
+		clothesCategoryByType: {
+			"armormedieval-head-*": "armorhead",
+			"armormedieval-body-*": "armorbody",
+			"armormedieval-legs-*": "armorlegs",
+		},
+		attachableToEntity: {
+			categoryCodeByType: {
+				"armormedieval-head-*": "armorhead",
+				"armormedieval-body-*": "armorbody",
+				"armormedieval-legs-*": "armorlegs",
+			},
+			disableElementsByType: {
+			"armormedieval-head-*": ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "EmblemHead", "Casco1", "Casco2", "Cuerno1", "Cuerno2", "back", "Cabeza", "HeadHead", "Assessin", "Capucha1", "Capucha2", "HeadHead"],
+			"armormedieval-body-*": ["Manga1", "Manga2", "Pelusa1", "Pelusa2", "guanteL", "guanteR", "pechofur", "brazoleftfur", "brazorightfur", "brazoabajoleftfur", "brazoabajorightfur", "cuerpoabajofur", "piernaleftfur", "piernarightfur", "TrompaW", "FaldaRR", "FaldaLL", "ShirtBackTile1", "cuerpoabajohide", "piernarighthide", "piernalefthide", "upshirt", "upshirt", "falditaupper"],
+			"armormedieval-legs-*": ["FootArmorR", "FootArmorL"],
+			},
+			keepElementsByType: {
+			}	
+		},
+		defaultProtLoss: {
+			perTierRelativeProtectionLoss: [0.03, 0.15],
+			perTierFlatDamageReductionLoss: [0.1, 0.2],
+		},
+		footStepSoundByType: {
+			"*-body-chain-*": "game:wearable/chain*",
+			"*-body-scale-*": "game:wearable/scale*",
+			"*-body-plate-*": "game:wearable/plate*",
+		},
+		protectionModifiersByType: {
+			"armormedieval-*-chain-copper": {
+				relativeProtection: 0.82,
+				flatDamageReduction: 1.2,
+				protectionTier: 2,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-chain-tinbronze": {
+				relativeProtection: 0.84,
+				flatDamageReduction: 1.3,
+				protectionTier: 3,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-chain-bismuthbronze": {
+				relativeProtection: 0.83,
+				flatDamageReduction: 1.4,
+				protectionTier: 3,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-chain-blackbronze": {
+				relativeProtection: 0.85,
+				flatDamageReduction: 1.4,
+				protectionTier: 3,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-chain-iron": {
+				relativeProtection: 0.88,
+				flatDamageReduction: 1.5,
+				protectionTier: 4,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-chain-meteoriciron": {
+				relativeProtection: 0.885,
+				flatDamageReduction: 1.55,
+				protectionTier: 4,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-chain-steel": {
+				relativeProtection: 0.9,
+				flatDamageReduction: 1.6,
+				protectionTier: 5,
+				highDamageTierResistant: true
+			},
+
+
+
+
+			"armormedieval-*-scale-copper": {
+				relativeProtection: 0.86,
+				flatDamageReduction: 1.4,
+				protectionTier: 2,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-scale-tinbronze": {
+				relativeProtection: 0.88,
+				flatDamageReduction: 1.45,
+				protectionTier: 3,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-scale-bismuthbronze": {
+				relativeProtection: 0.87,
+				flatDamageReduction: 1.5,
+				protectionTier: 3,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-scale-blackbronze": {
+				relativeProtection: 0.89,
+				flatDamageReduction: 1.6,
+				protectionTier: 3,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-scale-iron": {
+				relativeProtection: 0.91,
+				flatDamageReduction: 1.6,
+				protectionTier: 4,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-scale-meteoriciron": {
+				relativeProtection: 0.92,
+				flatDamageReduction: 1.65,
+				protectionTier: 4,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-scale-steel": {
+				relativeProtection: 0.92,
+				flatDamageReduction: 1.7,
+				protectionTier: 5,
+				highDamageTierResistant: true
+			},
+
+
+
+
+
+			"armormedieval-*-plate-copper": {
+				relativeProtection: 0.91,
+				flatDamageReduction: 1.6,
+				protectionTier: 2,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-plate-tinbronze": {
+				relativeProtection: 0.93,
+				flatDamageReduction: 1.7,
+				protectionTier: 3,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-plate-bismuthbronze": {
+				relativeProtection: 0.92,
+				flatDamageReduction: 1.65,
+				protectionTier: 3,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-plate-blackbronze": {
+				relativeProtection: 0.94,
+				flatDamageReduction: 1.75,
+				protectionTier: 3,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-plate-iron": {
+				relativeProtection: 0.96,
+				flatDamageReduction: 1.85,
+				protectionTier: 4,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-plate-meteoriciron": {
+				relativeProtection: 0.97,
+				flatDamageReduction: 1.9,
+				protectionTier: 4,
+				highDamageTierResistant: true
+			},
+			"armormedieval-*-plate-steel": {
+				relativeProtection: 0.99,
+				flatDamageReduction: 1.98,
+				protectionTier: 5,
+				highDamageTierResistant: true
+			},
+		},
+
+
+
+
+
+
+		statModifiersByType: {
+
+
+			"armormedieval-*-chain-*": {
+				rangedWeaponsAcc: 0.01,
+				rangedWeaponsSpeed: 0.01,
+				walkSpeed: 0.01,
+				healingeffectivness: 0.01,
+				hungerrate: -0.01
+			},
+
+
+
+			"armormedieval-*-scale-*": {
+				rangedWeaponsAcc: 0.02,
+				rangedWeaponsSpeed: 0.02,
+				walkSpeed: 0.02,
+				healingeffectivness: 0.02,
+				hungerrate: -0.02
+			},
+
+
+
+			"armormedieval-*-plate-*": {
+				rangedWeaponsAcc: 0.03,
+				rangedWeaponsSpeed: 0.03,
+				walkSpeed: 0.03,
+				healingeffectivness: 0.03,
+				hungerrate: -0.03
+			}
+		},
+	},
+	durabilityByType: {
+		"armormedieval-*-chain-copper": 720,
+		"armormedieval-*-chain-tinbronze": 840,
+		"armormedieval-*-chain-bismuthbronze": 780,
+		"armormedieval-*-chain-blackbronze": 900,
+		"armormedieval-*-chain-iron": 1040,
+		"armormedieval-*-chain-meteoriciron": 1170,
+		"armormedieval-*-chain-steel": 2600,
+
+
+
+		"armormedieval-*-scale-copper": 960,
+		"armormedieval-*-scale-tinbronze": 1440,
+		"armormedieval-*-scale-bismuthbronze": 1380,
+		"armormedieval-*-scale-blackbronze": 1560,
+		"armormedieval-*-scale-iron": 1820,
+		"armormedieval-*-scale-meteoriciron": 2210,
+		"armormedieval-*-scale-steel": 4550,
+
+
+
+		"armormedieval-*-plate-copper": 1200,
+		"armormedieval-*-plate-tinbronze": 1600,
+		"armormedieval-*-plate-bismuthbronze": 1550,
+		"armormedieval-*-plate-blackbronze": 1800,
+		"armormedieval-*-plate-iron": 2500,
+		"armormedieval-*-plate-meteoriciron": 2800,
+		"armormedieval-*-plate-steel": 6000,
+
+
+
+	},
+	
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "medieval": ["*"] },
+	renderAlphaTest: 0.25,
+	
+	fpHandTransformByType: {
+		"armormedieval-head-*": {
+			translation: { x: 0.4, y: -1.9, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 2.15
+		},
+		"armormedieval-body-*": {
+			translation: { x: 0.4, y: -1.2, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		},
+		"armormedieval-legs-*": {
+			translation: { x: 0.4, y: -1.2, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		},
+	},
+	tpHandTransformByType: {
+		"armormedieval-head-*": {
+			translation: { x: -0.82, y: -2.2, z: -0.5 },
+			rotation: { x: 18, y: 169, z: 30 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 0.64
+		},
+		"armormedieval-body-*": {
+			translation: { x: -1, y: -1.9, z: -0.5 },
+			rotation: { x: 97, y: -168, z: 94 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 0.67
+		},
+		"armormedieval-legs-*": {
+			translation: { x: -0.7, y: -0.6, z: -0.4 },
+			rotation: { x: 95, y: -20, z: -91 },
+			origin: { x: 0.5, y: 0.7, z: 0.5 },
+			scale: 0.74
+		}
+	},
+	guiTransformByType: {
+		"armormedieval-head-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.6, y: 1.72, z: 0.5 },
+			scale: 2
+		},
+		"armormedieval-body-*": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.5, y: 1.11, z: 0.5 },
+			scale: 1.37
+		},
+		"armormedieval-legs-*": {
+			translation: { x: 1, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.5, y: 0.6, z: 0.5 },
+			scale: 1.25
+		},
+	},
+	groundTransformByType: {
+		"armormedieval-head-*": {
+			translation: { x: 0, y: 0.1, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.34, y: 1.71, z: 0.5 },
+			scale: 3.1
+		},
+		"armormedieval-body-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 90 },
+			origin: { x: 0.34, y: 1.12, z: 0.5 },
+			scale: 3.1
+		},
+		"armormedieval-legs-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 90 },
+			origin: { x: 0.34, y: 1.12, z: 0.5 },
+			scale: 3.1
+		}
+	},
+
+}

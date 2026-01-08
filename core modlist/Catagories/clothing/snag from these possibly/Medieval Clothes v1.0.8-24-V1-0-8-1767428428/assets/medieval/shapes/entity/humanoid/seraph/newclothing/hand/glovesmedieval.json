@@ -1,0 +1,161 @@
+{
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {},
+  "textures": {
+    "guantes": "entity/humanoid/seraphclothes/hand/pattern"
+  },
+  "elements": [
+    {
+      "name": "guantenewR",
+      "stepParentName": "LowerArmR",
+      "from": [
+        -0.24,
+        -0.21,
+        -0.24
+      ],
+      "to": [
+        2.74,
+        8.03,
+        2.24
+      ],
+      "unwrapMode": 1,
+      "autoUnwrap": false,
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "rotationOrigin": [
+        1.1,
+        7.6,
+        0.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#guantes",
+          "uv": [
+            9.0,
+            0.0,
+            11.5,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#guantes",
+          "uv": [
+            7.0,
+            0.0,
+            9.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#guantes",
+          "uv": [
+            13.5,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#guantes",
+          "uv": [
+            11.5,
+            0.0,
+            13.5,
+            8.0
+          ],
+          "autoUv": false
+        },
+        "down": {
+          "texture": "#guantes",
+          "uv": [
+            5.0,
+            0.0,
+            7.0,
+            2.5
+          ],
+          "rotation": 90
+        }
+      }
+    },
+    {
+      "name": "guantenewL",
+      "stepParentName": "LowerArmL",
+      "from": [
+        -0.24,
+        -0.21,
+        -0.24
+      ],
+      "to": [
+        2.74,
+        8.03,
+        2.24
+      ],
+      "unwrapMode": 3,
+      "autoUnwrap": false,
+      "uv": [
+        0.0,
+        8.0
+      ],
+      "rotationOrigin": [
+        1.1,
+        7.6,
+        0.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#guantes",
+          "uv": [
+            7.0,
+            8.0,
+            9.5,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#guantes",
+          "uv": [
+            14.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#guantes",
+          "uv": [
+            11.5,
+            8.0,
+            14.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#guantes",
+          "uv": [
+            9.5,
+            8.0,
+            11.5,
+            16.0
+          ]
+        },
+        "down": {
+          "texture": "#guantes",
+          "uv": [
+            5.0,
+            12.0,
+            7.0,
+            14.5
+          ],
+          "rotation": 90
+        }
+      }
+    }
+  ]
+}

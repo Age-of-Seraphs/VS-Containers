@@ -1,0 +1,34 @@
+[
+	{
+	ingredientPattern: "C,S",
+	ingredients: {
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"S": { type: "item", code: "medieval:clothes-neck-silver-amulet", quantity: 1 }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:nugget-nativesilver", quantity: 8  }
+},
+	{
+	ingredientPattern: "C,S",
+	ingredients: {
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"S": { type: "item", code: "medieval:clothes-neck-gold-amulet", quantity: 1 }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:nugget-nativegold", quantity: 8  }
+},
+	{
+	ingredientPattern: "C,S",
+	ingredients: {
+		"C": { type: "item", code: "game:chisel-*", isTool: true },
+		"S": { type: "item", code: "medieval:clothes-arm-esclava", quantity: 1 }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:metalbit-gold", quantity: 6  }
+}
+
+
+]

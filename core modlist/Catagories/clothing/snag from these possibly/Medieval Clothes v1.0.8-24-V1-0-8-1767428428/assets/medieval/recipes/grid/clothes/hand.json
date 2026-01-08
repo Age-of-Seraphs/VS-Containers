@@ -1,0 +1,197 @@
+[
+	{
+		ingredientPattern: "T_T,L_L",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-hand-medieval-gloves"  }
+	},
+	{
+		ingredientPattern: "TTT,L_L",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-hand-guantesbrown"  }
+	},
+	{
+		ingredientPattern: "T_T,L_L",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:cloth-white", quantity: 1 },
+			"T": { type: "item", code: "game:flaxtwine" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-hand-medieval-gloves-white"  }
+	},
+	{
+		ingredientPattern: "T_T,L_L",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-black", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-hand-medieval-gloves-black"  }
+	},
+	{
+		ingredientPattern: "TLT,_LL",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-hand-winter-gloves1"  }
+	},
+	{
+		ingredientPattern: "T_T,LGL",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"T": { type: "item", code: "game:flaxfibers" },
+			"G": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-hand-miner"  }
+	},
+	{
+		ingredientPattern: "L_T,_S_,T_L",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" },
+			"S": { type: "item", code: "game:shears-*", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-hand-gloves-plain-lux"  }
+	},
+	{
+		ingredientPattern: "L_T,_S_,T_L",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" },
+			"S": { type: "item", code: "game:shears-**", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-hand-gloves-plain-lux"  }
+	},
+	{
+		ingredientPattern: "L_T,_S_,T_L",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-black", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" },
+			"S": { type: "item", code: "game:shears-*", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-hand-gloves-black-lux"  }
+	},
+	{
+		ingredientPattern: "L_T,_S_,T_L",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-black", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" },
+			"S": { type: "item", code: "game:shears-**", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-hand-gloves-black-lux"  }
+	},
+	{
+		ingredientPattern: "LCT,_S_,T_R",
+		recipeGroup: 1,
+		ingredients: {
+			"C": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"L": { type: "item", code: "game:leather-normal-black", quantity: 1 },
+			"R": { type: "item", code: "game:leather-normal-red", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" },
+			"S": { type: "item", code: "game:shears-*", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-hand-gloves-guindos-lux"  }
+	},
+	{
+		ingredientPattern: "LCT,_S_,T_R",
+		recipeGroup: 1,
+		ingredients: {
+			"C": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"L": { type: "item", code: "game:leather-normal-black", quantity: 1 },
+			"R": { type: "item", code: "game:leather-normal-red", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" },
+			"S": { type: "item", code: "game:shears-**", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-hand-gloves-guindos-lux"  }
+	},
+	{
+		ingredientPattern: "RCT,_S_,T_R",
+		recipeGroup: 1,
+		ingredients: {
+			"C": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"R": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" },
+			"S": { type: "item", code: "game:shears-*", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-hand-gloves-white-lux"  }
+	},
+	{
+		ingredientPattern: "RCT,_S_,T_R",
+		recipeGroup: 1,
+		ingredients: {
+			"C": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"R": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" },
+			"S": { type: "item", code: "game:shears-**", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-hand-gloves-white-lux"  }
+	},
+	{
+		ingredientPattern: "RCT,_S_,T_R",
+		recipeGroup: 1,
+		ingredients: {
+			"C": { type: "item", code: "game:hide-pelt-small", quantity: 1 },
+			"R": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" },
+			"S": { type: "item", code: "game:shears-*", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-hand-gloves-whitebrown-lux"  }
+	},
+	{
+		ingredientPattern: "RCT,_S_,T_R",
+		recipeGroup: 1,
+		ingredients: {
+			"C": { type: "item", code: "game:hide-pelt-small", quantity: 1 },
+			"R": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" },
+			"S": { type: "item", code: "game:shears-**", isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-hand-gloves-whitebrown-lux"  }
+	}
+]

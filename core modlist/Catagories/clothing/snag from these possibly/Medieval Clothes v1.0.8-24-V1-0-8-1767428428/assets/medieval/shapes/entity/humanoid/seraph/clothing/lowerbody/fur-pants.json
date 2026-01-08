@@ -1,0 +1,89 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"complete-fur-coat": [64,64]
+	},
+	"textures": {
+		"complete-fur-coat": "entity/humanoid/seraphclothes/emblem/complete-fur-coat"
+	},
+	"elements": [
+		{
+			"name": "piernaleft",
+			"stepParentName": "UpperFootL",
+			"from": [ -0.2, -0.1, -0.2 ], 
+			"to": [ 4.2, 9.1, 3.1 ], 
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 0.0, -0.1, -0.2 ],
+			"rotationY": 0.1,
+			"faces": {
+				"north": { "texture": "#complete-fur-coat", "uv": [ 16.0, 37.0, 20.0, 46.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#complete-fur-coat", "uv": [ 27.0, 37.0, 30.0, 46.0 ], "autoUv": false },
+				"south": { "texture": "#complete-fur-coat", "uv": [ 23.0, 37.0, 27.0, 46.0 ], "autoUv": false },
+				"west": { "texture": "#complete-fur-coat", "uv": [ 20.0, 37.0, 23.0, 46.0 ], "autoUv": false },
+				"up": { "texture": "#complete-fur-coat", "uv": [ 20.0, 33.0, 23.0, 37.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#complete-fur-coat", "uv": [ 20.0, 33.0, 23.0, 37.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "piernaright45",
+			"stepParentName": "UpperFootR",
+			"from": [ -0.2, -0.1, 0.2 ], 
+			"to": [ 4.2, 9.1, 3.5 ], 
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 0.0, -0.1, 0.2 ],
+			"rotationY": 0.1,
+			"faces": {
+				"north": { "texture": "#complete-fur-coat", "uv": [ 4.0, 37.0, 8.0, 46.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#complete-fur-coat", "uv": [ 1.0, 37.0, 4.0, 46.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#complete-fur-coat", "uv": [ 11.0, 37.0, 15.0, 46.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#complete-fur-coat", "uv": [ 8.0, 37.0, 11.0, 46.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#complete-fur-coat", "uv": [ 8.0, 33.0, 11.0, 37.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#complete-fur-coat", "uv": [ 8.0, 33.0, 11.0, 37.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "piernaleftabajo73",
+			"stepParentName": "LowerFootL",
+			"from": [ -0.1, 0.0, -0.1 ], 
+			"to": [ 4.1, 10.2, 3.2 ], 
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"renderInEditor": false,
+			"rotationOrigin": [ 0.1, 0.0, -0.1 ],
+			"rotationY": 0.1,
+			"faces": {
+				"north": { "texture": "#complete-fur-coat", "uv": [ 16.0, 50.0, 20.0, 60.0 ], "autoUv": false },
+				"east": { "texture": "#complete-fur-coat", "uv": [ 27.0, 50.0, 30.0, 60.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#complete-fur-coat", "uv": [ 23.0, 50.0, 27.0, 60.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#complete-fur-coat", "uv": [ 20.0, 50.0, 23.0, 60.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#complete-fur-coat", "uv": [ 20.0, 46.0, 23.0, 50.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#complete-fur-coat", "uv": [ 4.0, 0.0, 8.0, 3.0 ], "enabled": false, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "piernarightabajo75",
+			"stepParentName": "LowerFootR",
+			"from": [ -0.1, 0.0, -0.1 ], 
+			"to": [ 4.1, 10.2, 3.2 ], 
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"renderInEditor": false,
+			"rotationOrigin": [ 0.1, 0.0, -0.1 ],
+			"rotationY": 0.1,
+			"faces": {
+				"north": { "texture": "#complete-fur-coat", "uv": [ 4.0, 50.0, 8.0, 60.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#complete-fur-coat", "uv": [ 1.0, 50.0, 4.0, 60.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#complete-fur-coat", "uv": [ 11.0, 50.0, 15.0, 60.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#complete-fur-coat", "uv": [ 8.0, 50.0, 11.0, 60.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#complete-fur-coat", "uv": [ 8.0, 46.0, 11.0, 50.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#complete-fur-coat", "uv": [ 8.0, 33.0, 11.0, 37.0 ], "rotation": 90, "enabled": false, "autoUv": false }
+			}
+		}
+	]}

@@ -1,0 +1,113 @@
+[
+	{
+		ingredientPattern: "LKL,K_K",
+		recipeGroup: 1,
+		ingredients: {
+			"K": { type: "item", code: "medieval:stripsofleather", quantity: 16 },
+			"L": { type: "item", code: "medieval:stripsofleather", quantity: 32 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "armormedievall-head-leather-leather"  }
+	},
+	{
+		ingredientPattern: "LTL,MMM,MMM",
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "medieval:stripsofleather", quantity: 32 },
+			"M": { type: "item", code: "medieval:stripsofleather", quantity: 48 },
+			"T": { type: "item", code: "game:flaxtwine", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "armormedievall-body-leather-leather"  }
+	},
+	{
+		ingredientPattern: "LKL,LTL,K_K",
+		recipeGroup: 1,
+		ingredients: {
+			"K": { type: "item", code: "medieval:stripsofleather", quantity: 16 },
+			"L": { type: "item", code: "medieval:stripsofleather", quantity: 32 },
+			"T": { type: "item", code: "game:flaxtwine", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "armormedievall-legs-leather-leather"  }
+	},
+
+
+
+
+
+
+	{
+		ingredientPattern: "LK",
+		recipeGroup: 1,
+		ingredients: {
+			"K": { type: "item", code: "game:cloth-*", name: "color", allowedVariants: [ "plain", "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "yellow" ], quantity: 1 },
+			"L": { type: "item", code: "armormedievall-head-leather-leather", quantity: 1 }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "armormedievall-head-leatherc-{color}"  }
+	},
+	{
+		ingredientPattern: "LK",
+		recipeGroup: 1,
+		ingredients: {
+			"K": { type: "item", code: "game:cloth-*", name: "color", allowedVariants: [ "plain", "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "yellow" ], quantity: 1 },
+			"L": { type: "item", code: "armormedievall-body-leather-leather", quantity: 1 }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "armormedievall-body-leatherc-{color}"  }
+	},
+	{
+		ingredientPattern: "LK",
+		recipeGroup: 1,
+		ingredients: {
+			"K": { type: "item", code: "game:cloth-*", name: "color", allowedVariants: [ "plain", "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "yellow" ], quantity: 1 },
+			"L": { type: "item", code: "armormedievall-legs-leather-leather", quantity: 1 }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "armormedievall-legs-leatherc-{color}"  }
+	},
+
+	{
+		ingredientPattern: "LKM",
+		recipeGroup: 1,
+		ingredients: {
+			"K": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"M": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"L": { type: "item", code: "armormedievall-head-leather-leather", quantity: 1 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "armormedievall-head-leatherc-guindo"  }
+	},
+	{
+		ingredientPattern: "LKM",
+		recipeGroup: 1,
+		ingredients: {
+			"K": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"M": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"L": { type: "item", code: "armormedievall-body-leather-leather", quantity: 1 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "armormedievall-body-leatherc-guindo"  }
+	},
+	{
+		ingredientPattern: "LKM",
+		recipeGroup: 1,
+		ingredients: {
+			"K": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"M": { type: "item", code: "game:cloth-brown", quantity: 1 },
+			"L": { type: "item", code: "armormedievall-legs-leather-leather", quantity: 1 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "armormedievall-legs-leatherc-guindo"  }
+	},
+]

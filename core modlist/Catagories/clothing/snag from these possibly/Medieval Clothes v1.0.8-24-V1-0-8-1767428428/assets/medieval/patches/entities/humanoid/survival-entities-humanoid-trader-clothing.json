@@ -1,0 +1,1315 @@
+[
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:clothes-upperbodyover-assassin",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 8,
+          "var": 4.25
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:clothes-neck-pearl",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 4,
+          "var": 1.25
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:clothes-neck-goldenskull",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 10,
+          "var": 1.25
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:clothes-neck-skullleather",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 3,
+          "var": 0.25
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-black",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-black2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-blue",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-darkpurple",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-red",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-red2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-red3",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-infa1",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-caba1",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-caba2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-caba3",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-templar",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-black",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-black2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-blue",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-darkpurple",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-red",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-red2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-red3",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-infa1",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-infa2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json",
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-infa3",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-caba1",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-caba2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-caba3",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-templar",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-black",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-black2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-blue",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-darkpurple",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-red",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-red2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-red3",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-infa1",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-infa2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-infa3",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-caba1",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-caba2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-caba3",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-templar",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-viking1",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-viking1",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-viking1",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-viking2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-viking2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-viking2",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-blackred",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-blackred",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-blackred",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-blackpurple",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-blackpurple",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-blackpurple",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-head-cloth-lamin",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 20,
+          "var": 3
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-body-cloth-lamin",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 40,
+          "var": 7
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  },
+
+
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": 
+      {
+        "code": "medieval:armormedievalc-legs-cloth-lamin",
+        "type": "item",
+        "stacksize": 1,
+        "stock": {
+          "avg": 1,
+          "var": 0
+        },
+        "price": {
+          "avg": 30,
+          "var": 5
+        }
+      },
+    "file": "game:config/tradelists/trader-clothing.json"
+
+  }
+
+
+
+
+
+
+]

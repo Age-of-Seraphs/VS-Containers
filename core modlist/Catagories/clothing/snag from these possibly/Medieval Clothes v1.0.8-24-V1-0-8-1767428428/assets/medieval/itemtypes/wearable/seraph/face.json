@@ -1,0 +1,221 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["face"] },
+		{ code: "face", combine: "SelectiveMultiply", onVariant: "category", states: [ "leather-mask", "leather-maskred", "leather-maskwhite", "skullmask", "devilmask", "medievalglasses", "medievalglassesgold", "snow"	] },
+	],
+	shapeByType: { 
+		"*-snow": {
+			base: "medieval:entity/humanoid/seraph/newclothing/face/snow" 
+		},
+		"*-skullmask": {
+			base: "medieval:entity/humanoid/seraph/newclothing/face/skullmask" 
+		},
+		"*-devilmask": {
+			base: "medieval:entity/humanoid/seraph/newclothing/face/devilmask" 
+		},
+		"*-medievalglasses": {
+			base: "medieval:entity/humanoid/seraph/newclothing/face/medievalglasses" 
+		},
+		"*-medievalglassesgold": {
+			base: "medieval:entity/humanoid/seraph/newclothing/face/medievalglassesgold" 
+		},
+		"*-leather-maskredgoogle": {
+			base: "medieval:entity/humanoid/seraph/newclothing/face/snow-goggles" 
+		},
+		"*": {
+			base: "medieval:entity/humanoid/seraph/newclothing/face/face" 
+		}
+	},
+	storageFlags: 128,
+	attributesByType: {
+		"*-snow": {
+			wearableAttachment: true,
+			clothescategory: "face",
+			warmth: 2
+		},
+		"*-skullmask": {
+			wearableAttachment: true,
+			clothescategory: "face",
+			disableElements: ["hidefacialhair"]
+		},
+		"*-devilmask": {
+			wearableAttachment: true,
+			clothescategory: "face",
+			disableElements: ["hidefacialhair"]
+		},
+		"*-medievalglasses": {
+			wearableAttachment: true,
+			clothescategory: "face"
+		},
+		"*-medievalglassesgold": {
+			wearableAttachment: true,
+			clothescategory: "face"
+		},
+		"*-leather-mask": {
+			wearableAttachment: true,
+			clothescategory: "face",
+			disableElements: ["hidefacialhair"],
+			warmth: 2
+		},
+		"*-leather-maskred": {
+			wearableAttachment: true,
+			clothescategory: "face",
+			disableElements: ["hidefacialhair"],
+			warmth: 2
+		},
+		"*-leather-maskwhite": {
+			wearableAttachment: true,
+			clothescategory: "face",
+			disableElements: ["hidefacialhair"],
+			warmth: 2
+		},
+		"*-leather-maskredgoogle": {
+			wearableAttachment: true,
+			clothescategory: "face",
+			disableElements: ["hidefacialhair"],
+			warmth: 2
+		},
+		"*": {
+			wearableAttachment: true,
+			clothescategory: "face",
+			disableElements: ["hidefacialhair"],
+			warmth: 0.25
+		}
+	},
+	texturesByType: {
+		"*-snow": {
+			"seraph": { base: "game:block/transparent" },
+			"plain": { base: "block/leather/plain"},
+			"fat": { base: "block/fat"},
+			"smoky2": { base: "block/glass/smoky2"},
+			"rope": { base: "medieval:block/rope/rropenormal4"},
+			"aged": { base: "medieval:block/wood/debarked/aged"},
+			"leather-maskred": { base: "entity/humanoid/seraphclothes/face/leather-maskred"}
+		},
+		"*-skullmask": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-devilmask": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medievalglasses": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-medievalglassesgold": {
+			"seraph": { base: "game:block/transparent" }
+		},
+		"*-leather-maskredgoogle": {
+			"seraph": { base: "medieval:entity/humanoid/seraphclothes/face/leather-maskred" },
+			"rawhide": { base: "game:block/cloth/rawhide" },
+			"bone-yellow": { base: "game:block/creature/bone-yellow" },
+			"slightlydarker": { base: "game:block/slightlydarker" }
+		},
+		"*-leather-mask": {
+			"seraph": { base: "game:block/transparent" },
+			"face": { base: "medieval:entity/humanoid/seraphclothes/face/leather-mask" }
+		},
+		"*-leather-maskred": {
+			"seraph": { base: "game:block/transparent" },
+			"face": { base: "medieval:entity/humanoid/seraphclothes/face/leather-maskred" }
+		},
+		"*-leather-maskwhite": {
+			"seraph": { base: "game:block/transparent" },
+			"face": { base: "medieval:entity/humanoid/seraphclothes/face/leather-maskwhite" }
+		},
+		"*": {
+			"seraph": { base: "medieval:entity/humanoid/seraphclothes/{category}/{face}" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "medieval": ["*"] },
+	renderAlphaTest: 0.25,
+	guiTransformByType: {
+		"*-skullmask": {
+			rotation: { x: 1, y: -121, z: -167 },
+			origin: { x: 0.45, y: 1.66, z: 0.5 },
+			scale: 3
+		},
+		"*-devilmask": {
+			rotation: { x: 1, y: -121, z: -167 },
+			origin: { x: 0.45, y: 1.66, z: 0.5 },
+			scale: 3
+		},
+		"*-medievalglasses": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.46, y: 1.7, z: 0.55 },
+			scale: 4.05
+		},
+		"*-medievalglassesgold": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.46, y: 1.7, z: 0.55 },
+			scale: 4.05
+		},
+		"*": {
+			rotation: { x: 1, y: -121, z: -167 },
+			origin: { x: 0.5, y: 1.62, z: 0.5 },
+			scale: 3.23
+		}
+	},
+	tpHandTransformByType: {
+		"*-medievalglasses": {
+		translation: { x: -0.68, y: -2, z: -0.83 },
+		rotation: { x: 87, y: 180, z: 0 },
+		origin: { x: 0.5, y: 1.5, z: 0.5 },
+		scale: 0.8
+	},
+		"*-medievalglassesgold": {
+		translation: { x: -0.68, y: -2, z: -0.83 },
+		rotation: { x: 87, y: 180, z: 0 },
+		origin: { x: 0.5, y: 1.5, z: 0.5 },
+		scale: 0.8
+	},
+		"*": {
+				translation: { x: -0.8, y: -2.7, z: -0.9 },
+				rotation: { x: 51, y: 149, z: 42 },
+				origin: { x: 0.5, y: 1.5, z: 0.5 },
+				scale: 0.55
+			}
+	},
+	groundTransformByType: {
+		"*-medievalglasses": {
+		translation: { x: 0.05, y: 0.38, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 4.8
+	},
+		"*-medievalglassesgold": {
+		translation: { x: 0.05, y: 0.38, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 4.8
+	},
+		"*":{
+				rotation: { x: 0, y: 0, z: 0 },
+				origin: { x: 0.5, y: 1.5, z: 0.5299 },
+				scale: 2.58}
+	},
+	fpHandTransformByType: {
+		"*-medievalglasses": {
+			translation: { x: 0.6, y: -1.6, z: -0.5 },
+			rotation: { x: 180, y: -108, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		},
+		"*-medievalglassesgold": {
+			translation: { x: 0.6, y: -1.6, z: -0.5 },
+			rotation: { x: 180, y: -108, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		},
+		"*": {
+				translation: { x: 0.08, y: -0.21, z: -0.5 },
+				rotation: { x: 180, y: 42, z: -29 },
+				origin: { x: 0.5, y: 1, z: 0.5 },
+				scale: 2.5}
+	}
+}

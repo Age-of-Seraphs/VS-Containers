@@ -1,0 +1,84 @@
+[
+	{
+		ingredientPattern: "T_T,_L_",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "medieval:clothes-face-leather-mask" }
+	},
+	{
+		ingredientPattern: "T_T,_L_",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-red", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "medieval:clothes-face-leather-maskred" }
+	},
+	{
+		ingredientPattern: "T_T,_L_",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "medieval:clothes-face-leather-maskwhite" }
+	},
+	{
+		ingredientPattern: "QGQ",
+		ingredients: {
+			"G": { type: "item", code: "game:rod-silver" },
+			"Q": { type: "item", code: "game:smokyquartz", quantity: 1 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-face-medievalglasses" }
+	},
+	{
+		ingredientPattern: "QGQ",
+		ingredients: {
+			"G": { type: "item", code: "game:rod-gold" },
+			"Q": { type: "item", code: "game:smokyquartz", quantity: 1 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-face-medievalglassesgold" }
+	},
+
+
+	{
+		ingredientPattern: "KBL,RFS,_M_",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"R": { type: "item", code: "game:rope", quantity: 2 },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 4 },
+			"B": { type: "item", code: "game:bone", quantity: 1 },
+			"S": { type: "item", code: "game:stick", quantity: 4 },
+			"L": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"M": { type: "item", code: "medieval:clothes-face-leather-maskred", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-face-snow" }
+	},
+	{
+		ingredientPattern: "KBL,RFS,_M_",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-**", isTool: true },
+			"R": { type: "item", code: "game:rope", quantity: 2 },
+			"F": { type: "item", code: "game:flaxfibers", quantity: 4 },
+			"B": { type: "item", code: "game:bone", quantity: 1 },
+			"S": { type: "item", code: "game:stick", quantity: 4 },
+			"L": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"M": { type: "item", code: "medieval:clothes-face-leather-maskred", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-face-snow" }
+	}
+]

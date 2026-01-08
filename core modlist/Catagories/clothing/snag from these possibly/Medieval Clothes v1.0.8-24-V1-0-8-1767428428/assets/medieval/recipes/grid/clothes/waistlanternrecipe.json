@@ -1,0 +1,3061 @@
+[
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "molybdochalkos", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "copper", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "brass", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "blackbronze", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuth", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "tinbronze", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "bismuthbronze", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "iron", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "silver", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "gold", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "meteoriciron", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-ex" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on", quantity: 1  }
+	},
+
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on2", quantity: 1  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "plain", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "gold", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "silver", glass: "quartz" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "plain", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "gold", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "S,W",
+		 
+		ingredients: {
+				"S": { type: "block", code: "game:lantern-up", attributes: { material: "steel", lining: "silver", glass: "plain" }},
+				"W": { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife" }
+			},
+		width: 1,
+		height: 2,
+		
+		output: { type: "item", code: "medieval:clothes-waist-medieval-large-belt-knife-lantern-on1", quantity: 1  }
+	}
+
+
+]

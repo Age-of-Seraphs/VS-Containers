@@ -1,0 +1,69 @@
+[
+	{
+		code: "bear",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-black", litres: 2, consumelitres: 2 },
+			{ type: "item", code: "clothes-shoulder-capacubierta", quantity: 1 }
+		],
+		output: { type: "item", code: "clothes-shoulder-capacubiertaneg", quantity: 1 }
+	},
+
+
+
+
+	{
+		code: "bear",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-black", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "clothes-emblem-brown-fur-coat", quantity: 1 }
+		],
+		output: { type: "item", code: "clothes-emblem-bearblack", quantity: 1 }
+	},
+	{
+		code: "bear",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:strongtanninportion", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "clothes-emblem-brown-fur-coat", quantity: 1 }
+		],
+		output: { type: "item", code: "clothes-emblem-bear", quantity: 1 }
+	},
+	{
+		code: "bear",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-black", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "clothes-foot-medieval-warm-high-boots", quantity: 1 }
+		],
+		output: { type: "item", code: "clothes-foot-medieval-warm-bearblack-boots", quantity: 1 }
+	},
+	{
+		code: "bear",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:strongtanninportion", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "clothes-foot-medieval-warm-high-boots", quantity: 1 }
+		],
+		output: { type: "item", code: "clothes-foot-medieval-warm-bear-boots", quantity: 1 }
+	},
+	{
+		code: "bear",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:dye-black", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "clothes-lowerbody-fur-pants", quantity: 1 }
+		],
+		output: { type: "item", code: "clothes-lowerbody-fur-pantsbearblack", quantity: 1 }
+	},
+	{
+		code: "bear",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:strongtanninportion", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "clothes-lowerbody-fur-pants", quantity: 1 }
+		],
+		output: { type: "item", code: "clothes-lowerbody-fur-pantsbear", quantity: 1 }
+	}
+]

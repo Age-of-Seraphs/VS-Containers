@@ -1,0 +1,47 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"vikingboots": [16,16],
+		"sandalias": [16,16]
+	},
+	"textures": {
+		"sandalias": "entity/humanoid/seraphclothes/foot/sandalias"
+	},
+	"elements": [
+		{
+			"name": "shoe R",
+			"stepParentName": "LowerFootR",
+			"from": [ -0.1, -0.1, -0.1 ],
+			"to": [ 4.1, 8.9, 3.1 ],
+			"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#sandalias", "uv": [ 4.0, 3.0, 8.0, 12.0 ] },
+				"east": { "texture": "#sandalias", "uv": [ 1.0, 3.0, 4.0, 12.0 ] },
+				"south": { "texture": "#sandalias", "uv": [ 11.0, 3.0, 15.0, 12.0 ] },
+				"west": { "texture": "#sandalias", "uv": [ 8.0, 3.0, 11.0, 12.0 ] },
+				"up": { "texture": "#sandalias", "uv": [ 13.0, 3.0, 16.0, 7.0 ], "rotation": 90 },
+				"down": { "texture": "#sandalias", "uv": [ 8.0, 12.0, 11.0, 16.0 ], "rotation": 90 }
+			}
+		},
+		{
+			"name": "shoe L",
+			"stepParentName": "LowerFootL",
+			"from": [ -0.1, -0.1, -0.1 ],
+			"to": [ 4.1, 8.9, 3.1 ],
+			"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#sandalias", "uv": [ 4.0, 3.0, 8.0, 12.0 ], "autoUv": false },
+				"east": { "texture": "#sandalias", "uv": [ 4.0, 3.0, 1.0, 12.0 ], "autoUv": false },
+				"south": { "texture": "#sandalias", "uv": [ 11.0, 3.0, 15.0, 12.0 ], "autoUv": false },
+				"west": { "texture": "#sandalias", "uv": [ 11.0, 3.0, 8.0, 12.0 ], "autoUv": false },
+				"up": { "texture": "#sandalias", "uv": [ 16.0, 3.0, 13.0, 7.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#sandalias", "uv": [ 8.0, 12.0, 11.0, 16.0 ], "rotation": 90 }
+			}
+		}
+	]}

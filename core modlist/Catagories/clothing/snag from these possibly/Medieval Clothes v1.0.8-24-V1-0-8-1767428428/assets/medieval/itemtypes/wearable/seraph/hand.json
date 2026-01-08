@@ -1,0 +1,226 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["hand"] },
+		{ code: "hand", combine: "SelectiveMultiply", onVariant: "category", states: [ "medieval-gloves-white", "medieval-gloves-black", "medieval-gloves", "winter-gloves1", "miner", "gloves-black-lux", "gloves-guindos-lux", "gloves-white-lux", "gloves-whitebrown-lux", "gloves-plain-lux", "guantesbrown" ] },
+	],
+	shapeByType: {
+
+		"*-winter-gloves1": {
+			base: "entity/humanoid/seraph/newclothing/hand/winter-gloves1" 
+		},
+
+		"*-gloves-black-lux": {
+			base: "entity/humanoid/seraph/newclothing/hand/gloves-black-lux" 
+		},
+
+		"*-gloves-guindos-lux": {
+			base: "entity/humanoid/seraph/newclothing/hand/gloves-guindos-lux" 
+		},
+
+		"*-gloves-white-lux": {
+			base: "entity/humanoid/seraph/newclothing/hand/gloves-white-lux" 
+		},
+
+		"*-gloves-whitebrown-lux": {
+			base: "entity/humanoid/seraph/newclothing/hand/gloves-white-lux" 
+		},
+
+		"*-gloves-plain-lux": {
+			base: "entity/humanoid/seraph/newclothing/hand/gloves-plain-lux" 
+		},
+
+		"*-medieval-gloves": {
+			base: "entity/humanoid/seraph/newclothing/hand/glovesmedieval" 
+		},
+
+		"*-guantesbrown": {
+			base: "entity/humanoid/seraph/newclothing/hand/glovesmedieval" 
+		},
+
+		"*-medieval-gloves-white": {
+			base: "entity/humanoid/seraph/newclothing/hand/glovesmedieval" 
+		},
+
+		"*-medieval-gloves-black": {
+			base: "entity/humanoid/seraph/newclothing/hand/glovesmedieval" 
+		},
+
+		"*-miner": {
+			base: "entity/humanoid/seraph/newclothing/hand/glovesmedieval" 
+		},
+		"*": {
+			base: "game:entity/humanoid/seraph"
+		}
+	},
+	storageFlags: 128,
+	attributesByType: {
+		"*-winter-gloves1": {
+			"wearableAttachment": true,
+			clothescategory: "hand",
+			warmth: 3
+		},
+		"*-gloves-black-lux": {
+			"wearableAttachment": true,
+			clothescategory: "hand",
+			warmth: 3
+		},
+		"*-gloves-guindos-lux": {
+			"wearableAttachment": true,
+			clothescategory: "hand",
+			warmth: 3
+		},
+		"*-gloves-white-lux": {
+			"wearableAttachment": true,
+			clothescategory: "hand",
+			warmth: 3
+		},
+		"*-gloves-whitebrown-lux": {
+			"wearableAttachment": true,
+			clothescategory: "hand",
+			warmth: 3
+		},
+		"*-gloves-plain-lux": {
+			"wearableAttachment": true,
+			clothescategory: "hand",
+			warmth: 3
+		},
+		"*-gloves": {
+			"wearableAttachment": true,
+			clothescategory: "hand",
+			warmth: 0.5
+		},
+		"*-guantesbrown": {
+			"wearableAttachment": true,
+			clothescategory: "hand",
+			warmth: 0.5
+		},
+		"*-gloves-white": {
+			"wearableAttachment": true,
+			clothescategory: "hand",
+			warmth: 0.5
+		},
+		"*-gloves-black": {
+			"wearableAttachment": true,
+			clothescategory: "hand",
+			warmth: 0.5
+		},
+		"*-miner": {
+			"wearableAttachment": true,
+			clothescategory: "hand",
+			warmth: 0.5
+		},
+		"*": {
+			clothescategory: "hand"
+		}
+	},
+	texturesByType: {
+		"*-winter-gloves1": {
+			"seraph": { base: "game:block/transparent" },
+            "winter-gloves1": { "base": "entity/humanoid/seraphclothes/hand/winter-gloves1"}
+		},
+		"*-gloves-black-lux": {
+			"seraph": { base: "game:block/transparent" },
+            "gloves-black-lux": { "base": "entity/humanoid/seraphclothes/hand/gloves-black-lux"}
+		},
+		"*-gloves-guindos-lux": {
+			"seraph": { base: "game:block/transparent" },
+            "gloves-guindos-lux": { "base": "entity/humanoid/seraphclothes/hand/gloves-guindos-lux"}
+		},
+		"*-gloves-white-lux": {
+			"seraph": { base: "game:block/transparent" },
+            "gloves-white-lux": { "base": "entity/humanoid/seraphclothes/hand/gloves-white-lux"}
+		},
+		"*-gloves-whitebrown-lux": {
+			"seraph": { base: "game:block/transparent" },
+            "gloves-white-lux": { "base": "entity/humanoid/seraphclothes/hand/gloves-whitebrown-lux"}
+		},
+		"*-gloves-plain-lux": {
+			"seraph": { base: "game:block/transparent" },
+            "gloves-plain-lux": { "base": "entity/humanoid/seraphclothes/hand/gloves-plain-lux"}
+		},
+		"*-gloves": {
+			"seraph": { base: "game:block/transparent" },
+            "guantes": { "base": "entity/humanoid/seraphclothes/hand/guantaletasbrown"}
+		},
+		"*-guantesbrown": {
+			"seraph": { base: "game:block/transparent" },
+            "guantes": { "base": "entity/humanoid/seraphclothes/hand/guantesbrown"}
+		},
+		"*-gloves-white": {
+			"seraph": { base: "game:block/transparent" },
+            "guantes": { "base": "entity/humanoid/seraphclothes/hand/guantaletaswhite"}
+		},
+		"*-gloves-black": {
+			"seraph": { base: "game:block/transparent" },
+            "guantes": { "base": "entity/humanoid/seraphclothes/hand/guantaletasblack"}
+		},
+		"*-miner": {
+			"seraph": { base: "game:block/transparent" },
+            "guantes": { "base": "entity/humanoid/seraphclothes/hand/guantaletasminer"}
+		},
+		"*": {
+			"seraph": { base: "entity/humanoid/seraphclothes/{category}/{hand}" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "medieval": ["*"] },
+	renderAlphaTest: 0.25,
+	fpHandTransformByType: {
+
+
+		"@*-(winter-gloves1|gloves-black-lux|gloves-guindos-lux|gloves-white-lux|gloves-whitebrown-lux|gloves-plain-lux|medieval-gloves|guantesbrown|medieval-gloves-white|medieval-gloves-black|miner)": {
+			"translation": { "x": 0.6, "y": 0, "z": -0.5 },
+			"rotation": { "x": 180, "y": 42, "z": -29 },
+			"scale": 2.5
+		},
+
+		"*": { 
+				translation: { x: 0.6, y: 0, z: -0.5 },
+				rotation: { x: 180, y: 42, z: -29 },
+				scale: 2.5
+			}
+	},
+	tpHandTransformByType: {
+
+		"@*-(winter-gloves1|gloves-black-lux|gloves-guindos-lux|gloves-white-lux|gloves-whitebrown-lux|gloves-plain-lux|medieval-gloves|guantesbrown|medieval-gloves-white|medieval-gloves-black|miner)": { 
+			"translation": { "x": -0.9, "y": -1, "z": -1 },
+			"rotation": { "x": -13, "y": -64, "z": 49 },
+			"scale": 0.55 
+		},
+
+		"*": {translation: { x: -0.9, y: -1, z: -1 },
+				rotation: { x: -13, y: -64, z: 49 },
+				scale: 0.55
+			}
+	},
+	guiTransformByType: {
+		"@*-(winter-gloves1|gloves-black-lux|gloves-guindos-lux|gloves-white-lux|gloves-whitebrown-lux|gloves-plain-lux|medieval-gloves|guantesbrown|medieval-gloves-white|medieval-gloves-black|miner)": {
+			"rotate": false,
+			"translation": { "x": 0, "y": 0, "z": 19 },
+			"rotation": { "x": 174, "y": -30, "z": 23 },
+			"origin": { "x": 0.52, "y": 0.88, "z": 0.5 },
+			"scale": 2.5
+		},
+		"*": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -30, z: 23 },
+			origin: { x: 0.52, y: 0.88, z: 0.5 },
+			scale: 2.5
+		}
+	},
+	groundTransformByType: {
+
+
+		"@*-(winter-gloves1|gloves-black-lux|gloves-guindos-lux|gloves-white-lux|gloves-whitebrown-lux|gloves-plain-lux|medieval-gloves|guantesbrown|medieval-gloves-white|medieval-gloves-black|miner)": {
+			"rotation": { "x": 0, "y": 0, "z": 90 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+			"scale": 3.04
+		},
+
+		"*": {rotation: { x: 0, y: 0, z: 90 },
+				origin: { x: 0.5, y: 0.5, z: 0.5299 },
+				scale: 3.04}
+	}
+}

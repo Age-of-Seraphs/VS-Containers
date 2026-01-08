@@ -1,0 +1,50 @@
+[
+	{
+		ingredientPattern: "GGG",
+		recipeGroup: 1,
+		ingredients: {
+			"G": { type: "item", code: "game:nugget-nativegold", quantity: 2 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-arm-esclava"  }
+	},
+	{
+		ingredientPattern: "GGG",
+		recipeGroup: 1,
+		ingredients: {
+			"G": { type: "item", code: "game:metalbit-gold", quantity: 2 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-arm-esclava"  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "LTS",
+		recipeGroup: 1,
+		ingredients: {
+			"S": { type: "item", code: "game:shears-*", isTool: true },
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-arm-medieval-pouch"  }
+	},
+	{
+		ingredientPattern: "LTS",
+		recipeGroup: 1,
+		ingredients: {
+			"S": { type: "item", code: "game:shears-**", isTool: true },
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-arm-medieval-pouch"  }
+	}
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "dependsOn": [ { "modid": "awearablelight" } ],
+    "file": "medieval:itemtypes/wearable/seraph/waistlantern.json",
+    "side": "Server"
+  }
+
+]

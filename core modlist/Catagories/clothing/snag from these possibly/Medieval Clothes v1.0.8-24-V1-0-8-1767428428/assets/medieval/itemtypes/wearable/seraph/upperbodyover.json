@@ -1,0 +1,170 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["upperbodyover"] },
+		{ code: "upperbodyover", combine: "SelectiveMultiply", onVariant: "category", states: [ "medieval-travelers-earthrobe", "large-hunter-coat", "miner", "assassin", "black-cape", "black-coat", "red-coattt", "black-short-coat", "blue-civil", "brown-leather-coat", "brown-shirt", "farmer", "hunter", "green-shirt", "blue-shirt", "brownn-shirt", "purple-shirt", "redd-shirt", "yelloww-shirt", "lightbrown-leather-coat", "medieval-civilb", "medieval-civilp", "medieval-civilr", "poor", "purple-coat-short", "red-civil", "red-coat", "red-shirt", "reds-shirt", "single-coat", "warrior", "yellow-shirt", "leon", "leonwhite", "lad", "vikingcoat", "medieval-large-beige-faldita", "medieval-large-blue-faldita","medieval-large-bluegreen-faldita", "medieval-large-blues-faldita","medieval-large-green-faldita", "medieval-large-orangebrown-faldita", "medieval-large-pink-faldita", "medieval-large-purple-faldita", "medieval-large-redblue-faldita", "medieval-large-red-faldita", "medieval-large-redyellow-faldita", "medieval-large-yellowblue-faldita", "medieval-large-black-faldita", "medieval-large-brown-faldita", "medieval-robes-brown", "medieval-robes-green", "medieval-robes-red", "medieval-robes", "hunterred", "hunterwhite", "reli", "reli2", "blackgray", "blackgold", "bosque2", "calavera", "diamond", "eagle", "elegante", "gentil", "gentilred", "jungle", "lion", "navajo", "savage", "lux", "duende", "olivo", "guindo"] },
+	],
+	shapeByType: {
+		"@*-(medieval-travelers-earthrobe|black-coat|red-coattt|black-short-coat|blue-civil|brown-shirt|farmer|green-shirt|blue-shirt|brownn-shirt|purple-shirt|redd-shirt|yelloww-shirt|red-civil|red-shirt|reds-shirt|yellow-shirt|leon|leonwhite|lad|vikingcoat|warrior|single-coat|red-coat|purple-coat-short|poor|medieval-civilb|medieval-civilp|medieval-civilr|lightbrown-leather-coat|hunter|brown-leather-coat|miner|large-hunter-coat|olivo|guindo)": {
+			base: "entity/humanoid/seraph/newclothing/upperbodyover/upperbodyoverfaldita" 
+		},
+		"@*-(assassin|black-cape)": {
+			base: "entity/humanoid/seraph/newclothing/upperbodyover/shoulder" 
+		},
+		"@*-(medieval-large-beige-faldita|medieval-large-blue-faldita|medieval-large-bluegreen-faldita|medieval-large-blues-faldita|medieval-large-green-faldita|medieval-large-orangebrown-faldita|medieval-large-pink-faldita|medieval-large-purple-faldita|medieval-large-redblue-faldita|medieval-large-red-faldita|medieval-large-redyellow-faldita|medieval-large-yellowblue-faldita|medieval-large-black-faldita|medieval-large-brown-faldita)": {
+			base: "entity/humanoid/seraph/newclothing/upperbodyover/upperbodyoverfalditaneck" 
+		},
+		"@*-(medieval-robes-brown|medieval-robes-green|medieval-robes-red|medieval-robes|hunterred|hunterwhite|blackgray|blackgold|bosque2|calavera|diamond|eagle|elegante|gentil|gentilred|jungle|lion|navajo|savage|lux)": {
+			base: "medieval:entity/humanoid/seraph/newclothing/upperbodyover/upperbodyoverfaldita" 
+		},
+		"@*-(reli)": {
+			base: "medieval:entity/humanoid/seraph/newclothing/shoulder/relishoulderfaldita" 
+		},
+		"@*-(reli2)": {
+			base: "medieval:entity/humanoid/seraph/newclothing/shoulder/reli2shoulderfaldita" 
+		},
+		"@*-(duende)": {
+			base: "medieval:entity/humanoid/seraph/newclothing/upperbody/upperbodyfaldita" 
+		}
+	},
+	storageFlags: 128,
+	attributesByType: {
+		"@*-(hunter|large-hunter-coat|hunterred|hunterwhite)": {
+			wearableAttachment: true,
+			clothescategory: "upperbodyover",
+			inCharacterCreationDialog: false,
+			warmth: 4,
+			disableElements: [ "uparmR", "uparmL", "lowarmR", "lowarmL", "upfaldaR", "upfaldaL", "upshirt" ]
+		},
+		"@*-(assassin|black-cape|red-coat|vikingcoat)": {
+			wearableAttachment: true,
+			clothescategory: "upperbodyover",
+			inCharacterCreationDialog: false,
+			warmth: 3,
+			disableElements: [ "uparmR", "uparmL", "lowarmR", "lowarmL", "upfaldaR", "upfaldaL", "upshirt" ]
+		},
+		"@*-(brown-leather-coat|purple-leather-coat|lightbrown-leather-coat|medieval-civilb|medieval-civilp|medieval-civilr|purple-coat-short|purple-knight|red-knight|single-coat|warrior|lad)": {
+			clothescategory: "upperbodyover",
+			wearableAttachment: true,
+			inCharacterCreationDialog: false,
+			warmth: 2.5,
+			disableElements: [ "uparmR", "uparmL", "lowarmR", "lowarmL", "upfaldaR", "upfaldaL", "upshirt" ]
+		},
+		"@*-(medieval-travelers-earthrobe|black-coat|red-coattt|black-short-coat|brown-shirt|leon|leonwhite|medieval-large-beige-faldita|medieval-large-blue-faldita|medieval-large-bluegreen-faldita|medieval-large-blues-faldita|medieval-large-green-faldita|medieval-large-orangebrown-faldita|medieval-large-pink-faldita|medieval-large-purple-faldita|medieval-large-redblue-faldita|medieval-large-red-faldita|medieval-large-redyellow-faldita|medieval-large-yellowblue-faldita|medieval-large-black-faldita|medieval-large-brown-faldita)": {
+			clothescategory: "upperbodyover",
+			wearableAttachment: true,
+			inCharacterCreationDialog: false,
+			warmth: 2,
+			disableElements: [ "uparmR", "uparmL", "lowarmR", "lowarmL", "upfaldaR", "upfaldaL", "upshirt" ]
+		},
+		"@*-(blue-civil|farmer|green-shirt|blue-shirt|brownn-shirt|purple-shirt|redd-shirt|yelloww-shirt|miner|poor|red-civil|red-shirt)": {
+			clothescategory: "upperbodyover",
+			wearableAttachment: true,
+			inCharacterCreationDialog: false,
+			warmth: 1.5,
+			disableElements: [ "uparmR", "uparmL", "lowarmR", "lowarmL", "upfaldaR", "upfaldaL", "upshirt" ]
+		},
+		"@*-(yellow-shirt)": {
+			clothescategory: "upperbodyover",
+			wearableAttachment: true,
+			inCharacterCreationDialog: false,
+			warmth: 1.5,
+			disableElements: [ "upfaldaR", "upfaldaL", "upshirt" ]
+		},
+		"@*-(reds-shirt)": {
+			wearableAttachment: true,
+			clothescategory: "upperbodyover",
+			inCharacterCreationDialog: false,
+			warmth: 4,
+			disableElements: [ "uparmR", "uparmL", "lowarmR", "lowarmL", "upfaldaR", "upfaldaL", "upshirt" ]
+		},
+		"@*-(medieval-robes-brown|medieval-robes-green|medieval-robes-red|medieval-robes|blackgray|blackgold|bosque2|calavera|diamond|eagle|elegante|gentil|gentilred|jungle|lion|navajo|savage|lux|duende|olivo|guindo)": {
+			wearableAttachment: true,
+			clothescategory: "upperbodyover",
+			inCharacterCreationDialog: false,
+			warmth: 2,
+			disableElements: [ "uparmR", "uparmL", "lowarmR", "lowarmL", "upfaldaR", "upfaldaL", "upshirt" ]
+		},
+		"@*-(reli|reli2)": {
+			wearableAttachment: true,
+			clothescategory: "upperbodyover",
+			inCharacterCreationDialog: false,
+			warmth: 4,
+			disableElements: [ "uparmR", "uparmL", "lowarmR", "lowarmL", "upfaldaR", "upfaldaL", "upshirt" ]
+		}
+	},
+
+	texturesByType: {
+		"@*-(medieval-travelers-earthrobe|large-hunter-coat|hunter|miner|olivo|guindo|black-coat|red-coattt|black-short-coat|blue-civil|brown-leather-coat|brown-shirt|farmer|green-shirt|blue-shirt|brownn-shirt|purple-shirt|redd-shirt|yelloww-shirt|lightbrown-leather-coat|medieval-civilb|medieval-civilp|medieval-civilr|poor|purple-coat-short|red-civil|red-coat|red-shirt|reds-shirt|single-coat|warrior|yellow-shirt|leon|leonwhite|lad|vikingcoat)": {
+			"seraph": { base: "game:block/transparent" },
+			"upperbodyover": { base: "entity/humanoid/seraphclothes/{category}/{upperbodyover}" }
+		},
+		"@*-(assassin|black-cape)": {
+			"seraph": { base: "game:block/transparent" },
+			"upperbodyover": { base: "entity/humanoid/seraphclothes/{category}/{upperbodyover}" }
+		},
+		"@*-(medieval-large-beige-faldita|medieval-large-blue-faldita|medieval-large-bluegreen-faldita|medieval-large-blues-faldita|medieval-large-green-faldita|medieval-large-orangebrown-faldita|medieval-large-pink-faldita|medieval-large-purple-faldita|medieval-large-redblue-faldita|medieval-large-red-faldita|medieval-large-redyellow-faldita|medieval-large-yellowblue-faldita|medieval-large-black-faldita|medieval-large-brown-faldita)": {
+			"seraph": { base: "game:block/transparent" },
+			"upperbodyover": { base: "entity/humanoid/seraphclothes/{category}/{upperbodyover}" }
+		},
+		"@*-(medieval-robes-brown|medieval-robes-green|medieval-robes-red|medieval-robes|hunterred|hunterwhite|blackgray|blackgold|bosque2|calavera|diamond|eagle|elegante|gentil|gentilred|jungle|lion|navajo|savage|lux)": {
+			"seraph": { base: "game:block/transparent" },
+			"upperbodyover": { base: "entity/humanoid/seraphclothes/{category}/{upperbodyover}" }
+		},
+		"@*-(reli)": {
+			"seraph": { base: "game:block/transparent" },
+			"shoulder": { base: "entity/humanoid/seraphclothes/{category}/{upperbodyover}" }
+		},
+		"@*-(reli2)": {
+			"seraph": { base: "game:block/transparent" },
+			"shoulder": { base: "entity/humanoid/seraphclothes/{category}/{upperbodyover}" }
+		},
+		"@*-(duende)": {
+			"seraph": { base: "game:block/transparent" },
+			"upperbody": { base: "entity/humanoid/seraphclothes/{category}/{upperbodyover}" }
+		}
+
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "medieval": ["*"] },
+	renderAlphaTest: 0.25,
+	fpHandTransform: {
+		translation: { x: 0.05, y: -0.6, z: 0.3 },
+		rotation: { x: 180, y: 150, z: 180 },
+		scale: 2
+	},
+	tpHandTransform: {
+		translation: { x: -0.3, y: -0.9, z: -0.7 },
+		rotation: { x: -71, y: 180, z: 83 },
+		scale: 0.55
+	},
+	guiTransformByType: {
+		"@*-(large-hunter-coat|hunter|miner|olivo|guindo|assassin|black-cape|black-coat|red-coattt|black-short-coat|blue-civil|brown-leather-coat|brown-shirt|farmer|green-shirt|blue-shirt|brownn-shirt|purple-shirt|redd-shirt|yelloww-shirt|lightbrown-leather-coat|medieval-civilb|medieval-civilp|medieval-civilr|poor|purple-coat-short|red-civil|red-coat|red-shirt|reds-shirt|single-coat|warrior|yellow-shirt|leon|leonwhite|lad|vikingcoat|medieval-robes-brown|medieval-robes-green|medieval-robes-red|medieval-robes|hunterred|hunterwhite|blackgray|blackgold|bosque2|calavera|diamond|eagle|elegante|gentil|gentilred|jungle|lion|navajo|savage|lux|duende|reli|reli2|medieval-large-beige-faldita|medieval-large-blue-faldita|medieval-large-bluegreen-faldita|medieval-large-blues-faldita|medieval-large-green-faldita|medieval-large-orangebrown-faldita|medieval-large-pink-faldita|medieval-large-purple-faldita|medieval-large-redblue-faldita|medieval-large-red-faldita|medieval-large-redyellow-faldita|medieval-large-yellowblue-faldita|medieval-large-black-faldita|medieval-large-brown-faldita)": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -180, y: -66, z: 18 },
+			origin: { x: 0.2, y: 1.3, z: 0.45 },
+			scale: 1.8
+		},
+		"*-medieval-travelers-earthrobe": {
+			rotate: false,
+			translation: { x: 0, y: -2, z: 0 },
+			rotation: { x: -180, y: -66, z: 18 },
+			origin: { x: 0.2, y: 1.36, z: 0.4 },
+			scale: 2
+		},
+		"*": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -180, y: -66, z: 18 },
+			origin: { x: 0.2, y: 1.36, z: 0.4 },
+			scale: 1.35
+		}
+	},
+	groundTransform: {
+		translation: { x: 0.05, y: 0.05, z: 0 },
+		rotation: { x: 0, y: 0, z: -87 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 2.19
+	}
+}

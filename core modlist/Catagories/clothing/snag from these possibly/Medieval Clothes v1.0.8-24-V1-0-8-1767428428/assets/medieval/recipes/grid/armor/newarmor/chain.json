@@ -1,0 +1,94 @@
+[
+	{
+		ingredientPattern: "_T_,TLT",
+		recipeGroup: 1,
+		ingredients: {
+			"T": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], quantity: 1 }, 
+			"L": { type: "item", code: "armormedievall-head-leather-*", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "armormedieval-head-chain-{metal}"  }
+	},
+
+
+
+	{
+		ingredientPattern: "TJT,CCC,TTT",
+		recipeGroup: 1,
+		ingredients: {
+			"J": { type: "item", code: "armormedievall-body-leather-*", quantity: 1 },
+			"T": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], quantity: 1 },
+			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "armormedieval-body-chain-{metal}"  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "TCT,TJT",
+		recipeGroup: 1,
+		ingredients: {
+			"J": { type: "item", code: "armormedievall-legs-leather-*", quantity: 1 },
+			"T": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], quantity: 1 },
+			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "armormedieval-legs-chain-{metal}"  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "_T_,TLT",
+		recipeGroup: 1,
+		ingredients: {
+			"T": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], quantity: 1 }, 
+			"L": { type: "item", code: "armormedievall-head-leatherc-*", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "armormedieval-head-chain-{metal}"  }
+	},
+
+
+
+	{
+		ingredientPattern: "TJT,CCC,TTT",
+		recipeGroup: 1,
+		ingredients: {
+			"J": { type: "item", code: "armormedievall-body-leatherc-*", quantity: 1 },
+			"T": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], quantity: 1 },
+			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "armormedieval-body-chain-{metal}"  }
+	},
+
+
+
+
+	{
+		ingredientPattern: "TCT,TJT",
+		recipeGroup: 1,
+		ingredients: {
+			"J": { type: "item", code: "armormedievall-legs-leatherc-*", quantity: 1 },
+			"T": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], quantity: 1 },
+			"C": { type: "item", code: "game:metalchain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "armormedieval-legs-chain-{metal}"  }
+	}
+
+
+
+
+]

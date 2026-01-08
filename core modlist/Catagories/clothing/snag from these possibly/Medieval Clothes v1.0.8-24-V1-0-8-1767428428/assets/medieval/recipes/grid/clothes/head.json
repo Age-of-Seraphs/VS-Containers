@@ -1,0 +1,229 @@
+[
+	{
+		ingredientPattern: "_L_,LKL",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-black", quantity: 1 },
+			"K": { type: "item", code: "game:flaxtwine", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-head-medieval-hood-black"  }
+	},
+	{
+		ingredientPattern: "LK_,___,___",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 3 },
+			"K": { type: "item", code: "game:knife-*", quantity: 1, isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-head-medieval-hood"  }
+	},
+	{
+		ingredientPattern: "KW_,GSG",
+		ingredients: {
+			"W": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"G": { type: "item", code: "game:leather-normal-gray", quantity: 1 },
+			"S": { type: "item", code: "game:flaxtwine", quantity: 1 },
+			"K": { type: "item", code: "game:shears-*",  isTool: true }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-head-medieval-woman-coat-head1"  }
+	},
+	{
+		ingredientPattern: "KW_,GSG",
+		ingredients: {
+			"W": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"G": { type: "item", code: "game:leather-normal-gray", quantity: 1 },
+			"S": { type: "item", code: "game:flaxtwine", quantity: 1 },
+			"K": { type: "item", code: "game:shears-**",  isTool: true }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-head-medieval-woman-coat-head1"  }
+	},
+	{
+		ingredientPattern: "LK_,___,___",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 3 },
+			"K": { type: "item", code: "game:knife-*", quantity: 1, isTool: true }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "clothes-head-medieval-hood"  }
+	},
+	{
+		ingredientPattern: "TLT",
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-head-medieval-hood-brown"  }
+	},
+	{
+		ingredientPattern: "TL",
+		ingredients: {
+			"L": { type: "item", code: "game:cloth-white", quantity: 2 },
+			"T": { type: "item", code: "game:flaxtwine", quantity: 2 }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-head-medieval-hood-white"  }
+	},
+	{
+		ingredientPattern: "BGP",
+		ingredients: {
+			"B": { type: "item", code: "game:hide-pelt-medium", quantity: 1 },
+			"G": { type: "item", code: "game:leather-normal-gray", quantity: 1 },
+			"P": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-head-hunter"  }
+	},
+	{
+		ingredientPattern: "BPB,_G_",
+		ingredients: {
+			"B": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"G": { type: "item", code: "game:cloth-black", quantity: 1 },
+			"P": { type: "item", code: "game:nugget-nativegold", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-head-turbante"  }
+	},
+	{
+		ingredientPattern: "BPB,_G_",
+		ingredients: {
+			"B": { type: "item", code: "game:cloth-red", quantity: 1 },
+			"G": { type: "item", code: "game:cloth-black", quantity: 1 },
+			"P": { type: "item", code: "game:metalbit-gold", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-head-turbante"  }
+	},
+	{
+		ingredientPattern: "BP",
+		ingredients: {
+			"B": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"P": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "clothes-head-lad"  }
+	},
+	{
+		ingredientPattern: "MMM,TTT",
+    	"enabled": false,
+		ingredients: {
+			"T": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"M": { type: "item", code: "game:metalbit-gold", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-head-rayo"  }
+	},
+	{
+		ingredientPattern: "MMM,TTT",
+    	"enabled": false,		 
+		ingredients: {
+			"T": { type: "item", code: "medieval:stripsofleather", quantity: 2 },
+			"M": { type: "item", code: "game:nugget-nativegold", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-head-rayo"  }
+	},
+	{
+		ingredientPattern: "HCI",
+		ingredients: {
+			"H": { type: "item", code: "game:shears-*", isTool: true },
+			"C": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"I": { type: "item", code: "game:feather", quantity: 1 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-head-leatherhat1" }
+	},
+	{
+		ingredientPattern: "HCI",
+		ingredients: {
+			"H": { type: "item", code: "game:shears-**", isTool: true },
+			"C": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"I": { type: "item", code: "game:feather", quantity: 1 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "clothes-head-leatherhat1" }
+	},
+	{
+		ingredientPattern: "CI,H_",
+		ingredients: {
+			"H": { type: "item", code: "game:shears-*", isTool: true },
+			"C": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"I": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-head-leatherhat" }
+	},
+	{
+		ingredientPattern: "CI,H_",
+		ingredients: {
+			"H": { type: "item", code: "game:shears-**", isTool: true },
+			"C": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"I": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "clothes-head-leatherhat" }
+	},
+	{
+		ingredientPattern: "T",
+		ingredients: {
+			"T": { type: "item", code: "medieval:clothes-head-neckcoverred" }
+		},
+		width: 1,
+		height: 1,
+		copyAttributesFrom: 'T',
+		averageDurability: false,
+		output: { type: "item", code: "medieval:clothes-head-neckcover1red"  }
+	},
+	{
+		ingredientPattern: "T",
+		ingredients: {
+			"T": { type: "item", code: "medieval:clothes-head-neckcover1red" }
+		},
+		width: 1,
+		height: 1,
+		copyAttributesFrom: 'T',
+		averageDurability: false,
+		output: { type: "item", code: "medieval:clothes-head-neckcoverred"  }
+	},
+	{
+		ingredientPattern: "T",
+		ingredients: {
+			"T": { type: "item", code: "medieval:clothes-head-neckcoverwhite" }
+		},
+		width: 1,
+		height: 1,
+		copyAttributesFrom: 'T',
+		averageDurability: false,
+		output: { type: "item", code: "medieval:clothes-head-neckcover1white"  }
+	},
+	{
+		ingredientPattern: "T",
+		ingredients: {
+			"T": { type: "item", code: "medieval:clothes-head-neckcover1white" }
+		},
+		width: 1,
+		height: 1,
+		copyAttributesFrom: 'T',
+		averageDurability: false,
+		output: { type: "item", code: "medieval:clothes-head-neckcoverwhite"  }
+	}
+]

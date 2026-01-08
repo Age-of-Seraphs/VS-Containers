@@ -1,0 +1,13 @@
+[
+  {
+    "op": "add",
+    "path": "/lightHsvByType",
+    "value": {
+    "*":[ 5, 7, 16 ]
+    },
+    "dependsOn": [{ "modid": "awearablelight" }],
+    "side": "server",
+    
+    "file": "medieval:itemtypes/wearable/seraph/waistlantern.json"
+  }
+]

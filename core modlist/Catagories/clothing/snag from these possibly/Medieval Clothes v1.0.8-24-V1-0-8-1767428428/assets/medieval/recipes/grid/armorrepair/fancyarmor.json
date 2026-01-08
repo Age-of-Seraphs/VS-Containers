@@ -1,0 +1,47 @@
+[
+	{
+		ingredientPattern: "BL,P_,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "armormedievalc-head-cloth-*", name: "material", allowedVariants: ["black", "blackred", "blackpurple", "black2", "blue", "darkpurple", "red", "red2", "red3", "infa1", "infa2", "infa3", "caba1", "caba2", "caba3", "templar", "viking1", "viking2", "lamin", "skull"] },
+			"P": { type: "item", code: "medieval:redondo-iron" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 3,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		output: { type: "item", code: "armormedievalc-head-cloth-{material}"  }
+	},
+	{
+		ingredientPattern: "BL,P_,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "armormedievalc-body-cloth-*", name: "material", allowedVariants: ["black", "blackred", "blackpurple", "black2", "blue", "darkpurple", "red", "red2", "red3", "infa1", "infa2", "infa3", "caba1", "caba2", "caba3", "templar", "viking1", "viking2", "lamin", "skull"] },
+			"P": { type: "item", code: "medieval:redondo-iron" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 3,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		output: { type: "item", code: "armormedievalc-body-cloth-{material}"  }
+	},
+	{
+		ingredientPattern: "BL,P_,P_",
+		recipeGroup: 2,
+		ingredients: {
+			"B": { type: "item", code: "armormedievalc-legs-cloth-*", name: "material", allowedVariants: ["black", "blackred", "blackpurple", "black2", "blue", "darkpurple", "red", "red2", "red3", "infa1", "infa2", "infa3", "caba1", "caba2", "caba3", "templar", "viking1", "viking2", "lamin", "skull"] },
+			"P": { type: "item", code: "medieval:redondo-iron" },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 2,
+		height: 3,
+		shapeless: true,
+		copyAttributesFrom: 'B',
+		averageDurability: false,
+		output: { type: "item", code: "armormedievalc-legs-cloth-{material}"  }
+	}
+]

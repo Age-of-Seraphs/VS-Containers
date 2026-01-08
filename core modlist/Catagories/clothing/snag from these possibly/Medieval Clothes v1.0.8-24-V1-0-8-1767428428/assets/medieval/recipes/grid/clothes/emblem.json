@@ -1,0 +1,579 @@
+[
+	{
+		"ingredientPattern": "LC",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 2 },
+			"C": { "type": "item", "code": "game:metalchain-iron", "quantity": 1 }
+		},
+		"width": 2,
+		"height": 1,
+		"output": { "type": "item", "code": "clothes-emblem-chain"  }
+	},
+	{
+		"ingredientPattern": "TTT,TTT",
+		"ingredients": {
+			"T": { "type": "item", "code": "medieval:stripsofleather", "quantity": 3 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-leathercross"  }
+	},
+	{
+		"ingredientPattern": "LTL,LTS",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"T": { "type": "item", "code": "medieval:stripsofleather" },
+			"S": { "type": "item", "code": "game:shears-*", isTool: true }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-leathersquare"  }
+	},
+	{
+		"ingredientPattern": "LTL,LTS",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"T": { "type": "item", "code": "medieval:stripsofleather" },
+			"S": { "type": "item", "code": "game:shears-*", isTool: true }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-leathersquare"  }
+	},
+	{
+		"ingredientPattern": "LT",
+		"ingredients": {
+			"L": { "type": "item", "code": "medieval:clothes-emblem-leathersquare", "quantity": 1 },
+			"T": { "type": "item", "code": "game:metalscale-iron" }
+		},
+		"width": 2,
+		"height": 1,
+		"output": { "type": "item", "code": "clothes-emblem-leathersquarem"  }
+	},
+	{
+		"ingredientPattern": "_B_,BLB",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-white", "quantity": 2 },
+			"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-white-fur-coat2"  }
+	},
+	{
+		"ingredientPattern": "_B_,BLB,_L_",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-white", "quantity": 2 },
+			"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-white-fur-coat1"  }
+	},
+	{
+		"ingredientPattern": "_BH,BLB",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-white", "quantity": 2 },
+			"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-whitebrown-fur-coat2"  }
+	},
+	{
+		"ingredientPattern": "_BH,BLB,_L_",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-white", "quantity": 2 },
+			"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-whitebrown-fur-coat1"  }
+	},
+	{
+		"ingredientPattern": "_B_,BLB",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-red", "quantity": 2 },
+			"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-red-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "_B_,BLB,_L_",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-red", "quantity": 2 },
+			"L": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-red-fur-coat10"  }
+	},
+	{
+		"ingredientPattern": "HKH,HCH,HHH",
+		"recipeGroup": 1,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "HKH,HCH,HHH",
+		"recipeGroup": 1,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "HKH,HCH",
+		"recipeGroup": 2,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "HKH,HCH",
+		"recipeGroup": 2,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "HKH,C__",
+		"recipeGroup": 3,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "HKH,C__",
+		"recipeGroup": 3,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "KHC",
+		"recipeGroup": 4,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 1,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "KHC",
+		"recipeGroup": 4,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:knife-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 1,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "HKH,HCH,HHH",
+		"recipeGroup": 1,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "HKH,HCH,HHH",
+		"recipeGroup": 1,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-small", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "HKH,HCH",
+		"recipeGroup": 2,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "HKH,HCH",
+		"recipeGroup": 2,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "HKH,C__",
+		"recipeGroup": 3,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "HKH,C__",
+		"recipeGroup": 3,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "KHC",
+		"recipeGroup": 4,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 1,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "KHC",
+		"recipeGroup": 4,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"K": { "type": "item", "code": "game:shears-*", isTool: true  }
+		},
+		"width": 3,
+		"height": 1,
+		"output": { "type": "item", "code": "clothes-emblem-brown-fur-coat"  }
+	},
+	{
+		"ingredientPattern": "TLT",
+		"ingredients": {
+			"L": { "type": "item", "code": "medieval:clothes-emblem-leathersquare", "quantity": 1 },
+			"T": { "type": "item", "code": "game:leather-normal-plain" }
+		},
+		"width": 3,
+		"height": 1,
+		"output": { "type": "item", "code": "clothes-emblem-leathersquare3"  }
+	},
+	{
+		"ingredientPattern": "TTT,TTT,TTT",
+		"ingredients": {
+			"T": { "type": "item", "code": "medieval:stripsofleather", "quantity": 3 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-leathersquare2"  }
+	},
+	{
+		"ingredientPattern": "RMR,TTT",
+		"ingredients": {
+			"T": { "type": "item", "code": "game:leather-normal-black", "quantity": 1 },
+			"R": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"M": { "type": "item", "code": "game:metalchain-iron", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-guard"  }
+	},
+	{
+		"ingredientPattern": "RBR,RGR,_B_",
+		"ingredients": {
+			"R": { "type": "item", "code": "game:leather-normal-red", "quantity": 1 },
+			"B": { "type": "item", "code": "game:leather-normal-black", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-black1"  }
+	},
+	{
+		"ingredientPattern": "TR",
+		"ingredients": {
+			"T": { "type": "item", "code": "clothes-emblem-leathersquare2", "quantity": 1 },
+			"R": { "type": "item", "code": "game:metalchain-iron", "quantity": 1 }
+		},
+		"width": 2,
+		"height": 1,
+		"output": { "type": "item", "code": "clothes-emblem-ladyarmortop"  }
+	},
+	{
+		"ingredientPattern": "BGB,BGB,PBP",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-plain", "quantity": 2 },
+			"P": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-capa"  }
+	},
+	{
+		"ingredientPattern": "BGB,BGB,PBP",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-red", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-red", "quantity": 2 },
+			"P": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-capared"  }
+	},
+	{
+		"ingredientPattern": "BGB,BGB,PBP",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-green", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-green", "quantity": 2 },
+			"P": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-capagreen"  }
+	},
+	{
+		"ingredientPattern": "BGB,BGB,PBP",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-blue", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-blue", "quantity": 2 },
+			"P": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-capablue"  }
+	},
+	{
+		"ingredientPattern": "BGB,BGB,PBP",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-purple", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-purple", "quantity": 2 },
+			"P": { "type": "item", "code": "medieval:stripsofleather", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-capapurple"  }
+	},
+	{
+		"ingredientPattern": "BGB,BCB,CPC",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-red", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"C": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"P": { "type": "item", "code": "game:cloth-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-emperador"  }
+	},
+	{
+		"ingredientPattern": "BGB,BCB,CPC",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-black", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"C": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"P": { "type": "item", "code": "game:cloth-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-emperador-black"  }
+	},
+	{
+		"ingredientPattern": "BGB,BCB,CPC",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-blue", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"C": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"P": { "type": "item", "code": "game:cloth-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-emperador-blue"  }
+	},
+	{
+		"ingredientPattern": "BGB,BCB,CPC",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"C": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"P": { "type": "item", "code": "game:cloth-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-emperador-brown"  }
+	},
+	{
+		"ingredientPattern": "BGB,BCB,CPC",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"C": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"P": { "type": "item", "code": "game:cloth-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-emperador-gray"  }
+	},
+	{
+		"ingredientPattern": "BGB,BCB,CPC",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-green", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"C": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"P": { "type": "item", "code": "game:cloth-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-emperador-green"  }
+	},
+	{
+		"ingredientPattern": "BGB,BCB,CPC",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-orange", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"C": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"P": { "type": "item", "code": "game:cloth-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-emperador-orange"  }
+	},
+	{
+		"ingredientPattern": "BGB,BCB,CPC",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-pink", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"C": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"P": { "type": "item", "code": "game:cloth-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-emperador-pink"  }
+	},
+	{
+		"ingredientPattern": "BGB,BCB,CPC",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-purple", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"C": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"P": { "type": "item", "code": "game:cloth-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-emperador-purple"  }
+	},
+	{
+		"ingredientPattern": "BGB,BCB,CPC",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-red", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"C": { "type": "item", "code": "game:leather-normal-red", "quantity": 1 },
+			"P": { "type": "item", "code": "game:cloth-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-emperador-red"  }
+	},
+	{
+		"ingredientPattern": "BGB,BCB,CPC",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-white", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"C": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"P": { "type": "item", "code": "game:cloth-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-emperador-white"  }
+	},
+	{
+		"ingredientPattern": "BGB,BCB,CPC",
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-yellow", "quantity": 1 },
+			"G": { "type": "item", "code": "game:leather-normal-gray", "quantity": 1 },
+			"C": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"P": { "type": "item", "code": "game:cloth-plain", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-emblem-emperador-yellow"  }
+	},
+	{
+		"ingredientPattern": "B,G",
+		"enabled": false,
+		"ingredients": {
+			"B": { "type": "item", "code": "game:leather-normal-plain", "quantity": 1 },
+			"G": { "type": "item", "code": "game:metalplate-gold", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "clothes-emblem-rayo"  }
+	},
+	{
+		"ingredientPattern": "HCP",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", isTool: true },
+			"C": { "type": "item", "code": "game:metalchain-iron", "quantity": 2 },
+			"P": { "type": "item", "code": "medieval:stripsofleather", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 1,
+		"output": { "type": "item", "code": "clothes-emblem-vikingarmor"  }
+	}
+]

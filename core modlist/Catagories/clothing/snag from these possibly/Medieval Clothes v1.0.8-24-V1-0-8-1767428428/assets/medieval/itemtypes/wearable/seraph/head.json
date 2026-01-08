@@ -1,0 +1,614 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["head"] },
+		{ code: "head", combine: "SelectiveMultiply", onVariant: "category", states: ["medieval-hood-white", "medieval-hood-brown", "medieval-hood-black", "medieval-hood", "medieval-woman-coat-head1", "hunter", "turbante", "turbanteblue", "turbantepurple", "turbantered", "turbantewhite", "lad", "leatherhat", "leatherhat1", "neckcoverred", "neckcover1red", "neckcoverwhite", "neckcover1white" ] },
+	],
+	shapeByType: { 
+		"*-lad": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/headextracapucha" 
+		},
+		"*-neckcoverred": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/headextracapucha" 
+		},
+		"*-neckcover1red": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/headextracapucha" 
+		},
+		"*-neckcoverwhite": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/headextracapucha" 
+		},
+		"*-neckcover1white": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/headextracapucha" 
+		},
+		"*-hunter": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/headextracapucha" 
+		},
+		"*-medieval-hood": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/headextracapucha" 
+		},
+		"*-medieval-hood-black": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/headextracapucha" 
+		},
+		"*-rayo": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/rayo" 
+		},
+		"*-turbante": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/turbante" 
+		},
+		"*-turbanteblue": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/turbante" 
+		},
+		"*-turbantepurple": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/turbante" 
+		},
+		"*-turbantered": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/turbante" 
+		},
+		"*-turbantewhite": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/turbante" 
+		},
+		"*-viking": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/viking" 
+		},
+		"*-armor11": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/armor11" 
+		},
+		"*-armor21": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/armor21" 
+		},
+		"*-armor31": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/armor31" 
+		},
+		"*-armor41": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/armor41" 
+		},
+		"*-armor51": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/armor51" 
+		},
+		"*-armor61": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/armor61" 
+		},
+		"*-armor7": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/armor7" 
+		},
+		"*-armor8": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/armor8" 
+		},
+		"*-leatherhat": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/leatherhat" 
+		},
+		"*-leatherhat1": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/leatherhat1" 
+		},
+		"*-medieval-woman-coat-head1": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/medieval-woman-coat-head1" 
+		},
+		"*-vikinghelmet": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/vikinghelmet" 
+		},
+		"*": {
+			base: "medieval:entity/humanoid/seraph/newclothing/head/head" 
+		}
+	},
+	storageFlags: 128,
+	attributesByType: {
+		"*-desert": {
+			wearableAttachment: true,
+			clothescategory: "head",
+			disableElements: ["Ponytail1", "hideme"],
+			warmth: 0.5
+		},
+		"*-medieval-woman-coat-head1": {
+			wearableAttachment: true,
+			clothescategory: "head",
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Assessin"],
+			warmth: 1,
+			rainProtectionPerc: 0.40
+		},
+		"*-turbante": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "upshirt", "Assessin"],
+			warmth: 1,
+			rainProtectionPerc: 0.30
+		},
+		"*-turbantered": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Assessin"],
+			warmth: 1,
+			rainProtectionPerc: 0.30
+		},
+		"*-turbantepurple": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Assessin"],
+			warmth: 1,
+			rainProtectionPerc: 0.30
+		},
+		"*-turbantered": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Assessin"],
+			warmth: 1,
+			rainProtectionPerc: 0.30
+		},
+		"*-turbantewhite": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Assessin"],
+			warmth: 1,
+			rainProtectionPerc: 0.30
+		},
+		"*-lad": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Assessin"],
+			warmth: 1,
+			rainProtectionPerc: 0.60
+		},
+		"*-rayo": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: [],
+			warmth: 0.2
+		},
+		"*-viking": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme"],
+			warmth: 1
+		},
+		"*-armor11": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Dread25", "Dreadlock20", "Dreadlock21", "Dreadlock22"],
+			warmth: 1
+		},
+		"*-armor21": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Dread25", "Dreadlock20", "Dreadlock21", "Dreadlock22"],
+			warmth: 1
+		},
+		"*-armor31": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Dread25", "Dreadlock20", "Dreadlock21", "Dreadlock22"],
+			warmth: 1
+		},
+		"*-armor41": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Dread25", "Dreadlock20", "Dreadlock21", "Dreadlock22"],
+			warmth: 1
+		},
+		"*-armor51": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Dread25", "Dreadlock20", "Dreadlock21", "Dreadlock22"],
+			warmth: 1
+		},
+		"*-armor61": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Dread25", "Dreadlock20", "Dreadlock21", "Dreadlock22"],
+			warmth: 1
+		},
+		"*-armor7": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Dread25", "Dreadlock20", "Dreadlock21", "Dreadlock22"],
+			warmth: 1
+		},
+		"*-armor8": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Dread25", "Dreadlock20", "Dreadlock21", "Dreadlock22"],
+			warmth: 1
+		},
+		"*-leatherhat": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Dread25", "Dreadlock20", "Dreadlock21", "Dreadlock22", "Assessin"],
+			warmth: 1,
+			rainProtectionPerc: 0.95
+		},
+		"*-leatherhat1": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Dread25", "Dreadlock20", "Dreadlock21", "Dreadlock22", "Assessin"],
+			warmth: 1,
+			rainProtectionPerc: 0.95
+		},
+		"*-vikinghelmet": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Dread25", "Dreadlock20", "Dreadlock21", "Dreadlock22"],
+			warmth: 1
+		},
+		"*-neckcoverred": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme"],
+			warmth: 2.5
+		},
+		"*-neckcover1red": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Assessin", "Capucha1"],
+			warmth: 4,
+			rainProtectionPerc: 0.80
+		},
+		"*-neckcoverwhite": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme"],
+			warmth: 2.5
+		},
+		"*-neckcover1white": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Assessin", "Capucha1"],
+			warmth: 4,
+			rainProtectionPerc: 0.80
+		},
+		"*-hunter": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Assessin"],
+			warmth: 1,
+			rainProtectionPerc: 0.60
+		},
+		"*-hood-brown": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Assessin"],
+			warmth: 1,
+			rainProtectionPerc: 0.30
+		},
+		"*-hood-black": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Assessin"],
+			warmth: 1,
+			rainProtectionPerc: 0.45
+		},
+		"*-hood": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Assessin"],
+			warmth: 1,
+			rainProtectionPerc: 0.45
+		},
+		"*": {
+			clothescategory: "head",
+			wearableAttachment: true,
+			disableElements: ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Assessin"],
+			warmth: 1
+		}
+	},
+	texturesByType: {
+		"*-vikinghelmet": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-viking": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-turbante": {
+			"seraph": { base: "game:block/transparent" },
+			"turbante": { base: "entity/humanoid/seraphclothes/{category}/{head}" }
+		},
+		"*-turbanteblue": {
+			"seraph": { base: "game:block/transparent" },
+			"turbante": { base: "entity/humanoid/seraphclothes/{category}/{head}" }
+		},
+		"*-turbantepurple": {
+			"seraph": { base: "game:block/transparent" },
+			"turbante": { base: "entity/humanoid/seraphclothes/{category}/{head}" }
+		},
+		"*-turbantered": {
+			"seraph": { base: "game:block/transparent" },
+			"turbante": { base: "entity/humanoid/seraphclothes/{category}/{head}" }
+		},
+		"*-turbantewhite": {
+			"seraph": { base: "game:block/transparent" },
+			"turbante": { base: "entity/humanoid/seraphclothes/{category}/{head}" }
+		},
+		"*-lad": {
+			"seraph": { base: "game:block/transparent" },
+			"head": { base: "entity/humanoid/seraphclothes/{category}/{head}" }
+		},
+		"*-rayo": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-armor11": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-armor21": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-armor31": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-armor41": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-armor51": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-armor61": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-armor7": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-armor8": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-leatherhat": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-leatherhat1": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-medieval-woman-coat-head1": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*": {
+			"seraph": { base: "game:block/transparent" },
+			"head": { base: "entity/humanoid/seraphclothes/{category}/{head}" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "medieval": ["*"] },
+	renderAlphaTest: 0.25,
+	fpHandTransformByType: {
+		"*": {
+			translation: { x: 0.6, y: -1.6, z: -0.5 },
+			rotation: { x: 180, y: -108, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		}
+	},
+	tpHandTransformByType: {
+		"*-rayo": {
+			translation: { x: -0.85, y: -2.4, z: -1.05 },
+			rotation: { x: -13, y: -80, z: 100 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 0.69
+		},
+		"*": {
+			translation: { x: -1, y: -3, z: -1 },
+			rotation: { x: -13, y: -80, z: 29 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 0.55
+		}
+	},
+	guiTransformByType: {
+		"*-medieval-woman-coat-head1": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-medieval-hood": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-black": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-brown": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 174, y: -42, z: 17 },
+			origin: { x: 0.8, y: 1.6, z: 0.9 },
+			scale: 2.17
+		},
+		"*-desert": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 174, y: -42, z: 17 },
+			origin: { x: 0.8, y: 1.6, z: 0.9 },
+			scale: 2.17
+		},
+		"*-white": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 174, y: -42, z: 17 },
+			origin: { x: 0.8, y: 1.6, z: 0.9 },
+			scale: 2.17
+		},
+		"*-armor*": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-rayo": {
+			rotate: false,		
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.75, z: 0.6 },
+			scale: 2.5
+		},
+		"*-viking": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-turbante": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-turbanteblue": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-turbantepurple": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-turbantered": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-turbantewhite": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-lad": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-hunter": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-neckcoverred": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-neckcover1red": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-neckcoverwhite": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-neckcover1white": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-armor11": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-armor21": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-armor31": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-armor41": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-armor51": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-armor61": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-armor7": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-armor8": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-leatherhat": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-leatherhat1": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		},
+		"*-vikinghelmet": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 19 },
+			rotation: { x: 174, y: -45, z: 23 },
+			origin: { x: 0.52, y: 1.65, z: 0.6 },
+			scale: 1.99
+		}
+	},
+	groundTransformByType: {
+		"*": {
+			translation: { x: 0.05, y: -0.3, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			scale: 2
+		}
+	}
+}

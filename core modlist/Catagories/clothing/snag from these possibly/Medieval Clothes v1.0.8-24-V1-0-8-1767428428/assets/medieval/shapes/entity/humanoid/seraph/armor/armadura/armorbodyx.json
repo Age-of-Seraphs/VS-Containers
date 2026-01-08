@@ -1,0 +1,1572 @@
+{
+  "editor": {
+    "allAngles": true,
+    "entityTextureMode": true
+  },
+  "textureWidth": 64,
+  "textureHeight": 64,
+  "textureSizes": {},
+  "textures": {
+    "armorbody": "entity/humanoid/serapharmor/armadura/armorbodyx"
+  },
+  "elements": [
+    {
+      "name": "pecho",
+      "stepParentName": "UpperTorso",
+      "from": [
+        0.5,
+        0.0,
+        0.1
+      ],
+      "to": [
+        0.5,
+        0.0,
+        0.1
+      ],
+      "autoUnwrap": false,
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "faces": {},
+      "children": [
+        {
+          "name": "cube0",
+          "from": [
+            -1.16,
+            -0.06,
+            -0.76
+          ],
+          "to": [
+            5.16,
+            5.26,
+            6.76
+          ],
+          "autoUnwrap": false,
+          "uv": [
+            0.0,
+            0.0
+          ],
+          "rotationOrigin": [
+            30.9,
+            0.0,
+            22.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#armorbody",
+              "uv": [
+                41.0,
+                5.0,
+                46.0,
+                10.0
+              ],
+              "autoUv": false
+            },
+            "east": {
+              "texture": "#armorbody",
+              "uv": [
+                57.0,
+                5.0,
+                63.0,
+                10.0
+              ],
+              "autoUv": false
+            },
+            "south": {
+              "texture": "#armorbody",
+              "uv": [
+                52.0,
+                5.0,
+                57.0,
+                10.0
+              ],
+              "autoUv": false
+            },
+            "west": {
+              "texture": "#armorbody",
+              "uv": [
+                46.0,
+                5.0,
+                52.0,
+                10.0
+              ],
+              "autoUv": false
+            },
+            "up": {
+              "texture": "#armorbody",
+              "uv": [
+                46.0,
+                0.0,
+                52.0,
+                5.0
+              ],
+              "rotation": 90,
+              "autoUv": false
+            },
+            "down": {
+              "texture": "#armorbody",
+              "uv": [
+                34.0,
+                5.0,
+                40.0,
+                10.0
+              ],
+              "rotation": 90,
+              "autoUv": false
+            }
+          }
+        },
+        {
+          "name": "cubiertacuello",
+          "from": [
+            -1.26,
+            -0.06,
+            -0.86
+          ],
+          "to": [
+            5.26,
+            5.36,
+            6.86
+          ],
+          "autoUnwrap": false,
+          "uv": [
+            0.0,
+            0.0
+          ],
+          "rotationOrigin": [
+            30.8,
+            0.0,
+            22.4
+          ],
+          "faces": {
+            "north": {
+              "texture": "#armorbody",
+              "uv": [
+                12.0,
+                5.0,
+                17.0,
+                10.0
+              ],
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "east": {
+              "texture": "#armorbody",
+              "uv": [
+                28.0,
+                5.0,
+                34.0,
+                10.0
+              ],
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "south": {
+              "texture": "#armorbody",
+              "uv": [
+                23.0,
+                5.0,
+                28.0,
+                10.0
+              ],
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "west": {
+              "texture": "#armorbody",
+              "uv": [
+                17.0,
+                5.0,
+                23.0,
+                10.0
+              ],
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "up": {
+              "texture": "#armorbody",
+              "uv": [
+                17.0,
+                0.0,
+                23.0,
+                5.0
+              ],
+              "rotation": 90,
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "brazoleft",
+      "stepParentName": "UpperArmL",
+      "from": [
+        -6.5,
+        2.0,
+        -7.0
+      ],
+      "to": [
+        -6.5,
+        2.0,
+        -7.0
+      ],
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "renderInEditor": false,
+      "rotationOrigin": [
+        0.0,
+        2.0,
+        0.0
+      ],
+      "faces": {},
+      "children": [
+        {
+          "name": "cube81",
+          "from": [
+            5.98,
+            -2.1,
+            6.78
+          ],
+          "to": [
+            10.02,
+            5.14,
+            9.52
+          ],
+          "autoUnwrap": false,
+          "uv": [
+            2.75,
+            0.0
+          ],
+          "rotationOrigin": [
+            6.2,
+            -2.1,
+            7.7
+          ],
+          "faces": {
+            "north": {
+              "texture": "#armorbody",
+              "uv": [
+                42.0,
+                41.5,
+                45.0,
+                48.5
+              ],
+              "autoUv": false
+            },
+            "east": {
+              "texture": "#armorbody",
+              "uv": [
+                50.0,
+                41.5,
+                52.0,
+                48.5
+              ],
+              "autoUv": false
+            },
+            "south": {
+              "texture": "#armorbody",
+              "uv": [
+                47.0,
+                41.5,
+                50.0,
+                48.5
+              ],
+              "autoUv": false
+            },
+            "west": {
+              "texture": "#armorbody",
+              "uv": [
+                45.0,
+                41.5,
+                47.0,
+                48.5
+              ],
+              "autoUv": false
+            },
+            "up": {
+              "texture": "#armorbody",
+              "uv": [
+                45.0,
+                38.5,
+                47.0,
+                41.5
+              ],
+              "rotation": 90,
+              "autoUv": false
+            },
+            "down": {
+              "texture": "#armorbody",
+              "uv": [
+                45.0,
+                48.5,
+                47.0,
+                51.5
+              ],
+              "rotation": 90,
+              "autoUv": false
+            }
+          }
+        },
+        {
+          "name": "cube43",
+          "from": [
+            5.79,
+            -2.01,
+            6.69
+          ],
+          "to": [
+            10.21,
+            5.31,
+            9.81
+          ],
+          "autoUnwrap": false,
+          "uv": [
+            2.75,
+            0.0
+          ],
+          "rotationOrigin": [
+            6.0,
+            -2.0,
+            6.9
+          ],
+          "faces": {
+            "east": {
+              "texture": "#armorbody",
+              "uv": [
+                10.0,
+                25.5,
+                12.0,
+                32.5
+              ],
+              "autoUv": false
+            },
+            "south": {
+              "texture": "#armorbody",
+              "uv": [
+                7.0,
+                25.5,
+                10.0,
+                32.5
+              ],
+              "autoUv": false
+            },
+            "west": {
+              "texture": "#armorbody",
+              "uv": [
+                5.0,
+                25.5,
+                7.0,
+                32.5
+              ],
+              "autoUv": false
+            },
+            "up": {
+              "texture": "#armorbody",
+              "uv": [
+                0.0,
+                25.5,
+                2.0,
+                28.5
+              ],
+              "rotation": 90,
+              "autoUv": false
+            }
+          }
+        },
+        {
+          "name": "cube48",
+          "from": [
+            5.59,
+            -1.21,
+            7.29
+          ],
+          "to": [
+            10.41,
+            6.11,
+            11.31
+          ],
+          "autoUnwrap": false,
+          "uv": [
+            2.75,
+            0.0
+          ],
+          "rotationOrigin": [
+            5.8,
+            5.6,
+            6.5
+          ],
+          "rotationX": 13.5,
+          "faces": {
+            "east": {
+              "texture": "#armorbody",
+              "uv": [
+                31.5,
+                17.0,
+                34.0,
+                24.0
+              ],
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "south": {
+              "texture": "#armorbody",
+              "uv": [
+                28.5,
+                17.0,
+                31.5,
+                24.0
+              ],
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "west": {
+              "texture": "#armorbody",
+              "uv": [
+                26.0,
+                17.0,
+                28.5,
+                24.0
+              ],
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "up": {
+              "texture": "#armorbody",
+              "uv": [
+                21.0,
+                17.0,
+                23.0,
+                20.0
+              ],
+              "rotation": 90,
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "brazoright",
+      "stepParentName": "UpperArmR",
+      "from": [
+        -6.5,
+        2.0,
+        -7.0
+      ],
+      "to": [
+        -6.5,
+        2.0,
+        -7.0
+      ],
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "renderInEditor": false,
+      "rotationOrigin": [
+        0.0,
+        2.0,
+        0.0
+      ],
+      "faces": {},
+      "children": [
+        {
+          "name": "cube8",
+          "from": [
+            5.98,
+            -2.1,
+            6.48
+          ],
+          "to": [
+            10.02,
+            5.14,
+            9.22
+          ],
+          "autoUnwrap": false,
+          "uv": [
+            2.75,
+            0.0
+          ],
+          "rotationOrigin": [
+            6.2,
+            -2.1,
+            6.7
+          ],
+          "faces": {
+            "north": {
+              "texture": "#armorbody",
+              "uv": [
+                33.0,
+                41.5,
+                36.0,
+                48.5
+              ],
+              "autoUv": false
+            },
+            "east": {
+              "texture": "#armorbody",
+              "uv": [
+                31.0,
+                41.5,
+                33.0,
+                48.5
+              ],
+              "autoUv": false
+            },
+            "south": {
+              "texture": "#armorbody",
+              "uv": [
+                38.0,
+                41.5,
+                41.0,
+                48.5
+              ],
+              "autoUv": false
+            },
+            "west": {
+              "texture": "#armorbody",
+              "uv": [
+                36.0,
+                41.5,
+                38.0,
+                48.5
+              ],
+              "autoUv": false
+            },
+            "up": {
+              "texture": "#armorbody",
+              "uv": [
+                36.0,
+                38.5,
+                38.0,
+                41.5
+              ],
+              "rotation": 90,
+              "autoUv": false
+            },
+            "down": {
+              "texture": "#armorbody",
+              "uv": [
+                36.0,
+                48.5,
+                38.0,
+                51.5
+              ],
+              "rotation": 90,
+              "autoUv": false
+            }
+          }
+        },
+        {
+          "name": "cube44",
+          "from": [
+            5.79,
+            -2.01,
+            6.19
+          ],
+          "to": [
+            10.21,
+            5.31,
+            9.31
+          ],
+          "autoUnwrap": false,
+          "uv": [
+            2.75,
+            0.0
+          ],
+          "rotationOrigin": [
+            6.0,
+            -2.0,
+            6.4
+          ],
+          "faces": {
+            "north": {
+              "texture": "#armorbody",
+              "uv": [
+                4.0,
+                18.5,
+                7.0,
+                25.5
+              ],
+              "autoUv": false
+            },
+            "east": {
+              "texture": "#armorbody",
+              "uv": [
+                2.0,
+                18.5,
+                4.0,
+                25.5
+              ],
+              "autoUv": false
+            },
+            "west": {
+              "texture": "#armorbody",
+              "uv": [
+                7.0,
+                18.5,
+                9.0,
+                25.5
+              ],
+              "autoUv": false
+            },
+            "up": {
+              "texture": "#armorbody",
+              "uv": [
+                0.0,
+                18.5,
+                2.0,
+                21.5
+              ],
+              "rotation": 90,
+              "autoUv": false
+            }
+          }
+        },
+        {
+          "name": "cube47",
+          "from": [
+            5.59,
+            -1.41,
+            4.69
+          ],
+          "to": [
+            10.41,
+            6.11,
+            8.71
+          ],
+          "autoUnwrap": false,
+          "uv": [
+            2.75,
+            0.0
+          ],
+          "rotationOrigin": [
+            5.8,
+            5.6,
+            9.5
+          ],
+          "rotationX": -13.5,
+          "faces": {
+            "north": {
+              "texture": "#armorbody",
+              "uv": [
+                25.5,
+                10.0,
+                28.5,
+                17.0
+              ],
+              "autoUv": false
+            },
+            "east": {
+              "texture": "#armorbody",
+              "uv": [
+                23.0,
+                10.0,
+                25.5,
+                17.0
+              ],
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "west": {
+              "texture": "#armorbody",
+              "uv": [
+                28.5,
+                10.0,
+                31.0,
+                17.0
+              ],
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            },
+            "up": {
+              "texture": "#armorbody",
+              "uv": [
+                21.0,
+                10.0,
+                23.0,
+                13.0
+              ],
+              "rotation": 90,
+              "autoUv": false,
+              "windMode": [
+                -1,
+                -1,
+                -1,
+                -1
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "brazoabajoleft40",
+      "stepParentName": "LowerArmL",
+      "from": [
+        -6.5,
+        2.0,
+        -7.0
+      ],
+      "to": [
+        -6.5,
+        2.0,
+        -7.0
+      ],
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "renderInEditor": false,
+      "rotationOrigin": [
+        0.0,
+        2.0,
+        0.0
+      ],
+      "faces": {},
+      "children": [
+        {
+          "name": "cube41",
+          "from": [
+            5.98,
+            -2.12,
+            6.78
+          ],
+          "to": [
+            9.52,
+            6.12,
+            9.52
+          ],
+          "autoUnwrap": false,
+          "uv": [
+            2.75,
+            0.0
+          ],
+          "rotationOrigin": [
+            6.2,
+            -2.1,
+            7.0
+          ],
+          "faces": {
+            "north": {
+              "texture": "#armorbody",
+              "uv": [
+                42.5,
+                51.5,
+                45.0,
+                59.5
+              ],
+              "autoUv": false
+            },
+            "east": {
+              "texture": "#armorbody",
+              "uv": [
+                49.5,
+                51.5,
+                51.5,
+                59.5
+              ],
+              "autoUv": false
+            },
+            "south": {
+              "texture": "#armorbody",
+              "uv": [
+                47.0,
+                51.5,
+                49.5,
+                59.5
+              ],
+              "autoUv": false
+            },
+            "west": {
+              "texture": "#armorbody",
+              "uv": [
+                45.0,
+                51.5,
+                47.0,
+                59.5
+              ],
+              "autoUv": false
+            },
+            "up": {
+              "texture": "#armorbody",
+              "uv": [
+                45.0,
+                48.5,
+                47.0,
+                51.0
+              ],
+              "rotation": 90,
+              "autoUv": false
+            },
+            "down": {
+              "texture": "#armorbody",
+              "uv": [
+                45.0,
+                59.5,
+                47.0,
+                62.0
+              ],
+              "rotation": 90,
+              "autoUv": false
+            }
+          }
+        },
+        {
+          "name": "cube42",
+          "from": [
+            5.78,
+            -2.22,
+            6.58
+          ],
+          "to": [
+            9.72,
+            6.22,
+            9.72
+          ],
+          "autoUnwrap": false,
+          "uv": [
+            2.75,
+            0.0
+          ],
+          "rotationOrigin": [
+            6.0,
+            -2.2,
+            6.8
+          ],
+          "faces": {
+            "north": {
+              "texture": "#armorbody",
+              "uv": [
+                55.0,
+                56.0,
+                57.5,
+                64.0
+              ],
+              "autoUv": false
+            },
+            "east": {
+              "texture": "#armorbody",
+              "uv": [
+                62.0,
+                56.0,
+                64.0,
+                64.0
+              ],
+              "autoUv": false
+            },
+            "south": {
+              "texture": "#armorbody",
+              "uv": [
+                59.5,
+                56.0,
+                62.0,
+                64.0
+              ],
+              "autoUv": false
+            },
+            "west": {
+              "texture": "#armorbody",
+              "uv": [
+                57.5,
+                56.0,
+                59.5,
+                64.0
+              ],
+              "autoUv": false
+            },
+            "down": {
+              "texture": "#armorbody",
+              "uv": [
+                53.0,
+                60.0,
+                55.0,
+                62.5
+              ],
+              "rotation": 90,
+              "autoUv": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "brazoabajoright42",
+      "stepParentName": "LowerArmR",
+      "from": [
+        -6.5,
+        2.0,
+        -7.0
+      ],
+      "to": [
+        -6.5,
+        2.0,
+        -7.0
+      ],
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "renderInEditor": false,
+      "rotationOrigin": [
+        0.0,
+        2.0,
+        0.0
+      ],
+      "faces": {},
+      "children": [
+        {
+          "name": "cube45",
+          "from": [
+            5.98,
+            -2.12,
+            6.48
+          ],
+          "to": [
+            9.52,
+            6.12,
+            9.22
+          ],
+          "autoUnwrap": false,
+          "uv": [
+            2.75,
+            0.0
+          ],
+          "rotationOrigin": [
+            6.2,
+            -2.1,
+            6.7
+          ],
+          "faces": {
+            "north": {
+              "texture": "#armorbody",
+              "uv": [
+                33.5,
+                51.5,
+                36.0,
+                59.5
+              ],
+              "autoUv": false
+            },
+            "east": {
+              "texture": "#armorbody",
+              "uv": [
+                31.5,
+                51.5,
+                33.5,
+                59.5
+              ],
+              "autoUv": false
+            },
+            "south": {
+              "texture": "#armorbody",
+              "uv": [
+                38.0,
+                51.5,
+                40.5,
+                59.5
+              ],
+              "autoUv": false
+            },
+            "west": {
+              "texture": "#armorbody",
+              "uv": [
+                36.0,
+                51.5,
+                38.0,
+                59.5
+              ],
+              "autoUv": false
+            },
+            "up": {
+              "texture": "#armorbody",
+              "uv": [
+                36.0,
+                48.5,
+                38.0,
+                51.0
+              ],
+              "rotation": 90,
+              "autoUv": false
+            },
+            "down": {
+              "texture": "#armorbody",
+              "uv": [
+                36.0,
+                59.5,
+                38.0,
+                62.0
+              ],
+              "rotation": 90,
+              "autoUv": false
+            }
+          }
+        },
+        {
+          "name": "cube46",
+          "from": [
+            5.78,
+            -2.22,
+            6.28
+          ],
+          "to": [
+            9.72,
+            6.22,
+            9.42
+          ],
+          "autoUnwrap": false,
+          "uv": [
+            2.75,
+            0.0
+          ],
+          "rotationOrigin": [
+            6.0,
+            -2.2,
+            6.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#armorbody",
+              "uv": [
+                57.0,
+                47.5,
+                59.5,
+                55.5
+              ],
+              "autoUv": false
+            },
+            "east": {
+              "texture": "#armorbody",
+              "uv": [
+                55.0,
+                47.5,
+                57.0,
+                55.5
+              ],
+              "autoUv": false
+            },
+            "south": {
+              "texture": "#armorbody",
+              "uv": [
+                61.5,
+                47.5,
+                64.0,
+                55.5
+              ],
+              "autoUv": false
+            },
+            "west": {
+              "texture": "#armorbody",
+              "uv": [
+                59.5,
+                47.5,
+                61.5,
+                55.5
+              ],
+              "autoUv": false
+            },
+            "down": {
+              "texture": "#armorbody",
+              "uv": [
+                53.0,
+                47.5,
+                55.0,
+                50.0
+              ],
+              "rotation": 90,
+              "autoUv": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "cuerpoabajo",
+      "stepParentName": "LowerTorso",
+      "from": [
+        -0.34,
+        -5.26,
+        -0.44
+      ],
+      "to": [
+        5.34,
+        5.26,
+        6.44
+      ],
+      "autoUnwrap": false,
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "rotationOrigin": [
+        31.7,
+        -5.2,
+        22.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#armorbody",
+          "uv": [
+            41.0,
+            10.0,
+            46.0,
+            20.0
+          ],
+          "autoUv": false
+        },
+        "east": {
+          "texture": "#armorbody",
+          "uv": [
+            57.0,
+            10.0,
+            63.0,
+            20.0
+          ],
+          "autoUv": false
+        },
+        "south": {
+          "texture": "#armorbody",
+          "uv": [
+            52.0,
+            10.0,
+            57.0,
+            20.0
+          ],
+          "autoUv": false
+        },
+        "west": {
+          "texture": "#armorbody",
+          "uv": [
+            46.0,
+            10.0,
+            52.0,
+            20.0
+          ],
+          "autoUv": false
+        },
+        "up": {
+          "texture": "#armorbody",
+          "uv": [
+            34.0,
+            10.0,
+            40.0,
+            15.0
+          ],
+          "rotation": 90,
+          "autoUv": false
+        }
+      }
+    },
+    {
+      "name": "Neck",
+      "stepParentName": "Neck",
+      "from": [
+        -0.71,
+        -0.11,
+        -0.71
+      ],
+      "to": [
+        3.71,
+        4.11,
+        3.71
+      ],
+      "autoUnwrap": false,
+      "uv": [
+        28.5,
+        -1.0
+      ],
+      "renderInEditor": false,
+      "rotationOrigin": [
+        -0.7,
+        -0.1,
+        -0.7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#armorbody",
+          "uv": [
+            0.0,
+            0.0,
+            3.0,
+            4.0
+          ],
+          "autoUv": false
+        },
+        "east": {
+          "texture": "#armorbody",
+          "uv": [
+            9.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "autoUv": false
+        },
+        "south": {
+          "texture": "#armorbody",
+          "uv": [
+            6.0,
+            0.0,
+            9.0,
+            4.0
+          ],
+          "autoUv": false
+        },
+        "west": {
+          "texture": "#armorbody",
+          "uv": [
+            3.0,
+            0.0,
+            6.0,
+            4.0
+          ],
+          "autoUv": false
+        },
+        "up": {
+          "texture": "#armorbody",
+          "uv": [
+            3.0,
+            0.0,
+            6.0,
+            3.0
+          ],
+          "rotation": 90,
+          "autoUv": false
+        },
+        "down": {
+          "texture": "#armorbody",
+          "uv": [
+            3.0,
+            1.0,
+            6.0,
+            4.0
+          ],
+          "rotation": 90,
+          "autoUv": false
+        }
+      }
+    },
+    {
+      "name": "piernaleftcuerpo",
+      "stepParentName": "UpperFootL",
+      "from": [
+        -0.51,
+        -0.01,
+        -0.41
+      ],
+      "to": [
+        4.61,
+        9.31,
+        3.41
+      ],
+      "autoUnwrap": false,
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "rotationOrigin": [
+        -0.3,
+        0.0,
+        -0.3995
+      ],
+      "rotationY": 0.1,
+      "faces": {
+        "east": {
+          "texture": "#armorbody",
+          "uv": [
+            27.0,
+            37.0,
+            30.0,
+            46.0
+          ],
+          "autoUv": false
+        },
+        "south": {
+          "texture": "#armorbody",
+          "uv": [
+            23.0,
+            37.0,
+            27.0,
+            46.0
+          ],
+          "autoUv": false
+        },
+        "west": {
+          "texture": "#armorbody",
+          "uv": [
+            20.0,
+            37.0,
+            23.0,
+            46.0
+          ],
+          "autoUv": false
+        },
+        "up": {
+          "texture": "#armorbody",
+          "uv": [
+            20.0,
+            33.0,
+            23.0,
+            37.0
+          ],
+          "rotation": 90,
+          "autoUv": false
+        }
+      }
+    },
+    {
+      "name": "piernarightcuerpo",
+      "stepParentName": "UpperFootR",
+      "from": [
+        -0.51,
+        -0.01,
+        -0.51
+      ],
+      "to": [
+        4.61,
+        9.31,
+        3.31
+      ],
+      "autoUnwrap": false,
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "rotationOrigin": [
+        -0.3005,
+        0.0,
+        -0.4995
+      ],
+      "rotationY": 0.1,
+      "faces": {
+        "north": {
+          "texture": "#armorbody",
+          "uv": [
+            4.0,
+            37.0,
+            8.0,
+            46.0
+          ],
+          "autoUv": false
+        },
+        "east": {
+          "texture": "#armorbody",
+          "uv": [
+            1.0,
+            37.0,
+            4.0,
+            46.0
+          ],
+          "autoUv": false
+        },
+        "west": {
+          "texture": "#armorbody",
+          "uv": [
+            8.0,
+            37.0,
+            11.0,
+            46.0
+          ],
+          "autoUv": false
+        },
+        "up": {
+          "texture": "#armorbody",
+          "uv": [
+            8.0,
+            33.0,
+            11.0,
+            37.0
+          ],
+          "rotation": 90,
+          "autoUv": false
+        }
+      }
+    },
+    {
+      "name": "piernarightlowcuerpo",
+      "stepParentName": "LowerFootR",
+      "from": [
+        -0.51,
+        -0.01,
+        -0.51
+      ],
+      "to": [
+        4.61,
+        9.31,
+        3.31
+      ],
+      "autoUnwrap": false,
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "rotationOrigin": [
+        -0.3005,
+        0.0,
+        -0.4995
+      ],
+      "rotationY": 0.1,
+      "faces": {
+        "north": {
+          "texture": "#armorbody",
+          "uv": [
+            4.0,
+            50.0,
+            8.0,
+            59.0
+          ],
+          "autoUv": false
+        },
+        "east": {
+          "texture": "#armorbody",
+          "uv": [
+            1.0,
+            50.0,
+            4.0,
+            59.0
+          ],
+          "autoUv": false
+        },
+        "west": {
+          "texture": "#armorbody",
+          "uv": [
+            8.0,
+            50.0,
+            11.0,
+            59.0
+          ],
+          "autoUv": false
+        }
+      }
+    },
+    {
+      "name": "piernaleftlowcuerpo",
+      "stepParentName": "LowerFootL",
+      "from": [
+        -0.51,
+        -0.01,
+        -0.21
+      ],
+      "to": [
+        4.61,
+        9.31,
+        3.61
+      ],
+      "autoUnwrap": false,
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "rotationOrigin": [
+        -0.3,
+        0.0,
+        -0.1995
+      ],
+      "rotationY": 0.1,
+      "faces": {
+        "east": {
+          "texture": "#armorbody",
+          "uv": [
+            27.0,
+            50.0,
+            30.0,
+            59.0
+          ],
+          "autoUv": false
+        },
+        "south": {
+          "texture": "#armorbody",
+          "uv": [
+            23.0,
+            50.0,
+            27.0,
+            59.0
+          ],
+          "autoUv": false
+        },
+        "west": {
+          "texture": "#armorbody",
+          "uv": [
+            20.0,
+            50.0,
+            23.0,
+            59.0
+          ],
+          "autoUv": false
+        },
+        "up": {
+          "texture": "#armorbody",
+          "uv": [
+            23.0,
+            46.0,
+            26.0,
+            50.0
+          ],
+          "rotation": 90,
+          "autoUv": false
+        }
+      }
+    }
+  ]
+}

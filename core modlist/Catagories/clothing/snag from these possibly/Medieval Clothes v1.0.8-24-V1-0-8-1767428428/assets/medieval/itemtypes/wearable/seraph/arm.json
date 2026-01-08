@@ -1,0 +1,113 @@
+{
+	"code": "clothes",
+	"class": "ItemWearable",
+	"variantgroups": [
+		{ "code": "category",  "states": ["arm"] },
+		{ "code": "arm", "combine": "SelectiveMultiply", "onVariant": "category", "states": ["esclava", "medieval-pouch"] }
+	],
+	"shapeByType": {
+		"*-esclava": { "base": "entity/humanoid/seraph/clothing/arm/esclava1" },
+		"*-medieval-pouch": { "base": "entity/humanoid/seraph/newclothing/arm/medieval-pouch" },
+		"*-bracers": { "base": "game:entity/humanoid/seraph" }
+	},
+	"storageFlags": 128,
+	"attributesByType": {
+		"*-esclava": {
+			"wearableAttachment": true,
+			"clothescategory": "arm"
+		},
+		"*-medieval-pouch": {
+			"wearableAttachment": true,
+			"clothescategory": "arm"
+		},
+		"*-bracers": {
+			"clothescategory": "arm"
+		}
+	},
+	"texturesByType": {
+		"*-esclava": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-medieval-pouch": {
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-bracers": {
+			"seraph": { "base": "entity/humanoid/seraphclothes/{category}/{arm}" }
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "medieval": ["*"] },
+	"renderAlphaTest": 0.25,
+	"fpHandTransformByType": {
+		"*-esclava": {
+			"translation": { "x": 0.6, "y": -0.3, "z": -0.7 },
+			"rotation": { "x": 180, "y": 42, "z": -29 },
+			"scale": 2.5
+		},
+		"*-bracers": {
+			"translation": { "x": 0.6, "y": 0, "z": -0.5 },
+			"rotation": { "x": 180, "y": 42, "z": -29 },
+			"scale": 2.5
+		},
+		"*": {
+		translation: { x: 0.05, y: -0.6, z: 0.3 },
+		rotation: { x: 180, y: 150, z: 180 },
+		scale: 2
+		}
+	},
+	"tpHandTransformByType": {
+		"*-esclava": {
+			"translation": { "x": -0.9, "y": -0.8, "z": -0.55 },
+			"rotation": { "x": -13, "y": -64, "z": 49 },
+			"scale": 0.87
+		},
+		"*-bracers": {
+			"translation": { "x": -0.9, "y": -1, "z": -1 },
+			"rotation": { "x": -13, "y": -64, "z": 49 },
+			"scale": 0.55
+		},
+		"*": {
+		translation: { x: -0.3, y: -0.9, z: -0.7 },
+		rotation: { x: -71, y: 180, z: 83 },
+		scale: 0.55
+		}
+	},
+	"guiTransformByType": {
+		"*-esclava": {
+			"rotate": false,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 180, "y": -32, "z": -9 },
+			"origin": { "x": 1.1, "y": 0.86, "z": 1.75 },
+			"scale": 4.5
+		},
+		"*-bracers": {
+			"translation": { "x": 0, "y": 0, "z": 19 },
+			"rotation": { "x": 174, "y": -30, "z": 23 },
+			"origin": { "x": 0.52, "y": 0.88, "z": 0.5 },
+			"scale": 2.5
+		},
+		"*": {	
+		translation: { x: 6, y: 3, z: 0 },
+		rotation: { x: 135, y: -151, z: -14 },
+		origin: { x: 0.58, y: 1.26, z: 0.71 },
+		scale: 5.7
+		}
+	},
+	"groundTransformByType": {
+		"*-esclava": {
+			"translation": { "x": 0.05, "y": -0.08, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"scale": 2
+		},
+		"*-bracers": {
+			"translation": { "x": 0.05, "y": -0.3, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"scale": 2
+		},
+		"*": {
+		translation: { x: 0.05, y: -0.98, z: 0 },
+		rotation: { x: -15, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 6
+	}	
+	}
+}

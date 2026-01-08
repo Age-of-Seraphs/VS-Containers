@@ -1,0 +1,72 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"metal": "entity/humanoid/serapharmor/head/copper"
+	},
+	"elements": [
+		{
+			"name": "ArmorHelmet",
+			"stepParentName": "Head",
+			"from": [ -0.2, -0.5, -0.6 ],
+			"to": [ -0.2, -0.5, -0.6 ],
+			"unwrapMode": 4,
+			"uv": [ 26.5, 14.0 ],
+			"rotationOrigin": [ -0.2, -0.5, -0.6 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "group",
+					"stepParentName": "Head",
+					"from": [ 0.0, -0.6, -0.6 ],
+					"to": [ 0.0, -0.6, -0.6 ],
+					"autoUnwrap": false,
+					"uv": [ 999.0, 999.0 ],
+					"rotationOrigin": [ 0.0, -0.6, -0.6 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "cube451",
+							"from": [ 0.49, -0.41, 1.09 ],
+							"to": [ 5.31, 5.11, 5.01 ],
+							"autoUnwrap": false,
+							"uv": [ 32.0, 20.0 ],
+							"rotationOrigin": [ 0.7, 0.4, 1.3 ],
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 32.0, 27.0, 39.0, 34.5 ], "autoUv": false },
+								"east": { "texture": "#metal", "uv": [ 52.0, 27.0, 58.0, 34.5 ], "autoUv": false },
+								"south": { "texture": "#metal", "uv": [ 45.0, 27.0, 52.0, 34.5 ], "autoUv": false },
+								"west": { "texture": "#metal", "uv": [ 39.0, 27.0, 45.0, 34.5 ], "autoUv": false },
+								"up": { "texture": "#metal", "uv": [ 39.0, 20.0, 45.0, 27.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#metal", "uv": [ 38.0, 26.0, 39.0, 27.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "cube452",
+							"from": [ 0.79, -1.31, 1.19 ],
+							"to": [ 5.01, 4.71, 4.91 ],
+							"autoUnwrap": false,
+							"uv": [ 32.0, 20.0 ],
+							"rotationOrigin": [ 1.0, -0.5, 1.4 ],
+							"faces": {
+								"north": { "texture": "#metal", "uv": [ 8.0, 19.0, 14.0, 27.0 ], "autoUv": false },
+								"east": { "texture": "#metal", "uv": [ 25.0, 19.0, 30.0, 27.0 ], "autoUv": false },
+								"south": { "texture": "#metal", "uv": [ 19.0, 19.0, 25.0, 27.0 ], "autoUv": false },
+								"west": { "texture": "#metal", "uv": [ 14.0, 19.0, 19.0, 27.0 ], "autoUv": false },
+								"up": { "texture": "#metal", "uv": [ 14.0, 13.0, 19.0, 19.0 ], "rotation": 90, "autoUv": false },
+								"down": { "texture": "#metal", "uv": [ 38.0, 26.0, 39.0, 27.0 ], "rotation": 270, "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

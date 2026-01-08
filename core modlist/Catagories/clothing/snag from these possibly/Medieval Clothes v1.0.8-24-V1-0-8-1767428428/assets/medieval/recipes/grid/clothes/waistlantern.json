@@ -1,0 +1,28 @@
+[
+	{
+		ingredientPattern: "LBL,_T_",
+    	"enabled": false,
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+			"B": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-waist-waistlantern" }
+	},
+	{
+		ingredientPattern: "LBL,_T_",
+    	"enabled": false,
+		recipeGroup: 1,
+		ingredients: {
+			"L": { type: "item", code: "game:leather-normal-black", quantity: 1 },
+			"B": { type: "item", code: "game:cloth-plain", quantity: 1 },
+			"T": { type: "item", code: "medieval:stripsofleather", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "clothes-waist-waistlantern" }
+	}
+]

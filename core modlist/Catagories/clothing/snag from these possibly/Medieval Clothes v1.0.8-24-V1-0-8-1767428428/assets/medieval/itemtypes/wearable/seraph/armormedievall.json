@@ -1,0 +1,402 @@
+{
+	code: "armormedievall",
+	class: "ItemWearable",
+	heldTpIdleAnimation: "holdunderarm",
+	variantgroups: [
+		{ code: "bodypart",  states: ["head", "body", "legs"] },
+		{ code: "type",  states: [ "leather", "leatherc" ] },
+		{ code: "material", states: [ "leather", "plain", "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "yellow", "guindo" ] }
+	],
+	skipVariants: [
+		"armormedievall-*-leatherc-leather",
+		"armormedievall-*-leather-plain",
+		"armormedievall-*-leather-black",
+		"armormedievall-*-leather-blue",
+		"armormedievall-*-leather-brown",
+		"armormedievall-*-leather-gray",
+		"armormedievall-*-leather-green",
+		"armormedievall-*-leather-orange",
+		"armormedievall-*-leather-pink",
+		"armormedievall-*-leather-purple",
+		"armormedievall-*-leather-red",
+		"armormedievall-*-leather-yellow",
+		"armormedievall-*-leather-guindo"
+	],
+	shapeByType: {
+		"*-head-*": { base: "entity/humanoid/seraph/armor/armadura/armorheadx" },
+		
+		"*-body-*": { base: "entity/humanoid/seraph/armor/armadura/armorbodyx" },
+		
+		"*-legs-*": { base: "entity/humanoid/seraph/armor/armadura/armorlegsx" }
+	},
+
+
+
+	texturesByType: {
+		"*-head-leather-leather": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/leather/leatherhead" }
+		},
+		"*-body-leather-leather": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/leather/leatherbody" }
+		},
+		"*-legs-leather-leather": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/leather/leatherlegs" }
+		},
+
+
+		
+		"*-head-leatherc-plain": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/leather/leatherheadplain" }
+		},
+		"*-body-leatherc-plain": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/leather/leatherbodyplain" }
+		},
+		"*-legs-leatherc-plain": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/leather/leatherlegsplain" }
+		},
+
+
+		
+		"*-head-leatherc-black": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/leather/leatherheadblack" }
+		},
+		"*-body-leatherc-black": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/leather/leatherbodyblack" }
+		},
+		"*-legs-leatherc-black": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/leather/leatherlegsblack" }
+		},
+
+
+		
+		"*-head-leatherc-blue": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/leather/leatherheadblue" }
+		},
+		"*-body-leatherc-blue": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/leather/leatherbodyblue" }
+		},
+		"*-legs-leatherc-blue": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/leather/leatherlegsblue" }
+		},
+
+
+		
+		"*-head-leatherc-brown": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/leather/leatherheadbrown" }
+		},
+		"*-body-leatherc-brown": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/leather/leatherbodybrown" }
+		},
+		"*-legs-leatherc-brown": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/leather/leatherlegsbrown" }
+		},
+
+
+		
+		"*-head-leatherc-gray": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/leather/leatherheadgray" }
+		},
+		"*-body-leatherc-gray": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/leather/leatherbodygray" }
+		},
+		"*-legs-leatherc-gray": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/leather/leatherlegsgray" }
+		},
+
+
+		
+		"*-head-leatherc-green": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/leather/leatherheadgreen" }
+		},
+		"*-body-leatherc-green": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/leather/leatherbodygreen" }
+		},
+		"*-legs-leatherc-green": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/leather/leatherlegsgreen" }
+		},
+
+
+		
+		"*-head-leatherc-orange": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/leather/leatherheadorange" }
+		},
+		"*-body-leatherc-orange": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/leather/leatherbodyorange" }
+		},
+		"*-legs-leatherc-orange": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/leather/leatherlegsorange" }
+		},
+
+
+		
+		"*-head-leatherc-pink": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/leather/leatherheadpink" }
+		},
+		"*-body-leatherc-pink": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/leather/leatherbodypink" }
+		},
+		"*-legs-leatherc-pink": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/leather/leatherlegspink" }
+		},
+
+
+		
+		"*-head-leatherc-purple": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/leather/leatherheadpurple" }
+		},
+		"*-body-leatherc-purple": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/leather/leatherbodypurple" }
+		},
+		"*-legs-leatherc-purple": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/leather/leatherlegspurple" }
+		},
+
+
+		
+		"*-head-leatherc-red": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/leather/leatherheadred" }
+		},
+		"*-body-leatherc-red": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/leather/leatherbodyred" }
+		},
+		"*-legs-leatherc-red": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/leather/leatherlegsred" }
+		},
+
+
+		
+		"*-head-leatherc-yellow": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/leather/leatherheadyellow" }
+		},
+		"*-body-leatherc-yellow": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/leather/leatherbodyyellow" }
+		},
+		"*-legs-leatherc-yellow": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/leather/leatherlegsyellow" }
+		},
+
+
+		
+		"*-head-leatherc-guindo": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorhead": { base: "entity/humanoid/serapharmor/armadura/leather/leatherheadguindo" }
+		},
+		"*-body-leatherc-guindo": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorbody": { base: "entity/humanoid/serapharmor/armadura/leather/leatherbodyguindo" }
+		},
+		"*-legs-leatherc-guindo": { 
+			"seraph": { base: "game:block/transparent" },
+			"armorlegs": { base: "entity/humanoid/serapharmor/armadura/leather/leatherlegsguindo" }
+		},
+
+
+
+
+	},
+	storageFlags: 128,
+	"__comment": "'keepElements names must also be added to game/entities/humanoid/player file, under the 'disableElements' attribute.",
+    wearableAttachment: true,
+	attributes: {
+    	wearableAttachment: true,
+		clothesCategoryByType: {
+			"armormedievall-head-*": "armorhead",
+			"armormedievall-body-*": "armorbody",
+			"armormedievall-legs-*": "armorlegs",
+		},
+		attachableToEntity: {
+			categoryCodeByType: {
+				"armormedievall-head-*": "armorhead",
+				"armormedievall-body-*": "armorbody",
+				"armormedievall-legs-*": "armorlegs",
+			},
+			disableElementsByType: {
+			"armormedievall-head-*": ["Ponytail1", "hideme", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "EmblemHead", "Casco1", "Casco2", "Cuerno1", "Cuerno2", "back", "Cabeza", "HeadHead", "Assessin", "Capucha1", "Capucha2", "HeadHead"],
+			"armormedievall-body-*": ["Manga1", "Manga2", "Pelusa1", "Pelusa2", "guanteL", "guanteR", "pechofur", "brazoleftfur", "brazorightfur", "brazoabajoleftfur", "brazoabajorightfur", "cuerpoabajofur", "piernaleftfur", "piernarightfur", "TrompaW", "FaldaRR", "FaldaLL", "ShirtBackTile1", "cuerpoabajohide", "piernarighthide", "piernalefthide", "upshirt", "falditaupper"],
+			"armormedievall-legs-*": ["FootArmorR", "FootArmorL"],
+			},
+			keepElementsByType: {
+			}	
+		},
+		defaultProtLoss: {
+			perTierRelativeProtectionLoss: [0.03, 0.15],
+			perTierFlatDamageReductionLoss: [0.1, 0.2],
+		},
+		footStepSoundByType: {
+			"*-body-leather-*": "game:wearable/leather*",
+			"*-body-leatherc-*": "game:wearable/leather*"
+		},
+		protectionModifiersByType: {
+			"armormedievall-*-leather-leather": {
+				relativeProtection: 0.7,
+				flatDamageReduction: 0.8,
+				protectionTier: 1,
+				highDamageTierResistant: true
+			},
+			"armormedievall-*-leatherc-*": {
+				relativeProtection: 0.85,
+				flatDamageReduction: 0.95,
+				protectionTier: 2,
+				highDamageTierResistant: true
+			}
+		},
+
+
+
+
+
+
+		statModifiersByType: {
+
+
+			"armormedievall-*-leather-*": {
+				rangedWeaponsAcc: 0.01,
+				rangedWeaponsSpeed: 0.01,
+				walkSpeed: 0.01,
+				healingeffectivness: 0.01,
+				hungerrate: -0.01
+			},
+
+
+
+			"armormedievall-*-leatherc-*": {
+				rangedWeaponsAcc: 0.01,
+				rangedWeaponsSpeed: 0.01,
+				walkSpeed: 0.01,
+				healingeffectivness: 0.01,
+				hungerrate: -0.01
+			}
+		},
+	},
+	durabilityByType: {
+		"armormedievall-*-leather-leather": 300,
+
+
+
+		"armormedievall-*-leatherc-*": 500,
+
+
+
+	},
+	
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "medieval": ["*"] },
+	renderAlphaTest: 0.25,
+	
+	fpHandTransformByType: {
+		"armormedievall-head-*": {
+			translation: { x: 0.4, y: -1.9, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 2.15
+		},
+		"armormedievall-body-*": {
+			translation: { x: 0.4, y: -1.2, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		},
+		"armormedievall-legs-*": {
+			translation: { x: 0.4, y: -1.2, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		},
+	},
+	tpHandTransformByType: {
+		"armormedievall-head-*": {
+			translation: { x: -0.82, y: -2.2, z: -0.5 },
+			rotation: { x: 18, y: 169, z: 30 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 0.64
+		},
+		"armormedievall-body-*": {
+			translation: { x: -1, y: -1.9, z: -0.5 },
+			rotation: { x: 97, y: -168, z: 94 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 0.67
+		},
+		"armormedievall-legs-*": {
+			translation: { x: -0.7, y: -0.6, z: -0.4 },
+			rotation: { x: 95, y: -20, z: -91 },
+			origin: { x: 0.5, y: 0.7, z: 0.5 },
+			scale: 0.74
+		}
+	},
+	guiTransformByType: {
+		"armormedievall-head-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.6, y: 1.72, z: 0.5 },
+			scale: 2
+		},
+		"armormedievall-body-*": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.5, y: 1.11, z: 0.5 },
+			scale: 1.37
+		},
+		"armormedievall-legs-*": {
+			translation: { x: 1, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.5, y: 0.6, z: 0.5 },
+			scale: 1.25
+		},
+	},
+	groundTransformByType: {
+		"armormedievall-head-*": {
+			translation: { x: 0, y: 0.1, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.34, y: 1.71, z: 0.5 },
+			scale: 3.1
+		},
+		"armormedievall-body-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 90 },
+			origin: { x: 0.34, y: 1.12, z: 0.5 },
+			scale: 3.1
+		},
+		"armormedievall-legs-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 90 },
+			origin: { x: 0.34, y: 1.12, z: 0.5 },
+			scale: 3.1
+		}
+	},
+
+}

@@ -1,0 +1,36 @@
+[
+	{
+		ingredientPattern: "LPL,PCP",
+		recipeGroup: 1,
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+			"C": { type: "item", code: "armormedieval-head-chain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], recipeAttributes: { repairMat: { type:"item", code: "game:metalchain-{metal}", stacksize: 4 } } },
+			"L": { type: "item", code: "game:leather-normal-plain" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "armormedieval-head-plate-{metal}"  }
+	},
+	{
+		ingredientPattern: "PCP,PPP,PPP",
+		recipeGroup: 1,
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+			"C": { type: "item", code: "armormedieval-body-chain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], recipeAttributes: { repairMat: { type:"item", code: "game:metalchain-{metal}", stacksize: 12 } } },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "armormedieval-body-plate-{metal}"  }
+	},
+	{
+		ingredientPattern: "PPP,PCP",
+		recipeGroup: 1,
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+			"C": { type: "item", code: "armormedieval-legs-chain-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"], recipeAttributes: { repairMat: { type:"item", code: "game:metalchain-{metal}", stacksize: 6 } } },
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "armormedieval-legs-plate-{metal}"  }
+	}
+]

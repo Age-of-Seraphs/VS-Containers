@@ -1,0 +1,165 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"gloves-plain-lux": [16,16]
+	},
+	"textures": {
+		"gloves-guindos-lux": "entity/humanoid/seraphclothes/hand/gloves-guindos-lux"
+	},
+	"elements": [
+		{
+			"name": "guanteL",
+			"stepParentName": "LowerArmL",
+			"from": [ -6.8, 0.0, -7.0 ], 
+			"to": [ -6.8, 0.0, -7.0 ], 
+			"rotationOrigin": [ 1.2, 0.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "cube0",
+					"from": [ 6.5, 3.1, 6.75 ], 
+					"to": [ 9.5, 4.0, 9.25 ], 
+					"rotationOrigin": [ 7.5, 3.1, 7.75 ],
+					"faces": {
+						"north": { "texture": "#gloves-guindos-lux", "uv": [ 3.5, 0.0, 6.5, 1.0 ], "autoUv": false },
+						"east": { "texture": "#gloves-guindos-lux", "uv": [ 8.0, 8.5, 11.0, 9.5 ], "autoUv": false },
+						"south": { "texture": "#gloves-guindos-lux", "uv": [ 4.0, 0.0, 7.0, 1.0 ], "autoUv": false },
+						"west": { "texture": "#gloves-guindos-lux", "uv": [ 8.0, 8.5, 11.0, 9.5 ], "autoUv": false },
+						"up": { "texture": "#gloves-guindos-lux", "uv": [ 4.5, 8.0, 7.0, 11.0 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#gloves-guindos-lux", "uv": [ 9.0, 10.5, 11.5, 13.5 ], "rotation": 90, "autoUv": false }
+					}
+				},
+				{
+					"name": "cube2",
+					"from": [ 6.59, -0.7, 6.75 ], 
+					"to": [ 9.41, 0.3, 9.15 ], 
+					"rotationOrigin": [ 6.6, 0.3, 9.15 ],
+					"rotationX": 19.0,
+					"faces": {
+						"north": { "texture": "#gloves-guindos-lux", "uv": [ 7.0, 12.5, 9.5, 13.5 ], "autoUv": false },
+						"east": { "texture": "#gloves-guindos-lux", "uv": [ 11.5, 12.5, 14.0, 13.5 ], "autoUv": false },
+						"south": { "texture": "#gloves-guindos-lux", "uv": [ 13.5, 12.5, 16.0, 13.5 ], "autoUv": false },
+						"west": { "texture": "#gloves-guindos-lux", "uv": [ 9.0, 12.5, 11.5, 13.5 ], "autoUv": false },
+						"up": { "texture": "#gloves-guindos-lux", "uv": [ 13.5, 10.5, 16.0, 13.5 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#gloves-guindos-lux", "uv": [ 4.5, 5.0, 6.5, 7.5 ], "rotation": 90, "autoUv": false }
+					}
+				},
+				{
+					"name": "Cube1",
+					"from": [ 6.0, 0.3, 7.7 ], 
+					"to": [ 7.0, 2.3, 8.7 ], 
+					"rotationOrigin": [ 6.0, 2.3, 8.7 ],
+					"rotationX": 14.0,
+					"faces": {
+						"north": { "texture": "#gloves-guindos-lux", "uv": [ 8.0, 10.5, 9.0, 12.5 ], "rotation": 180 },
+						"east": { "texture": "#gloves-guindos-lux", "uv": [ 10.0, 10.5, 11.0, 12.5 ] },
+						"south": { "texture": "#gloves-guindos-lux", "uv": [ 10.0, 10.5, 11.0, 12.5 ], "rotation": 180 },
+						"west": { "texture": "#gloves-guindos-lux", "uv": [ 9.5, 13.0, 10.5, 11.0 ], "autoUv": false },
+						"up": { "texture": "#gloves-guindos-lux", "uv": [ 7.5, 10.5, 8.5, 11.5 ] },
+						"down": { "texture": "#gloves-guindos-lux", "uv": [ 7.0, 10.5, 8.0, 11.5 ] }
+					}
+				},
+				{
+					"name": "cube4",
+					"from": [ 6.6, 0.3, 6.85 ], 
+					"to": [ 9.4, 3.3, 9.15 ], 
+					"rotationOrigin": [ 7.6, 0.3, 7.85 ],
+					"faces": {
+						"north": { "texture": "#gloves-guindos-lux", "uv": [ 7.0, 10.5, 10.0, 13.5 ], "autoUv": false },
+						"east": { "texture": "#gloves-guindos-lux", "uv": [ 13.5, 10.5, 16.0, 13.5 ], "autoUv": false },
+						"south": { "texture": "#gloves-guindos-lux", "uv": [ 10.5, 10.5, 13.5, 13.5 ], "autoUv": false },
+						"west": { "texture": "#gloves-guindos-lux", "uv": [ 8.0, 10.5, 10.5, 13.5 ], "autoUv": false },
+						"up": { "texture": "#gloves-guindos-lux", "uv": [ 13.5, 10.5, 16.0, 13.5 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#gloves-guindos-lux", "uv": [ 8.5, 10.5, 11.0, 13.5 ], "rotation": 90, "autoUv": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "guanteR",
+			"stepParentName": "LowerArmR",
+			"from": [ -6.8, 0.0, -7.0 ], 
+			"to": [ -6.8, 0.0, -7.0 ], 
+			"rotationOrigin": [ 1.2, 0.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "cube7",
+					"from": [ 6.5, 3.1, 6.75 ], 
+					"to": [ 9.5, 4.0, 9.25 ], 
+					"rotationOrigin": [ 7.5, 3.1, 7.75 ],
+					"faces": {
+						"north": { "texture": "#gloves-guindos-lux", "uv": [ 3.5, 0.0, 6.5, 1.0 ], "autoUv": false },
+						"east": { "texture": "#gloves-guindos-lux", "uv": [ 8.0, 8.5, 11.0, 9.5 ], "autoUv": false },
+						"south": { "texture": "#gloves-guindos-lux", "uv": [ 4.0, 0.0, 7.0, 1.0 ], "autoUv": false },
+						"west": { "texture": "#gloves-guindos-lux", "uv": [ 8.0, 8.5, 11.0, 9.5 ], "autoUv": false },
+						"up": { "texture": "#gloves-guindos-lux", "uv": [ 4.5, 8.0, 7.0, 11.0 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#gloves-guindos-lux", "uv": [ 9.0, 10.5, 11.5, 13.5 ], "rotation": 90, "autoUv": false }
+					}
+				},
+				{
+					"name": "cube8",
+					"from": [ 6.59, -0.7, 6.85 ], 
+					"to": [ 9.41, 0.3, 9.25 ], 
+					"rotationOrigin": [ 6.6, 0.3, 6.85 ],
+					"rotationX": -19.0,
+					"faces": {
+						"north": { "texture": "#gloves-guindos-lux", "uv": [ 7.0, 12.5, 9.5, 13.5 ], "autoUv": false },
+						"east": { "texture": "#gloves-guindos-lux", "uv": [ 11.5, 12.5, 14.0, 13.5 ], "autoUv": false },
+						"south": { "texture": "#gloves-guindos-lux", "uv": [ 13.5, 12.5, 16.0, 13.5 ], "autoUv": false },
+						"west": { "texture": "#gloves-guindos-lux", "uv": [ 9.0, 12.5, 11.5, 13.5 ], "autoUv": false },
+						"up": { "texture": "#gloves-guindos-lux", "uv": [ 13.5, 10.5, 16.0, 13.5 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#gloves-guindos-lux", "uv": [ 9.5, 13.5, 11.5, 16.0 ], "rotation": 90, "autoUv": false }
+					}
+				},
+				{
+					"name": "Cube9",
+					"from": [ 6.0, 0.3, 7.3 ], 
+					"to": [ 7.0, 2.3, 8.3 ], 
+					"rotationOrigin": [ 6.0, 2.3, 7.3 ],
+					"rotationX": -14.0,
+					"faces": {
+						"north": { "texture": "#gloves-guindos-lux", "uv": [ 8.0, 10.5, 9.0, 12.5 ], "rotation": 180 },
+						"east": { "texture": "#gloves-guindos-lux", "uv": [ 10.0, 10.5, 11.0, 12.5 ] },
+						"south": { "texture": "#gloves-guindos-lux", "uv": [ 10.0, 10.5, 11.0, 12.5 ], "rotation": 180 },
+						"west": { "texture": "#gloves-guindos-lux", "uv": [ 9.5, 13.0, 10.5, 11.0 ], "autoUv": false },
+						"up": { "texture": "#gloves-guindos-lux", "uv": [ 7.5, 10.5, 8.5, 11.5 ] },
+						"down": { "texture": "#gloves-guindos-lux", "uv": [ 7.0, 10.5, 8.0, 11.5 ] }
+					}
+				},
+				{
+					"name": "cube10",
+					"from": [ 6.6, 0.3, 6.85 ], 
+					"to": [ 9.4, 3.3, 9.15 ], 
+					"rotationOrigin": [ 7.6, 0.3, 7.85 ],
+					"faces": {
+						"north": { "texture": "#gloves-guindos-lux", "uv": [ 7.0, 10.5, 10.0, 13.5 ], "autoUv": false },
+						"east": { "texture": "#gloves-guindos-lux", "uv": [ 13.5, 10.5, 16.0, 13.5 ], "autoUv": false },
+						"south": { "texture": "#gloves-guindos-lux", "uv": [ 10.5, 10.5, 13.5, 13.5 ], "autoUv": false },
+						"west": { "texture": "#gloves-guindos-lux", "uv": [ 8.0, 10.5, 10.5, 13.5 ], "autoUv": false },
+						"up": { "texture": "#gloves-guindos-lux", "uv": [ 13.5, 10.5, 16.0, 13.5 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#gloves-guindos-lux", "uv": [ 8.5, 10.5, 11.0, 13.5 ], "rotation": 90, "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

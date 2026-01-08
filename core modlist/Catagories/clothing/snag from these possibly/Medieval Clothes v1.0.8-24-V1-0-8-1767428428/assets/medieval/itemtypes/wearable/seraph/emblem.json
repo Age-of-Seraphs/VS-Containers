@@ -1,0 +1,727 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["emblem"] },
+		{ code: "emblem", combine: "SelectiveMultiply", onVariant: "category", states: [ "chain", "leathercross", "leathersquare", "leathersquarem", "black1", "guard", "leathersquare2", "leathersquare3", "ladyarmortop", "capa", "capared", "capagreen", "capablue", "capapurple", "vikingarmor", "bear", "bearblack", "brown-fur-coat", "emperador", "emperador-black", "emperador-blue", "emperador-brown", "emperador-gray", "emperador-green", "emperador-orange", "emperador-pink", "emperador-purple", "emperador-red", "emperador-white", "emperador-yellow", "red-fur-coat", "red-fur-coat10", "white-fur-coat1", "white-fur-coat2", "whitebrown-fur-coat1", "whitebrown-fur-coat2" ] }
+	],
+	shapeByType: {
+		"*-corset": { base: "game:entity/humanoid/seraph" },
+		"*-chain": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsin" },
+		"*-leathercross": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsin" },
+		"*-leathersquare": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsin" },
+		"*-leathersquarem": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsin" },
+		"*-armor1": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsinlong" },
+		"*-armor8": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsinlong" },
+		"*-armor10": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsinlong" },
+		"*-black1": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsin" },
+		"*-chain1": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsinlong" },
+		"*-chain2": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsinlong" },
+		"*-guard": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsin" },
+		"*-iron": { base: "game:entity/humanoid/seraph" },
+		"*-iron1": { base: "game:entity/humanoid/seraph" },
+		"*-king": { base: "game:entity/humanoid/seraph" },
+		"*-leathersquare2": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsin" },
+		"*-leathersquare3": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsin" },
+		"*-ladyarmortop": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsin" },
+		"*-capa": { base: "entity/humanoid/seraph/newclothing/emblem/emblem" },
+		"*-capared": { base: "entity/humanoid/seraph/newclothing/emblem/emblem" },
+		"*-capagreen": { base: "entity/humanoid/seraph/newclothing/emblem/emblem" },
+		"*-capablue": { base: "entity/humanoid/seraph/newclothing/emblem/emblem" },
+		"*-capapurple": { base: "entity/humanoid/seraph/newclothing/emblem/emblem" },
+		"*-rayo": { base: "game:entity/humanoid/seraph" },
+		"*-vikingarmor": { base: "entity/humanoid/seraph/newclothing/emblem/emblemsin" },
+		"*-bear": { base: "medieval:entity/humanoid/seraph/newclothing/emblem/furbear" },
+		"*-w": { base: "medieval:entity/humanoid/seraph/newclothing/emblem/furbearw" },
+		"*-bearblack": { base: "medieval:entity/humanoid/seraph/newclothing/emblem/furbearblack" },
+		"*-brown-fur-coat": { base: "medieval:entity/humanoid/seraph/newclothing/emblem/fur" },
+		"*-emperador": { base: "medieval:entity/humanoid/seraph/newclothing/emblem/emperador" },
+		"*-emperador-*": { base: "medieval:entity/humanoid/seraph/newclothing/emblem/emperador" },
+		"*-red-fur-coat": { base: "medieval:entity/humanoid/seraph/newclothing/emblem/redcomplete" },
+		"*-red-fur-coat10": { base: "medieval:entity/humanoid/seraph/newclothing/emblem/redcomplete10" },
+		"*-white-fur-coat1": { base: "medieval:entity/humanoid/seraph/newclothing/emblem/whitecomplete" },
+		"*-white-fur-coat2": { base: "medieval:entity/humanoid/seraph/newclothing/emblem/whitecomplete2" },
+		"*-whitebrown-fur-coat1": { base: "medieval:entity/humanoid/seraph/newclothing/emblem/whitecomplete" },
+		"*-whitebrown-fur-coat2": { base: "medieval:entity/humanoid/seraph/newclothing/emblem/whitecomplete2" }
+	},
+	storageFlags: 128,
+	attributesByType: {
+		"*-corset":{ 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true
+		},
+		"*-chain": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-leathercross": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-leathersquare": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-leathersquarem": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-armor1": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-armor8": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-armor10": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-black1": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.40
+		},
+		"*-chain1": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-chain2": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-guard": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.40
+		},
+		"*-iron": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-iron1": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-king": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-leathersquare2": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-leathersquare3": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-ladyarmortop": { 
+			clothescategory: "emblem", 
+			warmth: 0.5, 
+			disableElements: ["TrompaW", "Capucha1", "Capucha2"], 
+			wearableAttachment: true 
+		},
+		"*-capa": { 
+			clothescategory: "emblem", 
+			warmth: 3, 
+			disableElements: ["TrompaW", "faldaRR", "faldaLL", "Capucha1", "Capucha2"], 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.60
+		},
+		"*-capared": { 
+			clothescategory: "emblem", 
+			warmth: 3, 
+			disableElements: ["TrompaW", "faldaRR", "faldaLL", "Capucha1", "Capucha2"], 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.60
+		},
+		"*-capagreen": { 
+			clothescategory: "emblem", 
+			warmth: 3, 
+			disableElements: ["TrompaW", "faldaRR", "faldaLL", "Capucha1", "Capucha2"], 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.60
+		},
+		"*-capablue": { 
+			clothescategory: "emblem", 
+			warmth: 3, 
+			disableElements: ["TrompaW", "faldaRR", "faldaLL", "Capucha1", "Capucha2"], 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.60
+		},
+		"*-capapurple": { 
+			clothescategory: "emblem", 
+			warmth: 3, 
+			disableElements: ["TrompaW", "faldaRR", "faldaLL", "Capucha1", "Capucha2"], 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.60
+		},
+		"*-rayo": { 
+			clothescategory: "emblem", 
+			warmth: 20 
+		},
+		"*-vikingarmor": { 
+			clothescategory: "emblem", 
+			warmth: 1, 
+			wearableAttachment: true, 
+			disableElements: ["upshirt", "TrompaW", "Capucha1", "Capucha2"] 
+		},
+		"*-emperador": { 
+			clothescategory: "emblem", 
+			warmth: 4, 
+			disableElements: ["TrompaW", "faldaRR", "faldaLL", "Capucha1", "Capucha2"], 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.60
+		},
+		"*-emperador-*": { 
+			clothescategory: "emblem", 
+			warmth: 4, 
+			disableElements: ["TrompaW", "faldaRR", "faldaLL", "Capucha1", "Capucha2"], 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.60
+		},
+		"*-brown-fur-coat": { 
+			clothescategory: "emblem", 
+			disableElements: ["Ponytail1", "hideme", "Cabeza", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Capucha1", "Capucha2", "Caratula1", "Caratula2", "Casco1", "Casco2", "Cuerno1", "Cuerno2", "back","upshirt", "faldita", "faldaRR", "faldaLL", "faldaR", "faldaL", "TrompaW", "Assessin"], 
+			warmth: 8, 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.90
+		},
+		"*-bear": { 
+			clothescategory: "emblem", 
+			disableElements: ["Ponytail1", "hideme", "Cabeza", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Capucha1", "Capucha2", "Caratula1", "Caratula2", "Casco1", "Casco2", "Cuerno1", "Cuerno2", "back","upshirt", "faldita", "faldaRR", "faldaLL", "faldaR", "faldaL", "TrompaW", "Assessin"], 
+			warmth: 10, 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.90
+		},
+		"*-w": { 
+			clothescategory: "emblem", 
+			disableElements: ["Ponytail1", "hideme", "Cabeza", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Capucha1", "Capucha2", "Caratula1", "Caratula2", "Casco1", "Casco2", "Cuerno1", "Cuerno2", "back","upshirt", "faldita", "faldaRR", "faldaLL", "faldaR", "faldaL", "TrompaW", "Assessin"], 
+			warmth: 10, 
+			wearableAttachment: true 
+		},
+		"*-bearblack": { 
+			clothescategory: "emblem", 
+			disableElements: ["Ponytail1", "hideme", "Cabeza", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Capucha1", "Capucha2", "Caratula1", "Caratula2", "Casco1", "Casco2", "Cuerno1", "Cuerno2", "back","upshirt", "faldita", "faldaRR", "faldaLL", "faldaR", "faldaL", "TrompaW", "Assessin"], 
+			warmth: 10, 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.90
+		},
+		"*-red-fur-coat": { 
+			clothescategory: "emblem", 
+			disableElements: ["Ponytail1", "hideme", "Cabeza", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Capucha1", "Capucha2", "Caratula1", "Caratula2", "Casco1", "Casco2", "Cuerno1", "Cuerno2", "back","upshirt", "faldita", "faldaRR", "faldaLL", "faldaR", "faldaL", "TrompaW", "Assessin"], 
+			warmth: 8, 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.85
+		},
+		"*-red-fur-coat10": { 
+			clothescategory: "emblem", 
+			disableElements: ["Ponytail1", "hideme", "Cabeza", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Capucha1", "Capucha2", "Caratula1", "Caratula2", "Casco1", "Casco2", "Cuerno1", "Cuerno2", "back","upshirt", "faldita", "faldaRR", "faldaLL", "faldaR", "faldaL", "TrompaW", "Assessin"], 
+			warmth: 8, 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.85
+		},
+		"*-white-fur-coat1": { 
+			clothescategory: "emblem", 
+			disableElements: ["Ponytail1", "hideme", "Cabeza", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Capucha1", "Capucha2", "Caratula1", "Caratula2", "Casco1", "Casco2", "Cuerno1", "Cuerno2", "back","upshirt", "faldita", "faldaRR", "faldaLL", "faldaR", "faldaL", "TrompaW", "Assessin"], 
+			warmth: 8, 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.85
+		},
+		"*-white-fur-coat2": { 
+			clothescategory: "emblem", 
+			disableElements: ["Ponytail1", "hideme", "Cabeza", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Capucha1", "Capucha2", "Caratula1", "Caratula2", "Casco1", "Casco2", "Cuerno1", "Cuerno2", "back","upshirt", "faldita", "faldaRR", "faldaLL", "faldaR", "faldaL", "TrompaW", "Assessin"], 
+			warmth: 8, 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.85
+		},
+		"*-whitebrown-fur-coat1": { 
+			clothescategory: "emblem", 
+			disableElements: ["Ponytail1", "hideme", "Cabeza", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Capucha1", "Capucha2", "Caratula1", "Caratula2", "Casco1", "Casco2", "Cuerno1", "Cuerno2", "back","upshirt", "faldita", "faldaRR", "faldaLL", "faldaR", "faldaL", "TrompaW", "Assessin"], 
+			warmth: 8, 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.85
+		},
+		"*-whitebrown-fur-coat2": { 
+			clothescategory: "emblem", 
+			disableElements: ["Ponytail1", "hideme", "Cabeza", "hoodupperover", "Hair tile upper part","ponytailhigh", "ponytaillow", "hair-uncovered", "hidehood", "hidehat", "Capucha1", "Capucha2", "Caratula1", "Caratula2", "Casco1", "Casco2", "Cuerno1", "Cuerno2", "back","upshirt", "faldita", "faldaRR", "faldaLL", "faldaR", "faldaL", "TrompaW", "Assessin"], 
+			warmth: 8, 
+			wearableAttachment: true,
+			rainProtectionPerc: 0.85
+		},
+		"*": { clothescategory: "emblem", warmth: 4 }
+	},
+	texturesByType: {
+		"*-corset": { "seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }},
+		"*-chain": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-leathercross": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-leathersquare": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-leathersquarem": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-armor1": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-armor8": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-armor10": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-black1": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-chain1": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-chain2": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-guard": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-iron": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-iron1": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-king": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-leathersquare2": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-leathersquare3": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-ladyarmortop": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-capa": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-capared": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-capagreen": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-capablue": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-capapurple": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-rayo": { 
+			"seraph": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-vikingarmor": { 
+			"seraph": { base: "game:block/transparent" },
+			"emblem": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-brown-fur-coat": { 
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-bear": { 
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-w": { 
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-bearblack": { 
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-red-fur-coat": { 
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-red-fur-coat10": { 
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-white-fur-coat1": { 
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-white-fur-coat2": { 
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-whitebrown-fur-coat1": { 
+			"seraph": { base: "game:block/transparent" },
+			"white-fur-coat2": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-whitebrown-fur-coat2": { 
+			"seraph": { base: "game:block/transparent" },
+			"white-fur-coat1": { base: "entity/humanoid/seraphclothes/{category}/{emblem}" }
+		},
+		"*-emperador": { 
+			"seraph": { "base": "game:block/transparent" }
+		},
+		"*-emperador-black": { 
+			"seraph": { "base": "game:block/transparent" },
+			"emperador": { "base": "entity/humanoid/seraphclothes/emblem/emperador-black" }
+		},
+		"*-emperador-blue": { 
+			"seraph": { "base": "game:block/transparent" },
+			"emperador": { "base": "entity/humanoid/seraphclothes/emblem/emperador-blue" } 
+		},
+		"*-emperador-brown": { 
+			"seraph": { "base": "game:block/transparent" },
+			"emperador": { "base": "entity/humanoid/seraphclothes/emblem/emperador-brown" } 
+		},
+		"*-emperador-gray": { 
+			"seraph": { "base": "game:block/transparent" },
+			"emperador": { "base": "entity/humanoid/seraphclothes/emblem/emperador-gray" } 
+		},
+		"*-emperador-green": { 
+			"seraph": { "base": "game:block/transparent" },
+			"emperador": { "base": "entity/humanoid/seraphclothes/emblem/emperador-green" } 
+		},
+		"*-emperador-orange": { 
+			"seraph": { "base": "game:block/transparent" },
+			"emperador": { "base": "entity/humanoid/seraphclothes/emblem/emperador-orange" } 
+		},
+		"*-emperador-pink": { 
+			"seraph": { "base": "game:block/transparent" },
+			"emperador": { "base": "entity/humanoid/seraphclothes/emblem/emperador-pink" } 
+		},
+		"*-emperador-purple": { 
+			"seraph": { "base": "game:block/transparent" },
+			"emperador": { "base": "entity/humanoid/seraphclothes/emblem/emperador-purple" } 
+		},
+		"*-emperador-red": { 
+			"seraph": { "base": "game:block/transparent" },
+			"emperador": { "base": "entity/humanoid/seraphclothes/emblem/emperador-red" } 
+		},
+		"*-emperador-white": { 
+			"seraph": { "base": "game:block/transparent" },
+			"emperador": { "base": "entity/humanoid/seraphclothes/emblem/emperador-white" } 
+		},
+		"*-emperador-yellow": { 
+			"seraph": { "base": "game:block/transparent" },
+			"emperador": { "base": "entity/humanoid/seraphclothes/emblem/emperador-yellow" } 
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "medieval": ["*"] },
+	renderAlphaTest: 0.25,
+	fpHandTransformByType: {
+		"*-corset": {
+		translation: { x: 0.05, y: -0.6, z: 0.3 },
+		rotation: { x: 180, y: 150, z: 180 },
+		scale: 2
+		},
+		"*-chain": {
+		translation: { x: 0.05, y: -0.6, z: 0.3 },
+		rotation: { x: 180, y: 150, z: 180 },
+		scale: 2
+		},
+		"*": {
+		translation: { x: 0.05, y: -0.6, z: 0.3 },
+		rotation: { x: 180, y: 150, z: 180 },
+		scale: 2
+		}
+	},
+	tpHandTransformByType: {
+		"*-corset": {
+		translation: { x: -0.3, y: -0.9, z: -0.7 },
+		rotation: { x: -71, y: 180, z: 83 },
+		scale: 0.55
+		},
+		"*-chain": {
+		translation: { x: -0.3, y: -0.9, z: -0.7 },
+		rotation: { x: -71, y: 180, z: 83 },
+		scale: 0.55
+		},
+		"*": {
+		translation: { x: -0.3, y: -0.9, z: -0.7 },
+		rotation: { x: -71, y: 180, z: 83 },
+		scale: 0.55
+		}
+	},
+	guiTransformByType: {
+		"*-corset": {	
+		translation: { x: 2, y: 4, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 2.5
+		},
+		"*-armor1": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-armor8": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-armor10": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-ladyarmortop": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-chain1": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-chain2": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-guard": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-iron": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-iron1": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-king": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-capa": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-capared": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-capagreen": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-capablue": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-capapurple": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-leathersquare2": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-leathersquare3": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-black1": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-chain": {	
+		translation: { x: 2, y: 14, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 2.5
+		},
+		"*-vikingarmor": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 2.1
+		},
+		"*-emperador": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-emperador-*": {
+		translation: { x: 2, y: 0, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.6
+		},
+		"*-brown-fur-coat": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*-bear": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*-w": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*-bearblack": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*-red-fur-coat": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*-red-fur-coat10": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*-white-fur-coat1": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*-white-fur-coat2": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*-whitebrown-fur-coat1": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*-whitebrown-fur-coat2": {
+		translation: { x: 2, y: 9, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 1.3
+		},
+		"*": {	
+		translation: { x: 2, y: 14, z: 0 },
+		rotation: { x: -178, y: -65, z: 10 },
+		origin: { x: 0.43, y: 1.1, z: 0.5 },
+		scale: 2.5
+		}
+	},
+	groundTransformByType: {
+		"*-corset": {
+		translation: { x: 0.05, y: 0.05, z: 0 },
+		rotation: { x: 0, y: 0, z: -87 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 2.19
+	},
+		"*-chain": {
+		translation: { x: 0.05, y: 0.05, z: 0 },
+		rotation: { x: 0, y: 0, z: -87 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 2.19
+	},
+		"*": {
+		translation: { x: 0.05, y: 0.05, z: 0 },
+		rotation: { x: 0, y: 0, z: -87 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 2.19
+	}
+}
