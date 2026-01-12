@@ -1,0 +1,15 @@
+{
+  "Type": "content",
+  "TextureSize": 32,
+  "Name": "valkyrjahair",
+  "Version": "2.3.0",
+  "Description": "adds new hairs, new colors, and an option for a second hair extra",
+  "ModID": "valkyrjahair",
+  "Authors": [
+    "Valkyrja"
+  ],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "Dependencies": {}
+}

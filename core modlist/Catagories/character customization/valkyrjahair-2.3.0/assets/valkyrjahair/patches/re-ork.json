@@ -1,0 +1,664 @@
+[
+{
+    "op": "addeach",
+    "path": "/ork/SkinnableParts/11/variants/-",
+        "dependsOn": [
+            {
+                "modid": "racialequality"
+            }],
+	"targetSkinParts": ["haircolor"],
+    "value": [
+{ "code": "succulent" },
+{ "code": "uranium" },
+{ "code": "verbena" },
+{ "code": "agapanthus" },
+{ "code": "alpinebetony" },
+{ "code": "begonia" },
+{ "code": "bellflower" },
+{ "code": "calibrachoa" },
+{ "code": "catmint" },
+{ "code": "chrysanthemum" },
+{ "code": "clemantis" },
+{ "code": "Cornflower" },
+{ "code": "corydalis" },
+{ "code": "dahlia" },
+{ "code": "gerbera" },
+{ "code": "lavender" },
+{ "code": "lilacs" },
+{ "code": "manasteel" },
+{ "code": "monkshood" },
+{ "code": "nilelily" },
+{ "code": "olivine" },
+{ "code": "peaches" },
+{ "code": "peony" },
+{ "code": "salvia" }
+    ],
+    "file": "racialequality:config/customplayermodels/ork-char.json"
+  },
+{
+    "file": "racialequality:config/customplayermodels/ork-char.json",
+    "path": "/ork/SkinnableParts/7/variants/-",
+        "dependsOn": [
+            {
+                "modid": "racialequality"
+            }],
+    "op": "addeach",
+    "value": [
+        {
+            "type": "shape",
+            "code": "backbunbirdsnest",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/backbunbirdsnest" }
+        },
+        {
+            "type": "shape",
+            "code": "cappedsidetails",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/cappedsidetails" }
+        },
+        {
+            "type": "shape",
+            "code": "curtain",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/curtain" }
+        },
+        {
+            "type": "shape",
+            "code": "elaboratesidebraids",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/elaboratesidebraids" }
+        },
+        {
+            "type": "shape",
+            "code": "multibraid",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/multibraid" }
+        },
+        {
+            "type": "shape",
+            "code": "neatbraid",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/neatbraid" }
+        },
+        {
+            "type": "shape",
+            "code": "ponytailvoluminous",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/ponytailvoluminous" }
+        },
+        {
+            "type": "shape",
+            "code": "ronin",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/ronin" }
+        },
+        {
+            "type": "shape",
+            "code": "sideswept",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/sideswept" }
+        },
+        {
+            "type": "shape",
+            "code": "sidetailsbarrel",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/sidetailsbarrel" }
+        },
+        {
+            "type": "shape",
+            "code": "thickmessybraid",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/thickmessybraid" }
+        },
+        {
+            "type": "shape",
+            "code": "thicksidebraid",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/thicksidebraid" }
+        },
+        {
+            "type": "shape",
+            "code": "tiedvoluminous",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/tiedvoluminous" }
+        },
+        {
+            "type": "shape",
+            "code": "topknotspiky",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/topknotspiky" }
+        },
+        {
+            "type": "shape",
+            "code": "tripletbraids",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/tripletbraids" }
+        },
+        {
+            "type": "shape",
+            "code": "unkemptstrands",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/unkemptstrands" }
+        },
+        {
+            "type": "shape",
+            "code": "warriorsmane",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/warriorsmane" }
+        },
+        {
+            "type": "shape",
+            "code": "windsweptfringe",
+            "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/windsweptfringe" }
+        },
+
+
+
+
+
+
+
+        {
+            "type": "shape",
+            "code": "bigspacebuns",
+            "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/bigspacebuns" }
+        },
+        {
+            "type": "shape",
+            "code": "braidedronin",
+            "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/braidedronin" }
+        },
+        {
+            "type": "shape",
+            "code": "dynastybun",
+            "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/dynastybun" }
+        },
+        {
+            "type": "shape",
+            "code": "fluffybraidedhawk",
+            "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/fluffybraidedhawk" }
+        },
+        {
+            "type": "shape",
+            "code": "fluffymohawk",
+            "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/fluffymohawk" }
+        },
+        {
+            "type": "shape",
+            "code": "jeweledponytail",
+            "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/jeweledponytail" }
+        },
+        {
+            "type": "shape",
+            "code": "loopedbraids",
+            "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/loopedbraids" }
+        },
+        {
+            "type": "shape",
+            "code": "roninclean",
+            "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/roninclean" }
+        },
+        {
+            "type": "shape",
+            "code": "poofyfrenchbraid",
+            "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/poofyfrenchbraid" }
+        }
+    ]
+   },
+{
+    "file": "racialequality:config/customplayermodels/ork-char.json",
+    "path": "/ork/SkinnableParts/6/variants/-",
+        "dependsOn": [
+            {
+                "modid": "racialequality"
+            }],
+    "op": "addeach",
+    "value": [
+      {
+        "type": "shape",
+        "code": "curly2",
+        "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-base/curly2" }
+      },
+{
+        "type": "shape",
+        "code": "hairmonster",
+        "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-base/hairmonster" }
+      },
+{
+        "type": "shape",
+        "code": "curtainedmonster",
+        "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-base/curtainedmonster" }
+      }
+
+     ]
+   },
+    {
+        "file": "racialequality:config/customplayermodels/ork-char.json",
+        "op": "addmerge",
+        "path": "/ork/SkinnableParts/-",
+        "dependsOn": [
+            {
+                "modid": "racialequality"
+            }],
+        "value": {
+            "code": "hairextra2",
+            "targetSkinParts": [ "haircolor" ],
+            "type": "shape",
+            "variants": [
+                {
+                    "code": "none",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/none" },
+                    "type": "shape"
+                },
+
+                // b
+
+                {
+                    "type": "shape",
+                    "code": "backbun",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/backbun" }
+                },
+                {
+                    "type": "shape",
+                    "code": "backbunbirdsnest",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/backbunbirdsnest" }
+                },
+                {
+                    "type": "shape",
+                    "code": "backbuncurls",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/backbuncurls" }
+                },
+                {
+                    "type": "shape",
+                    "code": "backbunpuffy",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/backbunpuffy" }
+                },
+                {
+                    "type": "shape",
+                    "code": "backroll",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/backroll" }
+                },
+                {
+                    "type": "shape",
+                    "code": "backrollbun",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/backrollbun" }
+                },
+                {
+                    "type": "shape",
+                    "code": "braidedup",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/braidedup" }
+                },
+                {
+                    "type": "shape",
+                    "code": "bunboxbraid",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/bunboxbraid" }
+                },
+
+                // c
+
+                {
+                    "type": "shape",
+                    "code": "cappedsidetails",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/cappedsidetails" }
+                },
+                {
+                    "type": "shape",
+                    "code": "classicponytail",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/classicponytail" }
+                },
+                {
+                    "type": "shape",
+                    "code": "cobrasidebraids",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/cobrasidebraids" }
+                },
+                {
+                    "type": "shape",
+                    "code": "curtain",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/curtain" }
+                },
+
+                // d
+
+                //e
+
+                {
+                    "type": "shape",
+                    "code": "elaboratesidebraids",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/elaboratesidebraids" }
+                },
+                {
+                    "type": "shape",
+                    "code": "elaboratestickbun",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/elaboratestickbun" }
+                },
+
+                // f
+                {
+                    "type": "shape",
+                    "code": "fishtailbraid",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/fishtailbraid" }
+                },
+                // g
+
+                // h
+
+                {
+                    "type": "shape",
+                    "code": "headsidebraid",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/headsidebraid" }
+                },
+
+                // i
+
+                // j
+
+                // k
+                {
+                    "type": "shape",
+                    "code": "knots",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/knots" }
+                },
+
+                // l
+
+                {
+                    "type": "shape",
+                    "code": "largestickbun",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/largestickbun" }
+                },
+
+                // m
+                {
+                    "type": "shape",
+                    "code": "multibraid",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/multibraid" }
+                },
+
+                // n
+
+                {
+                    "type": "shape",
+                    "code": "neatbraid",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/neatbraid" }
+                },
+
+                // o
+
+                // p
+
+                {
+                    "type": "shape",
+                    "code": "ponytail",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/ponytail" }
+                },
+                {
+                    "type": "shape",
+                    "code": "ponytailcrest",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/ponytailcrest" }
+                },
+                {
+                    "type": "shape",
+                    "code": "ponytailcurly",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/ponytailcurly" }
+                },
+                {
+                    "type": "shape",
+                    "code": "ponytailvoluminous",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/ponytailvoluminous" }
+                },
+
+                // q
+
+                // r
+
+                {
+                    "type": "shape",
+                    "code": "rolledbraidwithbun",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/rolledbraidwithbun" }
+                },
+                {
+                    "type": "shape",
+                    "code": "ronin",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/ronin" }
+                },
+
+                // s
+                {
+                    "type": "shape",
+                    "code": "segmentedtopknot",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/segmentedtopknot" }
+                },
+                {
+                    "type": "shape",
+                    "code": "shortmessybraid",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/shortmessybraid" }
+                },
+                {
+                    "type": "shape",
+                    "code": "sidebraids",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/sidebraids" }
+                },
+                {
+                    "type": "shape",
+                    "code": "sidebuns",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/sidebuns" }
+                },
+                {
+                    "type": "shape",
+                    "code": "sidebunscurly",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/sidebunscurly" }
+                },
+                {
+                    "type": "shape",
+                    "code": "sidepuffs",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/sidepuffs" }
+                },
+                {
+                    "type": "shape",
+                    "code": "siderolls",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/siderolls" }
+                },
+                {
+                    "type": "shape",
+                    "code": "sideswept",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/sideswept" }
+                },
+                {
+                    "type": "shape",
+                    "code": "sidetailsbarrel",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/sidetailsbarrel" }
+                },
+                {
+                    "type": "shape",
+                    "code": "skepbun",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/skepbun" }
+                },
+                {
+                    "type": "shape",
+                    "code": "snood",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/snood" }
+                },
+                {
+                    "type": "shape",
+                    "code": "steppebraidloop",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/steppebraidloop" }
+                },
+                {
+                    "type": "shape",
+                    "code": "steppebraids",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/steppebraids" }
+                },
+                {
+                    "type": "shape",
+                    "code": "steppesidetails",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/steppesidetails" }
+                },
+
+                // t
+
+                {
+                    "type": "shape",
+                    "code": "thicklongfrenchbraid",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/thicklongfrenchbraid" }
+                },
+                {
+                    "type": "shape",
+                    "code": "thickmessybraid",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/thickmessybraid" }
+                },
+                {
+                    "type": "shape",
+                    "code": "thickroll",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/thickroll" }
+                },
+                {
+                    "type": "shape",
+                    "code": "thicksidebraid",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/thicksidebraid" }
+                },
+                {
+                    "type": "shape",
+                    "code": "tiedback",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/tiedback" }
+                },
+                {
+                    "type": "shape",
+                    "code": "tieddreads",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/tieddreads" }
+                },
+                {
+                    "type": "shape",
+                    "code": "tiedtopknot",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/tiedtopknot" }
+                },
+                {
+                    "type": "shape",
+                    "code": "tiedvoluminous",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/tiedvoluminous" }
+                },
+                {
+                    "type": "shape",
+                    "code": "topbun",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/topbun" }
+                },
+                {
+                    "type": "shape",
+                    "code": "topbuncurly",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/topbuncurly" }
+                },
+                {
+                    "type": "shape",
+                    "code": "topbunvoluminous",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/topbunvoluminous" }
+                },
+                {
+                    "type": "shape",
+                    "code": "topknot",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/topknot" }
+                },
+                {
+                    "type": "shape",
+                    "code": "topknotspiky",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/topknotspiky" }
+                },
+                {
+                    "type": "shape",
+                    "code": "toproll",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/toproll" }
+                },
+                {
+                    "type": "shape",
+                    "code": "tripletbraids",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/tripletbraids" }
+                },
+
+                // u
+
+                {
+                    "type": "shape",
+                    "code": "unkempt",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/unkempt" }
+                },
+                {
+                    "type": "shape",
+                    "code": "unkemptstrands",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/unkemptstrands" }
+                },
+
+                // v
+
+                {
+                    "type": "shape",
+                    "code": "vikingtopbraid",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/vikingtopbraid" }
+                },
+
+                // w
+
+                {
+                    "type": "shape",
+                    "code": "warriorsmane",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/warriorsmane" }
+                },
+                {
+                    "type": "shape",
+                    "code": "windsweptfringe",
+                    "shape": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/windsweptfringe" }
+                },
+
+                // NEW HAIRS HERE
+
+                {
+                    "type": "shape",
+                    "code": "bigspacebuns",
+                    "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/bigspacebuns" }
+                },
+                {
+                    "type": "shape",
+                    "code": "braidedronin",
+                    "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/braidedronin" }
+                },
+                {
+                    "type": "shape",
+                    "code": "dynastybun",
+                    "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/dynastybun" }
+                },
+                {
+                    "type": "shape",
+                    "code": "fluffybraidedhawk",
+                    "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/fluffybraidedhawk" }
+                },
+                {
+                    "type": "shape",
+                    "code": "fluffymohawk",
+                    "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/fluffymohawk" }
+                },
+                {
+                    "type": "shape",
+                    "code": "jeweledponytail",
+                    "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/jeweledponytail" }
+                },
+                {
+                    "type": "shape",
+                    "code": "longcurtain",
+                    "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/longcurtain" }
+                },
+                {
+                    "type": "shape",
+                    "code": "loopedbraids",
+                    "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/loopedbraids" }
+                },
+                {
+                    "type": "shape",
+                    "code": "poofyfrenchbraid",
+                    "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/poofyfrenchbraid" }
+                },
+                {
+                    "type": "shape",
+                    "code": "rolledsidebraid",
+                    "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/rolledsidebraids" }
+                },
+                {
+                    "type": "shape",
+                    "code": "roninclean",
+                    "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/roninclean" }
+                },
+                {
+                    "type": "shape",
+                    "code": "sidebraidsandpoofbun",
+                    "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/sidebraidsandpoofbun" }
+                },
+                {
+                    "type": "shape",
+                    "code": "slickedponytail",
+                    "shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/slickedponytail" }
+                }
+
+
+            ]
+        }
+    }
+]

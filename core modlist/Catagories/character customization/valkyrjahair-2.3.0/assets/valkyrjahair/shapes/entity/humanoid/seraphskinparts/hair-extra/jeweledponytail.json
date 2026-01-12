@@ -1,0 +1,231 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"collapsedPaths": "Root/sidelow/BraidFrontL1/BraidFrontL2/BraidFrontLTip/tieL,Root/Hair-Base/hairu-ncovered/strand1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48],
+		"reedrope": [16,16],
+		"lapislazuli": [16,16],
+		"birch": [16,16]
+	},
+	"textures": {
+		"hair": "entity/humanoid/seraphskinparts/hair/lightgray"
+	},
+	"elements": [
+		{
+			"name": "Hair-Base",
+			"stepParentName": "Head",
+			"from": [ -0.3, -3.2, -0.3 ],
+			"to": [ 5.7, 5.3, 5.2 ],
+			"renderPass": 1,
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 2.5, 3.0, 2.5 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "ponytailhigh",
+					"from": [ 3.0, 6.0, 2.8 ],
+					"to": [ 3.0, 6.0, 2.8 ],
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 3.0, 6.0, 2.8 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "tie",
+							"from": [ 2.0, 1.6, -1.0 ],
+							"to": [ 4.0, 3.6, 1.0 ],
+							"uv": [ 0.0, 0.0 ],
+							"rotationOrigin": [ 3.0, 2.6, 0.0 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#reedrope", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+								"east": { "texture": "#reedrope", "uv": [ 2.0, 2.0, 4.0, 4.0 ] },
+								"south": { "texture": "#reedrope", "uv": [ 4.0, 2.0, 6.0, 4.0 ] },
+								"west": { "texture": "#reedrope", "uv": [ 6.0, 2.0, 8.0, 4.0 ] },
+								"up": { "texture": "#reedrope", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+								"down": { "texture": "#reedrope", "uv": [ 2.0, 0.0, 4.0, 2.0 ] }
+							},
+							"children": [
+								{
+									"name": "bun",
+									"from": [ -0.6, 1.5, -0.5 ],
+									"to": [ 2.4, 4.0, 2.5 ],
+									"renderPass": 1,
+									"autoUnwrap": false,
+									"uv": [ 29.0, 31.0 ],
+									"rotationOrigin": [ 0.9, 1.5, 1.0 ],
+									"rotationZ": -22.5,
+									"faces": {
+										"north": { "texture": "#hair", "uv": [ 29.0, 34.0, 32.0, 36.5 ] },
+										"east": { "texture": "#hair", "uv": [ 32.0, 34.0, 35.0, 36.5 ] },
+										"south": { "texture": "#hair", "uv": [ 35.0, 34.0, 38.0, 36.5 ] },
+										"west": { "texture": "#hair", "uv": [ 33.5, 31.0, 36.5, 33.5 ] },
+										"up": { "texture": "#hair", "uv": [ 29.0, 31.0, 32.0, 34.0 ] },
+										"down": { "texture": "#hair", "uv": [ 32.0, 31.0, 35.0, 34.0 ] }
+									},
+									"children": [
+										{
+											"name": "messy1",
+											"from": [ -0.5, 0.5, 2.5 ],
+											"to": [ 3.5, 4.5, 2.5 ],
+											"autoUnwrap": false,
+											"uv": [ 37.5, 17.5 ],
+											"rotationOrigin": [ 0.0, 1.0, 2.5 ],
+											"rotationX": -45.0,
+											"faces": {
+												"north": { "texture": "#hair", "uv": [ 34.0, 37.5, 38.0, 41.5 ], "rotation": 180 }
+											}
+										},
+										{
+											"name": "messy2",
+											"from": [ -0.5, 0.5, 1.5 ],
+											"to": [ 3.5, 4.5, 1.5 ],
+											"autoUnwrap": false,
+											"uv": [ 37.5, 17.5 ],
+											"rotationOrigin": [ 0.0, 1.0, 1.5 ],
+											"rotationX": 45.0,
+											"faces": {
+												"south": { "texture": "#hair", "uv": [ 37.0, 18.0, 41.0, 22.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "messy3",
+											"from": [ -0.5, 0.0, 1.5 ],
+											"to": [ 3.5, 4.0, 1.5 ],
+											"autoUnwrap": false,
+											"uv": [ 37.5, 17.5 ],
+											"rotationOrigin": [ 0.0, 0.5, 1.5 ],
+											"faces": {
+												"south": { "texture": "#hair", "uv": [ 14.0, 10.5, 18.0, 14.5 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "BraidFrontL1",
+											"from": [ 10.7375, -5.4273, 0.5 ],
+											"to": [ 12.7375, -2.9273, 2.5 ],
+											"renderPass": 1,
+											"uv": [ 23.5, 32.0 ],
+											"rotationOrigin": [ 3.7375, -7.7273, -1.0 ],
+											"rotationZ": 67.5,
+											"faces": {
+												"north": { "texture": "#hair", "uv": [ 23.5, 34.0, 25.5, 36.5 ] },
+												"east": { "texture": "#hair", "uv": [ 25.5, 34.0, 27.5, 36.5 ] },
+												"south": { "texture": "#hair", "uv": [ 27.5, 34.0, 29.5, 36.5 ] },
+												"west": { "texture": "#hair", "uv": [ 29.5, 34.0, 31.5, 36.5 ] },
+												"up": { "texture": "#hair", "uv": [ 23.5, 32.0, 25.5, 34.0 ] },
+												"down": { "texture": "#hair", "uv": [ 25.5, 32.0, 27.5, 34.0 ] }
+											}
+										},
+										{
+											"name": "BraidFrontL2",
+											"from": [ 4.06, -3.63, 0.7 ],
+											"to": [ 5.56, 0.37, 2.2 ],
+											"renderPass": 1,
+											"uv": [ 22.5, 32.5 ],
+											"rotationOrigin": [ 4.5596, 0.3661, 1.2 ],
+											"rotationZ": 67.5,
+											"faces": {
+												"north": { "texture": "#hair", "uv": [ 22.5, 32.5, 24.0, 36.5 ] },
+												"east": { "texture": "#hair", "uv": [ 24.0, 32.5, 25.5, 36.5 ] },
+												"south": { "texture": "#hair", "uv": [ 25.5, 32.5, 27.0, 36.5 ] },
+												"west": { "texture": "#hair", "uv": [ 27.0, 32.5, 28.5, 36.5 ] }
+											},
+											"children": [
+												{
+													"name": "tieL2",
+													"from": [ -0.03, -0.67, -0.03 ],
+													"to": [ 1.53, 0.59, 1.53 ],
+													"uv": [ 4.0, 1.5 ],
+													"rotationOrigin": [ 0.2, 3.3, 0.2 ],
+													"faces": {
+														"north": { "texture": "#reedrope", "uv": [ 4.0, 3.0, 5.5, 4.0 ] },
+														"east": { "texture": "#reedrope", "uv": [ 5.5, 3.0, 7.0, 4.0 ] },
+														"south": { "texture": "#reedrope", "uv": [ 7.0, 3.0, 8.5, 4.0 ] },
+														"west": { "texture": "#reedrope", "uv": [ 8.5, 3.0, 10.0, 4.0 ] },
+														"up": { "texture": "#reedrope", "uv": [ 4.0, 1.5, 5.5, 3.0 ] },
+														"down": { "texture": "#reedrope", "uv": [ 5.5, 1.5, 7.0, 3.0 ] }
+													},
+													"children": [
+														{
+															"name": "bead5",
+															"from": [ -0.13, 0.47, 0.6 ],
+															"to": [ 1.67, 0.87, 1.0 ],
+															"uv": [ 9.0, 11.5 ],
+															"rotationOrigin": [ 0.5, 0.3, 1.2 ],
+															"faces": {
+																"north": { "texture": "#lapislazuli", "uv": [ 9.0, 12.0, 10.5, 12.5 ] },
+																"east": { "texture": "#lapislazuli", "uv": [ 10.5, 12.0, 11.0, 12.5 ] },
+																"south": { "texture": "#lapislazuli", "uv": [ 11.0, 12.0, 12.5, 12.5 ] },
+																"west": { "texture": "#lapislazuli", "uv": [ 12.5, 12.0, 13.0, 12.5 ] },
+																"up": { "texture": "#lapislazuli", "uv": [ 9.0, 11.5, 10.5, 12.0 ] },
+																"down": { "texture": "#lapislazuli", "uv": [ 10.5, 11.5, 12.0, 12.0 ] }
+															}
+														},
+														{
+															"name": "BraidFrontLTip",
+															"from": [ 0.0321, -3.83, 0.1654 ],
+															"to": [ 1.4321, 0.27, 1.4654 ],
+															"renderPass": 1,
+															"autoUnwrap": false,
+															"uv": [ 24.0, 37.0 ],
+															"rotationOrigin": [ 0.5321, -0.8292, 0.6654 ],
+															"faces": {
+																"north": { "texture": "#hair", "uv": [ 25.0, 38.0, 26.0, 42.0 ] },
+																"east": { "texture": "#hair", "uv": [ 25.0, 38.0, 26.0, 42.0 ] },
+																"south": { "texture": "#hair", "uv": [ 26.0, 38.0, 27.0, 42.0 ] },
+																"west": { "texture": "#hair", "uv": [ 27.0, 38.0, 28.0, 42.0 ] }
+															}
+														},
+														{
+															"name": "bead6",
+															"from": [ 0.0, 0.4, 0.6 ],
+															"to": [ 1.8, 0.8, 1.0 ],
+															"uv": [ 9.0, 11.5 ],
+															"rotationOrigin": [ 0.9, 0.6, 0.8 ],
+															"rotationY": 90.0,
+															"faces": {
+																"north": { "texture": "#lapislazuli", "uv": [ 9.0, 12.0, 10.5, 12.5 ] },
+																"east": { "texture": "#lapislazuli", "uv": [ 10.5, 12.0, 11.0, 12.5 ] },
+																"south": { "texture": "#lapislazuli", "uv": [ 11.0, 12.0, 12.5, 12.5 ] },
+																"west": { "texture": "#lapislazuli", "uv": [ 12.5, 12.0, 13.0, 12.5 ] },
+																"up": { "texture": "#lapislazuli", "uv": [ 9.0, 11.5, 10.5, 12.0 ] },
+																"down": { "texture": "#lapislazuli", "uv": [ 10.5, 11.5, 12.0, 12.0 ] }
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "bead1",
+									"from": [ -0.1, 0.8, 0.8 ],
+									"to": [ 2.1, 1.2, 1.2 ],
+									"uv": [ 1.5, 14.5 ],
+									"rotationOrigin": [ 0.0, 1.0, 1.0 ],
+									"rotationX": -45.0,
+									"faces": {
+										"north": { "texture": "#lapislazuli", "uv": [ 1.5, 15.0, 3.5, 15.5 ] },
+										"east": { "texture": "#lapislazuli", "uv": [ 3.5, 15.0, 4.0, 15.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"south": { "texture": "#lapislazuli", "uv": [ 4.0, 15.0, 6.0, 15.5 ] },
+										"west": { "texture": "#lapislazuli", "uv": [ 6.0, 15.0, 6.5, 15.5 ] },
+										"up": { "texture": "#lapislazuli", "uv": [ 1.5, 14.5, 3.5, 15.0 ] },
+										"down": { "texture": "#lapislazuli", "uv": [ 3.5, 14.5, 5.5, 15.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

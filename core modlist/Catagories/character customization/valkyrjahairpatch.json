@@ -1,0 +1,12 @@
+[
+  {
+    "op": "remove",
+    "path": "/1/value/18",
+    "file": "valkyrjahair:patches/game-entities-humanoid-player.json"
+  },
+  {
+    "op": "remove",
+    "path": "/3/value/variants/73",
+    "file": "valkyrjahair:patches/game-entities-humanoid-player.json"
+  }
+]

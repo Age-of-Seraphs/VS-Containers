@@ -1,0 +1,120 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"collapsedPaths": "",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"seraph": [64,64],
+		"hair": [48,48],
+		"birch": [16,16]
+	},
+	"textures": {
+		"hair": "entity/humanoid/seraphskinparts/hair/lightgray",
+		"glider-blue morpho": "item/bag/glider-blue morpho"
+	},
+	"elements": [
+		{
+			"name": "ponytailhigh",
+			"stepParentName": "Head",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 1.0, 1.0, 1.0 ],
+			"uv": [ 0.0, 0.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "BunLeft",
+					"from": [ 4.9, 4.5, 1.6 ],
+					"to": [ 6.5, 6.1, 2.4 ],
+					"uv": [ 64.0, 14.0 ],
+					"rotationOrigin": [ 5.7, 5.3, 2.4 ],
+					"rotationX": -90.0,
+					"rotationY": 45.0,
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#glider-blue morpho", "uv": [ 64.0, 14.0, 59.0, 23.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"east": { "texture": "#glider-blue morpho", "uv": [ 64.0, 14.0, 59.0, 23.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#glider-blue morpho", "uv": [ 64.0, 14.0, 59.0, 23.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#glider-blue morpho", "uv": [ 64.0, 14.0, 59.0, 23.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#glider-blue morpho", "uv": [ 64.0, 14.0, 59.0, 23.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#glider-blue morpho", "uv": [ 64.0, 14.0, 59.0, 23.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					},
+					"children": [
+						{
+							"name": "BunLeft2",
+							"from": [ 0.2, 0.2, 0.3 ],
+							"to": [ 1.4, 1.4, 1.5 ],
+							"uv": [ 37.5, 12.0 ],
+							"rotationOrigin": [ 0.8, 0.8, 0.9 ],
+							"rotationX": 22.5,
+							"rotationZ": 3.0,
+							"faces": {
+								"north": { "texture": "#hair", "uv": [ 37.5, 13.0, 38.5, 14.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"east": { "texture": "#hair", "uv": [ 38.5, 13.0, 39.5, 14.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"south": { "texture": "#hair", "uv": [ 39.5, 13.0, 40.5, 14.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"west": { "texture": "#hair", "uv": [ 40.5, 13.0, 41.5, 14.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"up": { "texture": "#hair", "uv": [ 37.5, 12.0, 38.5, 13.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#hair", "uv": [ 38.5, 12.0, 39.5, 13.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+							},
+							"children": [
+								{
+									"name": "BunLeft3",
+									"from": [ 0.1, 0.0, 1.1 ],
+									"to": [ 1.1, 1.0, 2.1 ],
+									"uv": [ 37.5, 12.0 ],
+									"rotationOrigin": [ 0.7, 0.6, 1.7 ],
+									"rotationX": 10.0,
+									"faces": {
+										"north": { "texture": "#hair", "uv": [ 37.5, 13.0, 38.5, 14.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"east": { "texture": "#hair", "uv": [ 38.5, 13.0, 39.5, 14.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"south": { "texture": "#hair", "uv": [ 39.5, 13.0, 40.5, 14.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"west": { "texture": "#hair", "uv": [ 40.5, 13.0, 41.5, 14.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"up": { "texture": "#hair", "uv": [ 37.5, 12.0, 38.5, 13.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"down": { "texture": "#hair", "uv": [ 38.5, 12.0, 39.5, 13.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									},
+									"children": [
+										{
+											"name": "BunStrandLeft11",
+											"from": [ 0.05, -9.7, 0.0 ],
+											"to": [ 0.95, 0.8, 0.9 ],
+											"uv": [ 38.5, 12.0 ],
+											"rotationOrigin": [ 0.9, 0.7, 0.3 ],
+											"rotationX": 8.0,
+											"faces": {
+												"north": { "texture": "#hair", "uv": [ 38.5, 12.0, 39.0, 22.5 ] },
+												"east": { "texture": "#hair", "uv": [ 39.0, 12.0, 39.5, 22.5 ] },
+												"south": { "texture": "#hair", "uv": [ 39.5, 12.0, 40.0, 22.5 ] },
+												"west": { "texture": "#hair", "uv": [ 40.0, 12.0, 40.5, 22.5 ] }
+											},
+											"children": [
+												{
+													"name": "BunStrandLeft10",
+													"from": [ -0.2, 8.8, 0.7 ],
+													"to": [ 0.8, 10.4, 0.7 ],
+													"uv": [ 39.0, 20.0 ],
+													"rotationOrigin": [ 0.3, 10.4, 0.7 ],
+													"rotationX": -22.5,
+													"rotationY": -22.5,
+													"rotationZ": -22.5,
+													"faces": {
+														"north": { "texture": "#hair", "uv": [ 39.0, 20.0, 40.0, 21.5 ] },
+														"east": { "texture": "#hair", "uv": [ 40.0, 20.0, 40.5, 21.5 ] },
+														"south": { "texture": "#hair", "uv": [ 40.5, 20.0, 41.5, 21.5 ] },
+														"west": { "texture": "#hair", "uv": [ 41.5, 20.0, 42.0, 21.5 ] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}
